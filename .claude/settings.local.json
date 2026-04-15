@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(file -f -)",
+      "Bash(wc -l /tmp/obsidian-skills/.claude-plugin/*.json /tmp/obsidian-skills/skills/*/*.md)",
+      "Bash(python3 -m json.tool .claude-plugin/plugin.json)",
+      "Bash(python3 -m json.tool .claude-plugin/marketplace.json)",
+      "Bash(find /tmp/obsidian-skills -type f -not -path '*/.git/*' -exec grep -l \"script\\\\|javascript\\\\|node\\\\|python\\\\|execute\\\\|run\\\\|fork\\\\|spawn\" {} \\\\;)",
+      "Bash(mkdir -p \"/Users/lunio/Desktop/DevPortal/AI Brain/.claude\")",
+      "Bash(cp -r /tmp/obsidian-skills/skills \"/Users/lunio/Desktop/DevPortal/AI Brain/.claude/\")",
+      "Bash(cp /tmp/obsidian-skills/.claude-plugin/plugin.json \"/Users/lunio/Desktop/DevPortal/AI Brain/.claude/\")",
+      "Bash(cp /tmp/obsidian-skills/.claude-plugin/marketplace.json \"/Users/lunio/Desktop/DevPortal/AI Brain/.claude/\")",
+      "Bash(git clone:*)",
+      "Read(//private/tmp/claudian/**)",
+      "Bash(gh repo:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}

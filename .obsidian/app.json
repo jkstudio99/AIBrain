@@ -1,0 +1,16 @@
+{
+  "defaultViewMode": "source",
+  "attachmentFolderPath": "Attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00 - Inbox",
+  "useMarkdownLinks": false,
+  "showFrontmatter": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true,
+  "strictLineBreaks": false,
+  "readableLineLength": true,
+  "autoConvertHtml": true,
+  "promptDelete": true,
+  "alwaysUpdateLinks": true
+}
