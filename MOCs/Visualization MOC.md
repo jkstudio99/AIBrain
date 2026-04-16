@@ -7,6 +7,13 @@ tags:
 
 # 🎨 Visualization MOC
 
+## Overview
+- [[09 - Visualization/Visualization]]
+- [[09 - Visualization/Graph View Optimization]]
+- [[09 - Visualization/Canvas Workspaces/Canvas Workspaces Guide]]
+- [[09 - Visualization/Knowledge Maps/Knowledge Maps Guide]]
+- [[09 - Visualization/Dashboards/Progress Dashboards]]
+
 ## Canvas Workspaces
 ```dataview
 LIST

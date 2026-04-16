@@ -16,6 +16,7 @@ tags:
 - 📅 [[05 - Daily Systems/Daily Notes/|Today's Note]] — Open daily note
 - 🎯 [[MOCs/Projects MOC|Projects]] — Check active projects
 - 🧠 [[MOCs/Knowledge MOC|Knowledge]] — Explore your knowledge garden
+- 🧭 [[MOCs/Obsidian Claude Ecosystem MOC|Ecosystem]] — Open the system hub
 
 ---
 
@@ -30,6 +31,7 @@ tags:
 | [[MOCs/Prompt Library MOC\|🤖 Prompts]] | AI prompts & thinking tools |
 | [[MOCs/Automation MOC\|⚙️ Automation]] | Skills, scripts, workflows |
 | [[MOCs/Visualization MOC\|🎨 Visualization]] | Canvas, maps, dashboards |
+| [[MOCs/Obsidian Claude Ecosystem MOC\|🧭 Ecosystem]] | Full Obsidian + Claude operating map |
 
 ---
 
@@ -85,6 +87,9 @@ Use these in Claude Code with `/`:
 - `/create-evergreen` — Convert note to evergreen
 - `/vault-health` — Check vault health metrics
 - `/weekly-synthesis` — Create weekly synthesis
+- `/trace` — Analyze an idea step by step
+- `/challenge` — Stress-test an assumption or plan
+- `/synthesize` — Combine several notes into one insight
 
 ---
 

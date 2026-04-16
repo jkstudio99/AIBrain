@@ -7,6 +7,14 @@ tags:
 
 # ⚙️ Automation MOC
 
+## Overview Notes
+- [[08 - Automation/Automation]]
+- [[08 - Automation/Custom Skills/Custom Claude Skills]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Summary Generation/Summary Generation]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+
 ## Claude Skills
 The following skills are installed in `.claude/skills/`:
 - **obsidian-markdown** — Obsidian Flavored Markdown creation
@@ -22,6 +30,12 @@ Located in `.claude/commands/`:
 - `/find-connections` — Find links between recent notes
 - `/create-evergreen` — Convert a note to evergreen format
 - `/vault-health` — Check vault health metrics
+- `/trace` — Analyze a note or idea step by step
+- `/challenge` — Stress-test an argument or plan
+- `/reframe` — Shift perspective on a problem
+- `/synthesize` — Combine notes into a stronger idea
+- `/brainstorm` — Generate options and experiments
+- `/update-memory` — Refresh persistent session context
 
 ## Workflows
 ### Capture → Process → Connect

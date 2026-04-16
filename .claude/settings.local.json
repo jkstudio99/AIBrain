@@ -15,7 +15,8 @@
       "Read(//private/tmp/claudian/**)",
       "Bash(gh repo:*)",
       "Bash(npm install:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(wc -l \"/Users/lunio/Desktop/DevPortal/AI Brain/03 - Resources/Knowledge Workflows/\"*.md)"
     ]
   }
 }
