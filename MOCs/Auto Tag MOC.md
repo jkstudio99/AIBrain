@@ -110,7 +110,7 @@ tags:
 - [[10 - Meta/Vault Memory]]
 - [[MOCs/Obsidian Claude Ecosystem MOC]]
 
-## #type/resource (74)
+## #type/resource (75)
 
 - [[01 - Projects/Obsidian Claude Ecosystem Usage Guide]]
 - [[03 - Resources/Advanced Techniques/Advanced Techniques]]
@@ -186,8 +186,9 @@ tags:
 - [[10 - Meta/Vault Health/Dead Link Cleanup]]
 - [[10 - Meta/Vault Health/Performance Tuning]]
 - [[10 - Meta/Vault Health/Vault Health Checks]]
+- [[MOCs/Auto Tag MOC]]
 
-## #status/evergreen (34)
+## #status/evergreen (35)
 
 - [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
 - [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
@@ -222,6 +223,7 @@ tags:
 - [[10 - Meta/Vault Health/Vault Health Checks]]
 - [[AGENTS]]
 - [[CLAUDE]]
+- [[MOCs/Auto Tag MOC]]
 - [[MOCs/Obsidian Claude Ecosystem MOC]]
 
 ## #aliases: (24)
@@ -251,7 +253,7 @@ tags:
 - [[08 - Automation/Summary Generation/Summary Generation]]
 - [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
 
-## #status/growing (22)
+## #status/growing (23)
 
 - [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
 - [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
@@ -275,8 +277,9 @@ tags:
 - [[10 - Meta/Vault Health/Vault Health Checks]]
 - [[AGENTS]]
 - [[CLAUDE]]
+- [[MOCs/Auto Tag MOC]]
 
-## #status/seedling (16)
+## #status/seedling (17)
 
 - [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
 - [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
@@ -294,8 +297,9 @@ tags:
 - [[10 - Meta/Vault Health/Vault Health Checks]]
 - [[AGENTS]]
 - [[CLAUDE]]
+- [[MOCs/Auto Tag MOC]]
 
-## #fff (16)
+## #fff (17)
 
 - [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
 - [[03 - Resources/Advanced Techniques/Cross-Note Analysis]]
@@ -312,9 +316,10 @@ tags:
 - [[09 - Visualization/Dashboards/Progress Dashboards]]
 - [[09 - Visualization/Knowledge Maps/Knowledge Maps Guide]]
 - [[09 - Visualization/Visualization]]
+- [[MOCs/Auto Tag MOC]]
 - [[MOCs/Obsidian Claude Ecosystem MOC]]
 
-## #type/prompt (14)
+## #type/prompt (15)
 
 - [[07 - Prompt Library/Idea Generation/Brainstorm]]
 - [[07 - Prompt Library/Idea Generation/Explore Concept]]
@@ -330,6 +335,21 @@ tags:
 - [[07 - Prompt Library/Thinking Tools/Reframe]]
 - [[07 - Prompt Library/Thinking Tools/Synthesize]]
 - [[07 - Prompt Library/Thinking Tools/Trace]]
+- [[MOCs/Auto Tag MOC]]
+
+## #area/dev (11)
+
+- [[03 - Resources/Core Plugins/Dataview & Queries]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[10 - Meta/Claude Context Optimization]]
+- [[10 - Meta/Vault Health/Vault Health Checks]]
+- [[AGENTS]]
+- [[CLAUDE]]
+- [[MOCs/Auto Tag MOC]]
 
 ## #"[[MOCs/Automation MOC]]" (11)
 
@@ -345,19 +365,6 @@ tags:
 - [[08 - Automation/Summary Generation/Summary Generation]]
 - [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
 
-## #area/dev (10)
-
-- [[03 - Resources/Core Plugins/Dataview & Queries]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
-- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
-- [[10 - Meta/Claude Context Optimization]]
-- [[10 - Meta/Vault Health/Vault Health Checks]]
-- [[AGENTS]]
-- [[CLAUDE]]
-
 ## #"[[MOCs/Daily Systems MOC]]" (10)
 
 - [[03 - Resources/Knowledge Workflows/Project Management Guide]]
@@ -371,7 +378,7 @@ tags:
 - [[07 - Prompt Library/Reflection/Weekly Synthesis]]
 - [[08 - Automation/Daily Review/Daily Review Automation]]
 
-## #type/daily (9)
+## #type/daily (10)
 
 - [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
 - [[05 - Daily Systems/Daily Notes/2026-04-16]]
@@ -382,8 +389,9 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]
 - [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[MOCs/Auto Tag MOC]]
 
-## #area/vault (9)
+## #area/vault (10)
 
 - [[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]]
 - [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
@@ -393,7 +401,20 @@ tags:
 - [[03 - Resources/Vault Foundation/Metadata & Dataview Guide]]
 - [[03 - Resources/Vault Foundation/Templates System]]
 - [[03 - Resources/Vault Foundation/Vault Foundation]]
+- [[MOCs/Auto Tag MOC]]
 - [[MOCs/Obsidian Claude Ecosystem MOC]]
+
+## #area/claude (9)
+
+- [[03 - Resources/Advanced Techniques/Vault-as-Context Engineering]]
+- [[03 - Resources/Claude Integration/CLAUDE Configuration]]
+- [[03 - Resources/Claude Integration/Claude Code Desktop Setup]]
+- [[03 - Resources/Claude Integration/Claude Integration]]
+- [[03 - Resources/Claude Integration/Commands Folder]]
+- [[03 - Resources/Claude Integration/Context Loading Strategies]]
+- [[03 - Resources/Claude Integration/MCP Tools & Skills]]
+- [[03 - Resources/Claude Integration/Session Memory System]]
+- [[MOCs/Auto Tag MOC]]
 
 ## #"[[MOCs/Prompt Library MOC]]" (9)
 
@@ -407,16 +428,49 @@ tags:
 - [[07 - Prompt Library/Reflection/Weekly Synthesis]]
 - [[07 - Prompt Library/Thinking Tools/Thinking Tools]]
 
-## #area/claude (8)
+## #topic/claude (8)
 
-- [[03 - Resources/Advanced Techniques/Vault-as-Context Engineering]]
-- [[03 - Resources/Claude Integration/CLAUDE Configuration]]
-- [[03 - Resources/Claude Integration/Claude Code Desktop Setup]]
-- [[03 - Resources/Claude Integration/Claude Integration]]
-- [[03 - Resources/Claude Integration/Commands Folder]]
-- [[03 - Resources/Claude Integration/Context Loading Strategies]]
-- [[03 - Resources/Claude Integration/MCP Tools & Skills]]
-- [[03 - Resources/Claude Integration/Session Memory System]]
+- [[03 - Resources/Community/Popular Claude Skills (2026)]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Automation]]
+- [[08 - Automation/Custom Skills/Custom Claude Skills]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[08 - Automation/Summary Generation/Summary Generation]]
+- [[10 - Meta/Claude Context Optimization]]
+- [[MOCs/Auto Tag MOC]]
+
+## #area/knowledge (8)
+
+- [[01 - Projects/Obsidian Claude Ecosystem Usage Guide]]
+- [[01 - Projects/Obsidian Claude Ecosystem]]
+- [[03 - Resources/Advanced Techniques/Advanced Techniques]]
+- [[03 - Resources/Knowledge Workflows/Evergreen Notes]]
+- [[03 - Resources/Knowledge Workflows/Knowledge Workflows]]
+- [[03 - Resources/Knowledge Workflows/Literature Notes]]
+- [[03 - Resources/Knowledge Workflows/Research & Synthesis]]
+- [[MOCs/Auto Tag MOC]]
+
+## #area/meta (8)
+
+- [[10 - Meta/Backup/Backup & Git Sync]]
+- [[10 - Meta/Claude Context Optimization]]
+- [[10 - Meta/Maintenance & Optimization]]
+- [[10 - Meta/Vault Health/Dead Link Cleanup]]
+- [[10 - Meta/Vault Health/Performance Tuning]]
+- [[10 - Meta/Vault Health/Vault Health Checks]]
+- [[10 - Meta/Vault Memory]]
+- [[MOCs/Auto Tag MOC]]
+
+## #area/plugins (8)
+
+- [[03 - Resources/Core Plugins/Advanced URI & Canvas]]
+- [[03 - Resources/Core Plugins/Core Plugins]]
+- [[03 - Resources/Core Plugins/Dataview & Queries]]
+- [[03 - Resources/Core Plugins/Graph View Enhancers]]
+- [[03 - Resources/Core Plugins/Periodic Notes]]
+- [[03 - Resources/Core Plugins/Templater & QuickAdd]]
+- [[03 - Resources/Core Plugins/Terminal & Claude Code]]
+- [[MOCs/Auto Tag MOC]]
 
 ## #"[[CLAUDE.md]]" (7)
 
@@ -428,47 +482,7 @@ tags:
 - [[08 - Automation/Summary Generation/Summary Generation]]
 - [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
 
-## #topic/claude (7)
-
-- [[03 - Resources/Community/Popular Claude Skills (2026)]]
-- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
-- [[08 - Automation/Automation]]
-- [[08 - Automation/Custom Skills/Custom Claude Skills]]
-- [[08 - Automation/Daily Review/Daily Review Automation]]
-- [[08 - Automation/Summary Generation/Summary Generation]]
-- [[10 - Meta/Claude Context Optimization]]
-
-## #area/knowledge (7)
-
-- [[01 - Projects/Obsidian Claude Ecosystem Usage Guide]]
-- [[01 - Projects/Obsidian Claude Ecosystem]]
-- [[03 - Resources/Advanced Techniques/Advanced Techniques]]
-- [[03 - Resources/Knowledge Workflows/Evergreen Notes]]
-- [[03 - Resources/Knowledge Workflows/Knowledge Workflows]]
-- [[03 - Resources/Knowledge Workflows/Literature Notes]]
-- [[03 - Resources/Knowledge Workflows/Research & Synthesis]]
-
-## #area/meta (7)
-
-- [[10 - Meta/Backup/Backup & Git Sync]]
-- [[10 - Meta/Claude Context Optimization]]
-- [[10 - Meta/Maintenance & Optimization]]
-- [[10 - Meta/Vault Health/Dead Link Cleanup]]
-- [[10 - Meta/Vault Health/Performance Tuning]]
-- [[10 - Meta/Vault Health/Vault Health Checks]]
-- [[10 - Meta/Vault Memory]]
-
-## #area/plugins (7)
-
-- [[03 - Resources/Core Plugins/Advanced URI & Canvas]]
-- [[03 - Resources/Core Plugins/Core Plugins]]
-- [[03 - Resources/Core Plugins/Dataview & Queries]]
-- [[03 - Resources/Core Plugins/Graph View Enhancers]]
-- [[03 - Resources/Core Plugins/Periodic Notes]]
-- [[03 - Resources/Core Plugins/Templater & QuickAdd]]
-- [[03 - Resources/Core Plugins/Terminal & Claude Code]]
-
-## #area/automation (6)
+## #area/automation (7)
 
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
 - [[08 - Automation/Automation]]
@@ -476,17 +490,19 @@ tags:
 - [[08 - Automation/Daily Review/Daily Review Automation]]
 - [[08 - Automation/Summary Generation/Summary Generation]]
 - [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+- [[MOCs/Auto Tag MOC]]
 
-## #type/moc (6)
+## #type/moc (7)
 
 - [[07 - Prompt Library/Idea Generation/Idea Generation]]
 - [[07 - Prompt Library/Note Processing/Note Processing Prompts]]
 - [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
 - [[07 - Prompt Library/Thinking Tools/Thinking Tools]]
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[MOCs/Auto Tag MOC]]
 - [[MOCs/Obsidian Claude Ecosystem MOC]]
 
-## #area/visualization (6)
+## #area/visualization (7)
 
 - [[09 - Visualization/Canvas Workspaces/Canvas Workspaces Guide]]
 - [[09 - Visualization/Dashboards/Progress Dashboards]]
@@ -494,8 +510,9 @@ tags:
 - [[09 - Visualization/Graph View Optimization]]
 - [[09 - Visualization/Knowledge Maps/Knowledge Maps Guide]]
 - [[09 - Visualization/Visualization]]
+- [[MOCs/Auto Tag MOC]]
 
-## #area/evolution (6)
+## #area/evolution (7)
 
 - [[03 - Resources/Evolution/Evolution & Scaling]]
 - [[03 - Resources/Evolution/Long-term Knowledge Evolution]]
@@ -503,8 +520,9 @@ tags:
 - [[03 - Resources/Evolution/New Skill Development]]
 - [[03 - Resources/Evolution/Next-Level AI Integration]]
 - [[03 - Resources/Evolution/Team Collaboration]]
+- [[MOCs/Auto Tag MOC]]
 
-## #area/community (6)
+## #area/community (7)
 
 - [[03 - Resources/Community/Best Practices]]
 - [[03 - Resources/Community/Community & Resources]]
@@ -512,8 +530,9 @@ tags:
 - [[03 - Resources/Community/Plugin Recommendations]]
 - [[03 - Resources/Community/Popular Claude Skills (2026)]]
 - [[03 - Resources/Community/Shared Vault Templates]]
+- [[MOCs/Auto Tag MOC]]
 
-## #area/daily-systems (6)
+## #area/daily-systems (7)
 
 - [[05 - Daily Systems/Daily Notes/Daily Notes]]
 - [[05 - Daily Systems/Daily Systems]]
@@ -521,14 +540,25 @@ tags:
 - [[05 - Daily Systems/Journaling/Journaling with Claude]]
 - [[05 - Daily Systems/Task Management/Task & Priority Management]]
 - [[05 - Daily Systems/Weekly & Monthly Reviews]]
+- [[MOCs/Auto Tag MOC]]
 
-## #type/literature (5)
+## #type/literature (6)
 
 - [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
 - [[03 - Resources/Knowledge Workflows/Capture Process Connect]]
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
 - [[AGENTS]]
 - [[CLAUDE]]
+- [[MOCs/Auto Tag MOC]]
+
+## #prompt/reflection (6)
+
+- [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
+- [[07 - Prompt Library/Reflection/Knowledge Audit]]
+- [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
+- [[07 - Prompt Library/Reflection/Weekly Synthesis]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[MOCs/Auto Tag MOC]]
 
 ## #"[[08 - Automation/Automation]]" (5)
 
@@ -553,14 +583,6 @@ tags:
 - [[10 - Meta/Claude Context Optimization]]
 - [[10 - Meta/Vault Health/Dead Link Cleanup]]
 - [[10 - Meta/Vault Health/Performance Tuning]]
-
-## #prompt/reflection (5)
-
-- [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
-- [[07 - Prompt Library/Reflection/Knowledge Audit]]
-- [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
-- [[07 - Prompt Library/Reflection/Weekly Synthesis]]
-- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
 
 ## #"[[MOCs/Visualization MOC]]" (5)
 
