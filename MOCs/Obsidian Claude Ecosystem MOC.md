@@ -141,7 +141,7 @@ Every reusable prompt, thinking tool, and custom command in the vault, organized
 The end-to-end processes for capturing, processing, connecting, and evolving knowledge in the vault.
 
 - [[03 - Resources/Knowledge Workflows/Knowledge Workflows]] — Workflow overview
-- [[03 - Resources/Knowledge Workflows/Capture - Process - Connect]] — The core three-stage workflow
+- [[03 - Resources/Knowledge Workflows/Capture Process Connect]] — The core three-stage workflow
 - [[03 - Resources/Knowledge Workflows/Capture Process Connect]] — Extended capture workflow guide
 - [[03 - Resources/Knowledge Workflows/Literature Notes Guide]] — How to create effective literature notes
 - [[03 - Resources/Knowledge Workflows/Literature Notes]] — Literature note patterns and examples
@@ -464,7 +464,7 @@ If you are new to this vault or returning after a break, follow these steps to o
 
 5. **Explore the Prompt Library** — Visit [[07 - Prompt Library/Prompt Library]] and try one thinking tool prompt. The `/brainstorm`, `/synthesize`, and `/trace` commands are good starting points.
 
-6. **Run the Daily Workflow** — Capture a fleeting note in `00 - Inbox/`, then ask Claude to process it using [[03 - Resources/Knowledge Workflows/Capture - Process - Connect]].
+6. **Run the Daily Workflow** — Capture a fleeting note in `00 - Inbox/`, then ask Claude to process it using [[03 - Resources/Knowledge Workflows/Capture Process Connect]].
 
 7. **Check vault health** — Run [[10 - Meta/Vault Health/Vault Health Checks]] to confirm everything is set up correctly and identify any immediate issues.
 

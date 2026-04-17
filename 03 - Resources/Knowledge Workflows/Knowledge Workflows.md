@@ -14,7 +14,7 @@ related:
 These workflows turn raw captures into connected knowledge and working output.
 
 ## Main Flows
-- [[03 - Resources/Knowledge Workflows/Capture - Process - Connect]]
+- [[03 - Resources/Knowledge Workflows/Capture Process Connect]]
 - [[03 - Resources/Knowledge Workflows/Literature Notes]]
 - [[03 - Resources/Knowledge Workflows/Evergreen Notes]]
 - [[03 - Resources/Knowledge Workflows/Project Management]]

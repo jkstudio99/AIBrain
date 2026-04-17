@@ -35,4 +35,4 @@ The vault uses PARA for organization and Zettelkasten for idea development.
 
 ## Related
 - [[03 - Resources/Vault Foundation/Templates System]]
-- [[03 - Resources/Knowledge Workflows/Capture - Process - Connect]]
+- [[03 - Resources/Knowledge Workflows/Capture Process Connect]]
