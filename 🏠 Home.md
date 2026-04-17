@@ -101,12 +101,14 @@ Use these in Claude Code with `/`:
 > 🕒 Auto-updated 2026-04-17
 
 ### 📊 Vault Stats
-- Total notes: **119**
-- Daily: 15 · Weekly: 0 · Literature: 5 · Evergreen: 2 · Project: 4 · MOC: 12
+- Total notes: **120**
+- Daily: 15 · Weekly: 1 · Literature: 5 · Evergreen: 2 · Project: 4 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _17 Apr 23:17_
-- [[10 - Meta/Orphan Notes 2026-04-17]] — _17 Apr 23:17_
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W16]] — _17 Apr 23:19_
+- [[MOCs/Auto Tag MOC]] — _17 Apr 23:19_
+- [[10 - Meta/Orphan Notes 2026-04-17]] — _17 Apr 23:19_
+- [[🏠 Home]] — _17 Apr 23:17_
 - [[03 - Resources/Knowledge Workflows/Knowledge Workflows]] — _17 Apr 23:09_
 - [[03 - Resources/Vault Foundation/Folder Structure (PARA-Zettelkasten)]] — _17 Apr 23:09_
 - [[MOCs/Obsidian Claude Ecosystem MOC]] — _17 Apr 23:09_
@@ -118,6 +120,4 @@ Use these in Claude Code with `/`:
 - [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]] — _16 Apr 19:02_
 - [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]] — _16 Apr 18:40_
 - [[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]] — _16 Apr 18:15_
-- [[05 - Daily Systems/Daily Notes/2026-04-16]] — _16 Apr 18:13_
-- [[10 - Meta/Claude Context Optimization]] — _16 Apr 11:30_
 <!-- AUTO-DASHBOARD:END -->
