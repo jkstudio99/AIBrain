@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "home",
+      "type": "file",
+      "file": "🏠 Home.md",
+      "x": -200,
+      "y": -100,
+      "width": 400,
+      "height": 200,
+      "color": "6"
+    },
+    {
+      "id": "moc0",
+      "type": "file",
+      "file": "03 - Resources/Vault Foundation/MOCs & Hub Notes.md",
+      "x": 600,
+      "y": 0,
+      "width": 300,
+      "height": 150,
+      "color": "4"
+    },
+    {
+      "id": "moc1",
+      "type": "file",
+      "file": "MOCs/Visualization MOC.md",
+      "x": 485,
+      "y": 352,
+      "width": 300,
+      "height": 150,
+      "color": "4"
+    },
+    {
+      "id": "moc2",
+      "type": "file",
+      "file": "MOCs/Knowledge MOC.md",
+      "x": 185,
+      "y": 570,
+      "width": 300,
+      "height": 150,
+      "color": "4"
+    },
+    {
+      "id": "moc3",
+      "type": "file",
+      "file": "MOCs/Automation MOC.md",
+      "x": -185,
+      "y": 570,
+      "width": 300,
+      "height": 150,
+      "color": "4"
+    },
+    {
+      "id": "moc4",
+      "type": "file",
+      "file": "MOCs/Obsidian Claude Ecosystem MOC.md",
+      "x": -485,
+      "y": 352,
+      "width": 300,
+      "height": 150,
+      "color": "4"
+    },
+    {
+      "id": "moc5",
+      "type": "file",
+      "file": "MOCs/Prompt Library MOC.md",
+      "x": -600,
+      "y": 0,
+      "width": 300,
+      "height": 150,
+      "color": "4"
+    },
+    {
+      "id": "moc6",
+      "type": "file",
+      "file": "MOCs/Projects MOC.md",
+      "x": -485,
+      "y": -352,
+      "width": 300,
+      "height": 150,
+      "color": "4"
+    },
+    {
+      "id": "moc7",
+      "type": "file",
+      "file": "MOCs/Auto Tag MOC.md",
+      "x": -185,
+      "y": -570,
+      "width": 300,
+      "height": 150,
+      "color": "4"
+    },
+    {
+      "id": "moc8",
+      "type": "file",
+      "file": "MOCs/Daily Systems MOC.md",
+      "x": 185,
+      "y": -570,
+      "width": 300,
+      "height": 150,
+      "color": "4"
+    },
+    {
+      "id": "moc9",
+      "type": "file",
+      "file": "MOCs/Areas MOC.md",
+      "x": 485,
+      "y": -352,
+      "width": 300,
+      "height": 150,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "moc0",
+      "toSide": "top"
+    },
+    {
+      "id": "e1",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "moc1",
+      "toSide": "top"
+    },
+    {
+      "id": "e2",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "moc2",
+      "toSide": "top"
+    },
+    {
+      "id": "e3",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "moc3",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "moc4",
+      "toSide": "top"
+    },
+    {
+      "id": "e5",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "moc5",
+      "toSide": "top"
+    },
+    {
+      "id": "e6",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "moc6",
+      "toSide": "top"
+    },
+    {
+      "id": "e7",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "moc7",
+      "toSide": "top"
+    },
+    {
+      "id": "e8",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "moc8",
+      "toSide": "top"
+    },
+    {
+      "id": "e9",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "moc9",
+      "toSide": "top"
+    }
+  ]
+}
