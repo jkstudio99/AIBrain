@@ -204,6 +204,36 @@ Forces:
 
 ---
 
+## Neon Glow Styling — สไตล์กราฟเรืองแสงแบบในภาพอ้างอิง
+
+The glossy "knowledge-graph-as-starfield" look (bright nodes, soft glow, dark space background) is achieved with a CSS snippet plus tuned force physics — not a separate plugin. Three files do the work together:
+
+| File | Role |
+|---|---|
+| `.obsidian/snippets/graph-glow.css` | Overrides node / line / text / background colors and adds a drop-shadow glow on the canvas |
+| `.obsidian/graph.json` | Defines color groups (by folder + tag) and force settings that spread nodes out so the glow is visible |
+| `.obsidian/appearance.json` | Lists `graph-glow` under `enabledCssSnippets` so the snippet is active |
+
+### How the look is built
+
+1. **Background** — the `.workspace-leaf-content[data-type="graph"] .view-content` selector paints a radial dark-blue-to-black gradient behind the canvas. That is what makes colored nodes "pop."
+2. **Node colors** — Obsidian's graph renderer reads CSS variables like `.graph-view.color-fill`, `.graph-view.color-fill-focused`, `.graph-view.color-line`, and `.graph-view.color-text`. The snippet overrides each with neon-leaning values (`#7ec8e3` default node, `rgba(130,200,230,0.18)` lines, `rgba(235,240,255,0.88)` labels).
+3. **Color groups** — `colorGroups` in `graph.json` maps folders / tags to bright decimal RGB values: MOCs = white, `06 - Knowledge` = cyan, `01 - Projects` = orange, `07 - Prompt Library` = magenta, `#status/seedling` = red, and so on. This is what gives each cluster its own hue instead of one uniform color.
+4. **Outer glow** — `filter: drop-shadow(...)` applied to the graph `<canvas>` creates the soft halo around bright nodes.
+5. **Physics** — repel strength raised (`18`), link distance extended (`280`), center strength softened (`0.35`), and `nodeSizeMultiplier` bumped to `1.35`. Nodes breathe apart instead of clumping, which is what lets the glow read.
+
+> [!tip] Toggle the look
+> Open **Settings → Appearance → CSS snippets** and flip `graph-glow` on or off. No restart needed — the graph restyles live.
+
+### Tweak cheatsheet
+
+- Want stronger glow? Increase the second `drop-shadow()` blur radius (`4px` → `8px`).
+- Want a different cluster palette? Change the `rgb` decimal in `graph.json` — each value is `R*65536 + G*256 + B`.
+- Want a lighter canvas? Edit the radial-gradient stops in the CSS — e.g. `#0e2038` → `#1a2e4a` for a softer navy.
+- Want even more spread (close to the reference screenshot)? Push `repelStrength` to `25` and `linkDistance` to `350` for large vaults.
+
+---
+
 ## Related Notes
 
 - [[09 - Visualization/Visualization]] — Master overview of all visualization tools

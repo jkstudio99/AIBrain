@@ -1,0 +1,73 @@
+/* ==============================================================
+   Graph Glow — Neon Knowledge Graph Styling
+   สไตล์กราฟเรืองแสงแบบในภาพอ้างอิง (คลังความรู้)
+   ============================================================== */
+
+/* --- Dark space-like background for the graph canvas --- */
+.workspace-leaf-content[data-type="graph"] .view-content,
+.workspace-leaf-content[data-type="localgraph"] .view-content {
+  background: radial-gradient(
+    ellipse at center,
+    #0a1628 0%,
+    #050912 60%,
+    #02040a 100%
+  );
+}
+
+/* --- Default node / line / text colors (override Obsidian defaults) --- */
+.theme-dark .graph-view.color-fill {
+  color: #7ec8e3;
+}
+.theme-dark .graph-view.color-fill-highlight {
+  color: #ffffff;
+}
+.theme-dark .graph-view.color-fill-focused {
+  color: #ffffff;
+}
+.theme-dark .graph-view.color-fill-unresolved {
+  color: rgba(120, 130, 160, 0.45);
+}
+.theme-dark .graph-view.color-fill-tag {
+  color: #b5e48c;
+}
+.theme-dark .graph-view.color-fill-attachment {
+  color: #f4a261;
+}
+.theme-dark .graph-view.color-circle {
+  color: #ffffff;
+}
+.theme-dark .graph-view.color-line {
+  color: rgba(130, 200, 230, 0.18);
+}
+.theme-dark .graph-view.color-line-highlight {
+  color: rgba(255, 255, 255, 0.75);
+}
+.theme-dark .graph-view.color-text {
+  color: rgba(235, 240, 255, 0.88);
+}
+.theme-dark .graph-view.color-arrow {
+  color: rgba(180, 220, 255, 0.5);
+}
+
+/* --- Add a subtle outer glow to the graph canvas itself --- */
+.workspace-leaf-content[data-type="graph"] .view-content canvas,
+.workspace-leaf-content[data-type="localgraph"] .view-content canvas {
+  filter: drop-shadow(0 0 1px rgba(150, 220, 255, 0.25))
+          drop-shadow(0 0 4px rgba(100, 180, 255, 0.12));
+}
+
+/* --- Graph control panel: glassy look to match the dark canvas --- */
+.workspace-leaf-content[data-type="graph"] .graph-controls,
+.workspace-leaf-content[data-type="localgraph"] .graph-controls {
+  background: rgba(10, 20, 35, 0.78);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(120, 180, 220, 0.15);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 180, 255, 0.05);
+}
+
+/* --- Slightly larger / crisper node labels --- */
+.workspace-leaf-content[data-type="graph"] .view-content,
+.workspace-leaf-content[data-type="localgraph"] .view-content {
+  --text-normal: rgba(240, 245, 255, 0.9);
+}

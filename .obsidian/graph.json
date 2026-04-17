@@ -5,18 +5,96 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:MOCs",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "path:\"06 - Knowledge\"",
+      "color": {
+        "a": 1,
+        "rgb": 58879
+      }
+    },
+    {
+      "query": "path:\"01 - Projects\"",
+      "color": {
+        "a": 1,
+        "rgb": 16739584
+      }
+    },
+    {
+      "query": "path:\"05 - Daily Systems\"",
+      "color": {
+        "a": 1,
+        "rgb": 16766464
+      }
+    },
+    {
+      "query": "tag:#status/seedling",
+      "color": {
+        "a": 1,
+        "rgb": 16717636
+      }
+    },
+    {
+      "query": "tag:#status/evergreen",
+      "color": {
+        "a": 1,
+        "rgb": 6942894
+      }
+    },
+    {
+      "query": "path:\"03 - Resources\"",
+      "color": {
+        "a": 1,
+        "rgb": 4492031
+      }
+    },
+    {
+      "query": "path:\"07 - Prompt Library\"",
+      "color": {
+        "a": 1,
+        "rgb": 13959417
+      }
+    },
+    {
+      "query": "path:\"08 - Automation\"",
+      "color": {
+        "a": 1,
+        "rgb": 16728193
+      }
+    },
+    {
+      "query": "path:\"09 - Visualization\"",
+      "color": {
+        "a": 1,
+        "rgb": 58998
+      }
+    },
+    {
+      "query": "path:\"04 - Archive\"",
+      "color": {
+        "a": 1,
+        "rgb": 5533306
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1.500462311656135,
+  "textFadeMultiplier": -0.5,
+  "nodeSizeMultiplier": 1.35,
+  "lineSizeMultiplier": 0.6,
+  "collapse-forces": false,
+  "centerStrength": 0.35,
+  "repelStrength": 18,
+  "linkStrength": 0.85,
+  "linkDistance": 280,
+  "scale": 1.15,
   "close": false
 }
