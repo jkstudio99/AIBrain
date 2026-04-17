@@ -1,0 +1,595 @@
+---
+type: moc
+created: "2026-04-17"
+tags:
+  - type/moc
+  - auto-generated
+---
+
+# 🗺️ Auto Tag MOC
+
+> Generated 2026-04-17 · แสดง tag ที่มีโน้ต ≥ 5 ชิ้น
+
+---
+
+## #related: (95)
+
+- [[01 - Projects/Obsidian Claude Ecosystem Usage Guide]]
+- [[01 - Projects/Obsidian Claude Ecosystem]]
+- [[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]]
+- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
+- [[03 - Resources/Advanced Techniques/Advanced Techniques]]
+- [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
+- [[03 - Resources/Advanced Techniques/Cross-Note Analysis]]
+- [[03 - Resources/Advanced Techniques/Custom AI Agents]]
+- [[03 - Resources/Advanced Techniques/Multi-Step Reasoning]]
+- [[03 - Resources/Advanced Techniques/Vault-as-Context Engineering]]
+- [[03 - Resources/Claude Integration/CLAUDE Configuration]]
+- [[03 - Resources/Claude Integration/Claude Code Desktop Setup]]
+- [[03 - Resources/Claude Integration/Claude Integration]]
+- [[03 - Resources/Claude Integration/Commands Folder]]
+- [[03 - Resources/Claude Integration/Context Loading Strategies]]
+- [[03 - Resources/Claude Integration/MCP Tools & Skills]]
+- [[03 - Resources/Claude Integration/Session Memory System]]
+- [[03 - Resources/Community/Best Practices]]
+- [[03 - Resources/Community/Community & Resources]]
+- [[03 - Resources/Community/Learning Resources]]
+- [[03 - Resources/Community/Plugin Recommendations]]
+- [[03 - Resources/Community/Popular Claude Skills (2026)]]
+- [[03 - Resources/Community/Shared Vault Templates]]
+- [[03 - Resources/Core Plugins/Advanced URI & Canvas]]
+- [[03 - Resources/Core Plugins/Core Plugins]]
+- [[03 - Resources/Core Plugins/Dataview & Queries]]
+- [[03 - Resources/Core Plugins/Graph View Enhancers]]
+- [[03 - Resources/Core Plugins/Periodic Notes]]
+- [[03 - Resources/Core Plugins/Templater & QuickAdd]]
+- [[03 - Resources/Core Plugins/Terminal & Claude Code]]
+- [[03 - Resources/Evolution/Evolution & Scaling]]
+- [[03 - Resources/Evolution/Long-term Knowledge Evolution]]
+- [[03 - Resources/Evolution/Multi-Vault Management]]
+- [[03 - Resources/Evolution/New Skill Development]]
+- [[03 - Resources/Evolution/Next-Level AI Integration]]
+- [[03 - Resources/Evolution/Team Collaboration]]
+- [[03 - Resources/Knowledge Workflows/Capture Process Connect]]
+- [[03 - Resources/Knowledge Workflows/Evergreen Notes Guide]]
+- [[03 - Resources/Knowledge Workflows/Evergreen Notes]]
+- [[03 - Resources/Knowledge Workflows/Knowledge Workflows]]
+- [[03 - Resources/Knowledge Workflows/Literature Notes Guide]]
+- [[03 - Resources/Knowledge Workflows/Literature Notes]]
+- [[03 - Resources/Knowledge Workflows/Project Management Guide]]
+- [[03 - Resources/Knowledge Workflows/Project Management]]
+- [[03 - Resources/Knowledge Workflows/Research & Synthesis Guide]]
+- [[03 - Resources/Knowledge Workflows/Research & Synthesis]]
+- [[03 - Resources/Vault Foundation/Attachment Management]]
+- [[03 - Resources/Vault Foundation/Folder Structure (PARA-Zettelkasten)]]
+- [[03 - Resources/Vault Foundation/MOCs & Hub Notes]]
+- [[03 - Resources/Vault Foundation/Metadata & Dataview Guide]]
+- [[03 - Resources/Vault Foundation/Templates System]]
+- [[03 - Resources/Vault Foundation/Vault Foundation]]
+- [[05 - Daily Systems/Daily Notes/Company News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/Daily Notes]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
+- [[05 - Daily Systems/Daily Systems]]
+- [[05 - Daily Systems/Habit Tracking/Habit Tracking]]
+- [[05 - Daily Systems/Journaling/Journaling with Claude]]
+- [[05 - Daily Systems/Task Management/Task & Priority Management]]
+- [[05 - Daily Systems/Weekly & Monthly Reviews]]
+- [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
+- [[07 - Prompt Library/Idea Generation/Explore Concept]]
+- [[07 - Prompt Library/Idea Generation/Idea Generation]]
+- [[07 - Prompt Library/Idea Generation/What If]]
+- [[07 - Prompt Library/Note Processing/Note Processing Prompts]]
+- [[07 - Prompt Library/Prompt Library]]
+- [[07 - Prompt Library/Reflection/Knowledge Audit]]
+- [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
+- [[07 - Prompt Library/Reflection/Weekly Synthesis]]
+- [[07 - Prompt Library/Thinking Tools/Thinking Tools]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Automation]]
+- [[08 - Automation/Custom Skills/Custom Claude Skills]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[08 - Automation/Summary Generation/Summary Generation]]
+- [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+- [[09 - Visualization/Canvas Workspaces/Canvas Workspaces Guide]]
+- [[09 - Visualization/Dashboards/Progress Dashboards]]
+- [[09 - Visualization/Dashboards/Vault Dashboard]]
+- [[09 - Visualization/Graph View Optimization]]
+- [[09 - Visualization/Knowledge Maps/Knowledge Maps Guide]]
+- [[09 - Visualization/Visualization]]
+- [[10 - Meta/Active Context]]
+- [[10 - Meta/Backup/Backup & Git Sync]]
+- [[10 - Meta/Claude Context Optimization]]
+- [[10 - Meta/Maintenance & Optimization]]
+- [[10 - Meta/Vault Health/Dead Link Cleanup]]
+- [[10 - Meta/Vault Health/Performance Tuning]]
+- [[10 - Meta/Vault Health/Vault Health Checks]]
+- [[10 - Meta/Vault Memory]]
+- [[MOCs/Obsidian Claude Ecosystem MOC]]
+
+## #type/resource (74)
+
+- [[01 - Projects/Obsidian Claude Ecosystem Usage Guide]]
+- [[03 - Resources/Advanced Techniques/Advanced Techniques]]
+- [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
+- [[03 - Resources/Advanced Techniques/Cross-Note Analysis]]
+- [[03 - Resources/Advanced Techniques/Custom AI Agents]]
+- [[03 - Resources/Advanced Techniques/Multi-Step Reasoning]]
+- [[03 - Resources/Advanced Techniques/Vault-as-Context Engineering]]
+- [[03 - Resources/Claude Integration/CLAUDE Configuration]]
+- [[03 - Resources/Claude Integration/Claude Code Desktop Setup]]
+- [[03 - Resources/Claude Integration/Claude Integration]]
+- [[03 - Resources/Claude Integration/Commands Folder]]
+- [[03 - Resources/Claude Integration/Context Loading Strategies]]
+- [[03 - Resources/Claude Integration/MCP Tools & Skills]]
+- [[03 - Resources/Claude Integration/Session Memory System]]
+- [[03 - Resources/Community/Best Practices]]
+- [[03 - Resources/Community/Community & Resources]]
+- [[03 - Resources/Community/Learning Resources]]
+- [[03 - Resources/Community/Plugin Recommendations]]
+- [[03 - Resources/Community/Popular Claude Skills (2026)]]
+- [[03 - Resources/Community/Shared Vault Templates]]
+- [[03 - Resources/Core Plugins/Advanced URI & Canvas]]
+- [[03 - Resources/Core Plugins/Core Plugins]]
+- [[03 - Resources/Core Plugins/Dataview & Queries]]
+- [[03 - Resources/Core Plugins/Graph View Enhancers]]
+- [[03 - Resources/Core Plugins/Periodic Notes]]
+- [[03 - Resources/Core Plugins/Templater & QuickAdd]]
+- [[03 - Resources/Core Plugins/Terminal & Claude Code]]
+- [[03 - Resources/Evolution/Evolution & Scaling]]
+- [[03 - Resources/Evolution/Long-term Knowledge Evolution]]
+- [[03 - Resources/Evolution/Multi-Vault Management]]
+- [[03 - Resources/Evolution/New Skill Development]]
+- [[03 - Resources/Evolution/Next-Level AI Integration]]
+- [[03 - Resources/Evolution/Team Collaboration]]
+- [[03 - Resources/Knowledge Workflows/Capture Process Connect]]
+- [[03 - Resources/Knowledge Workflows/Evergreen Notes Guide]]
+- [[03 - Resources/Knowledge Workflows/Evergreen Notes]]
+- [[03 - Resources/Knowledge Workflows/Knowledge Workflows]]
+- [[03 - Resources/Knowledge Workflows/Literature Notes Guide]]
+- [[03 - Resources/Knowledge Workflows/Literature Notes]]
+- [[03 - Resources/Knowledge Workflows/Project Management Guide]]
+- [[03 - Resources/Knowledge Workflows/Project Management]]
+- [[03 - Resources/Knowledge Workflows/Research & Synthesis Guide]]
+- [[03 - Resources/Knowledge Workflows/Research & Synthesis]]
+- [[03 - Resources/Vault Foundation/Attachment Management]]
+- [[03 - Resources/Vault Foundation/Folder Structure (PARA-Zettelkasten)]]
+- [[03 - Resources/Vault Foundation/MOCs & Hub Notes]]
+- [[03 - Resources/Vault Foundation/Metadata & Dataview Guide]]
+- [[03 - Resources/Vault Foundation/Templates System]]
+- [[03 - Resources/Vault Foundation/Vault Foundation]]
+- [[05 - Daily Systems/Daily Notes/Daily Notes]]
+- [[05 - Daily Systems/Daily Systems]]
+- [[05 - Daily Systems/Habit Tracking/Habit Tracking]]
+- [[05 - Daily Systems/Journaling/Journaling with Claude]]
+- [[05 - Daily Systems/Task Management/Task & Priority Management]]
+- [[05 - Daily Systems/Weekly & Monthly Reviews]]
+- [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
+- [[07 - Prompt Library/Prompt Library]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Automation]]
+- [[08 - Automation/Custom Skills/Custom Claude Skills]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[08 - Automation/Summary Generation/Summary Generation]]
+- [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+- [[09 - Visualization/Canvas Workspaces/Canvas Workspaces Guide]]
+- [[09 - Visualization/Dashboards/Progress Dashboards]]
+- [[09 - Visualization/Graph View Optimization]]
+- [[09 - Visualization/Knowledge Maps/Knowledge Maps Guide]]
+- [[09 - Visualization/Visualization]]
+- [[10 - Meta/Backup/Backup & Git Sync]]
+- [[10 - Meta/Claude Context Optimization]]
+- [[10 - Meta/Maintenance & Optimization]]
+- [[10 - Meta/Vault Health/Dead Link Cleanup]]
+- [[10 - Meta/Vault Health/Performance Tuning]]
+- [[10 - Meta/Vault Health/Vault Health Checks]]
+
+## #status/evergreen (34)
+
+- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
+- [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
+- [[03 - Resources/Knowledge Workflows/Capture Process Connect]]
+- [[03 - Resources/Knowledge Workflows/Evergreen Notes Guide]]
+- [[03 - Resources/Knowledge Workflows/Literature Notes Guide]]
+- [[03 - Resources/Knowledge Workflows/Project Management Guide]]
+- [[03 - Resources/Knowledge Workflows/Research & Synthesis Guide]]
+- [[05 - Daily Systems/Daily Notes/Daily Notes]]
+- [[05 - Daily Systems/Daily Systems]]
+- [[05 - Daily Systems/Habit Tracking/Habit Tracking]]
+- [[05 - Daily Systems/Journaling/Journaling with Claude]]
+- [[05 - Daily Systems/Task Management/Task & Priority Management]]
+- [[05 - Daily Systems/Weekly & Monthly Reviews]]
+- [[07 - Prompt Library/Idea Generation/Explore Concept]]
+- [[07 - Prompt Library/Idea Generation/What If]]
+- [[07 - Prompt Library/Reflection/Knowledge Audit]]
+- [[07 - Prompt Library/Reflection/Weekly Synthesis]]
+- [[07 - Prompt Library/Thinking Tools/Thinking Tools]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Automation]]
+- [[08 - Automation/Custom Skills/Custom Claude Skills]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[08 - Automation/Summary Generation/Summary Generation]]
+- [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+- [[09 - Visualization/Dashboards/Progress Dashboards]]
+- [[09 - Visualization/Visualization]]
+- [[10 - Meta/Backup/Backup & Git Sync]]
+- [[10 - Meta/Claude Context Optimization]]
+- [[10 - Meta/Vault Health/Dead Link Cleanup]]
+- [[10 - Meta/Vault Health/Performance Tuning]]
+- [[10 - Meta/Vault Health/Vault Health Checks]]
+- [[AGENTS]]
+- [[CLAUDE]]
+- [[MOCs/Obsidian Claude Ecosystem MOC]]
+
+## #aliases: (24)
+
+- [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
+- [[03 - Resources/Advanced Techniques/Cross-Note Analysis]]
+- [[03 - Resources/Advanced Techniques/Custom AI Agents]]
+- [[03 - Resources/Advanced Techniques/Multi-Step Reasoning]]
+- [[03 - Resources/Knowledge Workflows/Capture Process Connect]]
+- [[03 - Resources/Knowledge Workflows/Evergreen Notes Guide]]
+- [[03 - Resources/Knowledge Workflows/Literature Notes Guide]]
+- [[03 - Resources/Knowledge Workflows/Project Management Guide]]
+- [[03 - Resources/Knowledge Workflows/Research & Synthesis Guide]]
+- [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
+- [[07 - Prompt Library/Idea Generation/Explore Concept]]
+- [[07 - Prompt Library/Idea Generation/Idea Generation]]
+- [[07 - Prompt Library/Idea Generation/What If]]
+- [[07 - Prompt Library/Note Processing/Note Processing Prompts]]
+- [[07 - Prompt Library/Reflection/Knowledge Audit]]
+- [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
+- [[07 - Prompt Library/Reflection/Weekly Synthesis]]
+- [[07 - Prompt Library/Thinking Tools/Thinking Tools]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Automation]]
+- [[08 - Automation/Custom Skills/Custom Claude Skills]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[08 - Automation/Summary Generation/Summary Generation]]
+- [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+
+## #status/growing (22)
+
+- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
+- [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
+- [[03 - Resources/Advanced Techniques/Cross-Note Analysis]]
+- [[03 - Resources/Advanced Techniques/Custom AI Agents]]
+- [[03 - Resources/Advanced Techniques/Multi-Step Reasoning]]
+- [[03 - Resources/Claude Integration/Context Loading Strategies]]
+- [[03 - Resources/Knowledge Workflows/Evergreen Notes Guide]]
+- [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
+- [[07 - Prompt Library/Idea Generation/Idea Generation]]
+- [[07 - Prompt Library/Note Processing/Note Processing Prompts]]
+- [[07 - Prompt Library/Reflection/Knowledge Audit]]
+- [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
+- [[07 - Prompt Library/Thinking Tools/Thinking Tools]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+- [[09 - Visualization/Canvas Workspaces/Canvas Workspaces Guide]]
+- [[09 - Visualization/Dashboards/Progress Dashboards]]
+- [[09 - Visualization/Graph View Optimization]]
+- [[09 - Visualization/Knowledge Maps/Knowledge Maps Guide]]
+- [[10 - Meta/Vault Health/Vault Health Checks]]
+- [[AGENTS]]
+- [[CLAUDE]]
+
+## #status/seedling (16)
+
+- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
+- [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
+- [[03 - Resources/Advanced Techniques/Custom AI Agents]]
+- [[03 - Resources/Claude Integration/Context Loading Strategies]]
+- [[03 - Resources/Knowledge Workflows/Evergreen Notes Guide]]
+- [[07 - Prompt Library/Note Processing/Create Evergreen]]
+- [[07 - Prompt Library/Note Processing/Note Processing Prompts]]
+- [[07 - Prompt Library/Reflection/Knowledge Audit]]
+- [[07 - Prompt Library/Thinking Tools/Thinking Tools]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+- [[09 - Visualization/Dashboards/Progress Dashboards]]
+- [[09 - Visualization/Graph View Optimization]]
+- [[10 - Meta/Vault Health/Vault Health Checks]]
+- [[AGENTS]]
+- [[CLAUDE]]
+
+## #fff (16)
+
+- [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
+- [[03 - Resources/Advanced Techniques/Cross-Note Analysis]]
+- [[03 - Resources/Advanced Techniques/Custom AI Agents]]
+- [[03 - Resources/Advanced Techniques/Multi-Step Reasoning]]
+- [[03 - Resources/Knowledge Workflows/Capture Process Connect]]
+- [[03 - Resources/Knowledge Workflows/Literature Notes Guide]]
+- [[03 - Resources/Knowledge Workflows/Research & Synthesis Guide]]
+- [[05 - Daily Systems/Daily Systems]]
+- [[05 - Daily Systems/Journaling/Journaling with Claude]]
+- [[05 - Daily Systems/Task Management/Task & Priority Management]]
+- [[05 - Daily Systems/Weekly & Monthly Reviews]]
+- [[09 - Visualization/Canvas Workspaces/Canvas Workspaces Guide]]
+- [[09 - Visualization/Dashboards/Progress Dashboards]]
+- [[09 - Visualization/Knowledge Maps/Knowledge Maps Guide]]
+- [[09 - Visualization/Visualization]]
+- [[MOCs/Obsidian Claude Ecosystem MOC]]
+
+## #type/prompt (14)
+
+- [[07 - Prompt Library/Idea Generation/Brainstorm]]
+- [[07 - Prompt Library/Idea Generation/Explore Concept]]
+- [[07 - Prompt Library/Idea Generation/What If]]
+- [[07 - Prompt Library/Note Processing/Create Evergreen]]
+- [[07 - Prompt Library/Note Processing/Extract Insights]]
+- [[07 - Prompt Library/Note Processing/Find Connections]]
+- [[07 - Prompt Library/Note Processing/Summarize]]
+- [[07 - Prompt Library/Reflection/Daily Reflection]]
+- [[07 - Prompt Library/Reflection/Knowledge Audit]]
+- [[07 - Prompt Library/Reflection/Weekly Synthesis]]
+- [[07 - Prompt Library/Thinking Tools/Challenge]]
+- [[07 - Prompt Library/Thinking Tools/Reframe]]
+- [[07 - Prompt Library/Thinking Tools/Synthesize]]
+- [[07 - Prompt Library/Thinking Tools/Trace]]
+
+## #"[[MOCs/Automation MOC]]" (11)
+
+- [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
+- [[03 - Resources/Advanced Techniques/Cross-Note Analysis]]
+- [[03 - Resources/Advanced Techniques/Custom AI Agents]]
+- [[03 - Resources/Advanced Techniques/Multi-Step Reasoning]]
+- [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Automation]]
+- [[08 - Automation/Custom Skills/Custom Claude Skills]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[08 - Automation/Summary Generation/Summary Generation]]
+- [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+
+## #area/dev (10)
+
+- [[03 - Resources/Core Plugins/Dataview & Queries]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[10 - Meta/Claude Context Optimization]]
+- [[10 - Meta/Vault Health/Vault Health Checks]]
+- [[AGENTS]]
+- [[CLAUDE]]
+
+## #"[[MOCs/Daily Systems MOC]]" (10)
+
+- [[03 - Resources/Knowledge Workflows/Project Management Guide]]
+- [[05 - Daily Systems/Daily Notes/Daily Notes]]
+- [[05 - Daily Systems/Daily Systems]]
+- [[05 - Daily Systems/Habit Tracking/Habit Tracking]]
+- [[05 - Daily Systems/Journaling/Journaling with Claude]]
+- [[05 - Daily Systems/Task Management/Task & Priority Management]]
+- [[05 - Daily Systems/Weekly & Monthly Reviews]]
+- [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
+- [[07 - Prompt Library/Reflection/Weekly Synthesis]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+
+## #type/daily (9)
+
+- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
+- [[05 - Daily Systems/Daily Notes/2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/Company News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+
+## #area/vault (9)
+
+- [[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]]
+- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
+- [[03 - Resources/Vault Foundation/Attachment Management]]
+- [[03 - Resources/Vault Foundation/Folder Structure (PARA-Zettelkasten)]]
+- [[03 - Resources/Vault Foundation/MOCs & Hub Notes]]
+- [[03 - Resources/Vault Foundation/Metadata & Dataview Guide]]
+- [[03 - Resources/Vault Foundation/Templates System]]
+- [[03 - Resources/Vault Foundation/Vault Foundation]]
+- [[MOCs/Obsidian Claude Ecosystem MOC]]
+
+## #"[[MOCs/Prompt Library MOC]]" (9)
+
+- [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
+- [[07 - Prompt Library/Idea Generation/Explore Concept]]
+- [[07 - Prompt Library/Idea Generation/Idea Generation]]
+- [[07 - Prompt Library/Idea Generation/What If]]
+- [[07 - Prompt Library/Note Processing/Note Processing Prompts]]
+- [[07 - Prompt Library/Reflection/Knowledge Audit]]
+- [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
+- [[07 - Prompt Library/Reflection/Weekly Synthesis]]
+- [[07 - Prompt Library/Thinking Tools/Thinking Tools]]
+
+## #area/claude (8)
+
+- [[03 - Resources/Advanced Techniques/Vault-as-Context Engineering]]
+- [[03 - Resources/Claude Integration/CLAUDE Configuration]]
+- [[03 - Resources/Claude Integration/Claude Code Desktop Setup]]
+- [[03 - Resources/Claude Integration/Claude Integration]]
+- [[03 - Resources/Claude Integration/Commands Folder]]
+- [[03 - Resources/Claude Integration/Context Loading Strategies]]
+- [[03 - Resources/Claude Integration/MCP Tools & Skills]]
+- [[03 - Resources/Claude Integration/Session Memory System]]
+
+## #"[[CLAUDE.md]]" (7)
+
+- [[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Automation]]
+- [[08 - Automation/Custom Skills/Custom Claude Skills]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[08 - Automation/Summary Generation/Summary Generation]]
+- [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+
+## #topic/claude (7)
+
+- [[03 - Resources/Community/Popular Claude Skills (2026)]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Automation]]
+- [[08 - Automation/Custom Skills/Custom Claude Skills]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[08 - Automation/Summary Generation/Summary Generation]]
+- [[10 - Meta/Claude Context Optimization]]
+
+## #area/knowledge (7)
+
+- [[01 - Projects/Obsidian Claude Ecosystem Usage Guide]]
+- [[01 - Projects/Obsidian Claude Ecosystem]]
+- [[03 - Resources/Advanced Techniques/Advanced Techniques]]
+- [[03 - Resources/Knowledge Workflows/Evergreen Notes]]
+- [[03 - Resources/Knowledge Workflows/Knowledge Workflows]]
+- [[03 - Resources/Knowledge Workflows/Literature Notes]]
+- [[03 - Resources/Knowledge Workflows/Research & Synthesis]]
+
+## #area/meta (7)
+
+- [[10 - Meta/Backup/Backup & Git Sync]]
+- [[10 - Meta/Claude Context Optimization]]
+- [[10 - Meta/Maintenance & Optimization]]
+- [[10 - Meta/Vault Health/Dead Link Cleanup]]
+- [[10 - Meta/Vault Health/Performance Tuning]]
+- [[10 - Meta/Vault Health/Vault Health Checks]]
+- [[10 - Meta/Vault Memory]]
+
+## #area/plugins (7)
+
+- [[03 - Resources/Core Plugins/Advanced URI & Canvas]]
+- [[03 - Resources/Core Plugins/Core Plugins]]
+- [[03 - Resources/Core Plugins/Dataview & Queries]]
+- [[03 - Resources/Core Plugins/Graph View Enhancers]]
+- [[03 - Resources/Core Plugins/Periodic Notes]]
+- [[03 - Resources/Core Plugins/Templater & QuickAdd]]
+- [[03 - Resources/Core Plugins/Terminal & Claude Code]]
+
+## #area/automation (6)
+
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Automation]]
+- [[08 - Automation/Custom Skills/Custom Claude Skills]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[08 - Automation/Summary Generation/Summary Generation]]
+- [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+
+## #type/moc (6)
+
+- [[07 - Prompt Library/Idea Generation/Idea Generation]]
+- [[07 - Prompt Library/Note Processing/Note Processing Prompts]]
+- [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
+- [[07 - Prompt Library/Thinking Tools/Thinking Tools]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[MOCs/Obsidian Claude Ecosystem MOC]]
+
+## #area/visualization (6)
+
+- [[09 - Visualization/Canvas Workspaces/Canvas Workspaces Guide]]
+- [[09 - Visualization/Dashboards/Progress Dashboards]]
+- [[09 - Visualization/Dashboards/Vault Dashboard]]
+- [[09 - Visualization/Graph View Optimization]]
+- [[09 - Visualization/Knowledge Maps/Knowledge Maps Guide]]
+- [[09 - Visualization/Visualization]]
+
+## #area/evolution (6)
+
+- [[03 - Resources/Evolution/Evolution & Scaling]]
+- [[03 - Resources/Evolution/Long-term Knowledge Evolution]]
+- [[03 - Resources/Evolution/Multi-Vault Management]]
+- [[03 - Resources/Evolution/New Skill Development]]
+- [[03 - Resources/Evolution/Next-Level AI Integration]]
+- [[03 - Resources/Evolution/Team Collaboration]]
+
+## #area/community (6)
+
+- [[03 - Resources/Community/Best Practices]]
+- [[03 - Resources/Community/Community & Resources]]
+- [[03 - Resources/Community/Learning Resources]]
+- [[03 - Resources/Community/Plugin Recommendations]]
+- [[03 - Resources/Community/Popular Claude Skills (2026)]]
+- [[03 - Resources/Community/Shared Vault Templates]]
+
+## #area/daily-systems (6)
+
+- [[05 - Daily Systems/Daily Notes/Daily Notes]]
+- [[05 - Daily Systems/Daily Systems]]
+- [[05 - Daily Systems/Habit Tracking/Habit Tracking]]
+- [[05 - Daily Systems/Journaling/Journaling with Claude]]
+- [[05 - Daily Systems/Task Management/Task & Priority Management]]
+- [[05 - Daily Systems/Weekly & Monthly Reviews]]
+
+## #type/literature (5)
+
+- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
+- [[03 - Resources/Knowledge Workflows/Capture Process Connect]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[AGENTS]]
+- [[CLAUDE]]
+
+## #"[[08 - Automation/Automation]]" (5)
+
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Custom Skills/Custom Claude Skills]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[08 - Automation/Summary Generation/Summary Generation]]
+- [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+
+## #"[[07 - Prompt Library/Note Processing/Note Processing Prompts]]" (5)
+
+- [[03 - Resources/Advanced Techniques/Cross-Note Analysis]]
+- [[03 - Resources/Knowledge Workflows/Capture Process Connect]]
+- [[03 - Resources/Knowledge Workflows/Evergreen Notes Guide]]
+- [[03 - Resources/Knowledge Workflows/Literature Notes Guide]]
+- [[08 - Automation/Summary Generation/Summary Generation]]
+
+## #"[[10 - Meta/Vault Health/Vault Health Checks]]" (5)
+
+- [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+- [[10 - Meta/Backup/Backup & Git Sync]]
+- [[10 - Meta/Claude Context Optimization]]
+- [[10 - Meta/Vault Health/Dead Link Cleanup]]
+- [[10 - Meta/Vault Health/Performance Tuning]]
+
+## #prompt/reflection (5)
+
+- [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
+- [[07 - Prompt Library/Reflection/Knowledge Audit]]
+- [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
+- [[07 - Prompt Library/Reflection/Weekly Synthesis]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+
+## #"[[MOCs/Visualization MOC]]" (5)
+
+- [[09 - Visualization/Canvas Workspaces/Canvas Workspaces Guide]]
+- [[09 - Visualization/Dashboards/Progress Dashboards]]
+- [[09 - Visualization/Graph View Optimization]]
+- [[09 - Visualization/Knowledge Maps/Knowledge Maps Guide]]
+- [[09 - Visualization/Visualization]]
+
+## #"[[MOCs/Knowledge MOC]]" (5)
+
+- [[03 - Resources/Knowledge Workflows/Capture Process Connect]]
+- [[03 - Resources/Knowledge Workflows/Evergreen Notes Guide]]
+- [[03 - Resources/Knowledge Workflows/Literature Notes Guide]]
+- [[03 - Resources/Knowledge Workflows/Research & Synthesis Guide]]
+- [[09 - Visualization/Knowledge Maps/Knowledge Maps Guide]]
+
+## #"[[03 - Resources/Claude Integration/Context Loading Strategies]]" (5)
+
+- [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
+- [[03 - Resources/Advanced Techniques/Cross-Note Analysis]]
+- [[03 - Resources/Advanced Techniques/Custom AI Agents]]
+- [[03 - Resources/Advanced Techniques/Multi-Step Reasoning]]
+- [[10 - Meta/Claude Context Optimization]]
+
+## #"[[05 - Daily Systems/Daily Systems]]" (5)
+
+- [[05 - Daily Systems/Daily Notes/Daily Notes]]
+- [[05 - Daily Systems/Habit Tracking/Habit Tracking]]
+- [[05 - Daily Systems/Journaling/Journaling with Claude]]
+- [[05 - Daily Systems/Task Management/Task & Priority Management]]
+- [[05 - Daily Systems/Weekly & Monthly Reviews]]
