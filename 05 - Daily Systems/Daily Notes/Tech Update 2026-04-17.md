@@ -10,7 +10,6 @@ tags:
 related:
   - "[[05 - Daily Systems/Daily Notes/2026-04-17]]"
   - "[[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]"
-  - "[[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]"
   - "[[MOCs/Knowledge MOC]]"
 ---
 
@@ -22,175 +21,134 @@ related:
 
 ## 🔥 ข่าวเด่นประจำวัน
 
-### 1. White House เตรียมให้ Federal Agencies เข้าถึง Anthropic Mythos — แม้ Pentagon ประกาศว่าเป็น "supply chain threat"
+### 1. Amazon เข้าซื้อ Globalstar มูลค่า $11.57 พันล้าน — เตรียมชน SpaceX Starlink
 
-> [!warning] ข่าวใหญ่ด้านนโยบาย AI และความมั่นคง
-> Gregory Barbaccia, Federal CIO ของ White House OMB แจ้ง Cabinet departments ว่ากำลังตั้ง "protections" เพื่อให้หน่วยงานรัฐบาลกลางเริ่มใช้ **Claude Mythos** ได้ในอีกไม่กี่สัปดาห์
+Amazon ประกาศเข้าซื้อกิจการ **Globalstar** บริษัทดาวเทียมสัญชาติอเมริกัน ในมูลค่าประมาณ **$11.57 พันล้านดอลลาร์** การเข้าซื้อครั้งนี้จะทำให้ Amazon สามารถขยาย Project Kuiper ไปสู่เครือข่ายอินเทอร์เน็ตความเร็วสูงจากอวกาศ และแข่งขันโดยตรงกับ **SpaceX Starlink** ที่ครองตลาด Low Earth Orbit (LEO) internet อยู่
 
-**หน่วยงานที่ถูกแจ้ง:**
-- Department of Defense
-- Treasury
-- Commerce
-- Homeland Security
-- Justice
-- State
+**สาระสำคัญ:**
+- Amazon จะรวม Globalstar เข้ากับโครงสร้างพื้นฐานดาวเทียม Project Kuiper
+- ผู้ใช้จะได้รับบริการอินเทอร์เน็ตดาวเทียมผ่าน Amazon ecosystem
+- การแข่งขัน LEO internet ระหว่าง Amazon vs Starlink จะดุเดือดขึ้น
 
-**บริบทที่ขัดแย้ง:**
-- **Pentagon** ประกาศให้ Anthropic เป็น "supply chain threat" ต้นปี 2026
-- White House กำลังเดินหน้าต่อ **แม้มีการคัดค้านจาก DoD**
-- ยังไม่มีกำหนดเวลาชัดเจน — แต่สัญญาณชัดว่า AI ระดับ dangerous กำลังเข้าสู่รัฐบาล
-
-> **ทำไมสำคัญ**: ครั้งแรกที่รัฐบาลสหรัฐกำลังจะให้หน่วยงานความมั่นคงชั้นนำใช้ model ที่บริษัทผู้สร้างเองยังไม่กล้าปล่อยให้สาธารณะ
+**ทำไมถึงสำคัญ:** Starlink ครองส่วนแบ่งตลาดอย่างล้นหลาม การมีคู่แข่งระดับ Amazon จะกดราคาและขยายการเข้าถึงในพื้นที่ห่างไกลทั่วโลก
 
 ---
 
-### 2. Amazon เข้าซื้อ Globalstar $11.57B — และจับมือ Apple ในดีลดาวเทียม
+### 2. Anthropic Mythos — AI Model ที่ถูกล็อกก่อนปล่อยสู่สาธารณะ
 
-> [!note] Big Tech สงครามอวกาศ vs Starlink รอบใหม่
-> Amazon ประกาศเข้าซื้อ **Globalstar** มูลค่า **$11.57 พันล้าน** ($90/หุ้น) เพื่อขยาย **Amazon Leo** LEO satellite network
+Anthropic ชะลอการปล่อยโมเดล **Claude Mythos** หลังพบ **ช่องโหว่ความปลอดภัยระดับ high-severity หลายพัน รายการ** ระหว่างกระบวนการ safety evaluation ขณะที่ **JPMorgan Chase CEO Jamie Dimon** เปิดเผยว่าธนาคารกำลังทดสอบ Mythos ผ่าน enterprise beta
+
+**สิ่งที่เกิดขึ้น:**
+- Mythos แสดงความสามารถสูงผิดปกติจนทีม Red Team ตรวจพบความเสี่ยงระดับสูง
+- Anthropic ตัดสินใจระงับการปล่อยโมเดลและเพิ่ม safety measures
+- JPMorgan Chase กำลังทดสอบ Mythos ผ่านช่องทาง enterprise beta
+
+**ทำไมถึงสำคัญ:** นี่คือตัวอย่าง responsible AI deployment ที่เลือก safety เหนือ time-to-market — สะท้อนว่า frontier models กำลังใกล้ขีดจำกัดที่ผู้พัฒนาเองยังกังวล
+
+---
+
+### 3. OpenAI + Anthropic + Google รวมพลัง — ตั้ง AI Defense Pact สกัด China
+
+บริษัท AI ชั้นนำทั้งสามแชร์ข้อมูลกันผ่าน **Frontier Model Forum** เพื่อป้องกัน Chinese AI companies จากการ copy โมเดลผ่านวิธี **adversarial distillation** โดย Anthropic เพียงรายเดียวบันทึกว่ามีการแลกเปลี่ยนข้อมูลโดยไม่ได้รับอนุญาตถึง **16 ล้านครั้ง** จากบริษัทจีน 3 ราย
 
 **รายละเอียด:**
-- Globalstar มีดาวเทียม LEO + spectrum + direct-to-device (D2D) expertise
-- Amazon Leo จะได้รับบริการ D2D เต็มรูปแบบ
-- **Apple เข้าร่วมดีลด้วย** — Amazon Leo จะ power satellite services สำหรับ **iPhone 14+** และ **Apple Watch Ultra 3**
-  - รวมถึง Emergency SOS via satellite, location sharing, texting
-- ดีลคาดว่าปิดปี **2027** รอ regulatory approval
-
-**เป้าหมายชัดเจน: ท้าทาย Starlink (SpaceX) ของ Elon Musk**
-- Amazon + Apple vs. Elon Musk ในสนามอวกาศ
+- Frontier Model Forum เป็น mechanism แชร์ threat intelligence ระหว่างคู่แข่ง
+- DeepSeek ถูกกล่าวหาว่าใช้ distillation จาก OpenAI models มาพัฒนา technology ของตน
+- รัฐบาลหลายแห่ง (Texas, Germany) แบน DeepSeek บนอุปกรณ์ราชการ
 
 ---
 
-### 3. Snap ปลด 1,000 คน (16%) — เพราะ AI เขียนโค้ดแทนแล้ว 65%
+### 4. Microsoft Patch Tuesday เมษายน 2026 — 167 ช่องโหว่ รวม SharePoint Zero-Day
 
-> [!note] สัญญาณ AI Replacement Wave ใหม่ใน Tech
-> CEO Evan Spiegel ส่ง memo แจ้งพนักงานว่า Snap กำลังตัดพนักงาน **1,000 คน** หรือ **16%** ของพนักงานทั้งหมด (5,261 คน ณ ธ.ค. 2025)
+Microsoft ปล่อยอัปเดตความปลอดภัยประจำเดือนเมษายน ครอบคลุม **167 ช่องโหว่** รวมถึง **2 zero-day** และ **8 รายการ Critical** ช่องโหว่ที่น่ากังวลที่สุดคือ **CVE-2026-32201** ใน SharePoint Server ซึ่งกำลังถูกโจมตีอยู่ในขณะนี้
 
-**เหตุผลที่น่าสังเกตมาก:**
-- **AI เขียนโค้ดแทน 65%** ของโค้ดใหม่ทั้งหมดของ Snap แล้ว
-- Spiegel เรียกนี้ว่า **"Crucible Moment"** — จุดเปลี่ยนสำคัญของบริษัท
-- ปิด open positions อีก 300+ ตำแหน่ง
+**ช่องโหว่สำคัญ:**
+- **CVE-2026-32201** — SharePoint Server spoofing, actively exploited ในโลกจริง
+- 20 Remote Code Execution vulnerabilities
+- Majority: Elevation of Privilege bugs
 
-**ผลทางการเงิน:**
-- ลดต้นทุน **$500M+** ต่อปี ภายใน H2 2026
-- Restructuring costs: $95M–$130M ใน Q2
-- **หุ้น Snap พุ่งขึ้น** หลังประกาศ — ตลาดมองว่าเป็นข่าวดีสำหรับ profitability
-
-> **บทเรียน**: "AI ทำให้ทีมเล็กลงทำงานได้มากขึ้น" — ไม่ใช่แค่ theory อีกต่อไป
+> [!danger] แพทช์ด่วน — CVE-2026-32201 Actively Exploited
+> องค์กรทุกแห่งที่ใช้ SharePoint Server ต้องอัปเดตทันที ไม่รอ maintenance window
 
 ---
 
-### 4. Broadcom ขยายดีลชิปกับ Google และ Anthropic
+### 5. Quantum Computing Surge — World Quantum Day ผลักดัน D-Wave และ IonQ พุ่ง
 
-- **Broadcom** ลงนามขยายสัญญาผลิตชิป AI รุ่นใหม่กับ **Google** และ **Anthropic**
-- Anthropic ได้รับ access คอมพิวต์ **~3.5 gigawatts** จาก Google AI processors
-- นี่คือ infrastructure deal ระดับ gigawatt แรกในวงการ AI
+วันที่ 14 เมษายน (World Quantum Day) เป็นตัวเร่งให้ตลาดตอบรับ quantum computing เชิงบวก โดย **D-Wave** พุ่ง ~16% และ **IonQ** พุ่ง 18% หลังประกาศขยายระบบ commercial quantum ออกไปเกินกว่า single processor
 
 ---
 
-### 5. AI กับ Cybersecurity — สัปดาห์ที่ตึงเครียด
+## 🔐 Cybersecurity Highlights
 
-| เหตุการณ์ | ผลกระทบ |
-|-----------|---------|
-| White House เตรียมให้รัฐบาลใช้ Mythos | ทั้ง DoD / DHS ต้องรับมือ model cyber-capable ระดับสูงสุด |
-| CVE-2026-33825 Microsoft Defender zero-day | Privilege escalation to SYSTEM — คนที่ใช้ Windows ทุกคนต้องแพตช์ |
-| Operation PowerOFF ปิด 53 DDoS domains | หยุดบริการที่มีลูกค้า 75,000 cybercriminals |
-| Sweden เปิดเผย Russia โจมตี power plant | Critical infrastructure attacks ระดับ destructive เริ่มแล้ว |
+| เหตุการณ์ | บริษัท/หน่วยงาน | ผลกระทบ |
+|-----------|-----------------|---------|
+| CVE-2026-32201 SharePoint Zero-Day | Microsoft | Actively exploited — ต้องแพทช์ด่วน |
+| Cisco 4 Critical Patches | Cisco | Identity Services + Webex SSO vulnerability |
+| Basic-Fit Data Breach | Basic-Fit (EU) | ข้อมูลสมาชิก ~1 ล้านคน (NL, FR, ES) รั่วไหล |
+| Zerion Hot Wallet Theft | Zerion (Crypto) | $100K ถูกขโมยจาก internal hot wallets |
+| Operation PowerOFF | Interpol / Law Enforcement | ปิด 53 โดเมน DDoS, จับ 4 คน, บล็อก 75,000 cybercriminal users |
+| NIST NVD Policy Change | NIST | จำกัดการ enrich CVEs เพื่อจัดการ volume ที่เพิ่มขึ้น |
 
----
-
-## 🔐 Cybersecurity Deep Dive
-
-### Microsoft Patch Tuesday — เพิ่มเติมจากเมื่อวาน
-
-Microsoft แพตช์ **167 ช่องโหว่** รวมถึง **2 zero-days**:
-
-| CVE | ผลกระทบ | สถานะ |
-|-----|---------|-------|
-| **CVE-2026-32201** | SharePoint — spoofing, data exposure | ⚠️ กำลังถูก exploit |
-| **CVE-2026-33825** | Microsoft Defender — escalate to SYSTEM | ⚠️ กำลังถูก exploit |
-
-> [!danger] อัปเดตด่วน
-> **CVE-2026-33825** อันตรายมาก — Microsoft Defender ที่ควรป้องกันระบบ กลับกลายเป็นช่องโหว่เอง ถ้ายังไม่ได้ patch ต้องทำทันที
-
-### Operation PowerOFF — ชัยชนะของ Law Enforcement
-- ปฏิบัติการระดับนานาชาติ
-- ปิด **53 domains** ที่ให้บริการ DDoS-for-hire
-- จับกุม **4 คน**
-- มีลูกค้าใช้บริการมากกว่า **75,000 cybercriminals** ทั่วโลก
-
-### CYFIRMA Weekly Threats ประจำสัปดาห์
-- **APT28 (Russia)**: มุ่งเน้น identity-focused intrusions + obfuscated infrastructure — เป้าหมาย: รัฐบาลและองค์กรกลยุทธ์
-- **Gentlemen Ransomware**: Dual-extortion (ขโมยข้อมูล + encrypt) + cross-platform — กำลัง active ทั่วโลก
-- **AZORult Malware**: Malware of the week — stealer ที่ขโมย credentials, browser data, crypto wallets
+> [!warning] Basic-Fit Breach
+> หากคุณหรือองค์กรใช้ Basic-Fit gym ในยุโรป ให้ตรวจสอบว่าข้อมูลส่วนตัวถูก expose หรือไม่
 
 ---
 
-## 📊 Market & Business
+## 📊 ภาพรวมอุตสาหกรรม
 
-### Tech Stocks — วันนี้ขึ้นแรง
-> Iran peace deal rumors สร้าง risk-on rally ทั่วตลาด
+**AI Economics:**
+- OpenAI แตะ Annualized Revenue $25 พันล้านดอลลาร์ กำลังพิจารณา IPO ปลายปี 2026
+- Anthropic Revenue Run Rate แตะ $30 พันล้านดอลลาร์
+- Broadcom จะส่ง 3.5 GW ของ Google TPU capacity ให้ Anthropic ในปี 2027 (บน 1 GW ที่กำหนดไว้แล้วปี 2026)
+- OpenAI กำลังปิดตัว Sora วันที่ 26 เมษายน 2026 — user count ลดต่ำกว่า 500,000, ค่า compute $1M/วัน
 
-| หุ้น | เปลี่ยนแปลง |
-|------|------------|
-| Dow Jones Futures | +538 pts (+1.10%) |
-| Verizon | +3.86% → $46.78 |
-| Cisco | +3.25% → $84.50 |
-| IBM | +2.94% → $251.00 |
-| IonQ (quantum) | +18% |
-| D-Wave (quantum) | +16% |
+**Semiconductor:**
+- ยอดขาย semiconductor โลก กุมภาพันธ์ 2026: **$88.8 พันล้าน** (+7.6% MoM, +61.8% YoY)
+- AMD เข้าใกล้ $300/หุ้น จากความต้องการ AI hardware และดีลพันธมิตรกับฝรั่งเศส
+- China เร่งแผน semiconductor self-sufficiency ตาม five-year plan — ผลักดันเงินลงทุนมหาศาลสู่ domestic chip industry
 
-### Quantum Computing — เริ่มมีสัญญาณเชิงพาณิชย์
-- **IonQ** พุ่ง 18% หลังขยาย commercial systems ข้ามหลาย processor
-- **D-Wave** พุ่ง 16% — quantum annealing กำลัง commercial scale
-
-### Semiconductor Global Sales
-- **Feb 2026**: $88.8B — สูงขึ้น 7.6% จาก Jan และ **+61.8% YoY** จาก Feb 2025
-- อุตสาหกรรมกำลังเดิน track ไปสู่ **~$1T/ปี**
+**Venture Capital:**
+- Q1 2026: นักลงทุนทั่วโลกลงทุน $300 พันล้านดอลลาร์ใน 6,000 startups — สถิติสูงสุดเท่าที่เคยมี
+- OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B) รวมกัน $188 พันล้าน
 
 ---
 
 ## 💡 Key Takeaways & Potential Evergreen Notes
 
-> [!tip] Insights จากข่าววันนี้
+1. **Amazon-Globalstar** เปลี่ยนเกม LEO Internet — ตลาดดาวเทียมจะไม่ใช่ monopoly ของ Starlink อีกต่อไป
+2. **Anthropic Mythos** คือตัวอย่างแรก ๆ ที่บริษัท AI ล็อกโมเดลของตัวเองก่อนปล่อย — safety-first culture กำลังกลายเป็น norm
+3. **Frontier Model Forum** ทำให้คู่แข่งกลายเป็นพันธมิตรในด้าน security — IP protection ใน AI era ต้องการ cooperation ระหว่างคู่แข่ง
+4. **Microsoft 167-vuln patch** ยืนยันว่า patch cadence ของ enterprise ยังไม่พอรับมือกับ volume ช่องโหว่ที่เพิ่มขึ้นทุกเดือน
+5. **Q1 2026 $300B VC** — AI boom ขับเคลื่อน venture market สู่ระดับที่ไม่เคยเห็นมาก่อน — bubble หรือ fundamental shift?
 
-1. **AI เข้าสู่รัฐบาลสหรัฐ** — White House จะให้ DoD/DHS ใช้ Mythos แม้ Pentagon คัดค้าน → precedent ด้านนโยบาย AI ระดับรัฐ
-2. **AI Replacement ไม่ใช่ fear — มันเกิดแล้ว** — Snap: 65% ของโค้ดเขียนโดย AI, ตัดพนักงาน 16%
-3. **Space Internet War** — Amazon ($11.57B Globalstar + Apple) vs. Starlink เริ่ม scale ทั้ง 2 ฝั่ง
-4. **Microsoft Defender เป็น attack surface** — ซอฟต์แวร์ป้องกันกลายเป็นช่องโหว่ critical
-5. **Quantum computing เริ่มเป็น commercial reality** — IonQ +18%, D-Wave +16% ในวันเดียว
-
-### Potential Evergreen Notes
-- [ ] [[White House vs Pentagon — ความขัดแย้งในการใช้ AI ระดับ dangerous ในรัฐบาลสหรัฐ]]
-- [ ] [[AI Replacement Wave — เมื่อ AI เขียนโค้ด 65% การลดพนักงานจึงตามมาโดยธรรมชาติ]]
-- [ ] [[Amazon Leo vs Starlink — สงครามดาวเทียม LEO รอบใหม่]]
-- [ ] [[Security software as attack vector — เมื่อเครื่องมือป้องกันกลายเป็นช่องโหว่]]
+**Potential Evergreen Notes:**
+- [ ] "Adversarial Distillation — วิธีที่ China Copy AI Models"
+- [ ] "LEO Internet Wars — Amazon vs Starlink"
+- [ ] "Responsible AI Deployment — เมื่อ Safety มาก่อน Speed-to-Market"
+- [ ] "Frontier Model Forum — ความร่วมมือในโลก AI Competition"
 
 ---
 
 ## 📎 Sources
 
-### AI & Policy
-- [White House Works to Give US Agencies Anthropic Mythos AI — Bloomberg](https://www.bloomberg.com/news/articles/2026-04-16/white-house-moves-to-give-us-agencies-anthropic-mythos-access)
-- [Trump officials negotiating access to Anthropic's Mythos — Axios](https://www.axios.com/2026/04/16/white-house-anthropic-ai-mythos-government-national-security)
-- [White House grants agencies access to Anthropic's Mythos AI — CryptoBriefing](https://cryptobriefing.com/white-house-grants-agencies-access-to-anthropics-mythos-ai-despite-pentagon/)
-- [Broadcom agrees to expanded chip deals with Google, Anthropic — CNBC](https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html)
-- [AI Updates Today April 2026 — LLM Stats](https://llm-stats.com/llm-updates)
+**AI & Tech:**
+- [LLM Stats — AI Model Updates April 2026](https://llm-stats.com/llm-updates)
+- [OpenAI, Anthropic, Google Form AI Defense Pact Against China](https://www.humai.blog/openai-anthropic-and-google-just-formed-an-ai-defense-pact-the-enemy-isnt-each-other/)
+- [Stanford AI Index 2026 — IEEE Spectrum](https://spectrum.ieee.org/state-of-ai-index-2026)
+- [MIT Technology Review — State of AI 2026](https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/)
+- [Yahoo Finance — Tech Stocks: Anthropic Claude Opus 4.7](https://finance.yahoo.com/sectors/technology/article/tech-stocks-today-big-tech-stocks-point-to-strong-open-ai-industry-seeks-to-allay-fears-144220399.html)
 
-### Business & Layoffs
-- [Snap is cutting 1000 jobs, 16% of its workforce — TechCrunch](https://techcrunch.com/2026/04/15/snap-is-cutting-1000-jobs-16-of-its-workforce/)
-- [Snap lays off 1,000 employees as AI takes over 65% of coding — Tech Startups](https://techstartups.com/2026/04/15/snap-lays-off-1000-employees-or-16-of-workforce-as-ai-takes-over-65-of-coding-work/)
-- [Snap's stock jumps on plans to axe 16% of workforce — CNBC](https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html)
+**Cybersecurity:**
+- [Integrity360 — Cyber News Roundup April 17, 2026](https://www.integrity360.com/cyber-news-roundup-april-17th-2026)
+- [SecurityWeek — Microsoft Patches SharePoint Zero-Day and 167 Vulnerabilities](https://www.securityweek.com/microsoft-patches-exploited-sharepoint-zero-day-and-160-other-vulnerabilities/)
+- [The Hacker News](https://thehackernews.com/)
+- [CISA Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
-### Satellite & Space
-- [Amazon to buy Globalstar for $11.57B — TechCrunch](https://techcrunch.com/2026/04/14/amazon-to-buy-globalstar-for-11-57b-in-bid-to-flesh-out-its-satellite-biz/)
-- [Amazon and Apple vs. Starlink — GeekWire](https://www.geekwire.com/2026/amazon-and-apple-vs-starlink-globalstar-satellite-acquisition-comes-with-a-big-iphone-bonus/)
-- [Apple and Amazon Ink Satellite Deal — MacRumors](https://www.macrumors.com/2026/04/14/apple-and-amazon-ink-satellite-deal-globalstar/)
+**Market & Funding:**
+- [Crunchbase — Q1 2026 Record Venture Funding $300B](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/)
+- [TechStartups — Zum raises $100M at $1.7B valuation](https://techstartups.com/2026/04/16/zum-raises-100m-from-tpg-at-1-7b-valuation-to-fix-americas-broken-school-transportation-system/)
 
-### Cybersecurity
-- [Cyber News Roundup April 17 2026 — Integrity360](https://www.integrity360.com/cyber-news-roundup-april-17th-2026)
-- [Weekly Intelligence Report 17 April 2026 — CYFIRMA](https://www.cyfirma.com/news/weekly-intelligence-report-17-april-2026/)
-- [Operation PowerOFF — SecurityWeek](https://www.securityweek.com/)
-
-### Markets
-- [AMD Stock Eyeing $300 on TSMC Boost — FX Leaders](https://www.fxleaders.com/news/2026/04/16/amd-stock-eyeing-300-as-chip-momentum-builds-on-tsmc-boost/)
+**Semiconductor:**
+- [AMD Stock Eyeing $300 — FX Leaders](https://www.fxleaders.com/news/2026/04/16/amd-stock-eyeing-300-as-chip-momentum-builds-on-tsmc-boost/)
+- [China Tech Self-Sufficiency Drive — TNGlobal](https://technode.global/2026/04/17/china-tech-self-sufficiency-drive-to-boost-semiconductor-supply-chain-sp/)
+- [Semiconductors in 2026 — Medium](https://medium.com/@adnanmasood/semiconductors-in-2026-the-ai-driven-upswing-meets-structural-bottlenecks-3568b004905b)
