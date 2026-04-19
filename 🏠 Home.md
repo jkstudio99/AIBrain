@@ -98,26 +98,26 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-04-17
+> 🕒 Auto-updated 2026-04-19
 
 ### 📊 Vault Stats
-- Total notes: **120**
-- Daily: 15 · Weekly: 1 · Literature: 5 · Evergreen: 2 · Project: 4 · MOC: 12
+- Total notes: **131**
+- Daily: 25 · Weekly: 1 · Literature: 5 · Evergreen: 2 · Project: 4 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
+- [[MOCs/Auto Tag MOC]] — _19 Apr 11:15_
+- [[10 - Meta/Orphan Notes 2026-04-19]] — _19 Apr 11:15_
+- [[05 - Daily Systems/Daily Notes/Company News 2026-04-19]] — _19 Apr 11:14_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-19]] — _19 Apr 11:14_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]] — _18 Apr 10:28_
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-18]] — _18 Apr 10:28_
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-18]] — _18 Apr 09:36_
+- [[05 - Daily Systems/Daily Notes/Company News 2026-04-18]] — _18 Apr 09:35_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-18]] — _18 Apr 09:35_
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-17]] — _17 Apr 23:21_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-17]] — _17 Apr 23:19_
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-17]] — _17 Apr 23:19_
+- [[🏠 Home]] — _17 Apr 23:19_
 - [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W16]] — _17 Apr 23:19_
-- [[MOCs/Auto Tag MOC]] — _17 Apr 23:19_
 - [[10 - Meta/Orphan Notes 2026-04-17]] — _17 Apr 23:19_
-- [[🏠 Home]] — _17 Apr 23:17_
-- [[03 - Resources/Knowledge Workflows/Knowledge Workflows]] — _17 Apr 23:09_
-- [[03 - Resources/Vault Foundation/Folder Structure (PARA-Zettelkasten)]] — _17 Apr 23:09_
-- [[MOCs/Obsidian Claude Ecosystem MOC]] — _17 Apr 23:09_
-- [[05 - Daily Systems/Daily Notes/Company News 2026-04-17]] — _17 Apr 23:02_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]] — _17 Apr 22:52_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]] — _17 Apr 22:47_
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]] — _17 Apr 22:46_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]] — _17 Apr 13:47_
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]] — _16 Apr 19:02_
-- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]] — _16 Apr 18:40_
-- [[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]] — _16 Apr 18:15_
 <!-- AUTO-DASHBOARD:END -->
