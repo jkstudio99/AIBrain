@@ -101,23 +101,23 @@ Use these in Claude Code with `/`:
 > 🕒 Auto-updated 2026-04-19
 
 ### 📊 Vault Stats
-- Total notes: **131**
-- Daily: 25 · Weekly: 1 · Literature: 5 · Evergreen: 2 · Project: 4 · MOC: 12
+- Total notes: **157**
+- Daily: 28 · Weekly: 1 · Literature: 5 · Evergreen: 2 · Project: 6 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _19 Apr 11:15_
-- [[10 - Meta/Orphan Notes 2026-04-19]] — _19 Apr 11:15_
-- [[05 - Daily Systems/Daily Notes/Company News 2026-04-19]] — _19 Apr 11:14_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-19]] — _19 Apr 11:14_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]] — _18 Apr 10:28_
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-18]] — _18 Apr 10:28_
-- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-18]] — _18 Apr 09:36_
-- [[05 - Daily Systems/Daily Notes/Company News 2026-04-18]] — _18 Apr 09:35_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-18]] — _18 Apr 09:35_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-17]] — _17 Apr 23:21_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-17]] — _17 Apr 23:19_
-- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-17]] — _17 Apr 23:19_
-- [[🏠 Home]] — _17 Apr 23:19_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W16]] — _17 Apr 23:19_
-- [[10 - Meta/Orphan Notes 2026-04-17]] — _17 Apr 23:19_
+- [[MOCs/Auto Tag MOC]] — _19 Apr 22:09_
+- [[10 - Meta/Orphan Notes 2026-04-19]] — _19 Apr 22:09_
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W16]] — _19 Apr 20:01_
+- [[10 - Meta/Vault Health Report 2026-04-19]] — _19 Apr 17:31_
+- [[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]] — _19 Apr 17:30_
+- [[01 - Projects/Obsidian Claude Ecosystem Usage Guide]] — _19 Apr 17:29_
+- [[01 - Projects/Obsidian Claude Ecosystem]] — _19 Apr 17:29_
+- [[07 - Prompt Library/Community Skills Catalog — alirezarezvani]] — _19 Apr 17:29_
+- [[07 - Prompt Library/Claude Skills Catalog]] — _19 Apr 17:29_
+- [[MOCs/Knowledge MOC]] — _19 Apr 17:29_
+- [[MOCs/Areas MOC]] — _19 Apr 17:29_
+- [[MOCs/Projects MOC]] — _19 Apr 17:29_
+- [[01 - Projects/AI Multi-Agent Workflow/README]] — _19 Apr 16:56_
+- [[02 - Areas/Team/README]] — _19 Apr 16:56_
+- [[02 - Areas/Team/Playbook - Admin]] — _19 Apr 16:56_
 <!-- AUTO-DASHBOARD:END -->
