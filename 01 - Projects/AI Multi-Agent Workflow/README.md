@@ -50,7 +50,8 @@ related:
 - [x] Playbook template ready
 - [x] Phase gates documented
 - [x] Sprint kit ready
+- [x] Role playbooks pre-filled (13 roles → `02 - Areas/Team/`)
 - [ ] Team walkthrough session (schedule)
-- [ ] First role playbooks filled (each person)
+- [ ] Each person personalizes their own playbook (name, start date, manager)
 - [ ] Pilot product started (Phase 0 kickoff)
 - [ ] First gate review (Phase 0 → 1)
