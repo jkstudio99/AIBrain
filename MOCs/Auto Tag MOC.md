@@ -12,19 +12,38 @@ tags:
 
 ---
 
-## #related: (105)
+## #related: (131)
 
+- [[01 - Projects/AI Multi-Agent Workflow/00 - Blueprint]]
+- [[01 - Projects/AI Multi-Agent Workflow/01 - Role Playbook Template]]
+- [[01 - Projects/AI Multi-Agent Workflow/02 - Phase Gate Checklists]]
+- [[01 - Projects/AI Multi-Agent Workflow/03 - Sprint Kit]]
+- [[01 - Projects/AI Multi-Agent Workflow/README]]
 - [[01 - Projects/Obsidian Claude Ecosystem Usage Guide]]
 - [[01 - Projects/Obsidian Claude Ecosystem]]
 - [[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]]
 - [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
+- [[02 - Areas/Team/Playbook - Accounting]]
+- [[02 - Areas/Team/Playbook - Admin]]
+- [[02 - Areas/Team/Playbook - BA]]
+- [[02 - Areas/Team/Playbook - CEO]]
+- [[02 - Areas/Team/Playbook - CTO]]
+- [[02 - Areas/Team/Playbook - Data Engineer]]
+- [[02 - Areas/Team/Playbook - Data Scientist]]
+- [[02 - Areas/Team/Playbook - Marketing]]
+- [[02 - Areas/Team/Playbook - SA]]
+- [[02 - Areas/Team/Playbook - SEO]]
+- [[02 - Areas/Team/Playbook - Senior Backend]]
+- [[02 - Areas/Team/Playbook - Senior Frontend]]
+- [[02 - Areas/Team/Playbook - UX-UI]]
+- [[02 - Areas/Team/README]]
 - [[03 - Resources/Advanced Techniques/Advanced Techniques]]
 - [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
 - [[03 - Resources/Advanced Techniques/Cross-Note Analysis]]
 - [[03 - Resources/Advanced Techniques/Custom AI Agents]]
 - [[03 - Resources/Advanced Techniques/Multi-Step Reasoning]]
 - [[03 - Resources/Advanced Techniques/Vault-as-Context Engineering]]
-- [[03 - Resources/Claude Integration/CLAUDE.md Configuration]]
+- [[03 - Resources/Claude Integration/CLAUDE Configuration]]
 - [[03 - Resources/Claude Integration/Claude Code Desktop Setup]]
 - [[03 - Resources/Claude Integration/Claude Integration]]
 - [[03 - Resources/Claude Integration/Commands Folder]]
@@ -72,22 +91,28 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Daily Notes]]
 - [[05 - Daily Systems/Daily Notes/Extended News 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Extended News 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-19]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-18]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-19]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]
 - [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-19]]
 - [[05 - Daily Systems/Daily Systems]]
 - [[05 - Daily Systems/Habit Tracking/Habit Tracking]]
 - [[05 - Daily Systems/Journaling/Journaling with Claude]]
 - [[05 - Daily Systems/Task Management/Task & Priority Management]]
 - [[05 - Daily Systems/Weekly & Monthly Reviews]]
 - [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W16]]
+- [[07 - Prompt Library/AITMPL Agents Catalog — davila7]]
+- [[07 - Prompt Library/Claude Skills Catalog]]
+- [[07 - Prompt Library/Community Skills Catalog — alirezarezvani]]
 - [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
 - [[07 - Prompt Library/Idea Generation/Explore Concept]]
 - [[07 - Prompt Library/Idea Generation/Idea Generation]]
@@ -117,6 +142,7 @@ tags:
 - [[10 - Meta/Vault Health/Dead Link Cleanup]]
 - [[10 - Meta/Vault Health/Performance Tuning]]
 - [[10 - Meta/Vault Health/Vault Health Checks]]
+- [[10 - Meta/Vault Health Report 2026-04-19]]
 - [[10 - Meta/Vault Memory]]
 - [[MOCs/Obsidian Claude Ecosystem MOC]]
 
@@ -129,7 +155,7 @@ tags:
 - [[03 - Resources/Advanced Techniques/Custom AI Agents]]
 - [[03 - Resources/Advanced Techniques/Multi-Step Reasoning]]
 - [[03 - Resources/Advanced Techniques/Vault-as-Context Engineering]]
-- [[03 - Resources/Claude Integration/CLAUDE.md Configuration]]
+- [[03 - Resources/Claude Integration/CLAUDE Configuration]]
 - [[03 - Resources/Claude Integration/Claude Code Desktop Setup]]
 - [[03 - Resources/Claude Integration/Claude Integration]]
 - [[03 - Resources/Claude Integration/Commands Folder]]
@@ -236,8 +262,9 @@ tags:
 - [[MOCs/Auto Tag MOC]]
 - [[MOCs/Obsidian Claude Ecosystem MOC]]
 
-## #aliases: (24)
+## #aliases: (29)
 
+- [[01 - Projects/AI Multi-Agent Workflow/00 - Blueprint]]
 - [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
 - [[03 - Resources/Advanced Techniques/Cross-Note Analysis]]
 - [[03 - Resources/Advanced Techniques/Custom AI Agents]]
@@ -247,6 +274,9 @@ tags:
 - [[03 - Resources/Knowledge Workflows/Literature Notes Guide]]
 - [[03 - Resources/Knowledge Workflows/Project Management Guide]]
 - [[03 - Resources/Knowledge Workflows/Research & Synthesis Guide]]
+- [[07 - Prompt Library/AITMPL Agents Catalog — davila7]]
+- [[07 - Prompt Library/Claude Skills Catalog]]
+- [[07 - Prompt Library/Community Skills Catalog — alirezarezvani]]
 - [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
 - [[07 - Prompt Library/Idea Generation/Explore Concept]]
 - [[07 - Prompt Library/Idea Generation/Idea Generation]]
@@ -262,6 +292,7 @@ tags:
 - [[08 - Automation/Daily Review/Daily Review Automation]]
 - [[08 - Automation/Summary Generation/Summary Generation]]
 - [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+- [[10 - Meta/Vault Health Report 2026-04-19]]
 
 ## #status/growing (23)
 
@@ -289,7 +320,7 @@ tags:
 - [[CLAUDE]]
 - [[MOCs/Auto Tag MOC]]
 
-## #type/daily (20)
+## #type/daily (23)
 
 - [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
 - [[05 - Daily Systems/Daily Notes/2026-04-16]]
@@ -299,18 +330,43 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Extended News 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Extended News 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-19]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-18]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-19]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]
 - [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-19]]
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
 - [[MOCs/Auto Tag MOC]]
+
+## #topic/ai-workflow (19)
+
+- [[01 - Projects/AI Multi-Agent Workflow/00 - Blueprint]]
+- [[01 - Projects/AI Multi-Agent Workflow/01 - Role Playbook Template]]
+- [[01 - Projects/AI Multi-Agent Workflow/02 - Phase Gate Checklists]]
+- [[01 - Projects/AI Multi-Agent Workflow/03 - Sprint Kit]]
+- [[01 - Projects/AI Multi-Agent Workflow/README]]
+- [[02 - Areas/Team/Playbook - Accounting]]
+- [[02 - Areas/Team/Playbook - Admin]]
+- [[02 - Areas/Team/Playbook - BA]]
+- [[02 - Areas/Team/Playbook - CEO]]
+- [[02 - Areas/Team/Playbook - CTO]]
+- [[02 - Areas/Team/Playbook - Data Engineer]]
+- [[02 - Areas/Team/Playbook - Data Scientist]]
+- [[02 - Areas/Team/Playbook - Marketing]]
+- [[02 - Areas/Team/Playbook - SA]]
+- [[02 - Areas/Team/Playbook - SEO]]
+- [[02 - Areas/Team/Playbook - Senior Backend]]
+- [[02 - Areas/Team/Playbook - Senior Frontend]]
+- [[02 - Areas/Team/Playbook - UX-UI]]
+- [[02 - Areas/Team/README]]
 
 ## #status/seedling (17)
 
@@ -352,6 +408,42 @@ tags:
 - [[MOCs/Auto Tag MOC]]
 - [[MOCs/Obsidian Claude Ecosystem MOC]]
 
+## #area/dev (15)
+
+- [[03 - Resources/Core Plugins/Dataview & Queries]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-19]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[10 - Meta/Claude Context Optimization]]
+- [[10 - Meta/Vault Health/Vault Health Checks]]
+- [[AGENTS]]
+- [[CLAUDE]]
+- [[MOCs/Auto Tag MOC]]
+
+## #"[[MOCs/Automation MOC]]" (15)
+
+- [[01 - Projects/AI Multi-Agent Workflow/00 - Blueprint]]
+- [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
+- [[03 - Resources/Advanced Techniques/Cross-Note Analysis]]
+- [[03 - Resources/Advanced Techniques/Custom AI Agents]]
+- [[03 - Resources/Advanced Techniques/Multi-Step Reasoning]]
+- [[07 - Prompt Library/AITMPL Agents Catalog — davila7]]
+- [[07 - Prompt Library/Claude Skills Catalog]]
+- [[07 - Prompt Library/Community Skills Catalog — alirezarezvani]]
+- [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Automation]]
+- [[08 - Automation/Custom Skills/Custom Claude Skills]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[08 - Automation/Summary Generation/Summary Generation]]
+- [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+
 ## #type/prompt (15)
 
 - [[07 - Prompt Library/Idea Generation/Brainstorm]]
@@ -370,35 +462,95 @@ tags:
 - [[07 - Prompt Library/Thinking Tools/Trace]]
 - [[MOCs/Auto Tag MOC]]
 
-## #area/dev (13)
+## #"[[01 - Projects/AI Multi-Agent Workflow/00 - Blueprint]]" (14)
 
-- [[03 - Resources/Core Plugins/Dataview & Queries]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-18]]
+- [[02 - Areas/Team/Playbook - Accounting]]
+- [[02 - Areas/Team/Playbook - Admin]]
+- [[02 - Areas/Team/Playbook - BA]]
+- [[02 - Areas/Team/Playbook - CEO]]
+- [[02 - Areas/Team/Playbook - CTO]]
+- [[02 - Areas/Team/Playbook - Data Engineer]]
+- [[02 - Areas/Team/Playbook - Data Scientist]]
+- [[02 - Areas/Team/Playbook - Marketing]]
+- [[02 - Areas/Team/Playbook - SA]]
+- [[02 - Areas/Team/Playbook - SEO]]
+- [[02 - Areas/Team/Playbook - Senior Backend]]
+- [[02 - Areas/Team/Playbook - Senior Frontend]]
+- [[02 - Areas/Team/Playbook - UX-UI]]
+- [[02 - Areas/Team/README]]
+
+## #type/playbook (13)
+
+- [[02 - Areas/Team/Playbook - Accounting]]
+- [[02 - Areas/Team/Playbook - Admin]]
+- [[02 - Areas/Team/Playbook - BA]]
+- [[02 - Areas/Team/Playbook - CEO]]
+- [[02 - Areas/Team/Playbook - CTO]]
+- [[02 - Areas/Team/Playbook - Data Engineer]]
+- [[02 - Areas/Team/Playbook - Data Scientist]]
+- [[02 - Areas/Team/Playbook - Marketing]]
+- [[02 - Areas/Team/Playbook - SA]]
+- [[02 - Areas/Team/Playbook - SEO]]
+- [[02 - Areas/Team/Playbook - Senior Backend]]
+- [[02 - Areas/Team/Playbook - Senior Frontend]]
+- [[02 - Areas/Team/Playbook - UX-UI]]
+
+## #"[[MOCs/Prompt Library MOC]]" (12)
+
+- [[07 - Prompt Library/AITMPL Agents Catalog — davila7]]
+- [[07 - Prompt Library/Claude Skills Catalog]]
+- [[07 - Prompt Library/Community Skills Catalog — alirezarezvani]]
+- [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
+- [[07 - Prompt Library/Idea Generation/Explore Concept]]
+- [[07 - Prompt Library/Idea Generation/Idea Generation]]
+- [[07 - Prompt Library/Idea Generation/What If]]
+- [[07 - Prompt Library/Note Processing/Note Processing Prompts]]
+- [[07 - Prompt Library/Reflection/Knowledge Audit]]
+- [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
+- [[07 - Prompt Library/Reflection/Weekly Synthesis]]
+- [[07 - Prompt Library/Thinking Tools/Thinking Tools]]
+
+## #topic/claude (11)
+
+- [[03 - Resources/Community/Popular Claude Skills (2026)]]
+- [[07 - Prompt Library/AITMPL Agents Catalog — davila7]]
+- [[07 - Prompt Library/Claude Skills Catalog]]
+- [[07 - Prompt Library/Community Skills Catalog — alirezarezvani]]
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[08 - Automation/Automation]]
+- [[08 - Automation/Custom Skills/Custom Claude Skills]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[08 - Automation/Summary Generation/Summary Generation]]
 - [[10 - Meta/Claude Context Optimization]]
-- [[10 - Meta/Vault Health/Vault Health Checks]]
-- [[AGENTS]]
-- [[CLAUDE]]
 - [[MOCs/Auto Tag MOC]]
 
-## #"[[MOCs/Automation MOC]]" (11)
+## #area/automation (11)
 
-- [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
-- [[03 - Resources/Advanced Techniques/Cross-Note Analysis]]
-- [[03 - Resources/Advanced Techniques/Custom AI Agents]]
-- [[03 - Resources/Advanced Techniques/Multi-Step Reasoning]]
-- [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
+- [[01 - Projects/AI Multi-Agent Workflow/00 - Blueprint]]
+- [[07 - Prompt Library/AITMPL Agents Catalog — davila7]]
+- [[07 - Prompt Library/Claude Skills Catalog]]
+- [[07 - Prompt Library/Community Skills Catalog — alirezarezvani]]
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
 - [[08 - Automation/Automation]]
 - [[08 - Automation/Custom Skills/Custom Claude Skills]]
 - [[08 - Automation/Daily Review/Daily Review Automation]]
 - [[08 - Automation/Summary Generation/Summary Generation]]
 - [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+- [[MOCs/Auto Tag MOC]]
+
+## #area/vault (11)
+
+- [[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]]
+- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
+- [[03 - Resources/Vault Foundation/Attachment Management]]
+- [[03 - Resources/Vault Foundation/Folder Structure (PARA-Zettelkasten)]]
+- [[03 - Resources/Vault Foundation/MOCs & Hub Notes]]
+- [[03 - Resources/Vault Foundation/Metadata & Dataview Guide]]
+- [[03 - Resources/Vault Foundation/Templates System]]
+- [[03 - Resources/Vault Foundation/Vault Foundation]]
+- [[10 - Meta/Vault Health Report 2026-04-19]]
+- [[MOCs/Auto Tag MOC]]
+- [[MOCs/Obsidian Claude Ecosystem MOC]]
 
 ## #"[[MOCs/Daily Systems MOC]]" (10)
 
@@ -413,23 +565,35 @@ tags:
 - [[07 - Prompt Library/Reflection/Weekly Synthesis]]
 - [[08 - Automation/Daily Review/Daily Review Automation]]
 
-## #area/vault (10)
+## #type/moc (10)
 
-- [[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]]
-- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
-- [[03 - Resources/Vault Foundation/Attachment Management]]
-- [[03 - Resources/Vault Foundation/Folder Structure (PARA-Zettelkasten)]]
-- [[03 - Resources/Vault Foundation/MOCs & Hub Notes]]
-- [[03 - Resources/Vault Foundation/Metadata & Dataview Guide]]
-- [[03 - Resources/Vault Foundation/Templates System]]
-- [[03 - Resources/Vault Foundation/Vault Foundation]]
+- [[07 - Prompt Library/Idea Generation/Idea Generation]]
+- [[07 - Prompt Library/Note Processing/Note Processing Prompts]]
+- [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
+- [[07 - Prompt Library/Thinking Tools/Thinking Tools]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[MOCs/Areas MOC]]
 - [[MOCs/Auto Tag MOC]]
+- [[MOCs/Knowledge MOC]]
 - [[MOCs/Obsidian Claude Ecosystem MOC]]
+- [[MOCs/Projects MOC]]
+
+## #area/meta (9)
+
+- [[10 - Meta/Backup/Backup & Git Sync]]
+- [[10 - Meta/Claude Context Optimization]]
+- [[10 - Meta/Maintenance & Optimization]]
+- [[10 - Meta/Vault Health/Dead Link Cleanup]]
+- [[10 - Meta/Vault Health/Performance Tuning]]
+- [[10 - Meta/Vault Health/Vault Health Checks]]
+- [[10 - Meta/Vault Health Report 2026-04-19]]
+- [[10 - Meta/Vault Memory]]
+- [[MOCs/Auto Tag MOC]]
 
 ## #area/claude (9)
 
 - [[03 - Resources/Advanced Techniques/Vault-as-Context Engineering]]
-- [[03 - Resources/Claude Integration/CLAUDE.md Configuration]]
+- [[03 - Resources/Claude Integration/CLAUDE Configuration]]
 - [[03 - Resources/Claude Integration/Claude Code Desktop Setup]]
 - [[03 - Resources/Claude Integration/Claude Integration]]
 - [[03 - Resources/Claude Integration/Commands Folder]]
@@ -438,27 +602,28 @@ tags:
 - [[03 - Resources/Claude Integration/Session Memory System]]
 - [[MOCs/Auto Tag MOC]]
 
-## #"[[MOCs/Prompt Library MOC]]" (9)
+## #area/ai (9)
 
-- [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
-- [[07 - Prompt Library/Idea Generation/Explore Concept]]
-- [[07 - Prompt Library/Idea Generation/Idea Generation]]
-- [[07 - Prompt Library/Idea Generation/What If]]
-- [[07 - Prompt Library/Note Processing/Note Processing Prompts]]
-- [[07 - Prompt Library/Reflection/Knowledge Audit]]
-- [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
-- [[07 - Prompt Library/Reflection/Weekly Synthesis]]
-- [[07 - Prompt Library/Thinking Tools/Thinking Tools]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-19]]
+- [[MOCs/Auto Tag MOC]]
 
-## #topic/claude (8)
+## #area/cybersecurity (9)
 
-- [[03 - Resources/Community/Popular Claude Skills (2026)]]
-- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
-- [[08 - Automation/Automation]]
-- [[08 - Automation/Custom Skills/Custom Claude Skills]]
-- [[08 - Automation/Daily Review/Daily Review Automation]]
-- [[08 - Automation/Summary Generation/Summary Generation]]
-- [[10 - Meta/Claude Context Optimization]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-19]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #area/knowledge (8)
@@ -470,17 +635,6 @@ tags:
 - [[03 - Resources/Knowledge Workflows/Knowledge Workflows]]
 - [[03 - Resources/Knowledge Workflows/Literature Notes]]
 - [[03 - Resources/Knowledge Workflows/Research & Synthesis]]
-- [[MOCs/Auto Tag MOC]]
-
-## #area/meta (8)
-
-- [[10 - Meta/Backup/Backup & Git Sync]]
-- [[10 - Meta/Claude Context Optimization]]
-- [[10 - Meta/Maintenance & Optimization]]
-- [[10 - Meta/Vault Health/Dead Link Cleanup]]
-- [[10 - Meta/Vault Health/Performance Tuning]]
-- [[10 - Meta/Vault Health/Vault Health Checks]]
-- [[10 - Meta/Vault Memory]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #area/plugins (8)
@@ -503,26 +657,6 @@ tags:
 - [[08 - Automation/Daily Review/Daily Review Automation]]
 - [[08 - Automation/Summary Generation/Summary Generation]]
 - [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
-
-## #area/automation (7)
-
-- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
-- [[08 - Automation/Automation]]
-- [[08 - Automation/Custom Skills/Custom Claude Skills]]
-- [[08 - Automation/Daily Review/Daily Review Automation]]
-- [[08 - Automation/Summary Generation/Summary Generation]]
-- [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
-- [[MOCs/Auto Tag MOC]]
-
-## #type/moc (7)
-
-- [[07 - Prompt Library/Idea Generation/Idea Generation]]
-- [[07 - Prompt Library/Note Processing/Note Processing Prompts]]
-- [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
-- [[07 - Prompt Library/Thinking Tools/Thinking Tools]]
-- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
-- [[MOCs/Auto Tag MOC]]
-- [[MOCs/Obsidian Claude Ecosystem MOC]]
 
 ## #area/visualization (7)
 
@@ -554,6 +688,16 @@ tags:
 - [[03 - Resources/Community/Shared Vault Templates]]
 - [[MOCs/Auto Tag MOC]]
 
+## #area/tech (7)
+
+- [[05 - Daily Systems/Daily Notes/Company News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/Company News 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/Company News 2026-04-19]]
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-19]]
+- [[MOCs/Auto Tag MOC]]
+
 ## #area/daily-systems (7)
 
 - [[05 - Daily Systems/Daily Notes/Daily Notes]]
@@ -573,6 +717,15 @@ tags:
 - [[CLAUDE]]
 - [[MOCs/Auto Tag MOC]]
 
+## #type/project (6)
+
+- [[01 - Projects/AI Multi-Agent Workflow/00 - Blueprint]]
+- [[01 - Projects/AI Multi-Agent Workflow/README]]
+- [[01 - Projects/Obsidian Claude Ecosystem]]
+- [[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]]
+- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+
 ## #prompt/reflection (6)
 
 - [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
@@ -582,24 +735,6 @@ tags:
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
 - [[MOCs/Auto Tag MOC]]
 
-## #area/cybersecurity (6)
-
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-18]]
-
-## #area/ai (6)
-
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-16]]
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-18]]
-
 ## #"[[08 - Automation/Automation]]" (5)
 
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
@@ -607,6 +742,14 @@ tags:
 - [[08 - Automation/Daily Review/Daily Review Automation]]
 - [[08 - Automation/Summary Generation/Summary Generation]]
 - [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
+
+## #topic/skills (5)
+
+- [[03 - Resources/Community/Popular Claude Skills (2026)]]
+- [[03 - Resources/Evolution/New Skill Development]]
+- [[07 - Prompt Library/Claude Skills Catalog]]
+- [[07 - Prompt Library/Community Skills Catalog — alirezarezvani]]
+- [[08 - Automation/Custom Skills/Custom Claude Skills]]
 
 ## #"[[07 - Prompt Library/Note Processing/Note Processing Prompts]]" (5)
 
@@ -640,6 +783,14 @@ tags:
 - [[03 - Resources/Knowledge Workflows/Research & Synthesis Guide]]
 - [[09 - Visualization/Knowledge Maps/Knowledge Maps Guide]]
 
+## #type/reference (5)
+
+- [[01 - Projects/AI Multi-Agent Workflow/02 - Phase Gate Checklists]]
+- [[01 - Projects/AI Multi-Agent Workflow/03 - Sprint Kit]]
+- [[07 - Prompt Library/AITMPL Agents Catalog — davila7]]
+- [[07 - Prompt Library/Claude Skills Catalog]]
+- [[07 - Prompt Library/Community Skills Catalog — alirezarezvani]]
+
 ## #"[[03 - Resources/Claude Integration/Context Loading Strategies]]" (5)
 
 - [[03 - Resources/Advanced Techniques/Agentic Note-Taking]]
@@ -664,14 +815,6 @@ tags:
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
 - [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-18]]
 
-## #area/tech (5)
-
-- [[05 - Daily Systems/Daily Notes/Company News 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/Company News 2026-04-18]]
-- [[05 - Daily Systems/Daily Notes/Company News 2026-04-19]]
-- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-18]]
-
 ## #"[[05 - Daily Systems/Daily Notes/2026-04-17]]" (5)
 
 - [[05 - Daily Systems/Daily Notes/Company News 2026-04-17]]
@@ -679,3 +822,11 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-17]]
+
+## #"[[05 - Daily Systems/Daily Notes/2026-04-19]]" (5)
+
+- [[05 - Daily Systems/Daily Notes/Company News 2026-04-19]]
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-19]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-19]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-19]]
