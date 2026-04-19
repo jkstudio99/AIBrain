@@ -24,7 +24,7 @@ tags:
 - [[03 - Resources/Advanced Techniques/Custom AI Agents]]
 - [[03 - Resources/Advanced Techniques/Multi-Step Reasoning]]
 - [[03 - Resources/Advanced Techniques/Vault-as-Context Engineering]]
-- [[03 - Resources/Claude Integration/CLAUDE Configuration]]
+- [[03 - Resources/Claude Integration/CLAUDE.md Configuration]]
 - [[03 - Resources/Claude Integration/Claude Code Desktop Setup]]
 - [[03 - Resources/Claude Integration/Claude Integration]]
 - [[03 - Resources/Claude Integration/Commands Folder]]
@@ -129,7 +129,7 @@ tags:
 - [[03 - Resources/Advanced Techniques/Custom AI Agents]]
 - [[03 - Resources/Advanced Techniques/Multi-Step Reasoning]]
 - [[03 - Resources/Advanced Techniques/Vault-as-Context Engineering]]
-- [[03 - Resources/Claude Integration/CLAUDE Configuration]]
+- [[03 - Resources/Claude Integration/CLAUDE.md Configuration]]
 - [[03 - Resources/Claude Integration/Claude Code Desktop Setup]]
 - [[03 - Resources/Claude Integration/Claude Integration]]
 - [[03 - Resources/Claude Integration/Commands Folder]]
@@ -429,7 +429,7 @@ tags:
 ## #area/claude (9)
 
 - [[03 - Resources/Advanced Techniques/Vault-as-Context Engineering]]
-- [[03 - Resources/Claude Integration/CLAUDE Configuration]]
+- [[03 - Resources/Claude Integration/CLAUDE.md Configuration]]
 - [[03 - Resources/Claude Integration/Claude Code Desktop Setup]]
 - [[03 - Resources/Claude Integration/Claude Integration]]
 - [[03 - Resources/Claude Integration/Commands Folder]]

@@ -8,6 +8,8 @@ tags:
   - area/vault
   - topic/guide
 related:
+  - "[[01 - Projects/Obsidian Claude Ecosystem]]"
+  - "[[01 - Projects/Obsidian Claude Ecosystem Usage Guide]]"
   - "[[MOCs/Obsidian Claude Ecosystem MOC]]"
   - "[[CLAUDE.md]]"
   - "[[🏠 Home]]"

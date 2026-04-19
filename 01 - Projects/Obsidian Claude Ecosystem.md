@@ -9,6 +9,8 @@ tags:
   - area/knowledge
 related:
   - "[[MOCs/Obsidian Claude Ecosystem MOC]]"
+  - "[[01 - Projects/Obsidian Claude Ecosystem Usage Guide]]"
+  - "[[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]]"
   - "[[🏠 Home]]"
 ---
 

@@ -7,6 +7,7 @@ tags:
   - topic/usage
 related:
   - "[[01 - Projects/Obsidian Claude Ecosystem]]"
+  - "[[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]]"
   - "[[MOCs/Obsidian Claude Ecosystem MOC]]"
 ---
 

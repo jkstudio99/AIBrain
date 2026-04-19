@@ -7,6 +7,8 @@ tags:
   - topic/skills
   - area/automation
 related:
+  - "[[07 - Prompt Library/Community Skills Catalog — alirezarezvani]]"
+  - "[[07 - Prompt Library/AITMPL Agents Catalog — davila7]]"
   - "[[MOCs/Prompt Library MOC]]"
   - "[[MOCs/Automation MOC]]"
 aliases:

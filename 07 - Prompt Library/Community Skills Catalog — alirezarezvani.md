@@ -9,6 +9,7 @@ tags:
   - area/automation
 related:
   - "[[07 - Prompt Library/Claude Skills Catalog]]"
+  - "[[07 - Prompt Library/AITMPL Agents Catalog — davila7]]"
   - "[[MOCs/Prompt Library MOC]]"
   - "[[MOCs/Automation MOC]]"
 source: "https://github.com/alirezarezvani/rock-claude-skills"
