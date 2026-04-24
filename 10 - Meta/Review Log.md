@@ -10,3 +10,6 @@ tags:
 - 2026-04-25 04:37 | 03 - Resources/Knowledge Workflows/Research & Synthesis Guide.md
 - 2026-04-25 04:37 | 03 - Resources/Knowledge Workflows/Capture Process Connect.md
 - 2026-04-25 04:37 | 03 - Resources/Vault Foundation/Vault Foundation.md
+- 2026-04-25 04:37 | 03 - Resources/Evolution/Next-Level AI Integration.md
+- 2026-04-25 04:37 | 02 - Areas/Team/Playbook - Senior Backend.md
+- 2026-04-25 04:37 | 02 - Areas/Team/Playbook - UX-UI.md
