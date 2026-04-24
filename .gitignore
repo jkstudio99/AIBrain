@@ -14,3 +14,13 @@ node_modules/
 # Environment
 .env
 .env.local
+
+# Claude
+.claude/settings.local.json
+.claude/.session/
+.agents/
+.claudian/
+
+# Obsidian dynamic state (auto-updated → causes dirty tree)
+.obsidian/graph.json
+.obsidian/app.json
