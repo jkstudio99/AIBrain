@@ -10,42 +10,37 @@ tags:
 
 ---
 
-## 📥 Backlog
+## 📝 Todo
 
-- [ ] ทดสอบ AI Agents กับ MCP ([[00 - Inbox/Test - AI agents with MCP]])
-- [ ] สร้าง Weekly Reflection bot
-- [ ] เชื่อม command ใหม่เข้า TelegramBot
-- [ ] เขียน evergreen note: "Prompt caching pattern"
-- [ ] สำรวจ plugin Obsidian เพิ่ม: Excalidraw, Bases
-
-
-## 🎯 This Week
-
-- [ ] Phase 3.3 Weekly Reflection bot
-- [ ] Wire /briefing /inbox /repetition commands
-- [ ] End-to-end test ทุก bot
+- [ ] ทดสอบ AI Agents กับ MCP
+- [ ] เขียน evergreen: "Prompt caching pattern"
+- [ ] สำรวจ Obsidian Bases plugin
+- [ ] ตั้ง cron ให้ /briefing รันอัตโนมัติ 07:00
+- [ ] เพิ่ม ANTHROPIC_API_KEY ใน WeeklyReflection/config.py
 
 
-## 🔥 In Progress
+## 🔥 Doing
 
-- [ ] Spaced Repetition Bot (testing)
+- [ ] ใช้ Kanban นี้จริง ๆ (ลากการ์ดข้ามคอลัมน์)
 
 
 ## ✅ Done
 
 **Complete**
-- [x] AI Daily Briefing (Phase 1)
-- [x] Inbox Processor (Phase 3.1)
+- [x] AI Daily Briefing bot (`/briefing`)
+- [x] Inbox Processor bot (`/inbox`)
+- [x] Spaced Repetition bot (`/repetition`)
+- [x] Weekly Reflection bot (`/reflect`)
 - [x] Shared tg_helpers package
-- [x] doctor.sh health check
+- [x] doctor.sh health check (13 projects)
 - [x] .gitignore volatile files
-- [x] Spaced Repetition Bot (Phase 3.2)
+- [x] ติดตั้ง Obsidian Kanban plugin
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false],"show-checkboxes":true,"new-note-folder":"01 - Projects","lane-width":272}
+{"kanban-plugin":"board","list-collapse":[false,false,false],"show-checkboxes":true,"new-note-folder":"01 - Projects","lane-width":272,"move-tags":false,"move-dates":false,"move-task-metadata":true}
 ```
 %%
