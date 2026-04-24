@@ -10,13 +10,13 @@ related:
 
 # 📅 Weekly Digest — 2026-W17
 
-> 18 Apr → 24 Apr 2026 · generated 08:20 น.
+> 18 Apr → 24 Apr 2026 · generated 16:08 น.
 
 ---
 
 ## 📊 Stats
 
-- Daily notes scanned: **19**
+- Daily notes scanned: **23**
 - Period: 2026-04-18 → 2026-04-24
 
 ---
@@ -57,6 +57,21 @@ related:
 - Uber's AI Push Hits a Wall–CTO Says Budget Struggles Despite $3.4B Spend
 - Show HN: Faceoff – A terminal UI for following NHL games
 - The Bromine Chokepoint: How Strife Could Halt Production of World’s Memory Chips
+
+### [[Company News 2026-04-24]] — Fri 24 Apr
+- Figma to Announce First Quarter 2026 Financial Results on May 14, 2026 - Business Wire
+- As Competition Heats Up, Can Figma Recover? - The Motley Fool
+- Figma (NYSE:FIG) Shares Down 8.7% - Here's What Happened - MarketBeat
+
+### [[Extended News 2026-04-24]] — Fri 24 Apr
+- The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable
+- Session Timeouts: The Overlooked Accessibility Barrier In Authentication Design
+- How To Improve UX In Legacy Systems
+
+### [[IT News 2026-04-24]] — Fri 24 Apr
+- Study Reveals 75% of Enterprises Report Double-Digit AI Failure Rates
+- Familiarity is the enemy: On why Enterprise systems have failed for 60 years
+- Ubuntu 26.04
 
 ---
 
