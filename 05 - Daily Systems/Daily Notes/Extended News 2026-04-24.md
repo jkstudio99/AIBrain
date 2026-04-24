@@ -12,7 +12,7 @@ related:
 
 # 📰 Extended News — 2026-04-24
 
-> Design · Dev · Thai | อัปเดต 08:20 น.
+> Design · Dev · Thai | อัปเดต 08:28 น.
 
 ---
 
@@ -107,7 +107,7 @@ related:
    > Article URL:  https://www.bbc.com/news/articles/c9d4zgnqpqeo 
  Comments URL:  https://news.ycombinator.com/item?id=47880189 
  Points: 170 
- # Comments: 133
+ # Comments: 143
 
 6. **[Astronomers find the edge of the Milky Way](https://skyandtelescope.org/astronomy-news/astronomers-find-the-edge-of-the-milky-way/)**  
    _23 Apr 2026_  
@@ -118,14 +118,14 @@ related:
    _23 Apr 2026_  
    > Article URL:  https://openai.com/index/introducing-gpt-5-5/ 
  Comments URL:  https://news.ycombinator.com/item?id=47879092 
- Points: 1055 
- # Comments: 710
+ Points: 1066 
+ # Comments: 720
 
 8. **[An update on recent Claude Code quality reports](https://www.anthropic.com/engineering/april-23-postmortem)**  
    _23 Apr 2026_  
    > Article URL:  https://www.anthropic.com/engineering/april-23-postmortem 
  Comments URL:  https://news.ycombinator.com/item?id=47878905 
- Points: 554 
+ Points: 561 
  # Comment…
 
 ### Dev.to
@@ -145,18 +145,17 @@ related:
 
  It was 3 AM, and I was staring at yet another ChatGPT conversation, manually copying files from my project one by one. "Here…
 
-4. **[Java Serialization: Gizli Təhlükə və Müasir Alternativlər](https://dev.to/hilalhilalli/java-serialization-gizli-thluk-v-muasir-alternativlr-3h6c)**  
-   _24 Apr 2026_  
-   > Müqəddimə
- 
-
- Əsas mövzuya keçməzdən əvvəl  serialization  və  deserialization  anlayışlarını həm nəzəri, həm də praktiki nümunələrlə qısa şəkildə nəzərdən keçi…
-
-5. **[The Bitwarden CLI Just Got Backdoored. Here's What the Supply Chain Attack Actually Did.](https://dev.to/om_shree_0709/the-bitwarden-cli-just-got-backdoored-heres-what-the-supply-chain-attack-actually-did-4aoi)**  
+4. **[The Bitwarden CLI Just Got Backdoored. Here's What the Supply Chain Attack Actually Did.](https://dev.to/om_shree_0709/the-bitwarden-cli-just-got-backdoored-heres-what-the-supply-chain-attack-actually-did-4aoi)**  
    _24 Apr 2026_  
    > Bitwarden serves over 10 million users and 50,000 businesses. On April 22, 2026, for exactly 93 minutes, its CLI was shipping malware. 
 
  This was not a phishin…
+
+5. **[OpenCode Hit 140K Stars. Why Terminal Agents Won 2026.](https://dev.to/ji_ai/opencode-hit-140k-stars-why-terminal-agents-won-2026-aci)**  
+   _24 Apr 2026_  
+   > 140,000 stars. 850 contributors. 11,000 commits. 6.5 million developers using it every month. Zero IDE integration. 
+
+ OpenCode  is a terminal coding agent. It…
 
 ---
 
