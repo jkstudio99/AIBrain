@@ -1,0 +1,20 @@
+---
+type: meta
+created: "2026-04-24"
+tags:
+  - type/meta
+  - topic/maintenance
+---
+
+# 🏝️ Orphan Notes — 2026-04-24
+
+> โน้ตที่ไม่มีโน้ตอื่นลิงก์ถึง · 6 ไฟล์
+
+---
+
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-24]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-24]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-24]]
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W17]]
+- [[10 - Meta/Orphan Notes 2026-04-17]]
+- [[Excalidraw/Drawing 2026-04-16 04.48.31.excalidraw]]
