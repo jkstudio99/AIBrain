@@ -101,23 +101,23 @@ Use these in Claude Code with `/`:
 > 🕒 Auto-updated 2026-04-25
 
 ### 📊 Vault Stats
-- Total notes: **178**
-- Daily: 41 · Weekly: 2 · Literature: 5 · Evergreen: 2 · Project: 6 · MOC: 12
+- Total notes: **183**
+- Daily: 46 · Weekly: 2 · Literature: 5 · Evergreen: 2 · Project: 6 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
+- [[MOCs/Auto Tag MOC]] — _25 Apr 10:17_
+- [[10 - Meta/Orphan Notes 2026-04-25]] — _25 Apr 10:17_
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-25]] — _25 Apr 10:17_
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-25]] — _25 Apr 10:17_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-25]] — _25 Apr 10:17_
+- [[05 - Daily Systems/Daily Notes/Company News 2026-04-25]] — _25 Apr 10:17_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-25]] — _25 Apr 10:16_
+- [[01 - Projects/Projects Kanban]] — _25 Apr 04:49_
+- [[🏠 Home]] — _25 Apr 04:43_
 - [[05 - Daily Systems/Weekly Reviews/Reflection 2026-W17]] — _25 Apr 04:41_
-- [[01 - Projects/Projects Kanban]] — _25 Apr 04:38_
 - [[10 - Meta/Review Log]] — _25 Apr 04:37_
 - [[10 - Meta/Inbox Report 2026-04-25]] — _25 Apr 04:34_
-- [[00 - Inbox/Test - AI agents with MCP]] — _25 Apr 04:32_
 - [[05 - Daily Systems/Briefings/Briefing 2026-04-24]] — _25 Apr 04:28_
-- [[🏠 Home]] — _24 Apr 23:47_
-- [[MOCs/Auto Tag MOC]] — _24 Apr 23:47_
 - [[10 - Meta/Orphan Notes 2026-04-24]] — _24 Apr 23:47_
 - [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W17]] — _24 Apr 16:08_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-24]] — _24 Apr 16:07_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-24]] — _24 Apr 15:23_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-24]] — _24 Apr 15:22_
-- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-24]] — _24 Apr 14:41_
-- [[05 - Daily Systems/Daily Notes/Company News 2026-04-24]] — _24 Apr 14:41_
 <!-- AUTO-DASHBOARD:END -->
