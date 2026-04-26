@@ -1,6 +1,6 @@
 ---
 type: weekly
-created: "2026-04-25"
+created: "2026-04-26"
 tags:
   - type/weekly
   - topic/review
@@ -10,28 +10,18 @@ related:
 
 # 📅 Weekly Digest — 2026-W17
 
-> 19 Apr → 25 Apr 2026 · generated 10:17 น.
+> 20 Apr → 26 Apr 2026 · generated 11:09 น.
 
 ---
 
 ## 📊 Stats
 
-- Daily notes scanned: **23**
-- Period: 2026-04-19 → 2026-04-25
+- Daily notes scanned: **24**
+- Period: 2026-04-20 → 2026-04-26
 
 ---
 
 ## 📰 Top Headlines ของสัปดาห์
-
-### [[Company News 2026-04-19]] — Sun 19 Apr
-- Anthropic launches Claude Design, a Figma and Canva rival built on Claude - The New Stack
-- Anthropic just launched Claude Design, an AI tool that turns prompts into prototypes and challenges Figma - VentureBeat
-- Anthropic Launches Claude Design, Figma Stock Immediately Nosedives - Gizmodo
-
-### [[Extended News 2026-04-19]] — Sun 19 Apr
-- How To Improve UX In Legacy Systems
-- Identifying Necessary Transparency Moments In Agentic AI (Part 1)
-- A Practical Guide To Design Principles
 
 ### [[Company News 2026-04-20]] — Mon 20 Apr
 - Anthropic just launched Claude Design, an AI tool that turns prompts into prototypes and challenges Figma - VentureBeat
@@ -69,6 +59,16 @@ related:
 - Figma (NYSE:FIG) Shares Down 8.7% - Here's What Happened - MarketBeat
 
 ### [[Extended News 2026-04-25]] — Sat 25 Apr
+- The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable
+- Session Timeouts: The Overlooked Accessibility Barrier In Authentication Design
+- How To Improve UX In Legacy Systems
+
+### [[Company News 2026-04-26]] — Sun 26 Apr
+- As Competition Heats Up, Can Figma Recover? - Yahoo Finance
+- Figma: Seat Churn Likely, Take Caution Ahead Of Earnings (Rating Downgrade) - Seeking Alpha
+- Figma (NYSE:FIG) Shares Down 8.7% - Here's What Happened - MarketBeat
+
+### [[Extended News 2026-04-26]] — Sun 26 Apr
 - The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable
 - Session Timeouts: The Overlooked Accessibility Barrier In Authentication Design
 - How To Improve UX In Legacy Systems
