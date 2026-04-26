@@ -13,3 +13,6 @@ tags:
 - 2026-04-25 04:37 | 03 - Resources/Evolution/Next-Level AI Integration.md
 - 2026-04-25 04:37 | 02 - Areas/Team/Playbook - Senior Backend.md
 - 2026-04-25 04:37 | 02 - Areas/Team/Playbook - UX-UI.md
+- 2026-04-27 06:38 | 03 - Resources/Claude Integration/Claude Code Desktop Setup.md
+- 2026-04-27 06:38 | 02 - Areas/Team/Playbook - SA.md
+- 2026-04-27 06:38 | 08 - Automation/Auto-Tagging/Auto-Tagging & Linking.md
