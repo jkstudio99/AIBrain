@@ -98,26 +98,26 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-04-27
+> 🕒 Auto-updated 2026-04-28
 
 ### 📊 Vault Stats
-- Total notes: **192**
-- Daily: 54 · Weekly: 2 · Literature: 5 · Evergreen: 2 · Project: 6 · MOC: 12
+- Total notes: **209**
+- Daily: 63 · Weekly: 3 · Literature: 5 · Evergreen: 2 · Project: 6 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-26]] — _26 Apr 11:12_
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-26]] — _26 Apr 11:11_
-- [[🏠 Home]] — _26 Apr 11:10_
-- [[MOCs/Auto Tag MOC]] — _26 Apr 11:10_
-- [[10 - Meta/Orphan Notes 2026-04-26]] — _26 Apr 11:10_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W17]] — _26 Apr 11:09_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-26]] — _26 Apr 11:09_
-- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-26]] — _26 Apr 11:09_
-- [[05 - Daily Systems/Daily Notes/Company News 2026-04-26]] — _26 Apr 11:09_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-26]] — _26 Apr 11:09_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-25]] — _25 Apr 10:18_
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-25]] — _25 Apr 10:18_
-- [[10 - Meta/Orphan Notes 2026-04-25]] — _25 Apr 10:17_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-25]] — _25 Apr 10:17_
-- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-25]] — _25 Apr 10:17_
+- [[MOCs/Auto Tag MOC]] — _28 Apr 00:20_
+- [[10 - Meta/Orphan Notes 2026-04-28]] — _28 Apr 00:20_
+- [[00 - Inbox/2026-04-28 0020 ทำอะไรดีวันนี้]] — _28 Apr 00:20_
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-28]] — _28 Apr 00:20_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-28]] — _28 Apr 00:20_
+- [[05 - Daily Systems/Daily Notes/Company News 2026-04-28]] — _28 Apr 00:20_
+- [[00 - Inbox/2026-04-27 1253 ทดสอบส่ง]] — _27 Apr 12:53_
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-27]] — _27 Apr 12:52_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-27]] — _27 Apr 11:31_
+- [[02 - Areas/Finance/Monthly/Finance 2026-04]] — _27 Apr 07:50_
+- [[05 - Daily Systems/Weekly Reviews/Reflection 2026-W18]] — _27 Apr 07:33_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-27]] — _27 Apr 06:38_
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-27]] — _27 Apr 06:38_
+- [[05 - Daily Systems/Daily Notes/Company News 2026-04-27]] — _27 Apr 06:38_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-27]] — _27 Apr 06:38_
 <!-- AUTO-DASHBOARD:END -->
