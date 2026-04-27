@@ -9,7 +9,7 @@ tags:
 
 # 📅 Economic Calendar — Week of 2026-04-27
 
-> High-impact events · 17 รายการ · 06:38 น.
+> High-impact events · 17 รายการ · 12:52 น.
 
 ---
 
