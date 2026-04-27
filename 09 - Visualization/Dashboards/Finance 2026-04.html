@@ -1,484 +1,846 @@
 <!doctype html>
-<html lang="th">
+<html lang="th" data-theme="system" data-locale="th">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Finance · 2026-04 (01/04 — 27/04)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<title>Finance Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <style>
+  /* ===== Design tokens ===== */
   :root {
-    --bg:#0b1020; --bg2:#0f172a; --card:#111a32; --line:#1e293b;
-    --text:#e2e8f0; --muted:#94a3b8; --dim:#64748b;
-    --accent:#6366f1; --good:#10b981; --bad:#ef4444;
-    --radius:14px; --shadow:0 6px 28px rgba(0,0,0,.35);
+    --font-en: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-th: 'Noto Sans Thai', 'Sukhumvit Set', var(--font-en);
+    --font: var(--font-th), var(--font-en);
+
+    --radius-sm: 8px;
+    --radius:    14px;
+    --radius-lg: 20px;
+    --radius-xl: 28px;
+
+    --ease: cubic-bezier(.22,.61,.36,1);
+    --dur:  220ms;
+
+    /* Light palette */
+    --l-bg:        #fafafa;
+    --l-bg-grad:   radial-gradient(1200px 600px at 80% -10%, #eef2ff 0%, transparent 60%),
+                   radial-gradient(900px 500px at -10% 110%, #fef3f2 0%, transparent 55%),
+                   #fafafa;
+    --l-card:      rgba(255,255,255,.85);
+    --l-card-hi:   rgba(255,255,255,.96);
+    --l-line:      rgba(15,23,42,.08);
+    --l-line-2:    rgba(15,23,42,.14);
+    --l-text:      #0f172a;
+    --l-muted:     #475569;
+    --l-dim:       #94a3b8;
+    --l-glass-bg:  rgba(255,255,255,.6);
+
+    /* Dark palette */
+    --d-bg:        #06080f;
+    --d-bg-grad:   radial-gradient(1200px 600px at 80% -10%, rgba(99,102,241,.10) 0%, transparent 60%),
+                   radial-gradient(900px 500px at -10% 110%, rgba(239,68,68,.10) 0%, transparent 55%),
+                   #06080f;
+    --d-card:      rgba(20,24,40,.65);
+    --d-card-hi:   rgba(28,33,54,.85);
+    --d-line:      rgba(255,255,255,.06);
+    --d-line-2:    rgba(255,255,255,.12);
+    --d-text:      #f1f5f9;
+    --d-muted:     #94a3b8;
+    --d-dim:       #64748b;
+    --d-glass-bg:  rgba(8,10,18,.55);
+
+    --good: #10b981;
+    --bad:  #ef4444;
+    --acc:  #6366f1;
+    --acc-2:#8b5cf6;
   }
-  @media (prefers-color-scheme: light) {
-    :root { --bg:#f8fafc; --bg2:#eef2ff; --card:#ffffff; --line:#e2e8f0;
-             --text:#0f172a; --muted:#475569; --dim:#94a3b8;
-             --shadow:0 4px 18px rgba(15,23,42,.08); }
+
+  /* Theme: explicit light */
+  html[data-theme="light"] {
+    --bg: var(--l-bg); --bg-grad: var(--l-bg-grad);
+    --card: var(--l-card); --card-hi: var(--l-card-hi);
+    --line: var(--l-line); --line-2: var(--l-line-2);
+    --text: var(--l-text); --muted: var(--l-muted); --dim: var(--l-dim);
+    --glass-bg: var(--l-glass-bg);
+    color-scheme: light;
   }
-  * { box-sizing:border-box; }
-  html,body { margin:0; padding:0; background:linear-gradient(180deg,var(--bg) 0%, var(--bg2) 100%); color:var(--text);
-              font-family: 'Inter','Sukhumvit Set','Noto Sans Thai',-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
-              -webkit-font-smoothing:antialiased; min-height:100vh; }
-  .wrap { max-width:1200px; margin:0 auto; padding:32px 24px 80px; }
-  .head { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:24px; flex-wrap:wrap; }
-  .head h1 { margin:0; font-size:24px; letter-spacing:-.02em; }
-  .head .sub { color:var(--muted); font-size:14px; }
-  .badge { background:var(--card); padding:6px 12px; border-radius:999px; border:1px solid var(--line);
-            font-size:12px; color:var(--muted); }
-  .grid { display:grid; gap:16px; }
+  /* Theme: explicit dark */
+  html[data-theme="dark"] {
+    --bg: var(--d-bg); --bg-grad: var(--d-bg-grad);
+    --card: var(--d-card); --card-hi: var(--d-card-hi);
+    --line: var(--d-line); --line-2: var(--d-line-2);
+    --text: var(--d-text); --muted: var(--d-muted); --dim: var(--d-dim);
+    --glass-bg: var(--d-glass-bg);
+    color-scheme: dark;
+  }
+  /* Theme: system (default) */
+  html[data-theme="system"] {
+    --bg: var(--l-bg); --bg-grad: var(--l-bg-grad);
+    --card: var(--l-card); --card-hi: var(--l-card-hi);
+    --line: var(--l-line); --line-2: var(--l-line-2);
+    --text: var(--l-text); --muted: var(--l-muted); --dim: var(--l-dim);
+    --glass-bg: var(--l-glass-bg);
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    html[data-theme="system"] {
+      --bg: var(--d-bg); --bg-grad: var(--d-bg-grad);
+      --card: var(--d-card); --card-hi: var(--d-card-hi);
+      --line: var(--d-line); --line-2: var(--d-line-2);
+      --text: var(--d-text); --muted: var(--d-muted); --dim: var(--d-dim);
+      --glass-bg: var(--d-glass-bg);
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg-grad);
+    color: var(--text);
+    font-family: var(--font);
+    font-feature-settings: 'cv11','ss01';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease);
+  }
+
+  /* Selection */
+  ::selection { background: rgba(99,102,241,.25); }
+
+  /* ===== Top bar (sticky glass) ===== */
+  .topbar {
+    position: sticky; top: 0; z-index: 30;
+    backdrop-filter: blur(18px) saturate(180%);
+    -webkit-backdrop-filter: blur(18px) saturate(180%);
+    background: var(--glass-bg);
+    border-bottom: 1px solid var(--line);
+  }
+  .topbar-inner {
+    max-width: 1240px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    padding: 14px 24px;
+  }
+  .brand {
+    display: flex; align-items: center; gap: 12px;
+    font-weight: 700; letter-spacing: -.01em;
+  }
+  .brand-logo {
+    width: 36px; height: 36px; border-radius: 10px;
+    background: linear-gradient(135deg, var(--acc) 0%, var(--acc-2) 100%);
+    display: grid; place-items: center; color: white;
+    box-shadow: 0 6px 20px -8px var(--acc);
+  }
+  .brand-text .t1 { font-size: 14px; font-weight: 700; }
+  .brand-text .t2 { font-size: 11px; color: var(--muted); margin-top: 1px; }
+
+  .controls { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+
+  /* Segmented control */
+  .seg {
+    display: inline-flex; align-items: center;
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 999px; padding: 3px;
+    box-shadow: 0 1px 0 var(--line) inset;
+  }
+  .seg-btn {
+    appearance: none; border: 0; background: transparent;
+    color: var(--muted); font-family: inherit;
+    padding: 7px 12px; border-radius: 999px; cursor: pointer;
+    font-size: 12px; font-weight: 600; letter-spacing: .02em;
+    display: inline-flex; align-items: center; gap: 6px;
+    transition: color var(--dur) var(--ease), background var(--dur) var(--ease), transform var(--dur) var(--ease);
+  }
+  .seg-btn:hover { color: var(--text); }
+  .seg-btn[aria-pressed="true"] {
+    background: var(--card-hi); color: var(--text);
+    box-shadow: 0 1px 2px rgba(0,0,0,.06), 0 4px 12px rgba(0,0,0,.04);
+  }
+  .seg-btn svg { width: 14px; height: 14px; }
+
+  /* ===== Layout ===== */
+  .wrap {
+    max-width: 1240px; margin: 0 auto;
+    padding: 32px 24px 80px;
+  }
+  .head {
+    display: flex; align-items: flex-end; justify-content: space-between; gap: 16px;
+    margin-bottom: 28px; flex-wrap: wrap;
+  }
+  .head h1 {
+    margin: 0; font-size: 32px; letter-spacing: -.025em; font-weight: 800;
+    background: linear-gradient(180deg, var(--text) 0%, var(--muted) 200%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .head .sub { color: var(--muted); font-size: 14px; margin-top: 4px; }
+  .meta-pill {
+    background: var(--card); border: 1px solid var(--line);
+    padding: 8px 14px; border-radius: 999px;
+    font-size: 12px; color: var(--muted);
+    display: inline-flex; align-items: center; gap: 8px;
+  }
+  .meta-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--good); box-shadow: 0 0 0 4px rgba(16,185,129,.15); }
+
+  .grid { display: grid; gap: 16px; }
   .kpis { grid-template-columns: repeat(4, 1fr); }
-  @media (max-width:780px) { .kpis { grid-template-columns: repeat(2,1fr); } }
-  .card { background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
-           padding:18px; box-shadow:var(--shadow); }
-  .kpi .lbl { color:var(--muted); font-size:12px; letter-spacing:.04em; text-transform:uppercase; }
-  .kpi .val { font-size:26px; font-weight:700; margin-top:6px; letter-spacing:-.02em; }
-  .kpi .meta { color:var(--dim); font-size:12px; margin-top:6px; }
-  .kpi.income .val { color:var(--good); }
-  .kpi.expense .val { color:var(--bad); }
-  .kpi.net.positive .val { color:var(--good); }
-  .kpi.net.negative .val { color:var(--bad); }
-  .row2 { grid-template-columns: 1.2fr .8fr; }
-  @media (max-width:900px) { .row2 { grid-template-columns: 1fr; } }
-  .section-title { font-size:13px; color:var(--muted); text-transform:uppercase; letter-spacing:.08em; margin:0 0 12px; }
-  .legend { display:flex; flex-direction:column; gap:8px; max-height:340px; overflow:auto; padding-right:6px; }
-  .legend-row { display:grid; grid-template-columns: 16px 1fr auto auto; gap:10px; align-items:center;
-                font-size:13px; padding:8px 6px; border-radius:8px; }
-  .legend-row:hover { background:rgba(99,102,241,.08); }
-  .dot { width:12px; height:12px; border-radius:50%; }
-  .legend-amt { font-weight:700; }
-  .legend-meta { color:var(--dim); font-size:11px; }
-  table { width:100%; border-collapse:separate; border-spacing:0; font-size:13px; }
-  th, td { padding:10px 8px; border-bottom:1px solid var(--line); text-align:left; }
-  th { font-weight:600; font-size:11px; text-transform:uppercase; color:var(--muted); letter-spacing:.06em; }
-  td.num { text-align:right; color:var(--dim); }
-  td.name { font-weight:500; }
-  td.memo { color:var(--muted); }
-  td.amt { text-align:right; font-variant-numeric:tabular-nums; font-weight:700; }
-  td.amt.expense { color:var(--bad); }
-  td.amt.income  { color:var(--good); }
-  td.cat { font-size:11px; }
-  td.cat::before { content:""; display:inline-block; width:8px; height:8px; border-radius:50%;
-                    background:var(--c,var(--dim)); margin-right:6px; vertical-align:middle; }
-  td.empty { text-align:center; color:var(--dim); padding:24px; }
+  @media (max-width: 880px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
+
+  /* ===== Card ===== */
+  .card {
+    position: relative;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    padding: 22px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: transform var(--dur) var(--ease), border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+  }
+  .card:hover { border-color: var(--line-2); transform: translateY(-1px); box-shadow: 0 12px 40px -16px rgba(0,0,0,.12); }
+  .card-title {
+    font-size: 11px; color: var(--muted); text-transform: uppercase;
+    letter-spacing: .12em; margin: 0 0 14px; font-weight: 600;
+  }
+
+  /* KPI card */
+  .kpi .lbl {
+    color: var(--muted); font-size: 11px; letter-spacing: .12em;
+    text-transform: uppercase; font-weight: 600;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .kpi .val {
+    font-size: 28px; font-weight: 800; margin-top: 8px; letter-spacing: -.025em;
+    font-variant-numeric: tabular-nums;
+    display: flex; align-items: baseline; gap: 6px;
+  }
+  .kpi .val .cur { font-size: 14px; color: var(--dim); font-weight: 600; }
+  .kpi .meta { color: var(--dim); font-size: 12px; margin-top: 8px; }
+  .kpi.income .val { color: var(--good); }
+  .kpi.expense .val { color: var(--bad); }
+  .kpi.net.positive .val { color: var(--good); }
+  .kpi.net.negative .val { color: var(--bad); }
+  .kpi-icon {
+    position: absolute; top: 18px; right: 18px;
+    width: 32px; height: 32px; border-radius: 10px;
+    display: grid; place-items: center;
+    background: var(--card-hi); border: 1px solid var(--line);
+    color: var(--muted);
+  }
+  .kpi.income .kpi-icon { color: var(--good); background: color-mix(in oklab, var(--good) 12%, var(--card-hi)); }
+  .kpi.expense .kpi-icon { color: var(--bad);  background: color-mix(in oklab, var(--bad)  12%, var(--card-hi)); }
+  .kpi.net .kpi-icon     { color: var(--acc);  background: color-mix(in oklab, var(--acc)  12%, var(--card-hi)); }
+
+  /* Two-column row */
+  .row2 { grid-template-columns: 1.15fr .85fr; }
+  @media (max-width: 980px) { .row2 { grid-template-columns: 1fr; } }
+
+  /* Donut chart container */
+  .donut-wrap { position: relative; height: 320px; display: grid; place-items: center; }
+  .donut-wrap canvas { max-height: 100%; }
+  .donut-center {
+    position: absolute; inset: 0; display: grid; place-items: center; pointer-events: none; text-align: center;
+  }
+  .donut-center .l1 { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .14em; }
+  .donut-center .l2 { font-size: 22px; font-weight: 800; letter-spacing: -.02em; margin-top: 4px; font-variant-numeric: tabular-nums; }
+
+  /* Legend */
+  .legend { display: flex; flex-direction: column; gap: 4px; max-height: 320px; overflow: auto; padding-right: 4px; }
+  .legend::-webkit-scrollbar { width: 6px; }
+  .legend::-webkit-scrollbar-thumb { background: var(--line-2); border-radius: 3px; }
+  .legend-row {
+    display: grid; grid-template-columns: 14px 1fr auto auto; gap: 10px; align-items: center;
+    font-size: 13px; padding: 9px 10px; border-radius: 10px;
+    transition: background var(--dur) var(--ease);
+  }
+  .legend-row:hover { background: var(--card-hi); }
+  .dot { width: 10px; height: 10px; border-radius: 50%; }
+  .legend-name { font-weight: 500; }
+  .legend-amt { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .legend-meta { color: var(--dim); font-size: 11px; }
+
+  /* Tables */
+  table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 13px; }
+  th, td { padding: 12px 10px; border-bottom: 1px solid var(--line); text-align: left; }
+  thead th { font-weight: 600; font-size: 10px; text-transform: uppercase; color: var(--muted); letter-spacing: .12em; }
+  tbody tr { transition: background var(--dur) var(--ease); }
+  tbody tr:hover { background: var(--card-hi); }
+  tbody tr:last-child td { border-bottom: 0; }
+  td.num { text-align: right; color: var(--dim); font-variant-numeric: tabular-nums; }
+  td.name { font-weight: 500; max-width: 280px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  td.memo { color: var(--muted); max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  td.amt { text-align: right; font-variant-numeric: tabular-nums; font-weight: 700; }
+  td.amt.expense { color: var(--bad); }
+  td.amt.income { color: var(--good); }
+  td.cat-pill { font-size: 11px; }
+  td.cat-pill span {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 3px 10px; border-radius: 999px;
+    background: var(--card-hi); border: 1px solid var(--line);
+    color: var(--muted);
+  }
+  td.cat-pill span::before {
+    content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--c, var(--dim));
+  }
+  td.empty { text-align: center; color: var(--dim); padding: 24px; }
+
+  /* Insight cards */
   .insight-grid { grid-template-columns: repeat(3, 1fr); }
-  @media (max-width:780px) { .insight-grid { grid-template-columns: 1fr 1fr; } }
-  .insight { background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:16px; }
-  .insight-label { color:var(--muted); font-size:12px; }
-  .insight-amt   { font-size:20px; font-weight:700; margin-top:4px; color:var(--bad); }
-  .insight-meta  { color:var(--dim); font-size:11px; margin-top:4px; }
-  .footer { margin-top:32px; color:var(--dim); font-size:12px; text-align:center; }
-  /* Passcode gate */
-  .gate { position:fixed; inset:0; background:rgba(11,16,32,.95); z-index:99;
-           display:flex; align-items:center; justify-content:center; }
-  .gate.hide { display:none; }
-  .gate-box { background:var(--card); padding:28px 32px; border-radius:14px; border:1px solid var(--line);
-               box-shadow:var(--shadow); text-align:center; min-width:280px; }
-  .gate-box h2 { margin:0 0 4px; font-size:18px; }
-  .gate-box p  { color:var(--muted); margin:0 0 16px; font-size:13px; }
-  .gate-box input { width:100%; padding:12px 14px; border-radius:8px; border:1px solid var(--line);
-                     background:var(--bg); color:var(--text); font-size:16px; text-align:center;
-                     letter-spacing:.4em; font-variant-numeric:tabular-nums; }
-  .gate-box input:focus { outline:2px solid var(--accent); }
-  .gate-err { color:var(--bad); font-size:12px; margin-top:8px; height:14px; }
+  @media (max-width: 880px) { .insight-grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 540px) { .insight-grid { grid-template-columns: 1fr; } }
+  .insight {
+    background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-lg);
+    padding: 18px; transition: all var(--dur) var(--ease); position: relative; overflow: hidden;
+  }
+  .insight::after {
+    content: ""; position: absolute; right: -20px; bottom: -20px;
+    width: 80px; height: 80px; border-radius: 50%;
+    background: radial-gradient(circle, color-mix(in oklab, var(--bad) 15%, transparent) 0%, transparent 70%);
+  }
+  .insight:hover { transform: translateY(-2px); border-color: var(--line-2); }
+  .insight-label { color: var(--muted); font-size: 12px; font-weight: 600; }
+  .insight-amt { font-size: 22px; font-weight: 800; margin-top: 6px; color: var(--bad); letter-spacing: -.025em; font-variant-numeric: tabular-nums; }
+  .insight-meta { color: var(--dim); font-size: 11px; margin-top: 4px; }
+
+  /* Section header */
+  .sect-h {
+    display: flex; align-items: center; gap: 10px; margin: 28px 0 12px;
+  }
+  .sect-h h2 {
+    margin: 0; font-size: 13px; color: var(--muted); text-transform: uppercase;
+    letter-spacing: .14em; font-weight: 700;
+  }
+  .sect-h .line { flex: 1; height: 1px; background: var(--line); }
+
+  /* Footer */
+  .footer { margin-top: 40px; color: var(--dim); font-size: 12px; text-align: center; }
+  .footer a { color: var(--muted); text-decoration: none; }
+
+  /* ===== Passcode gate ===== */
+  .gate {
+    position: fixed; inset: 0; z-index: 100;
+    background: var(--bg-grad);
+    display: grid; place-items: center;
+    animation: fade var(--dur) var(--ease);
+  }
+  @keyframes fade { from {opacity:0} to {opacity:1} }
+  .gate.hide { display: none; }
+  .gate-box {
+    background: var(--card); border: 1px solid var(--line);
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    padding: 36px 36px 28px; border-radius: var(--radius-xl);
+    box-shadow: 0 30px 80px -30px rgba(0,0,0,.3), 0 1px 0 var(--line) inset;
+    text-align: center; min-width: 340px; max-width: calc(100vw - 40px);
+  }
+  .gate-icon {
+    width: 56px; height: 56px; border-radius: 16px; margin: 0 auto 16px;
+    background: linear-gradient(135deg, var(--acc) 0%, var(--acc-2) 100%);
+    display: grid; place-items: center; color: white;
+    box-shadow: 0 12px 32px -10px var(--acc);
+  }
+  .gate-box h2 { margin: 0 0 4px; font-size: 20px; letter-spacing: -.02em; }
+  .gate-box p { color: var(--muted); margin: 0 0 20px; font-size: 13px; }
+  .gate-box input {
+    width: 100%; padding: 14px 16px; border-radius: 12px;
+    border: 1px solid var(--line-2); background: var(--card-hi); color: var(--text);
+    font-size: 18px; text-align: center; letter-spacing: .5em;
+    font-family: var(--font); font-variant-numeric: tabular-nums; font-weight: 600;
+    transition: all var(--dur) var(--ease);
+  }
+  .gate-box input:focus { outline: 0; border-color: var(--acc); box-shadow: 0 0 0 4px color-mix(in oklab, var(--acc) 20%, transparent); }
+  .gate-err { color: var(--bad); font-size: 12px; margin-top: 10px; height: 14px; font-weight: 500; }
+  .gate-shake { animation: shake 380ms var(--ease); }
+  @keyframes shake { 10%,90%{transform:translateX(-2px)} 20%,80%{transform:translateX(3px)} 30%,50%,70%{transform:translateX(-5px)} 40%,60%{transform:translateX(5px)} }
+
+  /* Reveal on load */
+  .reveal { opacity: 0; transform: translateY(8px); transition: opacity 500ms var(--ease), transform 500ms var(--ease); }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+
+  /* Lang-specific font hint */
+  html[data-locale="en"] body { font-family: var(--font-en), var(--font-th); }
 </style>
 </head>
 <body>
 
-<div class="gate" id="gate">
-  <div class="gate-box">
-    <h2>🔒 Locked</h2>
-    <p>กรอกรหัสเพื่อเปิด dashboard</p>
-    <input id="pin" type="password" inputmode="numeric" maxlength="8" autofocus />
+<!-- Passcode gate -->
+<div class="gate" id="gate" role="dialog" aria-modal="true">
+  <div class="gate-box" id="gateBox">
+    <div class="gate-icon" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+    </div>
+    <h2 data-i18n="gate_title">ล็อกอยู่</h2>
+    <p data-i18n="gate_sub">กรอกรหัสเพื่อเปิด dashboard</p>
+    <input id="pin" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="8" autofocus aria-label="passcode" />
     <div class="gate-err" id="err">&nbsp;</div>
   </div>
 </div>
 
-<div class="wrap" id="content" style="display:none">
-  <div class="head">
-    <div>
-      <h1>💰 Monthly Finance</h1>
-      <div class="sub">2026-04 (01/04 — 27/04)</div>
+<!-- Topbar -->
+<div class="topbar" id="topbar" style="display:none">
+  <div class="topbar-inner">
+    <div class="brand">
+      <div class="brand-logo" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      </div>
+      <div class="brand-text">
+        <div class="t1" data-i18n="title">Monthly Finance</div>
+        <div class="t2" id="cycleLabel"></div>
+      </div>
     </div>
-    <div class="badge">generated 27/04/2026 07:31</div>
+
+    <div class="controls">
+      <!-- Theme switcher -->
+      <div class="seg" role="group" aria-label="theme">
+        <button class="seg-btn" data-theme="light" aria-pressed="false" title="Light">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <span>Light</span>
+        </button>
+        <button class="seg-btn" data-theme="dark" aria-pressed="false" title="Dark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <span>Dark</span>
+        </button>
+        <button class="seg-btn" data-theme="system" aria-pressed="true" title="System">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+          <span>System</span>
+        </button>
+      </div>
+
+      <!-- Lang switcher -->
+      <div class="seg" role="group" aria-label="language">
+        <button class="seg-btn" data-lang="th" aria-pressed="true">TH</button>
+        <button class="seg-btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Main content -->
+<div class="wrap" id="content" style="display:none">
+
+  <div class="head reveal">
+    <div>
+      <h1 data-i18n="title">Monthly Finance</h1>
+      <div class="sub" id="subLabel"></div>
+    </div>
+    <div class="meta-pill"><span class="dot"></span><span data-i18n="generated">generated</span> <span id="genTime"></span></div>
   </div>
 
   <!-- KPIs -->
-  <div class="grid kpis" style="margin-bottom:16px">
+  <div class="grid kpis reveal" style="margin-bottom: 16px">
     <div class="card kpi income">
-      <div class="lbl">รายรับ</div>
-      <div class="val">฿ 51,428.00</div>
-      <div class="meta">6 รายการ</div>
+      <div class="kpi-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l10-10M17 17V7H7"/></svg></div>
+      <div class="lbl" data-i18n="kpi_income">รายรับ</div>
+      <div class="val"><span class="cur">฿</span><span data-num id="kpiIncome">0</span></div>
+      <div class="meta" data-i18n-tpl="kpi_income_meta" data-tpl-vars id="kpiIncomeMeta"></div>
     </div>
     <div class="card kpi expense">
-      <div class="lbl">รายจ่าย</div>
-      <div class="val">฿ 35,055.20</div>
-      <div class="meta">76 รายการ</div>
+      <div class="kpi-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 7L7 17M7 7v10h10"/></svg></div>
+      <div class="lbl" data-i18n="kpi_expense">รายจ่าย</div>
+      <div class="val"><span class="cur">฿</span><span data-num id="kpiExpense">0</span></div>
+      <div class="meta" data-i18n-tpl="kpi_expense_meta" id="kpiExpenseMeta"></div>
     </div>
-    <div class="card kpi net positive">
-      <div class="lbl">สุทธิ</div>
-      <div class="val">฿ 16,372.80</div>
-      <div class="meta">รายรับ − รายจ่าย</div>
+    <div class="card kpi net" id="kpiNetCard">
+      <div class="kpi-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6v12M6 12h12"/></svg></div>
+      <div class="lbl" data-i18n="kpi_net">สุทธิ</div>
+      <div class="val"><span class="cur">฿</span><span data-num id="kpiNet">0</span></div>
+      <div class="meta" data-i18n="kpi_net_meta">รายรับ − รายจ่าย</div>
     </div>
     <div class="card kpi">
-      <div class="lbl">เฉลี่ย/วัน</div>
-      <div class="val">฿ 1,524.14</div>
-      <div class="meta">23 วัน · max: 2026-04-27 (฿ 25,498.10)</div>
+      <div class="kpi-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18M12 3v18"/></svg></div>
+      <div class="lbl" data-i18n="kpi_avg">เฉลี่ย/วัน</div>
+      <div class="val"><span class="cur">฿</span><span data-num id="kpiAvg">0</span></div>
+      <div class="meta" data-i18n-tpl="kpi_avg_meta" id="kpiAvgMeta"></div>
     </div>
   </div>
 
   <!-- Donut + Legend -->
-  <div class="grid row2" style="margin-bottom:16px">
+  <div class="grid row2 reveal" style="margin-bottom: 16px">
     <div class="card">
-      <h3 class="section-title">รายจ่ายตามหมวด</h3>
-      <canvas id="catChart" height="220"></canvas>
+      <div class="card-title" data-i18n="section_donut">รายจ่ายตามหมวด</div>
+      <div class="donut-wrap">
+        <canvas id="catChart"></canvas>
+        <div class="donut-center">
+          <div class="l1" data-i18n="kpi_expense">รายจ่าย</div>
+          <div class="l2" id="donutCenter">฿ 0</div>
+        </div>
+      </div>
     </div>
     <div class="card">
-      <h3 class="section-title">หมวด · จัดเรียง</h3>
-      <div class="legend">
-        <div class="legend-row">
-          <span class="dot" style="background:#be123c"></span>
-          <span class="legend-name">บัตรเครดิต</span>
-          <span class="legend-meta">1 · 37.1%</span>
-          <span class="legend-amt">฿ 13,000.00</span>
-        </div>
-        <div class="legend-row">
-          <span class="dot" style="background:#f59e0b"></span>
-          <span class="legend-name">ช้อปปิ้ง</span>
-          <span class="legend-meta">2 · 22.8%</span>
-          <span class="legend-amt">฿ 8,008.68</span>
-        </div>
-        <div class="legend-row">
-          <span class="dot" style="background:#ef4444"></span>
-          <span class="legend-name">อาหาร</span>
-          <span class="legend-meta">54 · 18.4%</span>
-          <span class="legend-amt">฿ 6,460.00</span>
-        </div>
-        <div class="legend-row">
-          <span class="dot" style="background:#dc2626"></span>
-          <span class="legend-name">จ่ายหนี้</span>
-          <span class="legend-meta">1 · 11.4%</span>
-          <span class="legend-amt">฿ 4,000.00</span>
-        </div>
-        <div class="legend-row">
-          <span class="dot" style="background:#94a3b8"></span>
-          <span class="legend-name">อื่นๆ</span>
-          <span class="legend-meta">9 · 6.2%</span>
-          <span class="legend-amt">฿ 2,156.10</span>
-        </div>
-        <div class="legend-row">
-          <span class="dot" style="background:#8b5cf6"></span>
-          <span class="legend-name">ค่าโทรศัพท์</span>
-          <span class="legend-meta">2 · 1.5%</span>
-          <span class="legend-amt">฿ 520.00</span>
-        </div>
-        <div class="legend-row">
-          <span class="dot" style="background:#cbd5e1"></span>
-          <span class="legend-name">(ไม่ระบุ)</span>
-          <span class="legend-meta">2 · 1.4%</span>
-          <span class="legend-amt">฿ 500.00</span>
-        </div>
-        <div class="legend-row">
-          <span class="dot" style="background:#3b82f6"></span>
-          <span class="legend-name">เดินทาง รถ</span>
-          <span class="legend-meta">4 · 0.8%</span>
-          <span class="legend-amt">฿ 291.00</span>
-        </div>
-        <div class="legend-row">
-          <span class="dot" style="background:#06b6d4"></span>
-          <span class="legend-name">จ่ายบิล</span>
-          <span class="legend-meta">1 · 0.3%</span>
-          <span class="legend-amt">฿ 119.42</span>
-        </div></div>
+      <div class="card-title" data-i18n="section_legend">หมวด</div>
+      <div class="legend" id="legend"></div>
     </div>
   </div>
 
   <!-- Daily Flow -->
-  <div class="card" style="margin-bottom:16px">
-    <h3 class="section-title">Cash Flow รายวัน</h3>
-    <canvas id="dayChart" height="120"></canvas>
+  <div class="card reveal" style="margin-bottom: 16px">
+    <div class="card-title" data-i18n="section_flow">Cash Flow รายวัน</div>
+    <div style="height: 220px">
+      <canvas id="dayChart"></canvas>
+    </div>
   </div>
 
   <!-- Insights -->
-  <h3 class="section-title">🔍 Insights</h3>
-  <div class="grid insight-grid" style="margin-bottom:16px">
-    
-        <div class="insight">
-          <div class="insight-label">🛒 ช้อปปิ้งออนไลน์</div>
-          <div class="insight-amt">฿ 7,858.68</div>
-          <div class="insight-meta">1 ครั้ง</div>
-        </div>
-        <div class="insight">
-          <div class="insight-label">💳 หนี้/บัตร</div>
-          <div class="insight-amt">฿ 4,000.00</div>
-          <div class="insight-meta">1 ครั้ง</div>
-        </div>
-        <div class="insight">
-          <div class="insight-label">🍜 อาหาร</div>
-          <div class="insight-amt">฿ 3,558.00</div>
-          <div class="insight-meta">23 ครั้ง</div>
-        </div>
-        <div class="insight">
-          <div class="insight-label">📱 มือถือ</div>
-          <div class="insight-amt">฿ 1,220.00</div>
-          <div class="insight-meta">8 ครั้ง</div>
-        </div>
-        <div class="insight">
-          <div class="insight-label">⛽ น้ำมัน/รถ</div>
-          <div class="insight-amt">฿ 250.00</div>
-          <div class="insight-meta">2 ครั้ง</div>
-        </div>
-        <div class="insight">
-          <div class="insight-label">⚡ ค่าน้ำค่าไฟ</div>
-          <div class="insight-amt">฿ 151.52</div>
-          <div class="insight-meta">2 ครั้ง</div>
-        </div>
-  </div>
+  <div class="sect-h reveal"><h2 data-i18n="section_insights">Insights</h2><span class="line"></span></div>
+  <div class="grid insight-grid reveal" id="insightGrid" style="margin-bottom: 16px"></div>
 
   <!-- Top Merchants -->
-  <div class="card" style="margin-bottom:16px">
-    <h3 class="section-title">Top 10 ร้าน/คู่ค้า</h3>
+  <div class="card reveal" style="margin-bottom: 16px">
+    <div class="card-title" data-i18n="section_merchants">Top 10 ร้าน/คู่ค้า</div>
     <table>
-      <thead><tr><th>#</th><th>ชื่อ</th><th>เมโม</th><th>ครั้ง</th><th style="text-align:right">รวม</th></tr></thead>
-      <tbody>
-        <tr>
-          <td class="num">1</td>
-          <td class="name">WARONGKON FUK</td>
-          <td class="memo">—</td>
-          <td class="num">1</td>
-          <td class="amt expense">฿ 13,000.00</td>
-        </tr>
-        <tr>
-          <td class="num">2</td>
-          <td class="name">บริษัท ช้อปปี้เพย์ (ประเทศไทย) จำกัด</td>
-          <td class="memo">Shopee</td>
-          <td class="num">1</td>
-          <td class="amt expense">฿ 7,858.68</td>
-        </tr>
-        <tr>
-          <td class="num">3</td>
-          <td class="name">MR.WARONGKON FUKTHONGYOO</td>
-          <td class="memo">จ่ายหนี้</td>
-          <td class="num">1</td>
-          <td class="amt expense">฿ 4,000.00</td>
-        </tr>
-        <tr>
-          <td class="num">4</td>
-          <td class="name">MR. WITTAWAT WANGMUEN</td>
-          <td class="memo">รับขวัญหลานน้องแต้งกิ้ว ❤️</td>
-          <td class="num">1</td>
-          <td class="amt expense">฿ 1,000.00</td>
-        </tr>
-        <tr>
-          <td class="num">5</td>
-          <td class="name">MRS.NULIT DUANGCHAI</td>
-          <td class="memo">ฉลองวันศุกร์</td>
-          <td class="num">2</td>
-          <td class="amt expense">฿ 930.00</td>
-        </tr>
-        <tr>
-          <td class="num">6</td>
-          <td class="name">เนชั่นแนล เวิลด์</td>
-          <td class="memo">หมาล่า</td>
-          <td class="num">2</td>
-          <td class="amt expense">฿ 797.00</td>
-        </tr>
-        <tr>
-          <td class="num">7</td>
-          <td class="name">TrueMoney Wallet</td>
-          <td class="memo">—</td>
-          <td class="num">6</td>
-          <td class="amt expense">฿ 700.00</td>
-        </tr>
-        <tr>
-          <td class="num">8</td>
-          <td class="name">ร้านถุงเงิน (ร้านส้มตำป้าไฝ)</td>
-          <td class="memo">ส้มตำไก่ย่าง, ส้มตำ</td>
-          <td class="num">5</td>
-          <td class="amt expense">฿ 655.00</td>
-        </tr>
-        <tr>
-          <td class="num">9</td>
-          <td class="name">MS. SUPAWAN CHANTO</td>
-          <td class="memo">ข้าวเย็นพี่อ้อฟพี่ฟาง</td>
-          <td class="num">1</td>
-          <td class="amt expense">฿ 650.00</td>
-        </tr>
-        <tr>
-          <td class="num">10</td>
-          <td class="name">Lotteryplus by ADAPTIS</td>
-          <td class="memo">ค่าหวย</td>
-          <td class="num">1</td>
-          <td class="amt expense">฿ 525.00</td>
-        </tr></tbody>
+      <thead><tr>
+        <th data-i18n="th_num">#</th>
+        <th data-i18n="th_name">ชื่อ</th>
+        <th data-i18n="th_memo">เมโม</th>
+        <th data-i18n="th_count">ครั้ง</th>
+        <th style="text-align:right" data-i18n="th_total">รวม</th>
+      </tr></thead>
+      <tbody id="merchantBody"></tbody>
     </table>
   </div>
 
   <!-- Top Single -->
-  <div class="card" style="margin-bottom:16px">
-    <h3 class="section-title">รายการเดี่ยวที่ใหญ่ที่สุด</h3>
+  <div class="card reveal" style="margin-bottom: 16px">
+    <div class="card-title" data-i18n="section_single">รายการเดี่ยวที่ใหญ่ที่สุด</div>
     <table>
-      <thead><tr><th>วันที่</th><th>เมโม</th><th>หมวด</th><th>คู่ค้า</th><th style="text-align:right">เงิน</th></tr></thead>
-      <tbody>
-        <tr>
-          <td>27/04</td>
-          <td class="memo">—</td>
-          <td class="cat" style="--c:#be123c">บัตรเครดิต</td>
-          <td class="name">WARONGKON FUK</td>
-          <td class="amt expense">฿ 13,000.00</td>
-        </tr>
-        <tr>
-          <td>27/04</td>
-          <td class="memo">Shopee</td>
-          <td class="cat" style="--c:#f59e0b">ช้อปปิ้ง</td>
-          <td class="name">บริษัท ช้อปปี้เพย์ (ประเทศไทย) จำกัด</td>
-          <td class="amt expense">฿ 7,858.68</td>
-        </tr>
-        <tr>
-          <td>27/04</td>
-          <td class="memo">จ่ายหนี้</td>
-          <td class="cat" style="--c:#dc2626">จ่ายหนี้</td>
-          <td class="name">MR.WARONGKON FUKTHONGYOO</td>
-          <td class="amt expense">฿ 4,000.00</td>
-        </tr>
-        <tr>
-          <td>03/04</td>
-          <td class="memo">รับขวัญหลานน้องแต้งกิ้ว ❤️</td>
-          <td class="cat" style="--c:#94a3b8">อื่นๆ</td>
-          <td class="name">MR. WITTAWAT WANGMUEN</td>
-          <td class="amt expense">฿ 1,000.00</td>
-        </tr>
-        <tr>
-          <td>08/04</td>
-          <td class="memo">ข้าวเย็นพี่อ้อฟพี่ฟาง</td>
-          <td class="cat" style="--c:#ef4444">อาหาร</td>
-          <td class="name">MS. SUPAWAN CHANTO</td>
-          <td class="amt expense">฿ 650.00</td>
-        </tr>
-        <tr>
-          <td>03/04</td>
-          <td class="memo">ฉลองวันศุกร์</td>
-          <td class="cat" style="--c:#ef4444">อาหาร</td>
-          <td class="name">MRS.NULIT DUANGCHAI</td>
-          <td class="amt expense">฿ 580.00</td>
-        </tr>
-        <tr>
-          <td>16/04</td>
-          <td class="memo">ค่าหวย</td>
-          <td class="cat" style="--c:#94a3b8">อื่นๆ</td>
-          <td class="name">Lotteryplus by ADAPTIS</td>
-          <td class="amt expense">฿ 525.00</td>
-        </tr>
-        <tr>
-          <td>27/04</td>
-          <td class="memo">—</td>
-          <td class="cat" style="--c:#8b5cf6">ค่าโทรศัพท์</td>
-          <td class="name">ดีแทคเติมเงิน</td>
-          <td class="amt expense">฿ 500.00</td>
-        </tr>
-        <tr>
-          <td>17/04</td>
-          <td class="memo">หมาล่า</td>
-          <td class="cat" style="--c:#ef4444">อาหาร</td>
-          <td class="name">เนชั่นแนล เวิลด์</td>
-          <td class="amt expense">฿ 478.00</td>
-        </tr>
-        <tr>
-          <td>16/04</td>
-          <td class="memo">ลาบอาหารเย็น</td>
-          <td class="cat" style="--c:#ef4444">อาหาร</td>
-          <td class="name">MS. PRAPAPORN CHAYTAWEEP</td>
-          <td class="amt expense">฿ 460.00</td>
-        </tr></tbody>
+      <thead><tr>
+        <th data-i18n="th_date">วันที่</th>
+        <th data-i18n="th_memo">เมโม</th>
+        <th data-i18n="th_cat">หมวด</th>
+        <th data-i18n="th_party">คู่ค้า</th>
+        <th style="text-align:right" data-i18n="th_amt">เงิน</th>
+      </tr></thead>
+      <tbody id="singleBody"></tbody>
     </table>
   </div>
 
   <!-- Income detail -->
-  <div class="card">
-    <h3 class="section-title">รายรับ</h3>
+  <div class="card reveal">
+    <div class="card-title" data-i18n="section_income">รายรับ</div>
     <table>
-      <thead><tr><th>วันที่</th><th>คู่ค้า</th><th style="text-align:right">เงิน</th></tr></thead>
-      <tbody>
-        <tr>
-          <td>03/04</td>
-          <td class="name">MR. Warongkon Fukthongyoo</td>
-          <td class="amt income">+ ฿ 3,000.00</td>
-        </tr>
-        <tr>
-          <td>08/04</td>
-          <td class="name">MR. Warongkon Fukthongyoo</td>
-          <td class="amt income">+ ฿ 2,000.00</td>
-        </tr>
-        <tr>
-          <td>16/04</td>
-          <td class="name">MR. Warongkon Fukthongyoo</td>
-          <td class="amt income">+ ฿ 2,200.00</td>
-        </tr>
-        <tr>
-          <td>22/04</td>
-          <td class="name">MR. Warongkon Fukthongyoo</td>
-          <td class="amt income">+ ฿ 1,000.00</td>
-        </tr>
-        <tr>
-          <td>23/04</td>
-          <td class="name">MR. Arnont Suppradith</td>
-          <td class="amt income">+ ฿ 100.00</td>
-        </tr>
-        <tr>
-          <td>27/04</td>
-          <td class="name">MR. Warongkon Fukthongyoo</td>
-          <td class="amt income">+ ฿ 43,128.00</td>
-        </tr></tbody>
+      <thead><tr>
+        <th data-i18n="th_date">วันที่</th>
+        <th data-i18n="th_party">คู่ค้า</th>
+        <th style="text-align:right" data-i18n="th_amt">เงิน</th>
+      </tr></thead>
+      <tbody id="incomeBody"></tbody>
     </table>
   </div>
 
-  <div class="footer">AI Brain · Monthly Finance · cycle ending 2026-04</div>
+  <div class="footer">
+    <span data-i18n="footer">AI Brain · Monthly Finance</span> · <span id="cycleFoot"></span>
+  </div>
 </div>
 
 <script>
-  const PIN = "23091996";
-  const gate = document.getElementById('gate');
-  const content = document.getElementById('content');
-  const pin = document.getElementById('pin');
-  const err = document.getElementById('err');
-  function unlock() { gate.classList.add('hide'); content.style.display='block'; sessionStorage.setItem('fin_unlocked','1'); renderCharts(); }
-  if (sessionStorage.getItem('fin_unlocked')) unlock();
-  pin.addEventListener('keydown', e => {
-    if (e.key !== 'Enter') return;
-    if (pin.value === PIN) { err.textContent=''; unlock(); }
-    else { err.textContent='รหัสผิด'; pin.value=''; }
+  const PAYLOAD = {"label": "2026-04 (01/04 — 27/04)", "fname_label": "2026-04", "passcode": "23091996", "i18n": {"th": {"title": "Monthly Finance", "kpi_income": "รายรับ", "kpi_expense": "รายจ่าย", "kpi_net": "สุทธิ", "kpi_avg": "เฉลี่ย/วัน", "kpi_income_meta": "{n} รายการ", "kpi_expense_meta": "{n} รายการ", "kpi_net_meta": "รายรับ − รายจ่าย", "kpi_avg_meta": "{days} วัน · max: {max}", "section_donut": "รายจ่ายตามหมวด", "section_legend": "หมวด · จัดเรียง", "section_flow": "Cash Flow รายวัน", "section_insights": "Insights", "section_merchants": "Top 10 ร้าน/คู่ค้า", "section_single": "รายการเดี่ยวที่ใหญ่ที่สุด", "section_income": "รายรับ", "th_num": "#", "th_name": "ชื่อ", "th_memo": "เมโม", "th_count": "ครั้ง", "th_total": "รวม", "th_date": "วันที่", "th_cat": "หมวด", "th_party": "คู่ค้า", "th_amt": "เงิน", "footer": "AI Brain · Monthly Finance", "generated": "สร้างเมื่อ", "gate_title": "ล็อกอยู่", "gate_sub": "กรอกรหัสเพื่อเปิด dashboard", "gate_err": "รหัสผิด", "lbl_th": "ไทย", "lbl_en": "English", "th_count_hits": "{n} ครั้ง", "th_legend_meta": "{n} · {pct}%"}, "en": {"title": "Monthly Finance", "kpi_income": "Income", "kpi_expense": "Expenses", "kpi_net": "Net", "kpi_avg": "Avg / day", "kpi_income_meta": "{n} transactions", "kpi_expense_meta": "{n} transactions", "kpi_net_meta": "Income − Expenses", "kpi_avg_meta": "{days} days · max: {max}", "section_donut": "Expenses by Category", "section_legend": "Categories", "section_flow": "Daily Cash Flow", "section_insights": "Insights", "section_merchants": "Top 10 Merchants", "section_single": "Largest Single Expenses", "section_income": "Income Detail", "th_num": "#", "th_name": "Name", "th_memo": "Memo", "th_count": "Count", "th_total": "Total", "th_date": "Date", "th_cat": "Category", "th_party": "Counterparty", "th_amt": "Amount", "footer": "AI Brain · Monthly Finance", "generated": "generated", "gate_title": "Locked", "gate_sub": "Enter passcode to unlock", "gate_err": "Wrong passcode", "lbl_th": "ไทย", "lbl_en": "English", "th_count_hits": "{n} hits", "th_legend_meta": "{n} · {pct}%"}}, "kpis": {"income": 51428.0, "expense": 35055.2, "net": 16372.800000000003, "avg": 1524.1391304347824, "n_income": 6, "n_expense": 76, "n_days": 23, "max_day": {"date": "2026-04-27", "amount": 25498.1}}, "chart_data": {"cat": {"labels_th": ["บัตรเครดิต", "ช้อปปิ้ง", "อาหาร", "จ่ายหนี้", "อื่นๆ", "ค่าโทรศัพท์", "(ไม่ระบุ)", "เดินทาง รถ", "จ่ายบิล"], "labels_en": ["Credit Card", "Shopping", "Food", "Debt", "Other", "Phone", "(Unspecified)", "Transport", "Bills"], "values": [13000.0, 8008.68, 6460.0, 4000.0, 2156.1, 520.0, 500.0, 291.0, 119.42], "colors": ["#be123c", "#f59e0b", "#ef4444", "#dc2626", "#94a3b8", "#8b5cf6", "#cbd5e1", "#3b82f6", "#06b6d4"]}, "day": {"labels": ["2026-04-01", "2026-04-02", "2026-04-03", "2026-04-04", "2026-04-05", "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-11", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27"], "expense": [275.0, 360.0, 1988.0, 313.0, 306.1, 180.0, 290.0, 750.0, 165.0, 558.0, 337.0, 40.0, 1145.0, 713.0, 300.0, 445.0, 70.0, 439.0, 370.0, 120.0, 200.0, 193.0, 25498.1], "income": [0, 0, 3000.0, 0, 0, 0, 0, 2000.0, 0, 0, 0, 0, 2200.0, 0, 0, 0, 0, 1000.0, 100.0, 0, 0, 0, 43128.0]}}, "cat_legend": [{"th": "บัตรเครดิต", "en": "Credit Card", "color": "#be123c", "count": 1, "pct": "37.1", "amount": 13000.0}, {"th": "ช้อปปิ้ง", "en": "Shopping", "color": "#f59e0b", "count": 2, "pct": "22.8", "amount": 8008.68}, {"th": "อาหาร", "en": "Food", "color": "#ef4444", "count": 54, "pct": "18.4", "amount": 6460.0}, {"th": "จ่ายหนี้", "en": "Debt", "color": "#dc2626", "count": 1, "pct": "11.4", "amount": 4000.0}, {"th": "อื่นๆ", "en": "Other", "color": "#94a3b8", "count": 9, "pct": "6.2", "amount": 2156.1}, {"th": "ค่าโทรศัพท์", "en": "Phone", "color": "#8b5cf6", "count": 2, "pct": "1.5", "amount": 520.0}, {"th": "(ไม่ระบุ)", "en": "(Unspecified)", "color": "#cbd5e1", "count": 2, "pct": "1.4", "amount": 500.0}, {"th": "เดินทาง รถ", "en": "Transport", "color": "#3b82f6", "count": 4, "pct": "0.8", "amount": 291.0}, {"th": "จ่ายบิล", "en": "Bills", "color": "#06b6d4", "count": 1, "pct": "0.3", "amount": 119.42}], "merchants": [{"name": "WARONGKON FUK", "memos": "—", "count": 1, "amount": 13000.0}, {"name": "บริษัท ช้อปปี้เพย์ (ประเทศไทย) จำกัด", "memos": "Shopee", "count": 1, "amount": 7858.68}, {"name": "MR.WARONGKON FUKTHONGYOO", "memos": "จ่ายหนี้", "count": 1, "amount": 4000.0}, {"name": "MR. WITTAWAT WANGMUEN", "memos": "รับขวัญหลานน้องแต้งกิ้ว ❤️", "count": 1, "amount": 1000.0}, {"name": "MRS.NULIT DUANGCHAI", "memos": "ฉลองวันศุกร์", "count": 2, "amount": 930.0}, {"name": "เนชั่นแนล เวิลด์", "memos": "หมาล่า", "count": 2, "amount": 797.0}, {"name": "TrueMoney Wallet", "memos": "—", "count": 6, "amount": 700.0}, {"name": "ร้านถุงเงิน (ร้านส้มตำป้าไฝ)", "memos": "ส้มตำไก่ย่าง, ส้มตำ", "count": 5, "amount": 655.0}, {"name": "MS. SUPAWAN CHANTO", "memos": "ข้าวเย็นพี่อ้อฟพี่ฟาง", "count": 1, "amount": 650.0}, {"name": "Lotteryplus by ADAPTIS", "memos": "ค่าหวย", "count": 1, "amount": 525.0}], "singles": [{"date": "27/04", "memo": "—", "cat_th": "บัตรเครดิต", "cat_en": "Credit Card", "color": "#be123c", "name": "WARONGKON FUK", "amount": 13000.0}, {"date": "27/04", "memo": "Shopee", "cat_th": "ช้อปปิ้ง", "cat_en": "Shopping", "color": "#f59e0b", "name": "บริษัท ช้อปปี้เพย์ (ประเทศไทย) จำกัด", "amount": 7858.68}, {"date": "27/04", "memo": "จ่ายหนี้", "cat_th": "จ่ายหนี้", "cat_en": "Debt", "color": "#dc2626", "name": "MR.WARONGKON FUKTHONGYOO", "amount": 4000.0}, {"date": "03/04", "memo": "รับขวัญหลานน้องแต้งกิ้ว ❤️", "cat_th": "อื่นๆ", "cat_en": "Other", "color": "#94a3b8", "name": "MR. WITTAWAT WANGMUEN", "amount": 1000.0}, {"date": "08/04", "memo": "ข้าวเย็นพี่อ้อฟพี่ฟาง", "cat_th": "อาหาร", "cat_en": "Food", "color": "#ef4444", "name": "MS. SUPAWAN CHANTO", "amount": 650.0}, {"date": "03/04", "memo": "ฉลองวันศุกร์", "cat_th": "อาหาร", "cat_en": "Food", "color": "#ef4444", "name": "MRS.NULIT DUANGCHAI", "amount": 580.0}, {"date": "16/04", "memo": "ค่าหวย", "cat_th": "อื่นๆ", "cat_en": "Other", "color": "#94a3b8", "name": "Lotteryplus by ADAPTIS", "amount": 525.0}, {"date": "27/04", "memo": "—", "cat_th": "ค่าโทรศัพท์", "cat_en": "Phone", "color": "#8b5cf6", "name": "ดีแทคเติมเงิน", "amount": 500.0}, {"date": "17/04", "memo": "หมาล่า", "cat_th": "อาหาร", "cat_en": "Food", "color": "#ef4444", "name": "เนชั่นแนล เวิลด์", "amount": 478.0}, {"date": "16/04", "memo": "ลาบอาหารเย็น", "cat_th": "อาหาร", "cat_en": "Food", "color": "#ef4444", "name": "MS. PRAPAPORN CHAYTAWEEP", "amount": 460.0}], "incomes": [{"date": "03/04", "name": "MR. Warongkon Fukthongyoo", "amount": 3000.0}, {"date": "08/04", "name": "MR. Warongkon Fukthongyoo", "amount": 2000.0}, {"date": "16/04", "name": "MR. Warongkon Fukthongyoo", "amount": 2200.0}, {"date": "22/04", "name": "MR. Warongkon Fukthongyoo", "amount": 1000.0}, {"date": "23/04", "name": "MR. Arnont Suppradith", "amount": 100.0}, {"date": "27/04", "name": "MR. Warongkon Fukthongyoo", "amount": 43128.0}], "insights": [{"th": "🛒 ช้อปปิ้งออนไลน์", "en": "🛒 Online Shopping", "amount": 7858.68, "count": 1}, {"th": "💳 หนี้/บัตร", "en": "💳 Debt / Card", "amount": 4000.0, "count": 1}, {"th": "🍜 อาหาร", "en": "🍜 Food", "amount": 3558.0, "count": 23}, {"th": "📱 มือถือ", "en": "📱 Mobile", "amount": 1220.0, "count": 8}, {"th": "⛽ น้ำมัน/รถ", "en": "⛽ Fuel / Vehicle", "amount": 250.0, "count": 2}, {"th": "⚡ ค่าน้ำค่าไฟ", "en": "⚡ Utilities", "amount": 151.52, "count": 2}], "generated": "2026-04-27 07:40"};
+  const PIN = String(PAYLOAD.passcode);
+
+  // ===== Storage =====
+  const ls = {
+    get: k => { try { return localStorage.getItem(k); } catch(e) { return null; } },
+    set: (k,v) => { try { localStorage.setItem(k,v); } catch(e) {} },
+  };
+
+  // ===== Theme =====
+  const html = document.documentElement;
+  function setTheme(mode) {
+    html.setAttribute('data-theme', mode);
+    ls.set('fin_theme', mode);
+    document.querySelectorAll('[data-theme]').forEach(b => {
+      b.setAttribute('aria-pressed', b.dataset.theme === mode ? 'true' : 'false');
+    });
+    if (window._charts) renderCharts();  // re-render charts with new colors
+  }
+  document.querySelectorAll('.seg-btn[data-theme]').forEach(b => {
+    b.addEventListener('click', () => setTheme(b.dataset.theme));
+  });
+  setTheme(ls.get('fin_theme') || 'system');
+  // Listen for system theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    if (html.getAttribute('data-theme') === 'system' && window._charts) renderCharts();
   });
 
-  const data = {"cat": {"labels": ["บัตรเครดิต", "ช้อปปิ้ง", "อาหาร", "จ่ายหนี้", "อื่นๆ", "ค่าโทรศัพท์", "(ไม่ระบุ)", "เดินทาง รถ", "จ่ายบิล"], "values": [13000.0, 8008.68, 6460.0, 4000.0, 2156.1, 520.0, 500.0, 291.0, 119.42], "colors": ["#be123c", "#f59e0b", "#ef4444", "#dc2626", "#94a3b8", "#8b5cf6", "#cbd5e1", "#3b82f6", "#06b6d4"]}, "day": {"labels": ["2026-04-01", "2026-04-02", "2026-04-03", "2026-04-04", "2026-04-05", "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-11", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27"], "expense": [275.0, 360.0, 1988.0, 313.0, 306.1, 180.0, 290.0, 750.0, 165.0, 558.0, 337.0, 40.0, 1145.0, 713.0, 300.0, 445.0, 70.0, 439.0, 370.0, 120.0, 200.0, 193.0, 25498.1], "income": [0, 0, 3000.0, 0, 0, 0, 0, 2000.0, 0, 0, 0, 0, 2200.0, 0, 0, 0, 0, 1000.0, 100.0, 0, 0, 0, 43128.0]}};
-  function renderCharts() {
-    const isLight = window.matchMedia('(prefers-color-scheme: light)').matches;
-    const grid = isLight ? '#e2e8f0' : '#1e293b';
-    const tick = isLight ? '#475569' : '#94a3b8';
+  // ===== Locale =====
+  const fmt = (n, decimals=2) => Number(n).toLocaleString(undefined, {minimumFractionDigits:decimals, maximumFractionDigits:decimals});
+  function tplFill(s, vars) { return s.replace(/\{(\w+)\}/g, (_,k) => vars[k] ?? ''); }
 
-    new Chart(document.getElementById('catChart'), {
-      type:'doughnut',
-      data:{ labels: data.cat.labels,
-              datasets:[{ data:data.cat.values, backgroundColor:data.cat.colors,
-                           borderColor:'transparent', borderWidth:2, hoverOffset:8 }] },
-      options:{ plugins:{ legend:{ display:false },
-                          tooltip:{ callbacks:{ label: c => c.label + ': ฿ ' + c.parsed.toLocaleString('th-TH',{minimumFractionDigits:2}) } } },
-                cutout:'62%' }
+  function setLocale(loc) {
+    html.setAttribute('data-locale', loc);
+    html.setAttribute('lang', loc);
+    ls.set('fin_locale', loc);
+    document.querySelectorAll('[data-lang]').forEach(b => {
+      b.setAttribute('aria-pressed', b.dataset.lang === loc ? 'true' : 'false');
     });
+    applyI18n();
+    renderTables();
+    renderInsights();
+    renderLegend();
+    if (window._charts) renderCharts();
+  }
+  document.querySelectorAll('.seg-btn[data-lang]').forEach(b => {
+    b.addEventListener('click', () => setLocale(b.dataset.lang));
+  });
 
-    new Chart(document.getElementById('dayChart'), {
-      type:'bar',
-      data:{ labels: data.day.labels,
-              datasets:[
-                { label:'รายจ่าย', data:data.day.expense, backgroundColor:'#ef4444', borderRadius:4 },
-                { label:'รายรับ',  data:data.day.income,  backgroundColor:'#10b981', borderRadius:4 },
-              ] },
-      options:{ responsive:true, plugins:{ legend:{ labels:{ color:tick } },
-                                          tooltip:{ callbacks:{ label: c => c.dataset.label + ': ฿ ' + c.parsed.y.toLocaleString('th-TH',{minimumFractionDigits:2}) } } },
-                scales:{ x:{ ticks:{ color:tick, maxRotation:60 }, grid:{ color:'transparent' } },
-                          y:{ ticks:{ color:tick, callback: v => '฿'+v.toLocaleString('th-TH') }, grid:{ color:grid } } } }
+  function L() { return PAYLOAD.i18n[html.getAttribute('data-locale')]; }
+
+  function applyI18n() {
+    const dict = L();
+    // Static keys
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const k = el.getAttribute('data-i18n');
+      if (dict[k] !== undefined) el.textContent = dict[k];
+    });
+    // Templates with vars
+    const tplVars = {
+      n: 0, days: PAYLOAD.kpis.n_days,
+      max: PAYLOAD.kpis.max_day.date + ' (฿ ' + fmt(PAYLOAD.kpis.max_day.amount) + ')',
+    };
+    const meta1 = document.getElementById('kpiIncomeMeta');
+    if (meta1) meta1.textContent = tplFill(dict.kpi_income_meta, {n: PAYLOAD.kpis.n_income});
+    const meta2 = document.getElementById('kpiExpenseMeta');
+    if (meta2) meta2.textContent = tplFill(dict.kpi_expense_meta, {n: PAYLOAD.kpis.n_expense});
+    const meta3 = document.getElementById('kpiAvgMeta');
+    if (meta3) meta3.textContent = tplFill(dict.kpi_avg_meta, tplVars);
+  }
+
+  // ===== Number animation =====
+  function animateNum(el, target, duration=900) {
+    const start = performance.now();
+    const from = 0;
+    function step(t) {
+      const p = Math.min(1, (t - start) / duration);
+      const eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = fmt(from + (target - from) * eased);
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  function fillKpis() {
+    const k = PAYLOAD.kpis;
+    animateNum(document.getElementById('kpiIncome'), k.income);
+    animateNum(document.getElementById('kpiExpense'), k.expense);
+    animateNum(document.getElementById('kpiNet'), k.net);
+    animateNum(document.getElementById('kpiAvg'), k.avg);
+    document.getElementById('kpiNetCard').classList.add(k.net >= 0 ? 'positive' : 'negative');
+    document.getElementById('donutCenter').textContent = '฿ ' + fmt(k.expense);
+  }
+
+  // ===== Tables =====
+  function catName(c) { return html.getAttribute('data-locale') === 'en'
+    ? (PAYLOAD.chart_data.cat.labels_en[PAYLOAD.chart_data.cat.labels_th.indexOf(c)] || c)
+    : c; }
+
+  function renderLegend() {
+    const el = document.getElementById('legend'); el.innerHTML = '';
+    const dict = L();
+    PAYLOAD.cat_legend.forEach(r => {
+      const name = html.getAttribute('data-locale') === 'en' ? r.en : r.th;
+      const meta = tplFill(dict.th_legend_meta, {n: r.count, pct: r.pct});
+      el.insertAdjacentHTML('beforeend', `
+        <div class="legend-row">
+          <span class="dot" style="background:${r.color}"></span>
+          <span class="legend-name">${escapeHtml(name)}</span>
+          <span class="legend-meta">${meta}</span>
+          <span class="legend-amt">฿ ${fmt(r.amount)}</span>
+        </div>`);
     });
   }
+
+  function renderTables() {
+    const dict = L();
+    // merchants
+    const m = document.getElementById('merchantBody'); m.innerHTML = '';
+    if (!PAYLOAD.merchants.length) m.innerHTML = '<tr><td colspan="5" class="empty">—</td></tr>';
+    PAYLOAD.merchants.forEach((r, i) => {
+      m.insertAdjacentHTML('beforeend', `
+        <tr>
+          <td class="num">${i+1}</td>
+          <td class="name" title="${escapeHtml(r.name)}">${escapeHtml(r.name)}</td>
+          <td class="memo" title="${escapeHtml(r.memos)}">${escapeHtml(r.memos)}</td>
+          <td class="num">${r.count}</td>
+          <td class="amt expense">฿ ${fmt(r.amount)}</td>
+        </tr>`);
+    });
+    // singles
+    const s = document.getElementById('singleBody'); s.innerHTML = '';
+    if (!PAYLOAD.singles.length) s.innerHTML = '<tr><td colspan="5" class="empty">—</td></tr>';
+    PAYLOAD.singles.forEach(r => {
+      const cat = html.getAttribute('data-locale') === 'en' ? r.cat_en : r.cat_th;
+      s.insertAdjacentHTML('beforeend', `
+        <tr>
+          <td>${escapeHtml(r.date)}</td>
+          <td class="memo" title="${escapeHtml(r.memo)}">${escapeHtml(r.memo)}</td>
+          <td class="cat-pill"><span style="--c:${r.color}">${escapeHtml(cat)}</span></td>
+          <td class="name" title="${escapeHtml(r.name)}">${escapeHtml(r.name)}</td>
+          <td class="amt expense">฿ ${fmt(r.amount)}</td>
+        </tr>`);
+    });
+    // incomes
+    const ib = document.getElementById('incomeBody'); ib.innerHTML = '';
+    if (!PAYLOAD.incomes.length) ib.innerHTML = '<tr><td colspan="3" class="empty">—</td></tr>';
+    PAYLOAD.incomes.forEach(r => {
+      ib.insertAdjacentHTML('beforeend', `
+        <tr>
+          <td>${escapeHtml(r.date)}</td>
+          <td class="name">${escapeHtml(r.name)}</td>
+          <td class="amt income">+ ฿ ${fmt(r.amount)}</td>
+        </tr>`);
+    });
+  }
+
+  function renderInsights() {
+    const el = document.getElementById('insightGrid'); el.innerHTML = '';
+    if (!PAYLOAD.insights.length) {
+      el.innerHTML = '<div class="insight"><div class="insight-meta">—</div></div>';
+      return;
+    }
+    const loc = html.getAttribute('data-locale');
+    const dict = L();
+    PAYLOAD.insights.forEach(i => {
+      const label = loc === 'en' ? i.en : i.th;
+      el.insertAdjacentHTML('beforeend', `
+        <div class="insight">
+          <div class="insight-label">${escapeHtml(label)}</div>
+          <div class="insight-amt">฿ ${fmt(i.amount)}</div>
+          <div class="insight-meta">${tplFill(dict.th_count_hits, {n: i.count})}</div>
+        </div>`);
+    });
+  }
+
+  // ===== Charts =====
+  function chartColors() {
+    const isDark = (html.getAttribute('data-theme') === 'dark') ||
+                   (html.getAttribute('data-theme') === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    return {
+      grid: isDark ? 'rgba(255,255,255,.06)' : 'rgba(15,23,42,.06)',
+      tick: isDark ? '#94a3b8' : '#475569',
+      bg:   isDark ? 'rgba(20,24,40,.95)' : 'rgba(255,255,255,.98)',
+      isDark,
+    };
+  }
+
+  function renderCharts() {
+    const c = chartColors();
+    const loc = html.getAttribute('data-locale');
+    const labels = loc === 'en' ? PAYLOAD.chart_data.cat.labels_en : PAYLOAD.chart_data.cat.labels_th;
+    if (!window._charts) window._charts = {};
+    if (window._charts.cat) window._charts.cat.destroy();
+    if (window._charts.day) window._charts.day.destroy();
+
+    window._charts.cat = new Chart(document.getElementById('catChart'), {
+      type: 'doughnut',
+      data: {
+        labels,
+        datasets: [{
+          data: PAYLOAD.chart_data.cat.values,
+          backgroundColor: PAYLOAD.chart_data.cat.colors,
+          borderColor: 'transparent', borderWidth: 3, hoverOffset: 12,
+          spacing: 2,
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        cutout: '70%',
+        animation: { duration: 800, easing: 'easeOutCubic' },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: c.bg, titleColor: c.isDark ? '#f1f5f9' : '#0f172a',
+            bodyColor: c.isDark ? '#f1f5f9' : '#0f172a',
+            borderColor: c.grid, borderWidth: 1, padding: 12, cornerRadius: 8, displayColors: true, boxPadding: 4,
+            callbacks: { label: ctx => ' ' + ctx.label + ': ฿ ' + fmt(ctx.parsed) }
+          }
+        }
+      }
+    });
+
+    window._charts.day = new Chart(document.getElementById('dayChart'), {
+      type: 'bar',
+      data: {
+        labels: PAYLOAD.chart_data.day.labels,
+        datasets: [
+          { label: L().kpi_expense, data: PAYLOAD.chart_data.day.expense, backgroundColor: '#ef4444', borderRadius: 6, barPercentage: .85, categoryPercentage: .8 },
+          { label: L().kpi_income,  data: PAYLOAD.chart_data.day.income,  backgroundColor: '#10b981', borderRadius: 6, barPercentage: .85, categoryPercentage: .8 },
+        ]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        animation: { duration: 700, easing: 'easeOutCubic' },
+        plugins: {
+          legend: { labels: { color: c.tick, font: { size: 12, weight: '600' }, usePointStyle: true, pointStyle: 'circle' } },
+          tooltip: {
+            backgroundColor: c.bg, titleColor: c.isDark ? '#f1f5f9' : '#0f172a', bodyColor: c.isDark ? '#f1f5f9' : '#0f172a',
+            borderColor: c.grid, borderWidth: 1, padding: 12, cornerRadius: 8, boxPadding: 4,
+            callbacks: { label: ctx => ' ' + ctx.dataset.label + ': ฿ ' + fmt(ctx.parsed.y) }
+          }
+        },
+        scales: {
+          x: { ticks: { color: c.tick, maxRotation: 50, font: { size: 11 } }, grid: { display: false } },
+          y: { ticks: { color: c.tick, font: { size: 11 }, callback: v => '฿ ' + Number(v).toLocaleString() }, grid: { color: c.grid, drawTicks: false }, border: { display: false } }
+        }
+      }
+    });
+  }
+
+  function escapeHtml(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+  // ===== Reveal animations =====
+  function reveal() {
+    const els = document.querySelectorAll('.reveal');
+    els.forEach((el, i) => setTimeout(() => el.classList.add('in'), 60 + i * 70));
+  }
+
+  // ===== Boot =====
+  function boot() {
+    document.getElementById('topbar').style.display = 'block';
+    document.getElementById('content').style.display = 'block';
+    document.getElementById('cycleLabel').textContent = PAYLOAD.label;
+    document.getElementById('subLabel').textContent = PAYLOAD.label;
+    document.getElementById('cycleFoot').textContent = 'cycle ' + PAYLOAD.fname_label;
+    document.getElementById('genTime').textContent = PAYLOAD.generated;
+
+    // Apply saved locale
+    setLocale(ls.get('fin_locale') || 'th');
+
+    fillKpis();
+    renderLegend();
+    renderTables();
+    renderInsights();
+    renderCharts();
+    reveal();
+    sessionStorage.setItem('fin_unlocked', '1');
+  }
+
+  // ===== Passcode gate =====
+  const gate = document.getElementById('gate');
+  const gateBox = document.getElementById('gateBox');
+  const pin = document.getElementById('pin');
+  const err = document.getElementById('err');
+
+  function unlock() {
+    gate.classList.add('hide');
+    boot();
+  }
+
+  if (sessionStorage.getItem('fin_unlocked')) {
+    unlock();
+  }
+
+  pin.addEventListener('keydown', e => {
+    if (e.key !== 'Enter') return;
+    if (pin.value === PIN) { err.textContent = ''; unlock(); }
+    else {
+      err.textContent = L().gate_err;
+      gateBox.classList.remove('gate-shake');
+      void gateBox.offsetWidth;  // trigger reflow
+      gateBox.classList.add('gate-shake');
+      pin.value = '';
+    }
+  });
 </script>
 </body>
 </html>
