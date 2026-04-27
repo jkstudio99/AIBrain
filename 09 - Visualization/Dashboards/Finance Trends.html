@@ -11,164 +11,251 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <style>
   :root {
-    --font-en: 'IBM Plex Sans', system-ui, sans-serif;
+    --font-en: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
     --font-th: 'IBM Plex Sans Thai', var(--font-en);
     --font-num:'IBM Plex Mono', ui-monospace, monospace;
     --font: var(--font-th), var(--font-en);
-    --radius:14px; --radius-lg:20px;
+    --radius:14px; --radius-lg:20px; --radius-xl:28px;
     --ease: cubic-bezier(.16,1,.3,1);
     --dur:240ms;
-
     --good:#10b981; --bad:#ef4444; --acc:#6366f1; --acc-2:#8b5cf6;
-  }
-  html[data-theme="light"] {
-    --bg:#fafafa; --bg-grad: radial-gradient(1200px 600px at 80% -10%, #eef2ff 0%, transparent 60%), #fafafa;
-    --card: rgba(255,255,255,.85); --card-hi: rgba(255,255,255,.96);
-    --line: rgba(15,23,42,.08); --line-2: rgba(15,23,42,.14);
-    --text:#0f172a; --muted:#475569; --dim:#94a3b8; --glass: rgba(255,255,255,.6);
+
+    --bg:#fafafa;
+    --bg-grad: radial-gradient(1200px 600px at 80% -10%, #eef2ff 0%, transparent 60%),
+               radial-gradient(900px 500px at -10% 110%, #fef3f2 0%, transparent 55%),
+               #fafafa;
+    --card: rgba(255,255,255,.85);
+    --card-hi: rgba(255,255,255,.96);
+    --line: rgba(15,23,42,.08);
+    --line-2: rgba(15,23,42,.14);
+    --text:#0f172a; --muted:#475569; --dim:#94a3b8;
+    --glass: rgba(255,255,255,.6);
     color-scheme: light;
   }
   html[data-theme="dark"] {
-    --bg:#06080f; --bg-grad: radial-gradient(1200px 600px at 80% -10%, rgba(99,102,241,.10) 0%, transparent 60%), #06080f;
+    --bg:#06080f;
+    --bg-grad: radial-gradient(1200px 600px at 80% -10%, rgba(99,102,241,.10) 0%, transparent 60%),
+               radial-gradient(900px 500px at -10% 110%, rgba(239,68,68,.10) 0%, transparent 55%),
+               #06080f;
     --card: rgba(20,24,40,.65); --card-hi: rgba(28,33,54,.85);
     --line: rgba(255,255,255,.06); --line-2: rgba(255,255,255,.12);
-    --text:#f1f5f9; --muted:#94a3b8; --dim:#64748b; --glass: rgba(8,10,18,.55);
+    --text:#f1f5f9; --muted:#94a3b8; --dim:#64748b;
+    --glass: rgba(8,10,18,.55);
     color-scheme: dark;
-  }
-  html[data-theme="system"] {
-    --bg:#fafafa; --bg-grad: radial-gradient(1200px 600px at 80% -10%, #eef2ff 0%, transparent 60%), #fafafa;
-    --card: rgba(255,255,255,.85); --card-hi: rgba(255,255,255,.96);
-    --line: rgba(15,23,42,.08); --line-2: rgba(15,23,42,.14);
-    --text:#0f172a; --muted:#475569; --dim:#94a3b8; --glass: rgba(255,255,255,.6);
-    color-scheme: light dark;
   }
   @media (prefers-color-scheme: dark) {
     html[data-theme="system"] {
-      --bg:#06080f; --bg-grad: radial-gradient(1200px 600px at 80% -10%, rgba(99,102,241,.10) 0%, transparent 60%), #06080f;
+      --bg:#06080f;
+      --bg-grad: radial-gradient(1200px 600px at 80% -10%, rgba(99,102,241,.10) 0%, transparent 60%),
+                 radial-gradient(900px 500px at -10% 110%, rgba(239,68,68,.10) 0%, transparent 55%),
+                 #06080f;
       --card: rgba(20,24,40,.65); --card-hi: rgba(28,33,54,.85);
       --line: rgba(255,255,255,.06); --line-2: rgba(255,255,255,.12);
-      --text:#f1f5f9; --muted:#94a3b8; --dim:#64748b; --glass: rgba(8,10,18,.55);
+      --text:#f1f5f9; --muted:#94a3b8; --dim:#64748b;
+      --glass: rgba(8,10,18,.55);
+      color-scheme: dark;
     }
   }
   * { box-sizing: border-box; }
   html, body {
-    margin:0; padding:0; background: var(--bg-grad); color: var(--text);
-    font-family: var(--font); -webkit-font-smoothing: antialiased;
+    margin:0; padding:0; min-height:100vh;
+    background: var(--bg-grad);
+    color: var(--text); font-family: var(--font);
+    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
     transition: background-color 480ms var(--ease), color 480ms var(--ease);
   }
-  [data-num], .num, .amt, td.amt { font-family: var(--font-num); font-variant-numeric: tabular-nums; }
+  [data-num], .num, .amt { font-family: var(--font-num); font-variant-numeric: tabular-nums; }
 
-  .topbar {
-    position: sticky; top:0; z-index:30;
+  /* Topbar */
+  .topbar { position: sticky; top:0; z-index:30;
     backdrop-filter: blur(18px) saturate(180%); -webkit-backdrop-filter: blur(18px) saturate(180%);
-    background: var(--glass); border-bottom: 1px solid var(--line);
-  }
-  .topbar-inner { max-width:1240px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 24px; flex-wrap:wrap; }
+    background: var(--glass); border-bottom: 1px solid var(--line); }
+  .topbar-inner { max-width:1240px; margin:0 auto;
+    display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 24px; flex-wrap:wrap; }
   .brand { display:flex; align-items:center; gap:12px; font-weight:700; }
-  .brand-logo { width:36px; height:36px; border-radius:10px; background: linear-gradient(135deg, var(--acc), var(--acc-2)); display:grid; place-items:center; color:white; box-shadow: 0 6px 20px -8px var(--acc); }
+  .brand-logo { width:36px; height:36px; border-radius:10px;
+    background: linear-gradient(135deg, var(--acc), var(--acc-2));
+    display:grid; place-items:center; color:white;
+    box-shadow: 0 6px 20px -8px var(--acc); }
   .brand-text .t1 { font-size:14px; font-weight:700; }
   .brand-text .t2 { font-size:11px; color:var(--muted); }
   .controls { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
-  .seg { position:relative; display:inline-flex; background:var(--card); border:1px solid var(--line); border-radius:999px; padding:3px; }
-  .seg-pill { position:absolute; top:3px; bottom:3px; border-radius:999px; background:var(--card-hi); box-shadow:0 1px 2px rgba(0,0,0,.06); transition:left 480ms var(--ease), width 480ms var(--ease); pointer-events:none; }
-  .seg-btn { position:relative; z-index:1; appearance:none; border:0; background:transparent; color:var(--muted); font-family:inherit; padding:7px 12px; border-radius:999px; cursor:pointer; font-size:12px; font-weight:500; display:inline-flex; align-items:center; gap:6px; transition: color var(--dur) var(--ease); }
+  .seg { position:relative; display:inline-flex; background:var(--card);
+    border:1px solid var(--line); border-radius:999px; padding:3px;
+    box-shadow: 0 1px 0 var(--line) inset; }
+  .seg-pill { position:absolute; top:3px; bottom:3px; border-radius:999px;
+    background:var(--card-hi); box-shadow:0 1px 2px rgba(0,0,0,.06), 0 4px 12px rgba(0,0,0,.04);
+    transition:left 480ms var(--ease), width 480ms var(--ease); pointer-events:none; }
+  .seg-btn { position:relative; z-index:1; appearance:none; border:0; background:transparent;
+    color:var(--muted); font-family:inherit; padding:7px 12px; border-radius:999px; cursor:pointer;
+    font-size:12px; font-weight:500; display:inline-flex; align-items:center; gap:6px;
+    transition: color var(--dur) var(--ease); }
   .seg-btn:hover { color: var(--text); }
   .seg-btn[aria-pressed="true"] { color: var(--text); font-weight:600; }
   .seg-btn svg { width:14px; height:14px; }
 
+  /* Layout */
   .wrap { max-width:1240px; margin:0 auto; padding:32px 24px 80px; }
-  .head { display:flex; align-items:flex-end; justify-content:space-between; gap:16px; margin-bottom:28px; flex-wrap:wrap; }
-  .head h1 { margin:0; font-size:32px; letter-spacing:-.025em; font-weight:800; background: linear-gradient(180deg, var(--text), var(--muted) 200%); -webkit-background-clip:text; background-clip:text; color: transparent; }
+  .head { display:flex; align-items:flex-end; justify-content:space-between;
+    gap:16px; margin-bottom:28px; flex-wrap:wrap; }
+  .head h1 { margin:0; font-size:32px; letter-spacing:-.025em; font-weight:800;
+    background: linear-gradient(180deg, var(--text), var(--muted) 200%);
+    -webkit-background-clip:text; background-clip:text; color: transparent; }
   .head .sub { color:var(--muted); font-size:14px; margin-top:4px; }
-  .meta-pill { background:var(--card); border:1px solid var(--line); padding:8px 14px; border-radius:999px; font-size:12px; color:var(--muted); }
+  .meta-pill { background:var(--card); border:1px solid var(--line);
+    padding:8px 14px; border-radius:999px; font-size:12px; color:var(--muted); }
 
   .grid { display:grid; gap:16px; }
-  .kpis { grid-template-columns: repeat(3, 1fr); }
-  @media (max-width:780px) { .kpis { grid-template-columns: 1fr; } }
-  .card { background:var(--card); border:1px solid var(--line); border-radius:var(--radius-lg); padding:22px; backdrop-filter: blur(8px); transition: transform var(--dur) var(--ease), border-color var(--dur) var(--ease); }
+  .kpis { grid-template-columns: repeat(4, 1fr); }
+  @media (max-width:880px) { .kpis { grid-template-columns: repeat(2,1fr); } }
+
+  .card { position: relative; background:var(--card); border:1px solid var(--line);
+    border-radius:var(--radius-lg); padding:22px; backdrop-filter: blur(8px);
+    transition: transform var(--dur) var(--ease), border-color var(--dur) var(--ease); }
   .card:hover { transform: translateY(-1px); border-color: var(--line-2); }
-  .card-title { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.12em; margin:0 0 14px; font-weight:600; }
-  .kpi .lbl { color:var(--muted); font-size:11px; letter-spacing:.12em; text-transform:uppercase; font-weight:600; }
-  .kpi .val { font-size:28px; font-weight:800; margin-top:6px; letter-spacing:-.02em; display:flex; align-items:baseline; gap:4px; }
-  .kpi .val .cur { font-size:14px; color:var(--dim); font-weight:600; }
-  .kpi .meta { color:var(--dim); font-size:12px; margin-top:6px; }
+  .card-title { font-size:11px; color:var(--muted); text-transform:uppercase;
+    letter-spacing:.12em; margin:0 0 14px; font-weight:600; }
+
+  .kpi .lbl { color:var(--muted); font-size:11px; letter-spacing:.12em;
+    text-transform:uppercase; font-weight:600; }
+  .kpi .val { font-size:26px; font-weight:800; margin-top:8px; letter-spacing:-.02em;
+    display:flex; align-items:baseline; gap:4px; }
+  .kpi .val .cur { font-size:13px; color:var(--dim); font-weight:600; }
+  .kpi .meta { color:var(--dim); font-size:12px; margin-top:8px; }
   .kpi.income .val { color: var(--good); }
   .kpi.expense .val { color: var(--bad); }
   .kpi.net.positive .val { color: var(--good); }
   .kpi.net.negative .val { color: var(--bad); }
 
-  .delta-grid { grid-template-columns: repeat(3,1fr); }
-  @media (max-width:880px) { .delta-grid { grid-template-columns:1fr 1fr; } }
-  @media (max-width:540px) { .delta-grid { grid-template-columns:1fr; } }
-  .delta { display:flex; align-items:center; gap:14px; padding:14px 16px; }
-  .delta .swatch { width:6px; height:36px; border-radius:3px; background: var(--c); }
+  /* Chart wrappers */
+  .chart-wrap { height: 280px; position: relative; }
+  .chart-wrap.tall { height: 340px; }
+
+  /* Delta list */
+  .delta-grid { grid-template-columns: repeat(2,1fr); gap:10px; }
+  @media (max-width:660px) { .delta-grid { grid-template-columns: 1fr; } }
+  .delta { display:flex; align-items:center; gap:14px; padding:14px 16px;
+    background: var(--card-hi); border:1px solid var(--line); border-radius: var(--radius); }
+  .delta .swatch { width:6px; align-self:stretch; border-radius:3px; background: var(--c); }
   .delta .body { flex:1; min-width:0; }
   .delta .name { font-weight:600; font-size:14px; }
-  .delta .row { display:flex; gap:8px; align-items:baseline; font-size:12px; color: var(--muted); }
-  .delta .pct { font-weight:700; padding:2px 8px; border-radius:999px; font-size:12px; font-family: var(--font-num); }
+  .delta .amt { font-size:12px; color: var(--muted); margin-top:2px; }
+  .delta .pct { font-weight:700; padding:4px 10px; border-radius:999px;
+    font-size:12px; font-family: var(--font-num); white-space: nowrap; }
   .delta .pct.up   { background: color-mix(in oklab, var(--bad) 15%, transparent); color: var(--bad); }
   .delta .pct.down { background: color-mix(in oklab, var(--good) 15%, transparent); color: var(--good); }
 
+  /* Forecast card (highlighted) */
   .forecast {
     background: linear-gradient(135deg, color-mix(in oklab, var(--acc) 8%, var(--card)), var(--card));
     border:1px solid color-mix(in oklab, var(--acc) 25%, var(--line));
   }
-  .forecast .row { display:grid; grid-template-columns: repeat(4,1fr); gap:14px; margin-top:8px; }
-  @media (max-width:780px) { .forecast .row { grid-template-columns:1fr 1fr; } }
-  .fcell { padding:10px 0; }
+  .fcols { display:grid; grid-template-columns: repeat(4,1fr); gap:14px; }
+  @media (max-width:780px) { .fcols { grid-template-columns:1fr 1fr; } }
   .fcell .l { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.1em; }
   .fcell .v { font-size:18px; font-weight:700; margin-top:4px; font-family:var(--font-num); }
   .fcell.hl .v { color: var(--acc); font-size:22px; }
 
-  .empty { color:var(--dim); text-align:center; padding:32px; }
+  /* Breakdown bars */
+  .bd-row { display: grid; grid-template-columns: 14px 1fr auto; gap:12px;
+    align-items:center; padding:8px 4px; }
+  .bd-name { font-size: 13px; font-weight: 500; }
+  .bd-meta { color: var(--dim); font-size: 11px; margin-top:2px; }
+  .bd-amt { font-weight:700; font-family: var(--font-num); }
+  .bd-bar { height:4px; background: var(--line); border-radius:2px;
+    margin-top:6px; overflow:hidden; }
+  .bd-fill { height:100%; border-radius:2px; transition: width 800ms var(--ease); }
+
+  .empty { color:var(--dim); text-align:center; padding:24px;
+    background: var(--card-hi); border-radius: var(--radius); }
   .footer { margin-top:40px; color:var(--dim); font-size:12px; text-align:center; }
 
   /* Reveal */
-  .reveal { opacity:0; transform: translateY(12px); filter: blur(4px); transition: all 700ms var(--ease); }
+  .reveal { opacity:0; transform: translateY(12px); filter: blur(4px);
+    transition: opacity 700ms var(--ease), transform 700ms var(--ease), filter 700ms var(--ease); }
   .reveal.in { opacity:1; transform: translateY(0); filter: blur(0); }
 
-  @keyframes pulse-dot { 0%{box-shadow:0 0 0 0 rgba(99,102,241,.5)} 70%{box-shadow:0 0 0 8px rgba(99,102,241,0)} 100%{box-shadow:0 0 0 0 rgba(99,102,241,0)} }
-
   /* Gate */
-  .gate { position:fixed; inset:0; z-index:100; background: var(--bg-grad); display:grid; place-items:center; }
+  .gate { position:fixed; inset:0; z-index:100; background: var(--bg-grad);
+    display:grid; place-items:center; }
   .gate.hide { display:none; }
-  .gate-box { background: var(--card); border:1px solid var(--line); padding:36px; border-radius:24px; text-align:center; min-width:340px; }
-  .gate-box h2 { margin:0 0 4px; }
+  .gate-box { background: var(--card); border:1px solid var(--line); padding:36px;
+    border-radius: var(--radius-xl); text-align:center; min-width:340px; max-width: calc(100vw - 40px);
+    box-shadow: 0 30px 80px -30px rgba(0,0,0,.3); }
+  .gate-icon { width:56px; height:56px; border-radius:16px; margin:0 auto 16px;
+    background: linear-gradient(135deg, var(--acc), var(--acc-2));
+    display:grid; place-items:center; color:white;
+    box-shadow: 0 12px 32px -10px var(--acc); }
+  .gate-box h2 { margin:0 0 4px; font-size:20px; }
   .gate-box p { color: var(--muted); margin:0 0 20px; font-size:13px; }
-  .gate-box input { width:100%; padding:14px 16px; border-radius:12px; border:1px solid var(--line-2); background:var(--card-hi); color: var(--text); font-size:18px; text-align:center; letter-spacing:.5em; font-family:var(--font-num); font-weight:600; }
-  .gate-box input:focus { outline:0; border-color: var(--acc); box-shadow: 0 0 0 4px color-mix(in oklab, var(--acc) 20%, transparent); }
+  .gate-box input { width:100%; padding:14px 16px; border-radius:12px;
+    border:1px solid var(--line-2); background:var(--card-hi); color: var(--text);
+    font-size:18px; text-align:center; letter-spacing:.5em;
+    font-family:var(--font-num); font-weight:600; }
+  .gate-box input:focus { outline:0; border-color: var(--acc);
+    box-shadow: 0 0 0 4px color-mix(in oklab, var(--acc) 20%, transparent); }
   .gate-err { color:var(--bad); font-size:12px; margin-top:10px; height:14px; }
+  .gate-shake { animation: shake 380ms var(--ease); }
+  @keyframes shake { 10%,90%{transform:translateX(-2px)} 20%,80%{transform:translateX(3px)}
+                     30%,50%,70%{transform:translateX(-5px)} 40%,60%{transform:translateX(5px)} }
 
-  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration:0.01ms !important; transition-duration:0.01ms !important; } .reveal { opacity:1; transform:none; filter:none; } }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after {
+    animation-duration:0.01ms !important; transition-duration:0.01ms !important; }
+    .reveal { opacity:1; transform:none; filter:none; } }
 </style>
 </head>
 <body>
 
-<div class="gate" id="gate"><div class="gate-box">
-  <h2 data-i18n="gate_title">ล็อกอยู่</h2>
-  <p data-i18n="gate_sub">กรอกรหัสเพื่อเปิด trends</p>
-  <input id="pin" type="password" inputmode="numeric" maxlength="8" autofocus />
-  <div class="gate-err" id="err">&nbsp;</div>
-</div></div>
+<!-- Gate -->
+<div class="gate" id="gate">
+  <div class="gate-box" id="gateBox">
+    <div class="gate-icon">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+      </svg>
+    </div>
+    <h2 id="gateTitle">ล็อกอยู่</h2>
+    <p id="gateSub">กรอกรหัสเพื่อเปิด trends</p>
+    <input id="pin" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="8" autofocus />
+    <div class="gate-err" id="err">&nbsp;</div>
+  </div>
+</div>
 
+<!-- Topbar -->
 <div class="topbar" id="topbar" style="display:none">
   <div class="topbar-inner">
     <div class="brand">
       <div class="brand-logo">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 7v6h-6"/></svg>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 17l6-6 4 4 8-8"/><path d="M21 7v6h-6"/>
+        </svg>
       </div>
       <div class="brand-text">
-        <div class="t1" data-i18n="title">Finance Trends</div>
-        <div class="t2" id="subTop"></div>
+        <div class="t1">Finance Trends</div>
+        <div class="t2" id="subTop">—</div>
       </div>
     </div>
     <div class="controls">
-      <div class="seg" role="group" aria-label="theme"><div class="seg-pill" data-pill></div>
-        <button class="seg-btn" data-theme="light" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg><span>Light</span></button>
-        <button class="seg-btn" data-theme="dark" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><span>Dark</span></button>
-        <button class="seg-btn" data-theme="system" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg><span>System</span></button>
+      <div class="seg" role="group"><div class="seg-pill" data-pill></div>
+        <button class="seg-btn" data-theme="light" aria-pressed="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg><span>Light</span></button>
+        <button class="seg-btn" data-theme="dark" aria-pressed="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg><span>Dark</span></button>
+        <button class="seg-btn" data-theme="system" aria-pressed="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/>
+          </svg><span>System</span></button>
       </div>
-      <div class="seg" role="group" aria-label="language"><div class="seg-pill" data-pill></div>
+      <div class="seg" role="group"><div class="seg-pill" data-pill></div>
         <button class="seg-btn" data-lang="th" aria-pressed="true">TH</button>
         <button class="seg-btn" data-lang="en" aria-pressed="false">EN</button>
       </div>
@@ -176,275 +263,455 @@
   </div>
 </div>
 
+<!-- Content -->
 <div class="wrap" id="content" style="display:none">
   <div class="head reveal">
     <div>
-      <h1 data-i18n="title">Finance Trends</h1>
-      <div class="sub" id="subLabel"></div>
+      <h1 id="pageTitle">Finance Trends</h1>
+      <div class="sub" id="subLabel">—</div>
     </div>
-    <div class="meta-pill"><span data-i18n="generated">generated</span> <span id="genTime"></span></div>
+    <div class="meta-pill"><span id="genLbl">generated</span> <span id="genTime">—</span></div>
   </div>
 
-  <!-- KPIs -->
-  <div class="grid kpis reveal" style="margin-bottom: 16px">
+  <div class="grid kpis reveal" style="margin-bottom:16px">
     <div class="card kpi expense">
-      <div class="lbl" data-i18n="kpi_cur_expense">เดือนล่าสุด · รายจ่าย</div>
-      <div class="val"><span class="cur">฿</span><span data-num id="kpiCurExp">0</span></div>
-      <div class="meta" id="kpiCurMonth"></div>
+      <div class="lbl" id="lblCurExp">เดือนล่าสุด · รายจ่าย</div>
+      <div class="val"><span class="cur">฿</span><span id="kpiCurExp">0</span></div>
+      <div class="meta" id="kpiCurMeta">—</div>
     </div>
     <div class="card kpi income">
-      <div class="lbl" data-i18n="kpi_cur_income">เดือนล่าสุด · รายรับ</div>
-      <div class="val"><span class="cur">฿</span><span data-num id="kpiCurInc">0</span></div>
-      <div class="meta" data-i18n="kpi_n_txn"></div>
+      <div class="lbl" id="lblCurInc">เดือนล่าสุด · รายรับ</div>
+      <div class="val"><span class="cur">฿</span><span id="kpiCurInc">0</span></div>
+      <div class="meta" id="kpiCurIncMeta">—</div>
     </div>
     <div class="card kpi net" id="kpiNetCard">
-      <div class="lbl" data-i18n="kpi_avg_net">เฉลี่ย {n} เดือน · สุทธิ</div>
-      <div class="val"><span class="cur">฿</span><span data-num id="kpiAvgNet">0</span></div>
-      <div class="meta" id="kpiAvgMeta"></div>
+      <div class="lbl" id="lblCurNet">เดือนล่าสุด · สุทธิ</div>
+      <div class="val"><span class="cur">฿</span><span id="kpiCurNet">0</span></div>
+      <div class="meta" id="lblCurNetMeta">รายรับ − รายจ่าย</div>
+    </div>
+    <div class="card kpi">
+      <div class="lbl" id="lblAvg">เฉลี่ย · รายจ่าย</div>
+      <div class="val"><span class="cur">฿</span><span id="kpiAvgExp">0</span></div>
+      <div class="meta" id="kpiAvgMeta">—</div>
     </div>
   </div>
 
-  <!-- Forecast (only if remaining > 0) -->
   <div id="forecastWrap" style="margin-bottom:16px"></div>
 
-  <!-- Trend line chart -->
-  <div class="card reveal" style="margin-bottom:16px">
-    <div class="card-title" data-i18n="section_trend">รายรับ/รายจ่าย/สุทธิ ตามเดือน</div>
-    <div style="height:280px"><canvas id="trendChart"></canvas></div>
+  <div class="card reveal" style="margin-bottom:16px" id="trendCard">
+    <div class="card-title" id="lblTrend">รายรับ/รายจ่าย/สุทธิ ตามเดือน</div>
+    <div class="chart-wrap"><canvas id="trendChart"></canvas></div>
+    <div class="empty" id="trendEmpty" style="display:none">—</div>
   </div>
 
-  <!-- Stacked category by month -->
-  <div class="card reveal" style="margin-bottom:16px">
-    <div class="card-title" data-i18n="section_stack">รายจ่ายแยกหมวด · ตามเดือน</div>
-    <div style="height:280px"><canvas id="stackChart"></canvas></div>
+  <div class="card reveal" style="margin-bottom:16px" id="stackCard">
+    <div class="card-title" id="lblStack">รายจ่ายแยกหมวด · ตามเดือน</div>
+    <div class="chart-wrap tall"><canvas id="stackChart"></canvas></div>
+    <div class="empty" id="stackEmpty" style="display:none">—</div>
   </div>
 
-  <!-- Delta cards -->
-  <div class="card reveal" style="margin-bottom:16px" id="deltaWrap">
-    <div class="card-title" data-i18n="section_delta">เปลี่ยนแปลง · เดือนนี้ vs ก่อน</div>
+  <div class="card reveal" style="margin-bottom:16px" id="breakdownCard">
+    <div class="card-title" id="lblBreakdown">หมวดของเดือนล่าสุด</div>
+    <div id="breakdownList"></div>
+  </div>
+
+  <div class="card reveal" style="margin-bottom:16px" id="deltaCard">
+    <div class="card-title" id="lblDelta">เปลี่ยนแปลง · เดือนนี้ vs ก่อน</div>
     <div class="grid delta-grid" id="deltaGrid"></div>
+    <div class="empty" id="deltaEmpty" style="display:none">—</div>
   </div>
 
-  <div class="footer">
-    <span data-i18n="footer">AI Brain · Finance Trends</span>
-  </div>
+  <div class="footer" id="footerLbl">AI Brain · Finance Trends</div>
 </div>
 
 <script>
-  const PAYLOAD = {"passcode": "23091996", "months": ["2026-04"], "series": [{"key": "2026-04", "income": 51428.0, "expense": 35055.2, "net": 16372.8, "n_txn": 84}], "cat_labels_th": ["บัตรเครดิต", "ช้อปปิ้ง", "อาหาร", "จ่ายหนี้", "อื่นๆ", "ค่าโทรศัพท์", "(ไม่ระบุ)", "เดินทาง รถ", "จ่ายบิล"], "cat_labels_en": ["Credit Card", "Shopping", "Food", "Debt", "Other", "Phone", "(Unspecified)", "Transport", "Bills"], "cat_colors": ["#be123c", "#f59e0b", "#ef4444", "#dc2626", "#94a3b8", "#8b5cf6", "#cbd5e1", "#3b82f6", "#06b6d4"], "cat_data": [[13000.0], [8008.68], [6460.0], [4000.0], [2156.1], [520.0], [500.0], [291.0], [119.42]], "deltas": [], "forecast": {"today": "2026-04-27", "elapsed": 27, "remaining": 0, "total_in_cycle": 27, "velocity": 1298.3407407407406, "forecast": 35055.2, "current": 35055.2}, "kpis": {"n_months": 1, "cur_income": 51428.0, "cur_expense": 35055.2, "cur_net": 16372.800000000003, "cur_key": "2026-04", "avg_income": 51428.0, "avg_expense": 35055.2, "avg_net": 16372.800000000003, "avg_n": 1}, "generated": "2026-04-27 11:40"};
-  const PIN = String(PAYLOAD.passcode);
+(function(){
+"use strict";
 
-  const I18N = {
-    th: {
-      title:"Finance Trends",
-      kpi_cur_expense:"เดือนล่าสุด · รายจ่าย", kpi_cur_income:"เดือนล่าสุด · รายรับ",
-      kpi_avg_net:"เฉลี่ย · สุทธิ",
-      section_trend:"รายรับ/รายจ่าย/สุทธิ ตามเดือน",
-      section_stack:"รายจ่ายแยกหมวด · ตามเดือน",
-      section_delta:"เปลี่ยนแปลง · เดือนนี้ vs ก่อน",
-      footer:"AI Brain · Finance Trends",
-      generated:"สร้างเมื่อ",
-      gate_title:"ล็อกอยู่", gate_sub:"กรอกรหัสเพื่อเปิด trends", gate_err:"รหัสผิด",
-      lbl_income:"รายรับ", lbl_expense:"รายจ่าย", lbl_net:"สุทธิ",
-      forecast_h:"คาดการณ์สิ้นรอบ", fc_used:"ใช้ไปแล้ว", fc_velocity:"velocity/วัน",
-      fc_remaining:"เหลือ", fc_forecast:"คาดสิ้นรอบ",
-      no_compare:"เก็บข้อมูลอีกเดือน → จะเห็น trend ครบ",
-      avg_meta:"{n} เดือน · {fmt}",
-    },
-    en: {
-      title:"Finance Trends",
-      kpi_cur_expense:"Current month · Expenses", kpi_cur_income:"Current month · Income",
-      kpi_avg_net:"Avg · Net",
-      section_trend:"Income / Expense / Net by month",
-      section_stack:"Expenses by category · per month",
-      section_delta:"Change · current vs previous",
-      footer:"AI Brain · Finance Trends",
-      generated:"generated",
-      gate_title:"Locked", gate_sub:"Enter PIN to unlock trends", gate_err:"Wrong PIN",
-      lbl_income:"Income", lbl_expense:"Expense", lbl_net:"Net",
-      forecast_h:"End-of-cycle forecast", fc_used:"Used", fc_velocity:"velocity/day",
-      fc_remaining:"remaining", fc_forecast:"projected",
-      no_compare:"Add another month to see full trend",
-      avg_meta:"{n} months · {fmt}",
-    },
-  };
-  const html = document.documentElement;
-  const ls = { get: k=>{try{return localStorage.getItem(k)}catch(e){return null}}, set:(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}} };
-  const fmt = (n,d=2) => Number(n).toLocaleString(undefined,{minimumFractionDigits:d, maximumFractionDigits:d});
-  const tplFill = (s,vars) => s.replace(/\{(\w+)\}/g,(_,k)=>vars[k]??'');
-  const L = () => I18N[html.getAttribute('data-locale')];
+const PAYLOAD = {"passcode": "23091996", "months": ["2026-04"], "series": [{"key": "2026-04", "income": 51428.0, "expense": 35055.2, "net": 16372.8, "n_txn": 84}], "cat_labels_th": ["บัตรเครดิต", "ช้อปปิ้ง", "อาหาร", "จ่ายหนี้", "อื่นๆ", "ค่าโทรศัพท์", "(ไม่ระบุ)", "เดินทาง รถ", "จ่ายบิล"], "cat_labels_en": ["Credit Card", "Shopping", "Food", "Debt", "Other", "Phone", "(Unspecified)", "Transport", "Bills"], "cat_colors": ["#be123c", "#f59e0b", "#ef4444", "#dc2626", "#94a3b8", "#8b5cf6", "#cbd5e1", "#3b82f6", "#06b6d4"], "cat_data": [[13000.0], [8008.68], [6460.0], [4000.0], [2156.1], [520.0], [500.0], [291.0], [119.42]], "cur_breakdown": [{"th": "บัตรเครดิต", "en": "Credit Card", "color": "#be123c", "amount": 13000.0, "count": 1}, {"th": "ช้อปปิ้ง", "en": "Shopping", "color": "#f59e0b", "amount": 8008.68, "count": 2}, {"th": "อาหาร", "en": "Food", "color": "#ef4444", "amount": 6460.0, "count": 54}, {"th": "จ่ายหนี้", "en": "Debt", "color": "#dc2626", "amount": 4000.0, "count": 1}, {"th": "อื่นๆ", "en": "Other", "color": "#94a3b8", "amount": 2156.1, "count": 9}, {"th": "ค่าโทรศัพท์", "en": "Phone", "color": "#8b5cf6", "amount": 520.0, "count": 2}, {"th": "(ไม่ระบุ)", "en": "(Unspecified)", "color": "#cbd5e1", "amount": 500.0, "count": 2}, {"th": "เดินทาง รถ", "en": "Transport", "color": "#3b82f6", "amount": 291.0, "count": 4}, {"th": "จ่ายบิล", "en": "Bills", "color": "#06b6d4", "amount": 119.42, "count": 1}], "deltas": [], "forecast": {"today": "2026-04-27", "elapsed": 27, "remaining": 0, "total_in_cycle": 27, "velocity": 1298.3407407407406, "forecast": 35055.2, "current": 35055.2}, "kpis": {"n_months": 1, "cur_income": 51428.0, "cur_expense": 35055.2, "cur_net": 16372.8, "cur_key": "2026-04", "cur_start": "01/04", "cur_end": "27/04", "cur_n_txn": 84, "avg_income": 51428.0, "avg_expense": 35055.2, "avg_net": 16372.8, "avg_n": 1}, "generated": "2026-04-27 18:00"};
+const PIN = String(PAYLOAD.passcode);
 
-  function setTheme(m) {
-    html.setAttribute('data-theme', m); ls.set('fin_theme', m);
-    document.querySelectorAll('[data-theme]').forEach(b=> b.setAttribute('aria-pressed', b.dataset.theme===m?'true':'false'));
-    updatePills(); if (window._charts) renderCharts();
+const I18N = {
+  th: {
+    title:"Finance Trends",
+    sub_months: "{n} เดือน · ล่าสุด {key}",
+    sub_cycle: "{cur} ({start} — {end})",
+    cur_expense:"เดือนล่าสุด · รายจ่าย",
+    cur_income: "เดือนล่าสุด · รายรับ",
+    cur_net:    "เดือนล่าสุด · สุทธิ",
+    cur_meta:   "{n} รายการ · {start}–{end}",
+    cur_inc_meta:"{n} เดือนนี้",
+    avg_lbl:    "เฉลี่ย {n} เดือน · รายจ่าย",
+    avg_meta:   "รายรับ ฿ {inc} · สุทธิ ฿ {net}",
+    section_trend:"รายรับ / รายจ่าย / สุทธิ ตามเดือน",
+    section_stack:"รายจ่ายแยกหมวด · ตามเดือน",
+    section_delta:"เปลี่ยนแปลง · เดือนนี้ vs ก่อน",
+    section_breakdown:"หมวดของเดือนล่าสุด",
+    section_forecast:"🔮 คาดการณ์สิ้นรอบ",
+    fc_used:"ใช้ไปแล้ว", fc_velocity:"velocity/วัน",
+    fc_remaining:"เหลือ", fc_forecast:"คาดสิ้นรอบ", days:"วัน",
+    no_compare:"📊 มีข้อมูลแค่เดือนเดียว — เก็บเพิ่มเดือนหน้าจะเห็น trend / delta",
+    no_chart:"ต้องการอย่างน้อย 2 เดือนเพื่อแสดง chart",
+    footer:"AI Brain · Finance Trends",
+    generated:"สร้างเมื่อ",
+    income:"รายรับ", expense:"รายจ่าย", net:"สุทธิ",
+    gate_title:"ล็อกอยู่", gate_sub:"กรอกรหัสเพื่อเปิด trends", gate_err:"รหัสผิด",
+    txn:"รายการ",
+  },
+  en: {
+    title:"Finance Trends",
+    sub_months: "{n} months · latest {key}",
+    sub_cycle: "{cur} ({start} — {end})",
+    cur_expense:"Current month · Expenses",
+    cur_income: "Current month · Income",
+    cur_net:    "Current month · Net",
+    cur_meta:   "{n} txn · {start}–{end}",
+    cur_inc_meta:"{n} this month",
+    avg_lbl:    "Avg {n} months · Expenses",
+    avg_meta:   "Income ฿ {inc} · Net ฿ {net}",
+    section_trend:"Income / Expenses / Net by month",
+    section_stack:"Expenses by category · per month",
+    section_delta:"Change · current vs previous",
+    section_breakdown:"Latest month breakdown",
+    section_forecast:"🔮 End-of-cycle forecast",
+    fc_used:"Used", fc_velocity:"velocity/day",
+    fc_remaining:"remaining", fc_forecast:"projected", days:"d",
+    no_compare:"📊 Only 1 month of data — collect more to see trend / delta",
+    no_chart:"Need at least 2 months for chart",
+    footer:"AI Brain · Finance Trends",
+    generated:"generated",
+    income:"Income", expense:"Expense", net:"Net",
+    gate_title:"Locked", gate_sub:"Enter PIN to unlock", gate_err:"Wrong PIN",
+    txn:"txn",
+  },
+};
+
+const $ = (id) => document.getElementById(id);
+const html = document.documentElement;
+const ls = {
+  get: k => { try { return localStorage.getItem(k); } catch(e) { return null; } },
+  set: (k,v) => { try { localStorage.setItem(k,v); } catch(e) {} },
+};
+const fmt = (n,d=2) => Number(n).toLocaleString(undefined, {minimumFractionDigits:d, maximumFractionDigits:d});
+const fmt0 = (n) => Number(n).toLocaleString(undefined, {maximumFractionDigits:0});
+const tplFill = (s, vars) => String(s||'').replace(/\{(\w+)\}/g, (_,k) => vars[k] ?? '');
+const escapeHtml = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const L = () => I18N[html.getAttribute('data-locale')] || I18N.th;
+
+let charts = {};
+
+function setTheme(mode) {
+  html.setAttribute('data-theme', mode);
+  ls.set('fin_theme', mode);
+  document.querySelectorAll('[data-theme]').forEach(b =>
+    b.setAttribute('aria-pressed', b.dataset.theme === mode ? 'true' : 'false'));
+  updatePills();
+  if (charts.trend || charts.stack) renderCharts();
+}
+function setLocale(loc) {
+  html.setAttribute('data-locale', loc);
+  html.setAttribute('lang', loc);
+  ls.set('fin_locale', loc);
+  document.querySelectorAll('[data-lang]').forEach(b =>
+    b.setAttribute('aria-pressed', b.dataset.lang === loc ? 'true' : 'false'));
+  applyI18n();
+  renderBreakdown();
+  renderDeltas();
+  renderForecast();
+  updatePills();
+  if (charts.trend || charts.stack) renderCharts();
+}
+
+function updatePills() {
+  document.querySelectorAll('.seg').forEach(seg => {
+    const pill = seg.querySelector('[data-pill]'); if (!pill) return;
+    const a = seg.querySelector('.seg-btn[aria-pressed="true"]'); if (!a) return;
+    const sR = seg.getBoundingClientRect();
+    const aR = a.getBoundingClientRect();
+    pill.style.left = (aR.left - sR.left) + 'px';
+    pill.style.width = aR.width + 'px';
+  });
+}
+window.addEventListener('resize', updatePills);
+
+function applyI18n() {
+  const d = L();
+  const k = PAYLOAD.kpis;
+
+  $('pageTitle').textContent = d.title;
+  $('subTop').textContent    = tplFill(d.sub_months, {n: k.n_months, key: k.cur_key});
+  $('subLabel').textContent  = tplFill(d.sub_cycle, {cur: k.cur_key, start: k.cur_start, end: k.cur_end});
+  $('genLbl').textContent    = d.generated;
+  $('genTime').textContent   = PAYLOAD.generated;
+  $('footerLbl').textContent = d.footer;
+
+  $('gateTitle').textContent = d.gate_title;
+  $('gateSub').textContent   = d.gate_sub;
+
+  $('lblCurExp').textContent  = d.cur_expense;
+  $('lblCurInc').textContent  = d.cur_income;
+  $('lblCurNet').textContent  = d.cur_net;
+  $('lblAvg').textContent     = tplFill(d.avg_lbl, {n: k.avg_n});
+
+  $('kpiCurMeta').textContent = tplFill(d.cur_meta, {n: k.cur_n_txn, start: k.cur_start, end: k.cur_end});
+  $('kpiCurIncMeta').textContent = tplFill(d.cur_inc_meta, {n: '+'});
+  $('kpiAvgMeta').textContent = tplFill(d.avg_meta, {inc: fmt0(k.avg_income), net: fmt0(k.avg_net)});
+
+  $('lblTrend').textContent     = d.section_trend;
+  $('lblStack').textContent     = d.section_stack;
+  $('lblDelta').textContent     = d.section_delta;
+  $('lblBreakdown').textContent = d.section_breakdown;
+}
+
+function animateNum(el, target, duration=900) {
+  const start = performance.now();
+  function step(t) {
+    const p = Math.min(1, (t - start) / duration);
+    const e = 1 - Math.pow(1 - p, 3);
+    el.textContent = fmt(target * e);
+    if (p < 1) requestAnimationFrame(step);
   }
-  function setLocale(l) {
-    html.setAttribute('data-locale', l); html.setAttribute('lang', l); ls.set('fin_locale', l);
-    document.querySelectorAll('[data-lang]').forEach(b=> b.setAttribute('aria-pressed', b.dataset.lang===l?'true':'false'));
-    applyI18n(); renderDeltas(); renderForecast(); updatePills();
-    if (window._charts) renderCharts();
-  }
-  document.querySelectorAll('.seg-btn[data-theme]').forEach(b=> b.addEventListener('click', ()=>setTheme(b.dataset.theme)));
-  document.querySelectorAll('.seg-btn[data-lang]').forEach(b=> b.addEventListener('click', ()=>setLocale(b.dataset.lang)));
+  requestAnimationFrame(step);
+}
 
-  function updatePills() {
-    document.querySelectorAll('.seg').forEach(seg=>{
-      const pill = seg.querySelector('[data-pill]'); if (!pill) return;
-      const a = seg.querySelector('.seg-btn[aria-pressed="true"]'); if (!a) return;
-      const sR = seg.getBoundingClientRect(); const aR = a.getBoundingClientRect();
-      pill.style.left = (aR.left - sR.left) + 'px'; pill.style.width = aR.width + 'px';
-    });
-  }
-  window.addEventListener('resize', updatePills);
+function fillKpis() {
+  const k = PAYLOAD.kpis;
+  animateNum($('kpiCurExp'), k.cur_expense);
+  animateNum($('kpiCurInc'), k.cur_income);
+  animateNum($('kpiCurNet'), k.cur_net);
+  animateNum($('kpiAvgExp'), k.avg_expense);
+  $('kpiNetCard').classList.add(k.cur_net >= 0 ? 'positive' : 'negative');
+}
 
-  function applyI18n() {
-    const d = L();
-    document.querySelectorAll('[data-i18n]').forEach(el=>{
-      const k = el.getAttribute('data-i18n'); if (d[k]!==undefined) el.textContent = d[k];
-    });
-    // Avg KPI label
-    const k = PAYLOAD.kpis;
-    document.getElementById('kpiAvgMeta').textContent = tplFill(d.avg_meta, {n: k.avg_n, fmt: '฿ ' + fmt(k.avg_expense) + ' จ่าย'});
-    document.getElementById('kpiCurMonth').textContent = k.cur_key;
-  }
-
-  function animateNum(el, target, duration=900) {
-    const start = performance.now();
-    function step(t) { const p = Math.min(1, (t-start)/duration); const e = 1 - Math.pow(1-p, 3);
-      el.textContent = fmt(target * e); if (p<1) requestAnimationFrame(step); }
-    requestAnimationFrame(step);
-  }
-
-  function fillKpis() {
-    const k = PAYLOAD.kpis;
-    animateNum(document.getElementById('kpiCurExp'), k.cur_expense);
-    animateNum(document.getElementById('kpiCurInc'), k.cur_income);
-    animateNum(document.getElementById('kpiAvgNet'), k.avg_net);
-    document.getElementById('kpiNetCard').classList.add(k.avg_net >= 0 ? 'positive':'negative');
-  }
-
-  function renderDeltas() {
-    const wrap = document.getElementById('deltaWrap');
-    const grid = document.getElementById('deltaGrid');
-    grid.innerHTML = '';
-    if (!PAYLOAD.deltas || !PAYLOAD.deltas.length) {
-      wrap.innerHTML = '<div class="card-title">' + L().section_delta + '</div><div class="empty">' + L().no_compare + '</div>';
-      return;
-    }
-    const loc = html.getAttribute('data-locale');
-    PAYLOAD.deltas.forEach(d=>{
-      const name = loc==='en' ? d.en : d.th;
-      const up = d.diff >= 0;
-      const sign = up ? '+' : '';
-      grid.insertAdjacentHTML('beforeend', `
-        <div class="card delta">
-          <div class="swatch" style="--c:${d.color}"></div>
-          <div class="body">
-            <div class="name">${escapeHtml(name)}</div>
-            <div class="row">฿ ${fmt(d.prev)} → ฿ ${fmt(d.cur)}</div>
-          </div>
-          <div class="pct ${up?'up':'down'}">${sign}${d.pct.toFixed(0)}%</div>
-        </div>`);
-    });
-  }
-
-  function renderForecast() {
-    const f = PAYLOAD.forecast; const w = document.getElementById('forecastWrap');
-    if (!f || f.remaining <= 0) { w.innerHTML = ''; return; }
-    const d = L();
-    w.innerHTML = `
-      <div class="card forecast reveal in">
-        <div class="card-title">🔮 ${d.forecast_h}</div>
-        <div class="row">
-          <div class="fcell"><div class="l">${d.fc_used}</div><div class="v">฿ ${fmt(f.current)}</div></div>
-          <div class="fcell"><div class="l">${d.fc_velocity}</div><div class="v">฿ ${fmt(f.velocity)}</div></div>
-          <div class="fcell"><div class="l">${d.fc_remaining}</div><div class="v">${f.remaining} d</div></div>
-          <div class="fcell hl"><div class="l">${d.fc_forecast}</div><div class="v">฿ ${fmt(f.forecast)}</div></div>
+function renderBreakdown() {
+  const d = L();
+  const list = $('breakdownList');
+  list.innerHTML = '';
+  const items = PAYLOAD.cur_breakdown || [];
+  if (!items.length) { list.innerHTML = '<div class="empty">—</div>'; return; }
+  const total = items.reduce((s, x) => s + x.amount, 0) || 1;
+  const loc = html.getAttribute('data-locale');
+  items.forEach(it => {
+    const name = loc === 'en' ? it.en : it.th;
+    const pct = (it.amount / total * 100);
+    list.insertAdjacentHTML('beforeend', `
+      <div class="bd-row">
+        <span style="width:10px;height:10px;border-radius:50%;background:${it.color}"></span>
+        <div>
+          <div class="bd-name">${escapeHtml(name)}</div>
+          <div class="bd-bar"><div class="bd-fill" style="width:${pct.toFixed(1)}%;background:${it.color}"></div></div>
+          <div class="bd-meta">${it.count} ${escapeHtml(d.txn)} · ${pct.toFixed(1)}%</div>
         </div>
-      </div>`;
+        <div class="bd-amt">฿ ${fmt(it.amount)}</div>
+      </div>`);
+  });
+}
+
+function renderDeltas() {
+  const d = L();
+  const grid = $('deltaGrid');
+  const empty = $('deltaEmpty');
+  grid.innerHTML = '';
+  if (!PAYLOAD.deltas || PAYLOAD.deltas.length === 0) {
+    grid.style.display = 'none';
+    empty.style.display = 'block';
+    empty.textContent = d.no_compare;
+    return;
+  }
+  grid.style.display = '';
+  empty.style.display = 'none';
+  const loc = html.getAttribute('data-locale');
+  PAYLOAD.deltas.forEach(x => {
+    const name = loc === 'en' ? x.en : x.th;
+    const up = x.diff >= 0;
+    const sign = up ? '+' : '';
+    grid.insertAdjacentHTML('beforeend', `
+      <div class="delta">
+        <div class="swatch" style="--c:${x.color}"></div>
+        <div class="body">
+          <div class="name">${escapeHtml(name)}</div>
+          <div class="amt">฿ ${fmt(x.prev)} → ฿ ${fmt(x.cur)}</div>
+        </div>
+        <div class="pct ${up ? 'up' : 'down'}">${sign}${x.pct.toFixed(0)}%</div>
+      </div>`);
+  });
+}
+
+function renderForecast() {
+  const f = PAYLOAD.forecast;
+  const w = $('forecastWrap');
+  if (!f || f.remaining <= 0) { w.innerHTML = ''; return; }
+  const d = L();
+  w.innerHTML = `
+    <div class="card forecast">
+      <div class="card-title">${escapeHtml(d.section_forecast)}</div>
+      <div class="fcols">
+        <div class="fcell"><div class="l">${escapeHtml(d.fc_used)}</div><div class="v">฿ ${fmt(f.current)}</div></div>
+        <div class="fcell"><div class="l">${escapeHtml(d.fc_velocity)}</div><div class="v">฿ ${fmt(f.velocity)}</div></div>
+        <div class="fcell"><div class="l">${escapeHtml(d.fc_remaining)}</div><div class="v">${f.remaining} ${escapeHtml(d.days)}</div></div>
+        <div class="fcell hl"><div class="l">${escapeHtml(d.fc_forecast)}</div><div class="v">฿ ${fmt(f.forecast)}</div></div>
+      </div>
+    </div>`;
+}
+
+function chartColors() {
+  const t = html.getAttribute('data-theme');
+  const isDark = t === 'dark' || (t === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  return {
+    grid: isDark ? 'rgba(255,255,255,.06)' : 'rgba(15,23,42,.06)',
+    tick: isDark ? '#94a3b8' : '#475569',
+    bg:   isDark ? 'rgba(20,24,40,.95)' : 'rgba(255,255,255,.98)',
+    isDark,
+  };
+}
+
+function renderCharts() {
+  if (typeof Chart === 'undefined') {
+    $('trendEmpty').style.display = 'block';
+    $('trendEmpty').textContent = 'Chart.js failed to load';
+    $('stackEmpty').style.display = 'block';
+    $('stackEmpty').textContent = 'Chart.js failed to load';
+    return;
+  }
+  const c = chartColors();
+  const d = L();
+  const loc = html.getAttribute('data-locale');
+  const months = PAYLOAD.months || [];
+  const series = PAYLOAD.series || [];
+
+  // Trend chart
+  if (charts.trend) { charts.trend.destroy(); charts.trend = null; }
+  if (charts.stack) { charts.stack.destroy(); charts.stack = null; }
+
+  if (months.length === 0) {
+    $('trendEmpty').style.display = 'block';
+    $('trendEmpty').textContent = d.no_chart;
+    $('stackEmpty').style.display = 'block';
+    $('stackEmpty').textContent = d.no_chart;
+    return;
   }
 
-  function chartColors() {
-    const t = html.getAttribute('data-theme');
-    const isDark = t === 'dark' || (t === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
-    return {
-      grid: isDark ? 'rgba(255,255,255,.06)' : 'rgba(15,23,42,.06)',
-      tick: isDark ? '#94a3b8' : '#475569',
-      bg:   isDark ? 'rgba(20,24,40,.95)' : 'rgba(255,255,255,.98)',
-      isDark,
-    };
-  }
+  // Even with 1 month, render a single point chart
+  $('trendEmpty').style.display = 'none';
+  $('stackEmpty').style.display = 'none';
+  const inc = series.map(s => s.income);
+  const exp = series.map(s => s.expense);
+  const net = series.map(s => s.net);
 
-  function renderCharts() {
-    const c = chartColors(); const d = L();
-    const loc = html.getAttribute('data-locale');
-    const months = PAYLOAD.months;
-    const inc = PAYLOAD.series.map(s=>s.income);
-    const exp = PAYLOAD.series.map(s=>s.expense);
-    const net = PAYLOAD.series.map(s=>s.net);
+  charts.trend = new Chart($('trendChart'), {
+    type: 'line',
+    data: { labels: months, datasets: [
+      { label: d.income,  data: inc, borderColor:'#10b981', backgroundColor:'rgba(16,185,129,.12)', tension:.35, fill:true,  pointRadius:5, pointHoverRadius:7, borderWidth:2.5 },
+      { label: d.expense, data: exp, borderColor:'#ef4444', backgroundColor:'rgba(239,68,68,.12)',  tension:.35, fill:true,  pointRadius:5, pointHoverRadius:7, borderWidth:2.5 },
+      { label: d.net,     data: net, borderColor:'#6366f1', backgroundColor:'rgba(99,102,241,0)',   tension:.35, fill:false, pointRadius:5, pointHoverRadius:7, borderWidth:2.5, borderDash:[6,4] },
+    ]},
+    options: {
+      responsive:true, maintainAspectRatio:false,
+      animation: { duration: 800, easing: 'easeOutCubic' },
+      plugins: {
+        legend: { labels: { color: c.tick, usePointStyle:true, pointStyle:'circle', font: { size:12, weight:'600' } } },
+        tooltip: { backgroundColor: c.bg, titleColor: c.isDark?'#f1f5f9':'#0f172a',
+                   bodyColor: c.isDark?'#f1f5f9':'#0f172a', borderColor: c.grid, borderWidth:1,
+                   padding:12, cornerRadius:8,
+                   callbacks: { label: ctx => ' ' + ctx.dataset.label + ': ฿ ' + fmt(ctx.parsed.y) } },
+      },
+      scales: {
+        x: { ticks: { color: c.tick }, grid: { display:false } },
+        y: { ticks: { color: c.tick, callback: v => '฿ ' + Number(v).toLocaleString() },
+             grid: { color: c.grid, drawTicks:false }, border: { display:false } },
+      }
+    }
+  });
 
-    if (!window._charts) window._charts = {};
-    if (window._charts.trend) window._charts.trend.destroy();
-    if (window._charts.stack) window._charts.stack.destroy();
+  const catLabels = loc === 'en' ? PAYLOAD.cat_labels_en : PAYLOAD.cat_labels_th;
+  const datasets = (PAYLOAD.cat_data || []).map((row, i) => ({
+    label: catLabels[i] || '',
+    data: row,
+    backgroundColor: PAYLOAD.cat_colors[i] || '#94a3b8',
+    borderRadius: 4, borderSkipped: false,
+    barPercentage: 0.8, categoryPercentage: 0.7,
+  }));
+  charts.stack = new Chart($('stackChart'), {
+    type: 'bar',
+    data: { labels: months, datasets },
+    options: {
+      responsive:true, maintainAspectRatio:false,
+      animation: { duration: 800, easing: 'easeOutCubic' },
+      plugins: {
+        legend: { position: 'bottom', labels: { color: c.tick, font: { size:11 },
+                  usePointStyle:true, pointStyle:'circle', boxWidth:8, padding:12 } },
+        tooltip: { backgroundColor: c.bg, titleColor: c.isDark?'#f1f5f9':'#0f172a',
+                   bodyColor: c.isDark?'#f1f5f9':'#0f172a', borderColor: c.grid, borderWidth:1,
+                   padding:12, cornerRadius:8,
+                   callbacks: { label: ctx => ' ' + ctx.dataset.label + ': ฿ ' + fmt(ctx.parsed.y) } },
+      },
+      scales: {
+        x: { stacked: true, ticks: { color: c.tick }, grid: { display: false } },
+        y: { stacked: true, ticks: { color: c.tick, callback: v => '฿ ' + Number(v).toLocaleString() },
+             grid: { color: c.grid }, border: { display: false } },
+      }
+    }
+  });
+}
 
-    window._charts.trend = new Chart(document.getElementById('trendChart'), {
-      type: 'line',
-      data: { labels: months, datasets: [
-        { label: d.lbl_income,  data: inc, borderColor:'#10b981', backgroundColor:'rgba(16,185,129,.12)', tension:.35, fill:true, pointRadius:5, pointHoverRadius:7, borderWidth:2.5 },
-        { label: d.lbl_expense, data: exp, borderColor:'#ef4444', backgroundColor:'rgba(239,68,68,.12)', tension:.35, fill:true, pointRadius:5, pointHoverRadius:7, borderWidth:2.5 },
-        { label: d.lbl_net,     data: net, borderColor:'#6366f1', backgroundColor:'rgba(99,102,241,.0)',  tension:.35, fill:false, pointRadius:5, pointHoverRadius:7, borderWidth:2.5, borderDash:[6,4] },
-      ]},
-      options: { responsive:true, maintainAspectRatio:false,
-        plugins:{ legend:{ labels:{ color:c.tick, usePointStyle:true, pointStyle:'circle' } },
-                  tooltip:{ backgroundColor:c.bg, titleColor:c.isDark?'#f1f5f9':'#0f172a', bodyColor:c.isDark?'#f1f5f9':'#0f172a', borderColor:c.grid, borderWidth:1, padding:12, cornerRadius:8,
-                            callbacks:{ label: ctx => ' ' + ctx.dataset.label + ': ฿ ' + fmt(ctx.parsed.y) } } },
-        scales:{ x:{ ticks:{ color:c.tick }, grid:{ display:false } },
-                 y:{ ticks:{ color:c.tick, callback:v=>'฿ '+Number(v).toLocaleString() }, grid:{ color:c.grid, drawTicks:false }, border:{ display:false } } } }
-    });
+function reveal() {
+  document.querySelectorAll('.reveal').forEach((el, i) =>
+    setTimeout(() => el.classList.add('in'), 60 + i * 70));
+}
 
-    const catLabels = loc==='en' ? PAYLOAD.cat_labels_en : PAYLOAD.cat_labels_th;
-    const datasets = PAYLOAD.cat_data.map((row, i) => ({
-      label: catLabels[i], data: row,
-      backgroundColor: PAYLOAD.cat_colors[i],
-      borderRadius: 4, borderSkipped:false, barPercentage:.78, categoryPercentage:.7,
-    }));
-    window._charts.stack = new Chart(document.getElementById('stackChart'), {
-      type:'bar', data:{ labels:months, datasets },
-      options:{ responsive:true, maintainAspectRatio:false,
-        plugins:{ legend:{ position:'bottom', labels:{ color:c.tick, font:{ size:11 }, usePointStyle:true, pointStyle:'circle', boxWidth:8 } },
-                  tooltip:{ backgroundColor:c.bg, titleColor:c.isDark?'#f1f5f9':'#0f172a', bodyColor:c.isDark?'#f1f5f9':'#0f172a', borderColor:c.grid, borderWidth:1, padding:12, cornerRadius:8,
-                            callbacks:{ label: ctx => ' ' + ctx.dataset.label + ': ฿ ' + fmt(ctx.parsed.y) } } },
-        scales:{ x:{ stacked:true, ticks:{ color:c.tick }, grid:{ display:false } },
-                 y:{ stacked:true, ticks:{ color:c.tick, callback:v=>'฿ '+Number(v).toLocaleString() }, grid:{ color:c.grid }, border:{ display:false } } } }
-    });
-  }
+function boot() {
+  try {
+    $('topbar').style.display = 'block';
+    $('content').style.display = 'block';
 
-  function escapeHtml(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+    document.querySelectorAll('.seg-btn[data-theme]').forEach(b =>
+      b.addEventListener('click', () => setTheme(b.dataset.theme)));
+    document.querySelectorAll('.seg-btn[data-lang]').forEach(b =>
+      b.addEventListener('click', () => setLocale(b.dataset.lang)));
 
-  function reveal() { document.querySelectorAll('.reveal').forEach((el,i)=> setTimeout(()=>el.classList.add('in'), 60 + i*70)); }
-
-  function boot() {
-    document.getElementById('topbar').style.display='block';
-    document.getElementById('content').style.display='block';
-    document.getElementById('subTop').textContent = PAYLOAD.kpis.cur_key + ' · ' + PAYLOAD.kpis.n_months + ' months';
-    document.getElementById('subLabel').textContent = PAYLOAD.kpis.cur_key + ' · ' + PAYLOAD.kpis.n_months + ' months';
-    document.getElementById('genTime').textContent = PAYLOAD.generated;
     setTheme(ls.get('fin_theme') || 'system');
     setLocale(ls.get('fin_locale') || 'th');
-    fillKpis(); renderDeltas(); renderForecast(); renderCharts(); reveal();
-    requestAnimationFrame(()=>requestAnimationFrame(updatePills));
-    sessionStorage.setItem('fin_unlocked','1');
-  }
 
-  const gate = document.getElementById('gate'); const pin = document.getElementById('pin'); const err = document.getElementById('err');
-  function unlock(){ gate.classList.add('hide'); boot(); }
-  if (sessionStorage.getItem('fin_unlocked')) unlock();
-  pin.addEventListener('keydown', e => {
-    if (e.key !== 'Enter') return;
-    if (pin.value === PIN) { err.textContent=''; unlock(); }
-    else { err.textContent = L().gate_err; pin.value=''; }
-  });
+    fillKpis();
+    renderBreakdown();
+    renderDeltas();
+    renderForecast();
+    renderCharts();
+    reveal();
+
+    requestAnimationFrame(() => requestAnimationFrame(updatePills));
+    sessionStorage.setItem('fin_unlocked', '1');
+  } catch (e) {
+    console.error('boot error:', e);
+    $('content').style.display = 'block';
+    $('content').innerHTML = '<div class="empty" style="margin:40px">⚠️ Render error: ' +
+                              escapeHtml(e.message || e.toString()) +
+                              '<br><br><pre style="text-align:left;font-size:11px;overflow:auto">' +
+                              escapeHtml(e.stack || '') + '</pre></div>';
+  }
+}
+
+const gate    = $('gate');
+const gateBox = $('gateBox');
+const pin     = $('pin');
+const err     = $('err');
+
+function unlock() { gate.classList.add('hide'); boot(); }
+if (sessionStorage.getItem('fin_unlocked')) unlock();
+
+pin.addEventListener('keydown', e => {
+  if (e.key !== 'Enter') return;
+  if (pin.value === PIN) { err.textContent = ''; unlock(); }
+  else {
+    err.textContent = L().gate_err;
+    gateBox.classList.remove('gate-shake');
+    void gateBox.offsetWidth;
+    gateBox.classList.add('gate-shake');
+    pin.value = '';
+  }
+});
+
+})();
 </script>
 </body>
 </html>
