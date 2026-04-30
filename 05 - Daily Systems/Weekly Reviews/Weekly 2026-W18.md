@@ -1,6 +1,6 @@
 ---
 type: weekly
-created: "2026-04-29"
+created: "2026-05-01"
 tags:
   - type/weekly
   - topic/review
@@ -10,33 +10,18 @@ related:
 
 # 📅 Weekly Digest — 2026-W18
 
-> 23 Apr → 29 Apr 2026 · generated 19:04 น.
+> 25 Apr → 01 May 2026 · generated 06:35 น.
 
 ---
 
 ## 📊 Stats
 
 - Daily notes scanned: **33**
-- Period: 2026-04-23 → 2026-04-29
+- Period: 2026-04-25 → 2026-05-01
 
 ---
 
 ## 📰 Top Headlines ของสัปดาห์
-
-### [[Company News 2026-04-24]] — Fri 24 Apr
-- Figma to Announce First Quarter 2026 Financial Results on May 14, 2026 - Business Wire
-- As Competition Heats Up, Can Figma Recover? - The Motley Fool
-- Figma (NYSE:FIG) Shares Down 8.7% - Here's What Happened - MarketBeat
-
-### [[Extended News 2026-04-24]] — Fri 24 Apr
-- The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable
-- Session Timeouts: The Overlooked Accessibility Barrier In Authentication Design
-- How To Improve UX In Legacy Systems
-
-### [[IT News 2026-04-24]] — Fri 24 Apr
-- Study Reveals 75% of Enterprises Report Double-Digit AI Failure Rates
-- Familiarity is the enemy: On why Enterprise systems have failed for 60 years
-- Ubuntu 26.04
 
 ### [[Company News 2026-04-25]] — Sat 25 Apr
 - Figma: Seat Churn Likely, Take Caution Ahead Of Earnings (Rating Downgrade) - Seeking Alpha
@@ -92,6 +77,21 @@ related:
 - Designing using Claude Code and Figma MCP – how good are they? - Creative Bloq
 - Figma Alternatives that Work - Our Culture
 - Anthropic just launched Claude Design, an AI tool that turns prompts into prototypes and challenges Figma - VentureBeat
+
+### [[Extended News 2026-04-29]] — Wed 29 Apr
+- The “Bug-Free” Workforce: How AI Efficiency Is Subtly Disrupting The Interactions That Build Strong Teams
+- The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable
+- Session Timeouts: The Overlooked Accessibility Barrier In Authentication Design
+
+### [[Company News 2026-04-30]] — Thu 30 Apr
+- Designing using Claude Code and Figma MCP – how good are they? - Creative Bloq
+- Anthropic just launched Claude Design, an AI tool that turns prompts into prototypes and challenges Figma - Venturebeat
+- Anthropic CPO leaves Figma’s board after reports he will offer a competing product - TechCrunch
+
+### [[Extended News 2026-04-30]] — Thu 30 Apr
+- The “Bug-Free” Workforce: How AI Efficiency Is Subtly Disrupting The Interactions That Build Strong Teams
+- The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable
+- Session Timeouts: The Overlooked Accessibility Barrier In Authentication Design
 
 ---
 
