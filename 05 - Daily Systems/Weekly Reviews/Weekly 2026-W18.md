@@ -10,13 +10,13 @@ related:
 
 # 📅 Weekly Digest — 2026-W18
 
-> 25 Apr → 01 May 2026 · generated 06:35 น.
+> 25 Apr → 01 May 2026 · generated 06:36 น.
 
 ---
 
 ## 📊 Stats
 
-- Daily notes scanned: **33**
+- Daily notes scanned: **36**
 - Period: 2026-04-25 → 2026-05-01
 
 ---
@@ -92,6 +92,11 @@ related:
 - The “Bug-Free” Workforce: How AI Efficiency Is Subtly Disrupting The Interactions That Build Strong Teams
 - The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable
 - Session Timeouts: The Overlooked Accessibility Barrier In Authentication Design
+
+### [[IT News 2026-05-01]] — Fri 01 May
+- Snowball Earth may hide a far stranger climate cycle than anyone expected
+- Show HN: Pu.sh – a full coding-agent harness in 400 lines of shell
+- SimpleX Channels, SimpleX Network Consortium and Community Crowdfunding
 
 ---
 
