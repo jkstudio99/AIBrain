@@ -98,26 +98,26 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-04-29
+> 🕒 Auto-updated 2026-05-01
 
 ### 📊 Vault Stats
-- Total notes: **215**
-- Daily: 68 · Weekly: 3 · Literature: 5 · Evergreen: 2 · Project: 6 · MOC: 12
+- Total notes: **222**
+- Daily: 74 · Weekly: 3 · Literature: 5 · Evergreen: 2 · Project: 6 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _29 Apr 19:04_
+- [[MOCs/Auto Tag MOC]] — _01 May 06:32_
+- [[10 - Meta/Orphan Notes 2026-05-01]] — _01 May 06:32_
+- [[00 - Inbox/2026-04-30 1513 DevPortal_folder_summary_premium - Googl]] — _30 Apr 15:13_
+- [[05 - Daily Systems/Daily Notes/Company News 2026-04-30]] — _30 Apr 10:05_
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-30]] — _30 Apr 09:07_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-30]] — _30 Apr 09:06_
+- [[10 - Meta/Vault Health]] — _30 Apr 00:37_
+- [[00 - Inbox/2026-04-30 0033 So1o Freelancer — โปรแกรมช่วยคำนวณราคาแล]] — _30 Apr 00:33_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-29]] — _29 Apr 19:08_
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-29]] — _29 Apr 19:06_
+- [[🏠 Home]] — _29 Apr 19:04_
 - [[10 - Meta/Orphan Notes 2026-04-29]] — _29 Apr 19:04_
 - [[05 - Daily Systems/Daily Notes/Extended News 2026-04-29]] — _29 Apr 19:04_
 - [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W18]] — _29 Apr 19:04_
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-29]] — _29 Apr 19:04_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-29]] — _29 Apr 19:04_
-- [[05 - Daily Systems/Daily Notes/Company News 2026-04-29]] — _29 Apr 19:03_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-29]] — _29 Apr 19:03_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-28]] — _28 Apr 00:20_
-- [[🏠 Home]] — _28 Apr 00:20_
-- [[10 - Meta/Orphan Notes 2026-04-28]] — _28 Apr 00:20_
-- [[00 - Inbox/2026-04-28 0020 ทำอะไรดีวันนี้]] — _28 Apr 00:20_
-- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-28]] — _28 Apr 00:20_
-- [[05 - Daily Systems/Daily Notes/Company News 2026-04-28]] — _28 Apr 00:20_
-- [[00 - Inbox/2026-04-27 1253 ทดสอบส่ง]] — _27 Apr 12:53_
 <!-- AUTO-DASHBOARD:END -->
