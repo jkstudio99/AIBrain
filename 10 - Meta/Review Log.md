@@ -16,3 +16,6 @@ tags:
 - 2026-04-27 06:38 | 03 - Resources/Claude Integration/Claude Code Desktop Setup.md
 - 2026-04-27 06:38 | 02 - Areas/Team/Playbook - SA.md
 - 2026-04-27 06:38 | 08 - Automation/Auto-Tagging/Auto-Tagging & Linking.md
+- 2026-05-01 06:35 | 03 - Resources/Core Plugins/Advanced URI & Canvas.md
+- 2026-05-01 06:35 | 02 - Areas/Team/Playbook - Data Scientist.md
+- 2026-05-01 06:35 | 02 - Areas/Team/Playbook - Marketing.md
