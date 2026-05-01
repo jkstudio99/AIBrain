@@ -101,23 +101,23 @@ Use these in Claude Code with `/`:
 > 🕒 Auto-updated 2026-05-01
 
 ### 📊 Vault Stats
-- Total notes: **222**
-- Daily: 74 · Weekly: 3 · Literature: 5 · Evergreen: 2 · Project: 6 · MOC: 12
+- Total notes: **228**
+- Daily: 80 · Weekly: 3 · Literature: 5 · Evergreen: 2 · Project: 6 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _01 May 06:32_
-- [[10 - Meta/Orphan Notes 2026-05-01]] — _01 May 06:32_
+- [[MOCs/Auto Tag MOC]] — _01 May 22:09_
+- [[10 - Meta/Orphan Notes 2026-05-01]] — _01 May 22:09_
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-05-01]] — _01 May 09:17_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-01]] — _01 May 09:17_
+- [[05 - Daily Systems/Daily Notes/Company News 2026-05-01]] — _01 May 09:01_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-01]] — _01 May 08:44_
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W18]] — _01 May 06:36_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-01]] — _01 May 06:36_
+- [[10 - Meta/Vault Health]] — _01 May 06:35_
+- [[05 - Daily Systems/Weekly Reviews/Reflection 2026-W18]] — _01 May 06:35_
+- [[10 - Meta/Review Log]] — _01 May 06:35_
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-01]] — _01 May 06:35_
+- [[🏠 Home]] — _01 May 06:32_
 - [[00 - Inbox/2026-04-30 1513 DevPortal_folder_summary_premium - Googl]] — _30 Apr 15:13_
 - [[05 - Daily Systems/Daily Notes/Company News 2026-04-30]] — _30 Apr 10:05_
-- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-30]] — _30 Apr 09:07_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-30]] — _30 Apr 09:06_
-- [[10 - Meta/Vault Health]] — _30 Apr 00:37_
-- [[00 - Inbox/2026-04-30 0033 So1o Freelancer — โปรแกรมช่วยคำนวณราคาแล]] — _30 Apr 00:33_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-29]] — _29 Apr 19:08_
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-04-29]] — _29 Apr 19:06_
-- [[🏠 Home]] — _29 Apr 19:04_
-- [[10 - Meta/Orphan Notes 2026-04-29]] — _29 Apr 19:04_
-- [[05 - Daily Systems/Daily Notes/Extended News 2026-04-29]] — _29 Apr 19:04_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W18]] — _29 Apr 19:04_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-29]] — _29 Apr 19:04_
 <!-- AUTO-DASHBOARD:END -->
