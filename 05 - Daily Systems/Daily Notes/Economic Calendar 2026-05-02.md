@@ -1,0 +1,17 @@
+---
+type: daily
+created: "2026-05-02"
+tags:
+  - type/daily
+  - topic/economy
+  - area/finance
+---
+
+# 📅 Economic Calendar — Week of 2026-05-02
+
+> High-impact events · 0 รายการ · 12:07 น.
+
+---
+
+| Date | Country | Event | Forecast | Previous |
+|---|---|---|---|---|
