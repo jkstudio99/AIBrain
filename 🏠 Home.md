@@ -98,26 +98,26 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-05-01
+> 🕒 Auto-updated 2026-05-02
 
 ### 📊 Vault Stats
-- Total notes: **228**
-- Daily: 80 · Weekly: 3 · Literature: 5 · Evergreen: 2 · Project: 6 · MOC: 12
+- Total notes: **236**
+- Daily: 86 · Weekly: 3 · Literature: 5 · Evergreen: 2 · Project: 6 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[🏠 Home]] — _01 May 22:09_
-- [[MOCs/Auto Tag MOC]] — _01 May 22:09_
+- [[MOCs/Auto Tag MOC]] — _02 May 22:09_
+- [[10 - Meta/Orphan Notes 2026-05-02]] — _02 May 22:09_
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-02]] — _02 May 12:07_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-02]] — _02 May 10:14_
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-05-02]] — _02 May 09:23_
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-05-02]] — _02 May 09:03_
+- [[05 - Daily Systems/Daily Notes/Company News 2026-05-02]] — _02 May 08:47_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-02]] — _02 May 08:34_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-01]] — _01 May 22:54_
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-05-01]] — _01 May 22:54_
+- [[05 - Daily Systems/Daily Notes/Company News 2026-05-01]] — _01 May 22:54_
+- [[00 - Inbox/2026-05-01 2254 GitHub - zubair-trabzada-ai-sales-team-c]] — _01 May 22:54_
+- [[🏠 Home]] — _01 May 22:53_
 - [[10 - Meta/Orphan Notes 2026-05-01]] — _01 May 22:09_
-- [[05 - Daily Systems/Daily Notes/Extended News 2026-05-01]] — _01 May 09:17_
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-01]] — _01 May 09:17_
-- [[05 - Daily Systems/Daily Notes/Company News 2026-05-01]] — _01 May 09:01_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-01]] — _01 May 08:44_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W18]] — _01 May 06:36_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-01]] — _01 May 06:36_
-- [[10 - Meta/Vault Health]] — _01 May 06:35_
-- [[05 - Daily Systems/Weekly Reviews/Reflection 2026-W18]] — _01 May 06:35_
-- [[10 - Meta/Review Log]] — _01 May 06:35_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-01]] — _01 May 06:35_
-- [[00 - Inbox/2026-04-30 1513 DevPortal_folder_summary_premium - Googl]] — _30 Apr 15:13_
-- [[05 - Daily Systems/Daily Notes/Company News 2026-04-30]] — _30 Apr 10:05_
 <!-- AUTO-DASHBOARD:END -->
