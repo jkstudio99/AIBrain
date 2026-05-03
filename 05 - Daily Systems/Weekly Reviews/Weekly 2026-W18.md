@@ -1,6 +1,6 @@
 ---
 type: weekly
-created: "2026-05-01"
+created: "2026-05-03"
 tags:
   - type/weekly
   - topic/review
@@ -10,38 +10,18 @@ related:
 
 # 📅 Weekly Digest — 2026-W18
 
-> 25 Apr → 01 May 2026 · generated 06:36 น.
+> 27 Apr → 03 May 2026 · generated 20:11 น.
 
 ---
 
 ## 📊 Stats
 
 - Daily notes scanned: **36**
-- Period: 2026-04-25 → 2026-05-01
+- Period: 2026-04-27 → 2026-05-03
 
 ---
 
 ## 📰 Top Headlines ของสัปดาห์
-
-### [[Company News 2026-04-25]] — Sat 25 Apr
-- Figma: Seat Churn Likely, Take Caution Ahead Of Earnings (Rating Downgrade) - Seeking Alpha
-- As Competition Heats Up, Can Figma Recover? - Yahoo Finance
-- Figma (NYSE:FIG) Shares Down 8.7% - Here's What Happened - MarketBeat
-
-### [[Extended News 2026-04-25]] — Sat 25 Apr
-- The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable
-- Session Timeouts: The Overlooked Accessibility Barrier In Authentication Design
-- How To Improve UX In Legacy Systems
-
-### [[Company News 2026-04-26]] — Sun 26 Apr
-- As Competition Heats Up, Can Figma Recover? - Yahoo Finance
-- Figma: Seat Churn Likely, Take Caution Ahead Of Earnings (Rating Downgrade) - Seeking Alpha
-- Figma (NYSE:FIG) Shares Down 8.7% - Here's What Happened - MarketBeat
-
-### [[Extended News 2026-04-26]] — Sun 26 Apr
-- The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable
-- Session Timeouts: The Overlooked Accessibility Barrier In Authentication Design
-- How To Improve UX In Legacy Systems
 
 ### [[Company News 2026-04-27]] — Mon 27 Apr
 - Figma: AI Growth Is Real, But So Are Structural Risks - Seeking Alpha
@@ -93,10 +73,40 @@ related:
 - The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable
 - Session Timeouts: The Overlooked Accessibility Barrier In Authentication Design
 
+### [[Company News 2026-05-01]] — Fri 01 May
+- “If Figma and Lovable had a child that became an architect”: Synaps raises €3.06 million to rival AutoCAD - EU-Startups
+- Is Figma (FIG) stock fairly valued \| Figma delivers 20.8 percent EPS beat topping analyst expectations - Weakness Phase - Newser
+- Anthropic launches Claude Design, a Figma and Canva rival built on Claude - The New Stack
+
+### [[Extended News 2026-05-01]] — Fri 01 May
+- Designing Stable Interfaces For Streaming Content
+- A Fresh View In May (2026 Wallpapers Edition)
+- The “Bug-Free” Workforce: How AI Efficiency Is Subtly Disrupting The Interactions That Build Strong Teams
+
 ### [[IT News 2026-05-01]] — Fri 01 May
-- Snowball Earth may hide a far stranger climate cycle than anyone expected
-- Show HN: Pu.sh – a full coding-agent harness in 400 lines of shell
-- SimpleX Channels, SimpleX Network Consortium and Community Crowdfunding
+- An open letter asking NHS England to keep its code open
+- I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA
+- whohas – Command-line utility for cross-distro, cross-repository package search
+
+### [[Company News 2026-05-02]] — Sat 02 May
+- Is Figma (FIG) stock fairly valued \| Figma delivers 20.8 percent EPS beat topping analyst expectations - Weakness Phase - Newser
+- FIG (Figma Inc.) posts 20.8 percent Q4 2025 EPS beat, stock dips 0.10 percent in muted post-earnings trading. - Financial Summary - Newser
+- Anthropic launches Claude Design, a Figma and Canva rival built on Claude - The New Stack
+
+### [[Extended News 2026-05-02]] — Sat 02 May
+- Designing Stable Interfaces For Streaming Content
+- A Fresh View In May (2026 Wallpapers Edition)
+- The “Bug-Free” Workforce: How AI Efficiency Is Subtly Disrupting The Interactions That Build Strong Teams
+
+### [[Company News 2026-05-03]] — Sun 03 May
+- Claude Design quietly replaced Canva, Adobe Express, Figma, and NotebookLM for me - XDA
+- Figma Stock Jumps Over 8% This Week. Here’s What the Path to $32 Looks Like - TIKR.com
+- Anthropic launches Claude Design, a Figma and Canva rival built on Claude - The New Stack
+
+### [[Extended News 2026-05-03]] — Sun 03 May
+- Designing Stable Interfaces For Streaming Content
+- A Fresh View In May (2026 Wallpapers Edition)
+- The “Bug-Free” Workforce: How AI Efficiency Is Subtly Disrupting The Interactions That Build Strong Teams
 
 ---
 
