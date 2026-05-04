@@ -105,8 +105,9 @@ Use these in Claude Code with `/`:
 - Daily: 98 · Weekly: 4 · Literature: 6 · Evergreen: 2 · Project: 6 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _04 May 23:20_
-- [[10 - Meta/Orphan Notes 2026-05-04]] — _04 May 23:20_
+- [[MOCs/Auto Tag MOC]] — _04 May 23:50_
+- [[10 - Meta/Orphan Notes 2026-05-04]] — _04 May 23:49_
+- [[🏠 Home]] — _04 May 23:20_
 - [[01 - Projects/Market Research/Hermes Research Bot]] — _04 May 15:53_
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-04]] — _04 May 09:56_
 - [[05 - Daily Systems/Daily Notes/Tech Update 2026-05-04]] — _04 May 09:55_
@@ -116,7 +117,6 @@ Use these in Claude Code with `/`:
 - [[05 - Daily Systems/Daily Notes/Extended News 2026-05-04]] — _04 May 09:53_
 - [[05 - Daily Systems/Daily Notes/Company News 2026-05-04]] — _04 May 09:53_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-04]] — _04 May 09:53_
-- [[🏠 Home]] — _03 May 22:11_
 - [[10 - Meta/Orphan Notes 2026-05-03]] — _03 May 22:11_
 - [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W18]] — _03 May 20:11_
 - [[05 - Daily Systems/Daily Notes/Extended News 2026-05-03]] — _03 May 09:17_
