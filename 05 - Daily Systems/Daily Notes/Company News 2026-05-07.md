@@ -12,7 +12,7 @@ related:
 
 # 🗞️ Company News — 7 พฤษภาคม 2026
 
-> สรุปข่าวบริษัทเทคโนโลยีชั้นนำ | อัปเดต 04:35 น.
+> สรุปข่าวบริษัทเทคโนโลยีชั้นนำ | อัปเดต 09:18 น.
 > แหล่ง: Google News + Medium
 
 ---
@@ -53,17 +53,17 @@ related:
 
 ### ✍️ Medium Articles
 
-1. **[Screen Counter — Figma Plugin](https://andriansoelistiyo.medium.com/screen-counter-figma-plugin-6df4de63cd81?source=rss------figma-5)**  
+1. **[Korea’s Lack of Service Design Confirmed by Figma](https://medium.com/@hojunna/koreas-lack-of-service-design-confirmed-by-figma-8e80f076f75b?source=rss------figma-5)**  
+   by juno · 06 May 2026  
+   > On2026.04.19 Continue reading on Medium »
+
+2. **[Screen Counter — Figma Plugin](https://andriansoelistiyo.medium.com/screen-counter-figma-plugin-6df4de63cd81?source=rss------figma-5)**  
    by Andrian Soelistiyo · 06 May 2026  
    > Download Screen Counter — Figma Plugin: https://drive.google.com/file/d/13IEhYaRhGhRLai3TJ8IsBKsBG_yKtfa7/view?usp=sharing Continue reading on Medium »
 
-2. **[Designers, This Changes Everything (Figma + Claude Test)](https://medium.com/@ryan.almeida86/designers-this-changes-everything-figma-claude-test-7d63d8e3eec8?source=rss------figma-5)**  
+3. **[Designers, This Changes Everything (Figma + Claude Test)](https://medium.com/@ryan.almeida86/designers-this-changes-everything-figma-claude-test-7d63d8e3eec8?source=rss------figma-5)**  
    by Ryan Almeida · 06 May 2026  
    > There’s been a lot of noise around Claude lately. Continue reading on Medium »
-
-3. **[Variants Are Quietly Changing the Way Designers Think](https://medium.com/@ruthikkumbhar/variants-are-quietly-changing-the-way-designers-think-8b0506294eb4?source=rss------figma-5)**  
-   by Rutik Kumbhar · 06 May 2026  
-   > Most designers discover variants while designing buttons. Continue reading on Medium »
 
 ---
 
@@ -71,39 +71,39 @@ related:
 
 ### 🌐 Top News
 
-1. **[How you can get a slice of Apple's $250M iPhone settlement - Fox Business](https://news.google.com/rss/articles/CBMimAFBVV95cUxQcEdPWEVfQVVwVzB4UXN3N1pHQTNTMTgwZTJsMEFHVFVEekVjNWc2Z2pjUDNYTVhLdlZKWGI0Zktrd3NWN00zQzY0Tl9ocEVHTWJFMkNjWHpTbzh4THNDTUo5TnBhbjg4aXRBT0YwVm00ZXZsNFlJM1FESDBEOHNhVDlrNTJHbzNWTFlnUEZZVm5kdjA0Y2Jpb9IBngFBVV95cUxNVUQwQkYxNWJsZ2swU3FnMlFIUWFmcHMtSGVzVFlzVnU1S3FZYUlJbm4xUV90bW9MQ2FTQWdaX2FVcndzbWcydW1OQUtPV2tremo5ZUs0NmlfclJwOEhWczBjUnRLby16QVA2ZGd3MkFGakgzR0JoRUdXeGFMRDdRbWo5Zm5IeGN6bTh2NXhwcnA5bXNJaUMzOEZoZzdOUQ?oc=5)**  
-   _Fox Business_ · 06 May 2026  
-   > How you can get a slice of Apple's $250M iPhone settlement    Fox Business How to Collect on Apple's $250 Million AI iPhone Settlement    CNET iPhone owners could get up to $95 from Apple settlement.…
+1. **[Apple's $250 million class-action settlement paves way for payouts to iPhone owners - ABC News - Breaking News, Latest News and Videos](https://news.google.com/rss/articles/CBMipwFBVV95cUxPQnVCRVRjM3J3dW9XVzczNG5PS1J5LUM2UUVRX2RJZ2R1SjN5SW5RUnBaUnVZRG9SNmJEc1oydG5hdHZjV0UyS3F5SmNLaHBxWDdOMTVpb2U5ZGdMU0E5QUcyMmFfVldkejU3YnVHYjFEY0lCWnpRWmluUWlxREYtZ01lcU9sbFFnTEppeF9VeUMxTlZPWjNjenZCeWhYaHB3ZWJwZzBNRdIBrAFBVV95cUxQY3hPZ2ZDRS0tdW5oSHRnODVMTDJFOVJrcXpLcnhLcHYzMnZjRzZBOEU0azRPSklFak9HLW9TWUVfMGItdUc2WTkwQ0NVUjNHOW1UUkVHY29YWXlDRmlZUFpJT3VMQ3pRTFZvSUszWmlsWkJuMlV5THNJZjFRTTlFV0REVXg3TXc5XzUtNy1HeThBQlFPaF9JZFlxd1Q1Uk5tMk9taG5hSkN6aDhC?oc=5)**  
+   _ABC News - Breaking News, Latest News and Videos_ · 06 May 2026  
+   > Apple's $250 million class-action settlement paves way for payouts to iPhone owners    ABC News - Breaking News, Latest News and Videos Apple Will Pay $250 Million to Settle Lawsuit Over Siri’s AI Fea…
 
-2. **[Apple Explores Using Intel and Samsung to Build Main Device Chips in the US - Bloomberg.com](https://news.google.com/rss/articles/CBMixAFBVV95cUxQNmljMFZHbXQ4MlVkWnpGbjladzllS25hby1GZlhVbGp2Ym9uN3Y5OExyUDNHMWhqaGZKM2xwU0ItRjR3MWQ2RGxPblRPbWFHZlhIRzRHQ2tKM3BGYnI3em4tUnJxNzFURzhlTzFmR01IUUVHUEJhVUZBT1o4clRJVHc1WVdRTHEwXzdTQ3NUQzBPc1FuaWJMX2hFS0pEMUs5alNjeVBnVS1jS0lmczhVVnFLSGJ6Y3JtazJuREg4S0lkd1p1?oc=5)**  
-   _Bloomberg.com_ · 05 May 2026  
-   > Apple Explores Using Intel and Samsung to Build Main Device Chips in the US    Bloomberg.com
-
-3. **[Intel soars 13% on report of Apple chip talks, hits new all-time high - CNBC](https://news.google.com/rss/articles/CBMifEFVX3lxTFBjTV9NbnFCVWZiSmQwWGFNU3dpRXp1Q1M0MkpMeGFjSFlkNHRIdjlTZXotRUNIRE9rWU00ZzlYeDBKRzhKei1NS2dtSWFxRVpWNld5NWlENWxPaDJVNlg5b2p0M3FDWEV0cFFGUXNkTWFqWFhENmxZZ2hwVlHSAYIBQVVfeXFMTlJNVnNBaU5TT2xFTHhHV2xuTGdGby1iT1ZmNkxyaWY2bDlwLUE0X2ZoTGJ5QmJ5ZmJqZE9hMjZsbzNwM0t5eWpkMkc0UDVhNWdnVklwTDdhTEF4OVFCUUFHa1Q2QzloOE9hbEQ5S0E5bURiNTU0TTYtcnRYbDhsdU9kQQ?oc=5)**  
-   _CNBC_ · 05 May 2026  
-   > Intel soars 13% on report of Apple chip talks, hits new all-time high    CNBC
-
-4. **[Forget Tariffs: An Apple-Intel Deal Could Be the Biggest Manufacturing Story of the Trump Era - Yahoo Finance](https://news.google.com/rss/articles/CBMinAFBVV95cUxPNFY0R25aaFpRaUlnZl8tUTlVdVo5Y0ZSUW9nbnNqakZMWWZrbHpnX3JSbEt3bXZabDM0XzZ3eEpRTEtOM1VGWmFIV2NBNmRXOUhWUEc1UnphUTBxVzViT2huXzZON2ZoN2QwRWp4VkpYcFR5X2c5ZF9rTHVaTldzbVM2QWUwd3FrNWhJMGpJblM3ZHJhWmxpbktxTEc?oc=5)**  
+2. **[What Apple (AAPL)'s Massive Buyback And Chip Shift Means For Shareholders - Yahoo Finance](https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEdsNjkxQWdSQy1TRTc1ZEY5YUQ2a3N2UlJWVGxGd2tXLVhtelJRUzdpcXhBRWVOU1doaEpIbDdDOGlfYVh5WDluWHJiOUg0R0ZrbVVDZExCRjVncldfY2JMaXhwMlNSaWV1QWd4UXprM29QNkd6WktoRWdrbFlpQ1RlREx1VmxicmxzemptdzhZMFl1dkRQNk1DT3g?oc=5)**  
    _Yahoo Finance_ · 06 May 2026  
-   > Forget Tariffs: An Apple-Intel Deal Could Be the Biggest Manufacturing Story of the Trump Era    Yahoo Finance
+   > What Apple (AAPL)'s Massive Buyback And Chip Shift Means For Shareholders    Yahoo Finance
 
-5. **[Google Says Pixel Phones Won't Get Apple's Liquid Glass Design - MacRumors](https://news.google.com/rss/articles/CBMidEFVX3lxTFBjQnd3TENIR1JZbUtPRGZJV1JtUTBpNV9YMW1OSENSUzRpM0NWZ0IxaXY4ZkwtdkFDNVM3ZGFKNmtqQTdXclR1WGp0ZDJtNjFNNVRQaDRob0EwdE5MYWUtNmprSlhaTWFaMXN5WS00ZzVlVlFw?oc=5)**  
-   _MacRumors_ · 06 May 2026  
-   > Google Says Pixel Phones Won't Get Apple's Liquid Glass Design    MacRumors
+3. **[US Supreme Court declines to pause order holding Apple in contempt in Epic Games lawsuit - Reuters](https://news.google.com/rss/articles/CBMivgFBVV95cUxOSTFvUzdBRzdCUVdjTVlZTk5GN3V6RDNxWDJpNzVFbmpCLU0xQndURTNaTEE5WXJjMk5ZOEpiVVRub3JvQnJQdVlNc054bldSVXFkWDY4RWhNTzN2cTJLRmRlbDNmMFdGZ1o3MXlGWUw4ZnVzb09KMERZUzJ6Tk5udGNFdlJ2Y3B4RmJwY2t6RFBRRDdINEY4akNlR2toRlN6OEJaQkZ6ZU9vVmZHSW10TVc3WFlXS2VzTzdIVWlR?oc=5)**  
+   _Reuters_ · 06 May 2026  
+   > US Supreme Court declines to pause order holding Apple in contempt in Epic Games lawsuit    Reuters
+
+4. **[Court turns down Apple’s request to pause order holding it in contempt - SCOTUSblog](https://news.google.com/rss/articles/CBMipwFBVV95cUxQMGJYOWdZRU1pQUZDb1VxOXg0cnNWSjFDZEdEQjFyMnpFSEI2WjlmTWlmLTFMZVVCbF85NjVzb1hwQ3Q0dHVCYk12Xzc1aG5mb0dhOXJld0J6aDNNNUZILXp6SUxlalo1LXpoeVd1Q1c4a25LeUdmRDZZU29KclpQUHRUVy1FcmdBTTM4amd6MGFnNldCUHM2ZElacF90eHhhRHh1dlM1TQ?oc=5)**  
+   _SCOTUSblog_ · 06 May 2026  
+   > Court turns down Apple’s request to pause order holding it in contempt    SCOTUSblog
+
+5. **[Supreme Court declines to pause order holding Apple in contempt in Epic Games lawsuit - CNBC](https://news.google.com/rss/articles/CBMivwFBVV95cUxPbUE3eHpkdHVGNDREMHB2Zk9KcGwwWkdTZTJIcGJxOE9EVW4yMlV2MXIxWW1YQ0FzazJQVjlUdW84cm1TckNlZVBfOXAyRXdVZkVuWnE2Tl82aUx1M1FwVjZ2RTF2d25GUjEzb2tRUDk4NEVWTnJEOUtBdzFXTUpTaDEzRmdNMk84WjhlSm5pb1ZjR1htZ1Z4RE9ManExWmhnenY4M1plUHZVZ0UzeEpvenN4Zko1anNpRUVFRDRlRdIBxAFBVV95cUxPdlRqeGstSnVfMG1VNTVsaDZrbXNqSW9Wb1pCWUR0MW1zdzFFbUVZVUFyN1dFbU0tbXV4WVBOYU9xVUtkSVJwekY5QTIyRzNZYVNjcExrUVpfMnA5bFRoSkZlRVJDbDRMRzFZeWhDZzZCRWtQRFBjalBhU003VHEtX2JmZVZNWWN0bS1mSXlCZ0c3bzlnallhX1o0Q1NhWmd4U213cGZfcGJWcGFtZE1KM2RERXVVVTFsSFhoZnBPMjl6NTQx?oc=5)**  
+   _CNBC_ · 06 May 2026  
+   > Supreme Court declines to pause order holding Apple in contempt in Epic Games lawsuit    CNBC
 
 ### ✍️ Medium Articles
 
-1. **[PIXELS, PROMISES, AND PETS.COM: THE TECH GIANTS SELLING US VAPOUR!](https://medium.com/@plumbyteweb/pixels-promises-and-pets-com-the-tech-giants-selling-us-vapour-77acc128d504?source=rss------apple-5)**  
+1. **[What Adopting Liquid Glass Taught Me (That Had Nothing to Do with Liquid Glass)](https://arc-sosangyo.medium.com/what-adopting-liquid-glass-taught-me-that-had-nothing-to-do-with-liquid-glass-8e294085de46?source=rss------apple-5)**  
+   by Arc Sosangyo · 07 May 2026  
+   > Unexpected self-reflection from an indie developer Continue reading on Medium »
+
+2. **[Momix APK Latest Version — Download the Momix APK for Android](https://medium.com/@apklake7/momix-apk-latest-version-download-the-momix-apk-for-android-6a94853fd849?source=rss------apple-5)**  
+   by Apklake · 07 May 2026  
+   > In today’s digital world, streaming entertainment has become more popular than ever. Android users are always searching for apps that… Continue reading on Medium »
+
+3. **[PIXELS, PROMISES, AND PETS.COM: THE TECH GIANTS SELLING US VAPOUR!](https://medium.com/@plumbyteweb/pixels-promises-and-pets-com-the-tech-giants-selling-us-vapour-77acc128d504?source=rss------apple-5)**  
    by Plamedi Koto · 06 May 2026  
    > The AI Mirage: Why We’re Always Paying for Promises Continue reading on Medium »
-
-2. **[Apple before and After](https://thelliottwavelab.medium.com/apple-before-and-after-c1aeb2d59d8f?source=rss------apple-5)**  
-   by The Elliott Wave Lab · 06 May 2026  
-   > Around two weeks ago, we posted this: Continue reading on Medium »
-
-3. **[Love Live Music? AirPods Pro Are the Best-Sounding Earplugs](https://rethinkreviews.medium.com/love-live-music-airpods-pro-are-the-best-sounding-earplugs-8c4e59ea7d20?source=rss------apple-5)**  
-   by Jonathan Kim · 06 May 2026  
-   > Reduce volume without compromising on sound quality Continue reading on Medium »
 
 ---
 
@@ -111,39 +111,39 @@ related:
 
 ### 🌐 Top News
 
-1. **[Google Chrome Is Downloading a 4GB AI Model Onto Your Device Without Consent, Researcher Warns - Gizmodo](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYUVxTTJ1NWVEUXRzeXdQZW90SVVzN21GTFpwZ0lUVGFVRWNxUTc5WEYxWUNPc3VlTDMtT3lteElrbGJ1dlo1cU9UempzWXFyaEJZcXc1UEEzTTIyV1ZuVE9VVEJxdnRDVXIzOWROVlpzSU1ZVjc4ZHFzY3plUlVCN2dhWVNsSE5Gdl9pV3NNamlqcE56T1E0eUF0M1F6TDBDZ1Mxd3N3NkQtYmRrOEFIUTdONFFqcVdkb1M4YXpVLTNQZw?oc=5)**  
+1. **[Google shuts down Project Mariner - The Verge](https://news.google.com/rss/articles/CBMieEFVX3lxTFBPS1FieGp2VWJ6NlRBdEJqZi0wRkVuUE1jaEstMklyLWVvaUV0Tjk3MkdRUW9iT0p6QXlmazlqNTFRWlc1aU84Nm1NMWhGTWF0emtpVi1sRDZrMWdNSDNwbGgwOHRQYWJuUUUwaU8tUWxIZnJyeDl6bA?oc=5)**  
+   _The Verge_ · 06 May 2026  
+   > Google shuts down Project Mariner    The Verge
+
+2. **[Google Chrome Is Downloading a 4GB AI Model Onto Your Device Without Consent, Researcher Warns - Gizmodo](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYUVxTTJ1NWVEUXRzeXdQZW90SVVzN21GTFpwZ0lUVGFVRWNxUTc5WEYxWUNPc3VlTDMtT3lteElrbGJ1dlo1cU9UempzWXFyaEJZcXc1UEEzTTIyV1ZuVE9VVEJxdnRDVXIzOWROVlpzSU1ZVjc4ZHFzY3plUlVCN2dhWVNsSE5Gdl9pV3NNamlqcE56T1E0eUF0M1F6TDBDZ1Mxd3N3NkQtYmRrOEFIUTdONFFqcVdkb1M4YXpVLTNQZw?oc=5)**  
    _Gizmodo_ · 06 May 2026  
    > Google Chrome Is Downloading a 4GB AI Model Onto Your Device Without Consent, Researcher Warns    Gizmodo
 
-2. **[Guy finds Google Chrome is quietly installing a 4GB AI model on our devices - Cybernews](https://news.google.com/rss/articles/CBMifEFVX3lxTE1mcHBXcjRzaWxQR0FhcTFaSWtLX01za0p2TklTOGU4NDBxTVMtSDJQMm9xQlpmaFBiZEZOWW1XQlQ4cmoxb1BkUWw2NF9wMTZDZ0dJNG9idFJLQ0Z2OGQtRG5DRjM1SnVMOEFtM1NFQnNyTUhUd2RWekQ0c0U?oc=5)**  
-   _Cybernews_ · 05 May 2026  
-   > Guy finds Google Chrome is quietly installing a 4GB AI model on our devices    Cybernews
+3. **[Google Chrome Might Have Installed an AI Model Onto Your Device Without You Knowing - CNET](https://news.google.com/rss/articles/CBMilgFBVV95cUxQZmRPNzFXOGdROExDblcxY0ZhT1FybWx5R0o5Qldfd1picmRldk1vdGNCRE9DQzJ5V0tNUjN6Z1BEbHdNYnMxdEZkXzM0MXozTTI5OGVwWFJlcWNwMG9pU3NMRFZvN0JGeEcxajdJNVZrZTdKMV9obFp2YVAxM2U2ekVHd2g4cXJSSFhBdnA2SmpDWVJHQ0E?oc=5)**  
+   _CNET_ · 06 May 2026  
+   > Google Chrome Might Have Installed an AI Model Onto Your Device Without You Knowing    CNET
 
-3. **[Approximate location sharing gives you more control over your location data in Chrome. - blog.google](https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVozNGp6Y1NkM001YkxDazhxSEY5N2lUSWhlMU9tVGYtY2JTeUFyMlYyUGtadUY0SkU3eHJIRjhFX0hCcnhrcUpDVXAwNzg4WkVIVlhDM0VDdFFsSElTN2hMd0N4Zk9kZlkyUlhtazlSLW00QzJrUk5RejI2S3dzQnlmSTJKUWg0YkxraG9UZTBZaHVTc0NOX2diRTBEN2s?oc=5)**  
+4. **[Approximate location sharing gives you more control over your location data in Chrome. - blog.google](https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVozNGp6Y1NkM001YkxDazhxSEY5N2lUSWhlMU9tVGYtY2JTeUFyMlYyUGtadUY0SkU3eHJIRjhFX0hCcnhrcUpDVXAwNzg4WkVIVlhDM0VDdFFsSElTN2hMd0N4Zk9kZlkyUlhtazlSLW00QzJrUk5RejI2S3dzQnlmSTJKUWg0YkxraG9UZTBZaHVTc0NOX2diRTBEN2s?oc=5)**  
    _blog.google_ · 05 May 2026  
    > Approximate location sharing gives you more control over your location data in Chrome.    blog.google
 
-4. **[Google updates AI search to include quotes from Reddit and other sources - TechCrunch](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXdrT3hxNmJnWmVoNVExLVFyX3hNbVN2X0J1RXkxNFZHaTllc1RIeHlfV1RNQi1FM25yZDBzN19KR2w2djRqaVJjazNwMDU0YWM3VjFUa096c3NsMDRmTk10VUFzMks2NDdIQThyanBMbERWUkltMktSLWdlLTJBX0F2Z1E3Zm80WG9aWm1BWEI5OXdOQ21Dd1J5eVRGV0dnSHZOcUM0em9BQm1vVjRhME1RYXktaC12?oc=5)**  
-   _TechCrunch_ · 06 May 2026  
-   > Google updates AI search to include quotes from Reddit and other sources    TechCrunch
-
-5. **[Google's AI Search Results Will Now Turn To Reddit For 'Expert Advice' - Engadget](https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ2M3dlZtX2sxTk10ZlJXdnFReGlLTlJVOTBHdXowUXpIMkZEdVdQRnljb0xGQWZaTG51OFpRcWVhendES25MeWowOFdiaUFLRy1mQ1cwZnZkT2VLT0ZRbFJOQmZ4YURfcDROVzdjWlhqaEdLcDY2c0k2UVZwVjlLTUoxbUNwa2F4TUVoTzQzN0pqeURpbWR6NVJNY0luLUhIaEE?oc=5)**  
-   _Engadget_ · 06 May 2026  
-   > Google's AI Search Results Will Now Turn To Reddit For 'Expert Advice'    Engadget
+5. **['No Google Translate Needed': Tourists and Parisians United by 6-7 Trend - Yahoo](https://news.google.com/rss/articles/CBMijAFBVV95cUxNeXZSNEtvTEtrWEVoczY0X1pkcWkwNHRKUUJwS0hDNFVGSGw5bW5RQmV5M0pyREVRVGJ1MUFHS1FMT1o0amxzNWdyWmZ1MDNSYi1vNms0TXB2SUlEZjVSdjU1SzNsTWpacXJyYU1IQ2otWE5fZVRaQjVwT3lyWnJRMktqblZFTllVbTd2WA?oc=5)**  
+   _Yahoo_ · 07 May 2026  
+   > 'No Google Translate Needed': Tourists and Parisians United by 6-7 Trend    Yahoo
 
 ### ✍️ Medium Articles
 
-1. **[Google Search Central Live Toronto 2026: What Google Reveals About SEO, AI, and the Future of…](https://medium.com/@kaispriestersbach/google-search-central-live-toronto-2026-what-google-reveals-about-seo-ai-and-the-future-of-cc60e8ad16e3?source=rss------google-5)**  
-   by Kai Spriestersbach · 06 May 2026  
-   > When Google employees spend an entire day presenting to an audience of SEOs, it pays to listen very carefully. On April 21, 2026, the time… Continue reading on Medium »
+1. **[Google Advaced Search](https://medium.com/@arunabhbhattacharya/google-advaced-search-87b8cb142431?source=rss------google-5)**  
+   by Arunabh Bhattacharya · 07 May 2026  
+   > Google Advanced Search has got a new update, and today even “inurl:”, “intxt:”, and “intitle” are being interpreted as search keywords… Continue reading on Medium »
 
-2. **[$1.8B in Settlements Closing This May - Check Your Eligibility, Apply and Get Paid](https://medium.com/@aditya.a_51667/1-8b-in-settlements-closing-this-may-check-your-eligibility-apply-and-get-paid-434351488f9f?source=rss------google-5)**  
-   by ClassActionWinning.com · 06 May 2026  
-   > Most class action settlements don’t get missed because people aren’t eligible. They get missed because no one sees them in time. Continue reading on Medium »
+2. **[The GOAT Series: The Isley Brothers Top 20 Greatest Songs](https://medium.com/@DARSportsAndMedia/the-goat-series-the-isley-brothers-top-20-greatest-songs-111470d6ff4c?source=rss------google-5)**  
+   by DAR Sports Media · 06 May 2026  
+   > We list the 20 greatest records from the legendary Isley Brothers  Continue reading on Medium »
 
-3. **[Ask Not if We Can Build AGI Models, Ask if We Can Power Them](https://medium.com/all-on-the-line/ask-not-if-we-can-build-agi-models-ask-if-we-can-power-them-b512b91512ed?source=rss------google-5)**  
-   by Carlos E. Mora · 06 May 2026  
-   > AI infrastructure is funded. The grid is not. Why the physical constraint no one is pricing may determine whether AGI arrives on schedule. Continue reading on All on the Line »
+3. **[Chrome’un 4 GB’lık AI Modeli: Gizli Bir Kurulum mu, Kontrolsüz Bir Varsayılan mı?](https://serdargoksu.medium.com/chromeun-4-gb-l%C4%B1k-ai-modeli-gizli-bir-kurulum-mu-kontrols%C3%BCz-bir-varsay%C4%B1lan-m%C4%B1-21c5abad62bd?source=rss------google-5)**  
+   by Serdar Göksu · 06 May 2026  
+   > Chrome’un bazı sistemlerde yaklaşık 4 GB büyüklüğünde bir AI model dosyası indirdiği konuşuluyor. Dosya genellikle weights.bin adıyla… Continue reading on Medium »
 
 ---
 
@@ -151,39 +151,39 @@ related:
 
 ### 🌐 Top News
 
-1. **[Will Elon Musk win his lawsuit against Sam Altman's OpenAI? Here's what prediction markets think - CNBC](https://news.google.com/rss/articles/CBMif0FVX3lxTE5hc0wtS0FRdENyWk5yQ3RoSXFWenF5MUF5bGRVX3dTVWtibFMxa3hsUTBoa0txY2EtdWMwMHRsWV9aY1pqekI2WkF0TW9zQTA2YzhuZkRZRzhld1VScjF2dkhfU1dUTTZTbkFTbVNOaTB5d0hrb3UzLU5nV3ZPUjTSAYQBQVVfeXFMT0FCOGhnWU5rZXpUdHJWVnk3M0tnTUVHbWVFV2JyV0tfZkFVamhjUzVoQzk1M3A5cXFYSVZLNGxtRG1mZ3p6eV81U1dGSV85REF5Q2ZPcXBVYjVSWEtKd0YzTW5ZUURQNzNib1FEZG4tRWxpN05QUXhqZ0ZmcHRSWE5SY0lw?oc=5)**  
-   _CNBC_ · 06 May 2026  
-   > Will Elon Musk win his lawsuit against Sam Altman's OpenAI? Here's what prediction markets think    CNBC Musk wanted $80 billion to colonize Mars, OpenAI president testifies at trial    Reuters SpaceX…
+1. **[Former OpenAI board member says Elon Musk offered her sperm donations - BBC](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MRVVvY0lFWlN0X3BickZySEJVNUxIVzdMbXN5UjBEWVlldFZoX1dFb05HclI0aFJ4U1RGNDllVDhkWHNHVDV5VzN1OEkzVTMzcGt0Zmk0dWc0QQ?oc=5)**  
+   _BBC_ · 06 May 2026  
+   > Former OpenAI board member says Elon Musk offered her sperm donations    BBC Will Elon Musk win his lawsuit against Sam Altman's OpenAI? Here's what prediction markets think    CNBC Shivon Zilis, moth…
 
-2. **[Ex-OpenAI CTO Mira Murati Testifies Sam Altman Pit OpenAI Leaders Against Each Other, Undermined Her - Forbes](https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSVR4ZUJBYzN4SmczTEU1c0dFREc3R3kwaTdZNm5KelpjZUU2aklQeXIzUG5xOGJiVTBfOUh4ZDJObjJ3LVpqTGY0WHNlbDltalh6bW9pRHFsZVpjOHM3eHZUaWlfRU93NndtSzNWcHRnTW1vRW93clBpOVRUQkEweEdnM1l6X2xlZllmcnJDZXFIMGt6MktLdUlLQ0tzZ19NRkZvM19MNW00UWU3c3hiVDhTRi12a01LR1lfbFFHTGJiWldWUkdsakduU2gxMWFnbVJVY1BELUs5elVuTW84amh5dVJIZw?oc=5)**  
-   _Forbes_ · 06 May 2026  
-   > Ex-OpenAI CTO Mira Murati Testifies Sam Altman Pit OpenAI Leaders Against Each Other, Undermined Her    Forbes
+2. **[OpenAI wants to ‘have their cake and eat it too’ with health AI policy recommendations - statnews.com](https://news.google.com/rss/articles/CBMinAFBVV95cUxNU2VVcFdSUURRME9aRkJMVWxnRkpIX1VNMGs5TnBCMXhuVkhEazFteHF1a1FwcjlvNHRyLWZ5c2dWaGJFQzBDZXM5WGVZbVV3T04tMi1qdnlZY05vbWo0eDd4a3pfNmNTd3cwM3dyRm1STVBmSDRGRlU3UE5BUDFNa2dvU1ZyTW1MdUhWel9uSk9GaGVFVGZWc05IeHA?oc=5)**  
+   _statnews.com_ · 06 May 2026  
+   > OpenAI wants to ‘have their cake and eat it too’ with health AI policy recommendations    statnews.com
 
-3. **[OpenAI CEO Sam Altman was dishonest, caused 'chaos,' ex-exec Mira Murati says in bombshell testimony - New York Post](https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaVVubWNxZFlBNHBxSTR3dFBSR1h4bFhjTWxzcUQ0Zk5XcjN0eUxnZ05wXzJvdVJDTzZNcUJiRjBOQ2l6TVU0ZU9aRHNPbDl5dEVEM1M4NkdFR0pnUkpxalM1SWRjYk5xS2VYZWw1V25DZ2xNdEtwbGVrdzVyYWRkVGZjRnBEbFFRUmVHXzFPZ2tSQWNtaUpzUU5hTHlfeVl6VzZ5WEh1Mkh2Zy1rMUY5ZEVFdUpGSzBUM1VSRm1QRGx0RkRoUkQ5UVQ5cGE1eFRWTVE?oc=5)**  
-   _New York Post_ · 06 May 2026  
-   > OpenAI CEO Sam Altman was dishonest, caused 'chaos,' ex-exec Mira Murati says in bombshell testimony    New York Post
+3. **[Ex-OpenAI CTO Mira Murati Testifies About Sam Altman Allegedly Lying to Her - Gizmodo](https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd0NwczZHdzhsUDREWVhNMFFDS0ZYQ29aYzdySWI1bW54R1o3b0JfZkNqVk1nREQ5S2hjeGlNWnlkZTkwdktwSHc1aXU5WTllbXlYZWtVUHJYOEhuVk11MTVfSDZCLU42YU02V0JmLW1yQXBmc1M5d0hFU0RhXzNGcmVkYUVZdFVHcThwM3FRNVlZOXpFSTZrMGNmNk5feExfendnbEpTdld0Zw?oc=5)**  
+   _Gizmodo_ · 07 May 2026  
+   > Ex-OpenAI CTO Mira Murati Testifies About Sam Altman Allegedly Lying to Her    Gizmodo
 
-4. **[Mira Murati tells the court that she couldn’t trust Sam Altman’s words - The Verge](https://news.google.com/rss/articles/CBMilgFBVV95cUxPWkJSMC0xSnl6S0pQa2pKRWdDOEJqQS1sekFQNlJVdm40SFRVYTh4QzFlaXRIMlJtZjRnRy1vRzBKYjNKUUdhaTRGQ2VPNG1aVnVJRFlaYlYzZlc5SnhUQzh5Tk00U1MtMXVnNDd3NTNvNll5NWpSbDk1TnFnMzdBWWhWc3BKUEZKVVRscUM5Um5Ta1hZc0E?oc=5)**  
-   _The Verge_ · 06 May 2026  
-   > Mira Murati tells the court that she couldn’t trust Sam Altman’s words    The Verge
-
-5. **[A Michigan farm town voted down plans for a giant OpenAI-Oracle data center. Weeks later, construction began - Fortune](https://news.google.com/rss/articles/CBMihwFBVV95cUxON01oMG80N3haamk5cmRWcVVLX0E0ZzE0emFxX2xDWTdQaHp2R0g4Si14YWo5YWI3UjFENHVIaFpXb1BpVlBQSTlVUzQzbEROQkFfU090Q1VUbFlENGkyZG8yNXEwd3lrN2gzdW1UbkRfZU81bjRnVWtYUUpVaE90cFIweXItREk?oc=5)**  
+4. **[A Michigan farm town voted down plans for a giant OpenAI-Oracle data center. Weeks later, construction began - Fortune](https://news.google.com/rss/articles/CBMihwFBVV95cUxON01oMG80N3haamk5cmRWcVVLX0E0ZzE0emFxX2xDWTdQaHp2R0g4Si14YWo5YWI3UjFENHVIaFpXb1BpVlBQSTlVUzQzbEROQkFfU090Q1VUbFlENGkyZG8yNXEwd3lrN2gzdW1UbkRfZU81bjRnVWtYUUpVaE90cFIweXItREk?oc=5)**  
    _Fortune_ · 06 May 2026  
    > A Michigan farm town voted down plans for a giant OpenAI-Oracle data center. Weeks later, construction began    Fortune
 
+5. **[NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC - NVIDIA Blog](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Md0cwSmo3NGlrR2E4YTAtNFN2VmtBS1Y5c0RCMmJaTFBvUmJrN1dueDlWQzQ2d254UklucGVaYkNwcTRrUVZ6cXlVdGZTNHhEYWp2dTdldW5jRXdjUU1scjZVZ1I?oc=5)**  
+   _NVIDIA Blog_ · 06 May 2026  
+   > NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC    NVIDIA Blog
+
 ### ✍️ Medium Articles
 
-1. **[22 ChatGPT Prompts for Every Update That Dropped This Year (Copy-Paste Ready)](https://medium.com/@kkansh/22-chatgpt-prompts-for-every-update-that-dropped-this-year-copy-paste-ready-a135a1645801?source=rss------openai-5)**  
-   by Himanshu Kukreja · 06 May 2026  
-   > The features keep changing. Your prompts should change too. Here’s a实战 prompt pack built for every major ChatGPT update in 2024–2025. Continue reading on Medium »
+1. **[How to Call JavaScript Functions with the OpenAI SDK (Function Calling)](https://medium.com/@somendradev23/how-to-call-javascript-functions-with-the-openai-sdk-function-calling-467ddfd68248?source=rss------openai-5)**  
+   by Somendradev · 07 May 2026  
+   > One of the most powerful features of modern LLMs is their ability to call your own code — not just generate text. Continue reading on Medium »
 
-2. **[How to Use GPT Images 2.0 (gpt-image-2) in E-Commerce: A Complete Guide for 2026](https://medium.com/@cottom/how-to-use-gpt-images-2-0-gpt-image-2-in-e-commerce-a-complete-guide-for-2026-adb6535bea32?source=rss------openai-5)**  
-   by Jerry zhang · 06 May 2026  
-   > Visual content is the lifeblood of e-commerce. Shoppers can’t touch or try your products — they rely entirely on images to make buying… Continue reading on Medium »
+2. **[A Grande Entrega da Vaz Inovação: Redefinindo o Futuro Corporativo com IA e Web Agêntica](https://medium.com/@vaz_por_todos/a-entrega-da-vaz-inova%C3%A7%C3%A3o-redefinindo-o-futuro-corporativo-com-ia-e-web-ag%C3%AAntica-6a72ddcaf688?source=rss------openai-5)**  
+   by Vaz Inovação · 07 May 2026  
+   > 04 de maio de 2026 Continue reading on Medium »
 
-3. **[OpenAI Isn’t an AI Company Anymore. It’s an Ad-Tech Giant.](https://medium.com/illumination/openai-isnt-an-ai-company-anymore-it-s-an-ad-tech-giant-594389ab938b?source=rss------openai-5)**  
-   by Somya Golchha · 06 May 2026  
-   > I saw a headline recently that made me stop scrolling. Continue reading on ILLUMINATION »
+3. **[17 Open Source Projects for Your Dev Stack](https://medium.com/sourcescribes/17-open-source-projects-for-your-dev-stack-9a3852c0e2e9?source=rss------openai-5)**  
+   by C. L. Beard · 06 May 2026  
+   > Mastra, Ripple, OpenAI Agents Continue reading on OpenSourceScribes »
 
 ---
 
@@ -195,17 +195,17 @@ related:
    _Business Insider_ · 05 May 2026  
    > Google Is Building an AI Agent That Could Be Its Answer to OpenClaw    Business Insider
 
-2. **[Google Home gets upgraded Gemini voice assistant and new camera controls - Ars Technica](https://news.google.com/rss/articles/CBMiswFBVV95cUxPMkNDeDk1THVZdWk3Vk4wVXhhdTg2Z1lzLVlxRnJfb2hHNW8tcHVaSmpDOGtfMWJ1UzNRRTFPaXZpME1sR0pBOG5aWFgzREFONFFOcXBhWFJHNHRXbFBSdmI2VnBpOTROOGh5YmpkaFR6UUgyTTRpSFdNTWszUXhhUjk1VnVFTkt3c3BHbVZGZl9TLTdsWmlXUDhkdW5sTENBb3FWb2NXZjU0VTR2WVlHbWpUZw?oc=5)**  
-   _Ars Technica_ · 05 May 2026  
-   > Google Home gets upgraded Gemini voice assistant and new camera controls    Ars Technica
+2. **[Google readies ‘AI Ultra Lite’ plan and explicit ‘usage limits’ for Gemini - 9to5Google](https://news.google.com/rss/articles/CBMigAFBVV95cUxPdzZwWVRSUVlQSUI4b3hfUHNVUHFmbTlkQV9kSC1PNGZiZVRwM3NjNHNJVVUxakR5MGtpRjV6d2NsUDV0YVhkajYxLUM2Uk5URlhNUkhqdGdwWVdvV2J4dXZzVG45TUxVYXlmblE5dzlfU09uWWcta1FvVnp4eHk1WA?oc=5)**  
+   _9to5Google_ · 05 May 2026  
+   > Google readies ‘AI Ultra Lite’ plan and explicit ‘usage limits’ for Gemini    9to5Google
 
-3. **[Google Home’s Gemini AI can handle more complicated requests - The Verge](https://news.google.com/rss/articles/CBMidkFVX3lxTE1VWFhTMzdPSFpDRGM1Q0xTNlNSdTVwR2hCbU9GU2UtekROOHFlT2ZsNVBHQ3RsU25CTnoxcUdRYmhZZ3ZVTTVJWWJDakJYQlQwcHdiXzRRdHFheFVMamRXbnJzeE5sYk0tdW41X3M2cm5Ldjdvdmc?oc=5)**  
-   _The Verge_ · 05 May 2026  
-   > Google Home’s Gemini AI can handle more complicated requests    The Verge
+3. **[Gemini API File Search is now multimodal: build efficient, verifiable RAG - blog.google](https://news.google.com/rss/articles/CBMiswFBVV95cUxPeWh0NlNPQmtHM1F3OGFCQy13TXhBdHZvLXRwSzhaUTFPekI4V1ZNX3c3am9PVU1BLVhFRHk3NUE3Si1FSlVpVkJ0TTZsTlZPcEpiRVBFZmdYQkRleEpXTkR3RGFSeUpzTGluSlhnRkxsYTdYc1VUNFRGSm9sdUN5TXl2WlBXT2l0TWd1LTBpQ1pFX0RGUXVaREJ0clZMWG1OcjVqSGJmSFZpMVBFWDBsd2NJMA?oc=5)**  
+   _blog.google_ · 05 May 2026  
+   > Gemini API File Search is now multimodal: build efficient, verifiable RAG    blog.google
 
-4. **[Google Home Gains More Gemini-Powered Camera Features - Engadget](https://news.google.com/rss/articles/CBMikAFBVV95cUxNd0cxcGNJVmxZd2RkUHd2MHd0eVBmMVMtTUN2d2trTGVGaXl0WG1sU0NjT09uUjlRd2RNeW1rQTYyT0RLazJsZ1VmNV9xQzFjNndsbEc4cU95UmRrQ2hNdjAwaWhGLTlrb3pfMkNxb3FLa1ktczdRT3NoZjF6dW5mNTV6Ymp4LWtqQngzMjlab0k?oc=5)**  
-   _Engadget_ · 05 May 2026  
-   > Google Home Gains More Gemini-Powered Camera Features    Engadget
+4. **[Google Gemini Gets a New Look: Here’s What Changed - eWeek](https://news.google.com/rss/articles/CBMickFVX3lxTE5jZGc3TkVmS3lBQW50NWtBSjBxWGZaVHhUaGVYV2dEOTF1MUotZ1lnSF9jd2FHeVA0RTc1dVh0TnREYkgxZFdzZFBkRG9UR0RtR0k5YW0wVXFaYzNzM1VBR1JrYjlRZ3VKOFd6ZXk4VVZSUQ?oc=5)**  
+   _eWeek_ · 06 May 2026  
+   > Google Gemini Gets a New Look: Here’s What Changed    eWeek
 
 5. **[Chrome’s AI features may be hogging 4GB of your computer storage - The Verge](https://news.google.com/rss/articles/CBMihAFBVV95cUxPVGVyM3VtZlYxQTJpTFEwSWZ4M1YtQUVuVVZFLUNSMG9xX0NrWlh3RGRlcEFtbkktMVNIN0VFQks5U1BqXzhZdkNHZ2xYc2szLW4yQU9kRWVGT2tBWWpQR0lNeGp0Z2xCQTlUUDZvQUFBYURNVGVMVTZhY3hZb0FfU3BOQVY?oc=5)**  
    _The Verge_ · 06 May 2026  
@@ -213,17 +213,17 @@ related:
 
 ### ✍️ Medium Articles
 
-1. **[My experience taking the IBM generative AI development Specialization: Course 1](https://medium.com/@yanguangchensp/my-experience-taking-the-ibm-generative-ai-development-specialization-course-1-f5f377afb52a?source=rss------gemini-5)**  
+1. **[AI Hallucination or Lost in Translation?](https://medium.com/@beharterakaj/ai-hallucination-or-lost-in-translation-0d50da3b621f?source=rss------gemini-5)**  
+   by Behar Terakaj · 07 May 2026  
+   > The industry is solving the wrong problem. Loudly. Continue reading on Medium »
+
+2. **[My experience taking the IBM generative AI development Specialization: Course 1](https://medium.com/@yanguangchensp/my-experience-taking-the-ibm-generative-ai-development-specialization-course-1-f5f377afb52a?source=rss------gemini-5)**  
    by WebWizardsSG · 06 May 2026  
    > I took IBM’s Develop Generative AI Applications course because I wanted to better understand how modern generative AI applications are… Continue reading on Medium »
 
-2. **[Google Gemini As A Writer](https://medium.com/@stevenjdavies/google-gemini-as-a-writer-727b53538f78?source=rss------gemini-5)**  
+3. **[Google Gemini As A Writer](https://medium.com/@stevenjdavies/google-gemini-as-a-writer-727b53538f78?source=rss------gemini-5)**  
    by Steven J Davies · 06 May 2026  
    > AI models are everywhere and being used by all manner of businesses, in ways that you may not even expect and sometimes for no real reason… Continue reading on Medium »
-
-3. **[Google Just Made RAG Smarter with Multimodal Gemini API File Search](https://medium.com/@vaishnavidesai29/google-just-made-rag-smarter-with-multimodal-gemini-api-file-search-8dfac89ec490?source=rss------gemini-5)**  
-   by Vaishnavi Desai · 06 May 2026  
-   > Google has introduced a powerful update to the Gemini API File Search tool — and it could completely change how developers build AI… Continue reading on Medium »
 
 ---
 
