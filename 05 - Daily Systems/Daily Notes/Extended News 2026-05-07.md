@@ -12,7 +12,7 @@ related:
 
 # 📰 Extended News — 2026-05-07
 
-> Design · Dev · Thai | อัปเดต 04:35 น.
+> Design · Dev · Thai | อัปเดต 09:01 น.
 
 ---
 
@@ -42,25 +42,25 @@ related:
 
 ### UX Collective
 
-1. **[Why you need to protect your work more than ever](https://uxdesign.cc/why-you-need-to-protect-your-work-more-than-ever-7d0ac5836540?source=rss----138adf9c44c---4)**  
+1. **[We built this. Now we own it.](https://uxdesign.cc/we-built-this-now-we-own-it-1f8f1ba7c768?source=rss----138adf9c44c---4)**  
+   _06 May 2026_  
+   > The dark side of ‘user-friendly’ AI. There is a teenager in Florida who is no longer alive. He had spent months talking to a chatbot modelled on a  Game of Thro…
+
+2. **[Why you need to protect your work more than ever](https://uxdesign.cc/why-you-need-to-protect-your-work-more-than-ever-7d0ac5836540?source=rss----138adf9c44c---4)**  
    _06 May 2026_  
    > The creator’s code is dead. It’s time to replace moral outrage with something more permanent. They cooked.  With your work.  They scraped.  With your work. I’ve…
 
-2. **[The psychological fine print of AI](https://uxdesign.cc/the-psychological-fine-print-of-ai-fe419edcff73?source=rss----138adf9c44c---4)**  
+3. **[The psychological fine print of AI](https://uxdesign.cc/the-psychological-fine-print-of-ai-fe419edcff73?source=rss----138adf9c44c---4)**  
    _05 May 2026_  
    > What happens when technology starts reshaping the minds using it? Meet the new class of cognitive biases AI is creating. We have spent decades cataloguing the w…
 
-3. **[The trick to designing agentic AI is learning how to think like a manager](https://uxdesign.cc/the-trick-to-designing-agentic-ai-is-learning-how-to-think-like-a-manager-9945b028aac7?source=rss----138adf9c44c---4)**  
+4. **[The trick to designing agentic AI is learning how to think like a manager](https://uxdesign.cc/the-trick-to-designing-agentic-ai-is-learning-how-to-think-like-a-manager-9945b028aac7?source=rss----138adf9c44c---4)**  
    _05 May 2026_  
    > Setting boundaries (and establishing trust) is the ask with agentic projects Continue reading on UX Collective »
 
-4. **[St. Augustine and AI’s false promise](https://uxdesign.cc/st-augustine-and-ais-false-promise-4f67c75b3275?source=rss----138adf9c44c---4)**  
+5. **[St. Augustine and AI’s false promise](https://uxdesign.cc/st-augustine-and-ais-false-promise-4f67c75b3275?source=rss----138adf9c44c---4)**  
    _04 May 2026_  
    > An ancient diagnosis for a modern delusion. Saint Augustine of Hippo with his restless heart pierced by the light of Truth, painting by Philippe de Champaigne,…
-
-5. **[Pinning is not saving. Saving is not favoriting. Favoriting is not flagging.](https://uxdesign.cc/pinning-is-not-saving-saving-is-not-favoriting-favoriting-is-not-flagging-c3941c444bd5?source=rss----138adf9c44c---4)**  
-   _04 May 2026_  
-   > UX pattern research: Pinning, Favorites, Save for Later & Urgency Flags I forget to take the garbage out. Every Friday. Without fail. So I wrote it on the black…
 
 ### Awwwards Blog
 
@@ -82,88 +82,89 @@ related:
 
 ### Hacker News Top
 
-1. **[MIT’s virtual violin offers luthiers a new design tool](https://arstechnica.com/science/2026/05/mits-virtual-violin-offers-luthiers-a-new-design-tool/)**  
-   _06 May 2026_  
-   > Article URL:  https://arstechnica.com/science/2026/05/mits-virtual-violin-offers-luthiers-a-new-design-tool/ 
- Comments URL:  https://news.ycombinator.com/item?…
+1. **[The Vatican's Website in Latin](https://www.vatican.va/latin/latin_index.html)**  
+   _07 May 2026_  
+   > Article URL:  https://www.vatican.va/latin/latin_index.html 
+ Comments URL:  https://news.ycombinator.com/item?id=48044311 
+ Points: 22 
+ # Comments: 7
 
-2. **[Inkscape 1.4.4](https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html)**  
+2. **[How I made $350K from an open-source JavaScript library using dual licensing](https://www.paritydeals.com/blog/monetize-open-source-dual-licensing/)**  
+   _07 May 2026_  
+   > Article URL:  https://www.paritydeals.com/blog/monetize-open-source-dual-licensing/ 
+ Comments URL:  https://news.ycombinator.com/item?id=48044022 
+ Points: 34…
+
+3. **[Iran hit more U.S. military targets than has been reported, satellite images](https://www.washingtonpost.com/investigations/2026/05/06/iran-us-bases-satellite-images/)**  
+   _07 May 2026_  
+   > Article URL:  https://www.washingtonpost.com/investigations/2026/05/06/iran-us-bases-satellite-images/ 
+ Comments URL:  https://news.ycombinator.com/item?id=480…
+
+4. **[The Old Guard: Confronting America's Gerontocratic Crisis](https://harpers.org/archive/2026/05/the-old-guard-samuel-moyn-gerontocracy/)**  
+   _07 May 2026_  
+   > Article URL:  https://harpers.org/archive/2026/05/the-old-guard-samuel-moyn-gerontocracy/ 
+ Comments URL:  https://news.ycombinator.com/item?id=48043706 
+ Point…
+
+5. **[ADT says customer data stolen in cyber intrusion](https://therecord.media/ADT-data-breach-cyberattack)**  
+   _06 May 2026_  
+   > Article URL:  https://therecord.media/ADT-data-breach-cyberattack 
+ Comments URL:  https://news.ycombinator.com/item?id=48043487 
+ Points: 15 
+ # Comments: 2
+
+6. **[SQLite Is a Library of Congress Recommended Storage Format](https://sqlite.org/locrsf.html)**  
+   _06 May 2026_  
+   > Article URL:  https://sqlite.org/locrsf.html 
+ Comments URL:  https://news.ycombinator.com/item?id=48042434 
+ Points: 12 
+ # Comments: 1
+
+7. **[Show HN: PHP-fts – Full-text search engine in pure PHP, no extensions](https://github.com/olivier-ls/php-fts)**  
+   _06 May 2026_  
+   > Article URL:  https://github.com/olivier-ls/php-fts 
+ Comments URL:  https://news.ycombinator.com/item?id=48041316 
+ Points: 31 
+ # Comments: 7
+
+8. **[Inkscape 1.4.4](https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html)**  
    _06 May 2026_  
    > Article URL:  https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html 
  Comments URL:  https://news.ycombinator.com/item?id=48040622 
- Points: 119 
+ Points: 216 
  #…
-
-3. **[Learning the Integral of a Diffusion Model](https://sander.ai/2026/05/06/flow-maps.html)**  
-   _06 May 2026_  
-   > Article URL:  https://sander.ai/2026/05/06/flow-maps.html 
- Comments URL:  https://news.ycombinator.com/item?id=48040002 
- Points: 42 
- # Comments: 7
-
-4. **[Proton Meet](https://proton.me/business/blog/introducing-proton-meet)**  
-   _06 May 2026_  
-   > Article URL:  https://proton.me/business/blog/introducing-proton-meet 
- Comments URL:  https://news.ycombinator.com/item?id=48039674 
- Points: 78 
- # Comments:…
-
-5. **[Google Cloud fraud defense, the next evolution of reCAPTCHA](https://cloud.google.com/blog/products/identity-security/introducing-google-cloud-fraud-defense-the-next-evolution-of-recaptcha/)**  
-   _06 May 2026_  
-   > Article URL:  https://cloud.google.com/blog/products/identity-security/introducing-google-cloud-fraud-defense-the-next-evolution-of-recaptcha/ 
- Comments URL:…
-
-6. **[Going Full Time on Open Source](https://jdx.dev/posts/2026-04-17-going-full-time-on-open-source/)**  
-   _06 May 2026_  
-   > Article URL:  https://jdx.dev/posts/2026-04-17-going-full-time-on-open-source/ 
- Comments URL:  https://news.ycombinator.com/item?id=48038864 
- Points: 118 
- #…
-
-7. **[From Supabase to Clerk to Better Auth](https://blog.val.town/better-auth)**  
-   _06 May 2026_  
-   > Article URL:  https://blog.val.town/better-auth 
- Comments URL:  https://news.ycombinator.com/item?id=48038827 
- Points: 139 
- # Comments: 77
-
-8. **[Life During Class Wartime](https://www.tbray.org/ongoing/When/202x/2026/05/03/Life-During-Class-Wartime)**  
-   _06 May 2026_  
-   > Article URL:  https://www.tbray.org/ongoing/When/202x/2026/05/03/Life-During-Class-Wartime 
- Comments URL:  https://news.ycombinator.com/item?id=48038307 
- Poin…
 
 ### Dev.to
 
-1. **[4 Open-Source Security Tools Every Dev Should Know](https://dev.to/lovestaco/4-open-source-security-tools-every-dev-should-know-35om)**  
-   _06 May 2026_  
-   > Go's standard library is solid. The ecosystem is mature. But none of that protects you from leaked secrets, vulnerable dependencies. 
-
- Security tooling fills t…
-
-2. **[Building a Skills Updater Pipeline for AI Platforms](https://dev.to/niclydon/building-a-skills-updater-pipeline-for-ai-platforms-2jan)**  
-   _06 May 2026_  
-   > I turned 1,870 JSONL files into six new user-level skills for my AI platform in a single session. Here’s how I built a repeatable pipeline for skills-updater.…
-
-3. **[How I Conquered the Brimble Task: Insights and Strategies](https://dev.to/onatade_abdulmajeed/how-i-conquered-the-brimble-task-insights-and-strategies-20bn)**  
-   _06 May 2026_  
-   > Table of Contents
+1. **[Engineering with AI: A Lever, Not a Replacement](https://dev.to/ranjancse/engineering-with-ai-a-lever-not-a-replacement-1oc9)**  
+   _07 May 2026_  
+   > Introduction
  
 
+ AI coding tools have rapidly transformed the way software is built. From generating boilerplate code to suggesting optimizations and even writi…
+
+2. **[Open Claude Design: A Weekend Harness Built on Atomic](https://dev.to/mixture-of-experts/open-claude-design-a-weekend-harness-built-on-atomic-2k22)**  
+   _07 May 2026_  
+   > Anthropic released Claude Design ( https://www.anthropic.com/news/claude-design-anthropic-labs ) on April 17, 2026 — a conversational tool for producing prototy…
+
+3. **[ReactJs Performance ~ Memory Leak Prevention ~](https://dev.to/kkr0423/reactjs-performance-memory-leak-prevention--177f)**  
+   _07 May 2026_  
+   > Memory leaks gradually reduce the responsiveness of React applications. At first everything feels normal, but after extended usage — around 10 to 15 minutes — t…
+
+4. **[Atomic's Workflow SDK: Deterministically Extending Coding Agents](https://dev.to/mixture-of-experts/atomics-workflow-sdk-deterministically-extending-coding-agents-29ph)**  
+   _07 May 2026_  
+   > Coding agents are great at day-to-day work. What they still can't do reliably — and what keeps you babysitting every step — is finish a long-running, complex ta…
+
+5. **[Are non-AI dev tools becoming irrelevant?](https://dev.to/catssaymeow/are-non-ai-dev-tools-becoming-irrelevant-poh)**  
+   _07 May 2026_  
+   > I’m a software engineer, and a big part of my day is debugging issues reported by other teams. 
+
+ Most of the time I’m: 
+
  
- Introduction 
- Understanding the Brimble Task 
- Deployment Strategy and Debugging Workflow 
- System Architecture and Core Components 
- C…
-
-4. **[Stop editing 500 products: rule-based discounts in WooCommerce](https://dev.to/tivnet/stop-editing-500-products-rule-based-discounts-in-woocommerce-3a1j)**  
-   _06 May 2026_  
-   > My wife Lena paints. Oils, acrylics, watercolors. Flowers, landscapes, the occasional cello or violin from her music series. Each painting is its own thing, pho…
-
-5. **[Protecting Keycloak Auth with Proof of Work](https://dev.to/mr_buch/protecting-keycloak-auth-with-proof-of-work-2i4d)**  
-   _06 May 2026_  
-   > I got tired of watching our login endpoint get hammered by bots. Credential stuffing, brute force, the usual nonsense. Rate limiting helps, but it's blunt — one…
+ checking tokens 
+ calling APIs 
+ co…
 
 ---
 
@@ -175,7 +176,23 @@ related:
    _25 Apr 2026_  
    > เครื่องเดียวเอาอยู่! HUAWEI MatePad Mini นิยามใหม่ของแท็บเล็ตสายไลฟ์สไตล์  พกพาง่าย ดีไซน์บางเฉียบ พร้อมเปลี่ยนทุกไอเดียให้เกิดขึ้นได้ทุกที่ แบบ All in Mini…
 
-2. **[Anthropic ทำข้อตกลงเช่าศูนย์ข้อมูล Colossus 1 ของ SpaceX - Claude เพิ่มโควต้าการใช้งาน](https://www.blognone.com/node/150457)**  
+2. **[Uber ไตรมาส 1/2026 ธุรกิจเดลิเวอรีเติบโตเด่น 34%](https://www.blognone.com/node/150458)**  
+   _07 May 2026_  
+   > Uber ไตรมาส 1/2026 ธุรกิจเดลิเวอรีเติบโตเด่น 34% 
+
+   
+     Body 
+               Uber รายงานผลประกอบการของไตรมาสที่ 1 ปี 2026 รายได้รวมเพิ่มขึ้น 14% จากช่วงเดีย…
+
+3. **[NVIDIA ลงทุนใน Corning เพื่อสร้างโรงงานใยแก้วนำแสงสำหรับ AI Data Center](https://www.blognone.com/node/150456)**  
+   _06 May 2026_  
+   > NVIDIA ลงทุนใน Corning เพื่อสร้างโรงงานใยแก้วนำแสงสำหรับ AI Data Center 
+
+   
+     Body 
+               NVIDIA ประกาศความร่วมมือระยะยาวกับ Corning เพื่อขยายกำลั…
+
+4. **[Anthropic ทำข้อตกลงเช่าศูนย์ข้อมูล Colossus 1 ของ SpaceX - Claude เพิ่มโควต้าการใช้งาน](https://www.blognone.com/node/150457)**  
    _06 May 2026_  
    > Anthropic ทำข้อตกลงเช่าศูนย์ข้อมูล Colossus 1 ของ SpaceX - Claude เพิ่มโควต้าการใช้งาน 
 
@@ -183,7 +200,7 @@ related:
      Body 
                Anthropic และ SpaceX ประกาศทำข้อตกลงในการ…
 
-3. **[เลิกขายคอนซูเมอร์ Micron เปิดตัว SSD ใหญ่ที่สุดในโลก ขนาด 245TB](https://www.blognone.com/node/150455)**  
+5. **[เลิกขายคอนซูเมอร์ Micron เปิดตัว SSD ใหญ่ที่สุดในโลก ขนาด 245TB](https://www.blognone.com/node/150455)**  
    _06 May 2026_  
    > เลิกขายคอนซูเมอร์ Micron เปิดตัว SSD ใหญ่ที่สุดในโลก ขนาด 245TB 
 
@@ -191,7 +208,7 @@ related:
      Body 
                ไมครอนเปิดตัว Micron 6600 ION SSD สตอเรจแบบ SSD ความจุ 245TB สูง…
 
-4. **[[ลือ] iOS 27 จะเปิดให้เลือกโมเดล AI ที่ต้องการได้ ไม่จำกัดที่ Gemini, มีฟีเจอร์สร้างบัตรคัสตอมใน Wallet](https://www.blognone.com/node/150454)**  
+6. **[[ลือ] iOS 27 จะเปิดให้เลือกโมเดล AI ที่ต้องการได้ ไม่จำกัดที่ Gemini, มีฟีเจอร์สร้างบัตรคัสตอมใน Wallet](https://www.blognone.com/node/150454)**  
    _06 May 2026_  
    > [ลือ] iOS 27 จะเปิดให้เลือกโมเดล AI ที่ต้องการได้ ไม่จำกัดที่ Gemini, มีฟีเจอร์สร้างบัตรคัสตอมใน Wallet 
 
@@ -199,7 +216,7 @@ related:
      Body 
                ข่าวลือฟีเจอร์ใหม่ ๆ ของ…
 
-5. **[ขาดแคลนจริงจัง Mac mini, Mac Studio ตัดตัวเลือกเพิ่มแรมขนาดใหญ่ออกไป](https://www.blognone.com/node/150453)**  
+7. **[ขาดแคลนจริงจัง Mac mini, Mac Studio ตัดตัวเลือกเพิ่มแรมขนาดใหญ่ออกไป](https://www.blognone.com/node/150453)**  
    _06 May 2026_  
    > ขาดแคลนจริงจัง Mac mini, Mac Studio ตัดตัวเลือกเพิ่มแรมขนาดใหญ่ออกไป 
 
@@ -207,29 +224,13 @@ related:
      Body 
                สถานการณ์ของ Mac mini และ Mac Studio ขาดตลาดดูจะตึงยิ่งขึ้น…
 
-6. **[PayPal ไตรมาส 1/2026 รายได้โต 7% มอง AI เป็นโอกาสเสริมการเติบโตครั้งใหญ่](https://www.blognone.com/node/150452)**  
+8. **[PayPal ไตรมาส 1/2026 รายได้โต 7% มอง AI เป็นโอกาสเสริมการเติบโตครั้งใหญ่](https://www.blognone.com/node/150452)**  
    _06 May 2026_  
    > PayPal ไตรมาส 1/2026 รายได้โต 7% มอง AI เป็นโอกาสเสริมการเติบโตครั้งใหญ่ 
 
    
      Body 
                PayPal รายงานผลประกอบการของไตรมาสที่ 1 ปี 2026 รายได้รว…
-
-7. **[AWS เปิดตัว Rex ระบบรันสคริปต์แบบจำกัดสิทธิ์อย่างละเอียด สำหรับรันโค้ดจาก AI](https://www.blognone.com/node/150450)**  
-   _06 May 2026_  
-   > AWS เปิดตัว Rex ระบบรันสคริปต์แบบจำกัดสิทธิ์อย่างละเอียด สำหรับรันโค้ดจาก AI 
-
-   
-     Body 
-               AWS เปิดตัว Trusted Remote Execution (เรียกชื่อย่อว…
-
-8. **[DENIC คอนฟิก DNSSEC ผิดพลาด ทำโดเมน .de ดับ 2 ชั่วโมง](https://www.blognone.com/node/150449)**  
-   _06 May 2026_  
-   > DENIC คอนฟิก DNSSEC ผิดพลาด ทำโดเมน .de ดับ 2 ชั่วโมง 
-
-   
-     Body 
-               เมื่อช่วงรุ่งเช้าที่ผ่านมา DENIC ผู้ให้บริการโดเมน .de ของเยอรมนีคอนฟิก DN…
 
 ### TechSauce
 
