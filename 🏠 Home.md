@@ -98,26 +98,26 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-05-07
+> 🕒 Auto-updated 2026-05-08
 
 ### 📊 Vault Stats
-- Total notes: **259**
-- Daily: 103 · Weekly: 4 · Literature: 6 · Evergreen: 2 · Project: 6 · MOC: 12
+- Total notes: **265**
+- Daily: 106 · Weekly: 4 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _07 May 04:36_
+- [[MOCs/Auto Tag MOC]] — _08 May 00:37_
+- [[10 - Meta/Orphan Notes 2026-05-08]] — _08 May 00:37_
+- [[05 - Daily Systems/Daily Notes/Company News 2026-05-07]] — _07 May 09:18_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-07]] — _07 May 09:18_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-07]] — _07 May 09:15_
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-05-07]] — _07 May 09:01_
+- [[01 - Projects/Market Research/Monthly Market Opportunity Radar]] — _07 May 04:50_
+- [[01 - Projects/Market Research/Weekly Sleep Competitor Watch]] — _07 May 04:50_
+- [[README]] — _07 May 04:44_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-07]] — _07 May 04:39_
+- [[05 - Daily Systems/Daily Notes/Tech Update 2026-05-07]] — _07 May 04:38_
+- [[🏠 Home]] — _07 May 04:36_
 - [[10 - Meta/Orphan Notes 2026-05-07]] — _07 May 04:36_
 - [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W19]] — _07 May 04:36_
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-07]] — _07 May 04:36_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-07]] — _07 May 04:36_
-- [[05 - Daily Systems/Daily Notes/Extended News 2026-05-07]] — _07 May 04:35_
-- [[05 - Daily Systems/Daily Notes/Company News 2026-05-07]] — _07 May 04:35_
-- [[🏠 Home]] — _07 May 04:35_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-07]] — _07 May 04:34_
-- [[10 - Meta/Orphan Notes 2026-05-04]] — _04 May 23:49_
-- [[01 - Projects/Market Research/Hermes Research Bot]] — _04 May 15:53_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-04]] — _04 May 09:56_
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-05-04]] — _04 May 09:55_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-04]] — _04 May 09:54_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-04]] — _04 May 09:54_
 <!-- AUTO-DASHBOARD:END -->
