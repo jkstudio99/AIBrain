@@ -101,23 +101,23 @@ Use these in Claude Code with `/`:
 > 🕒 Auto-updated 2026-05-08
 
 ### 📊 Vault Stats
-- Total notes: **265**
-- Daily: 106 · Weekly: 4 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
+- Total notes: **270**
+- Daily: 111 · Weekly: 4 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _08 May 00:37_
-- [[10 - Meta/Orphan Notes 2026-05-08]] — _08 May 00:37_
+- [[MOCs/Auto Tag MOC]] — _08 May 07:59_
+- [[10 - Meta/Orphan Notes 2026-05-08]] — _08 May 07:59_
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W19]] — _08 May 07:58_
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-08]] — _08 May 07:58_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-08]] — _08 May 07:58_
+- [[05 - Daily Systems/Daily Notes/Extended News 2026-05-08]] — _08 May 07:58_
+- [[05 - Daily Systems/Daily Notes/Company News 2026-05-08]] — _08 May 07:58_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-08]] — _08 May 07:57_
+- [[🏠 Home]] — _08 May 00:37_
 - [[05 - Daily Systems/Daily Notes/Company News 2026-05-07]] — _07 May 09:18_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-07]] — _07 May 09:18_
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-07]] — _07 May 09:15_
 - [[05 - Daily Systems/Daily Notes/Extended News 2026-05-07]] — _07 May 09:01_
 - [[01 - Projects/Market Research/Monthly Market Opportunity Radar]] — _07 May 04:50_
 - [[01 - Projects/Market Research/Weekly Sleep Competitor Watch]] — _07 May 04:50_
-- [[README]] — _07 May 04:44_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-07]] — _07 May 04:39_
-- [[05 - Daily Systems/Daily Notes/Tech Update 2026-05-07]] — _07 May 04:38_
-- [[🏠 Home]] — _07 May 04:36_
-- [[10 - Meta/Orphan Notes 2026-05-07]] — _07 May 04:36_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W19]] — _07 May 04:36_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-07]] — _07 May 04:36_
 <!-- AUTO-DASHBOARD:END -->
