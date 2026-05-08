@@ -1,6 +1,6 @@
 ---
 type: weekly
-created: "2026-05-07"
+created: "2026-05-08"
 tags:
   - type/weekly
   - topic/review
@@ -10,33 +10,18 @@ related:
 
 # 📅 Weekly Digest — 2026-W19
 
-> 01 May → 07 May 2026 · generated 04:36 น.
+> 02 May → 08 May 2026 · generated 07:58 น.
 
 ---
 
 ## 📊 Stats
 
-- Daily notes scanned: **29**
-- Period: 2026-05-01 → 2026-05-07
+- Daily notes scanned: **30**
+- Period: 2026-05-02 → 2026-05-08
 
 ---
 
 ## 📰 Top Headlines ของสัปดาห์
-
-### [[Company News 2026-05-01]] — Fri 01 May
-- “If Figma and Lovable had a child that became an architect”: Synaps raises €3.06 million to rival AutoCAD - EU-Startups
-- Is Figma (FIG) stock fairly valued \| Figma delivers 20.8 percent EPS beat topping analyst expectations - Weakness Phase - Newser
-- Anthropic launches Claude Design, a Figma and Canva rival built on Claude - The New Stack
-
-### [[Extended News 2026-05-01]] — Fri 01 May
-- Designing Stable Interfaces For Streaming Content
-- A Fresh View In May (2026 Wallpapers Edition)
-- The “Bug-Free” Workforce: How AI Efficiency Is Subtly Disrupting The Interactions That Build Strong Teams
-
-### [[IT News 2026-05-01]] — Fri 01 May
-- An open letter asking NHS England to keep its code open
-- I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA
-- whohas – Command-line utility for cross-distro, cross-repository package search
 
 ### [[Company News 2026-05-02]] — Sat 02 May
 - Is Figma (FIG) stock fairly valued \| Figma delivers 20.8 percent EPS beat topping analyst expectations - Weakness Phase - Newser
@@ -74,6 +59,16 @@ related:
 - Why Figma Stock Fell 16% in April - The Motley Fool
 
 ### [[Extended News 2026-05-07]] — Thu 07 May
+- The Architecture Of Local-First Web Development
+- Rethinking The Experience Of System Tools
+- Designing Stable Interfaces For Streaming Content
+
+### [[Company News 2026-05-08]] — Fri 08 May
+- Claude Design Puts Figma’s AI Growth Story Under Closer Scrutiny - Yahoo Finance
+- Figma Builds In-House Redis Proxy to Hit Six Nines Uptime - infoq.com
+- Figma (FIG) Targets 38% Revenue Jump in Q1, Up 6.5% - Yahoo Finance
+
+### [[Extended News 2026-05-08]] — Fri 08 May
 - The Architecture Of Local-First Web Development
 - Rethinking The Experience Of System Tools
 - Designing Stable Interfaces For Streaming Content
