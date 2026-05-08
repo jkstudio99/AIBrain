@@ -12,7 +12,7 @@ related:
 
 # 🗞️ Company News — 8 พฤษภาคม 2026
 
-> สรุปข่าวบริษัทเทคโนโลยีชั้นนำ | อัปเดต 07:58 น.
+> สรุปข่าวบริษัทเทคโนโลยีชั้นนำ | อัปเดต 08:53 น.
 > แหล่ง: Google News + Medium
 
 ---
@@ -75,35 +75,35 @@ related:
    _Bloomberg.com_ · 07 May 2026  
    > Apple’s Camera-Equipped AirPods Reach Late Testing in AI Device Push    Bloomberg.com
 
-2. **[Apple’s AirPods with cameras for AI are apparently close to production - The Verge](https://news.google.com/rss/articles/CBMifEFVX3lxTE4tZkRXUS1rc1RlVmFHMXRVUzdTbnVLX3U2Szdzekc3c1l5SVFFeDlFbkl4amZXT1FDRUZSS0NueWFmWkx4RWRHS00zMGZDbmI4SF9KOEl2MDFZWjV4RFV6T1VjMGRkWG9FNGNldzVnTElYOEcydzl1T1NsRzE?oc=5)**  
-   _The Verge_ · 07 May 2026  
-   > Apple’s AirPods with cameras for AI are apparently close to production    The Verge
+2. **[I'm Already Dreading Apple's Camera-Equipped AirPods - Engadget](https://news.google.com/rss/articles/CBMijAFBVV95cUxQU1kwMEgxbDJLWHJKVEk1eUtfcFptRjdsRkI4eEFKV1RTLVpIVnpXa2NnbXAzUldMQ0t1dkNTVGhvcHFlZk5wZ3NubjVza3VlVDZnaXA4aUhFNThwQmxxemxERUhkNGY3a1J3dXpOT0VOQXcwN0lQSjRfb200SzVRMDZsbWE5VHV1eGcwbg?oc=5)**  
+   _Engadget_ · 07 May 2026  
+   > I'm Already Dreading Apple's Camera-Equipped AirPods    Engadget
 
-3. **[Best Apple Deals in May: AirPods, iPads, MacBooks, and More - TechRepublic](https://news.google.com/rss/articles/CBMid0FVX3lxTE53eVJQOWVULXdsclFKVWFkNk52N252OU42TlIwQk9TMW4yOU0xMGlQX3BPbVdsUl8tbnAzaHd0dDRXUjlSWndqLWJHMWpNNFdNTG9mQVVSYkk0aXBldlpyNUdCZmVNMHlCV3AyYnFoVlRFTllKQjNn?oc=5)**  
-   _TechRepublic_ · 07 May 2026  
-   > Best Apple Deals in May: AirPods, iPads, MacBooks, and More    TechRepublic
+3. **[Apple is putting cameras in AirPods. What could possibly go wrong? - SoundGuys](https://news.google.com/rss/articles/CBMinwFBVV95cUxOd25pT0l2VWh0NnZDUzBwQVM1azZ3eGtSNS1LUkZkVWNEbVMxYU9yRFNHemZ0NGZIN201NnBDZXVXX3FvUWtVbzczcXdhbEVFdnhKeWduU3pCUldBVEJLTm0xdlZKX3JveWljdnVqN1FEVmdveVVwMnhXWkNLY090N1FsXzZ1Zm5nRXZyYkQ4d2U2MW1DN09wZEgya21lNUE?oc=5)**  
+   _SoundGuys_ · 07 May 2026  
+   > Apple is putting cameras in AirPods. What could possibly go wrong?    SoundGuys
 
 4. **[Apple class action settlement could pay you money. See who's eligible - USA Today](https://news.google.com/rss/articles/CBMipwFBVV95cUxOcHNYZ0RJTndDVDI4V1hmUV9OTDhWQTdhNjZ6c1JNX1FwaWFMMHExQlBQeGhSNFg0RlhBNW1pdnpQWUQ0NVB4LVU5UE00YnAzWkNUZG02b2RmRzQ5TzFPT3NJcUFOWEt4UF9sODNKb2Jha2tPaEdub045VE02THprQWRqMElIbG1CcEFQZTk1aFpvNFp5OHdMeF81aHJUMm1uT19qUWtJMA?oc=5)**  
    _USA Today_ · 06 May 2026  
-   > Apple class action settlement could pay you money. See who's eligible    USA Today Apple agrees to pay iPhone owners $250 million for not delivering AI Siri    The Verge How you can get a slice of App…
+   > Apple class action settlement could pay you money. See who's eligible    USA Today Apple agrees to pay iPhone owners $250 million for not delivering AI Siri    The Verge iPhone owners could get up to…
 
-5. **[The 2026 Chip War Is Already Over and Apple Dominated - Yahoo Finance](https://news.google.com/rss/articles/CBMimwFBVV95cUxQalRDTkR1cWxNUlpKTTNLX1dnRFU2UV9RLWlTTGJRSDhnQWtlY3hMdXUtTVRhRU5UNFhUenNyMEVjbFl5b2VfSmRWM0VGU0JVUm5kWG02a1p2RWVuajNYTWhITHhrT3BjYzlhZjV2S1R4YnM5SVJzUkVOamdwNnNVVFB3TUwzMzZ0NVVuLTFmQ1NQLTJKYXRKQ1ZxQQ?oc=5)**  
-   _Yahoo Finance_ · 07 May 2026  
-   > The 2026 Chip War Is Already Over and Apple Dominated    Yahoo Finance
+5. **[Google Maps vs. Apple Maps: I compared two of the best navigation apps - here's my pick - ZDNET](https://news.google.com/rss/articles/CBMibkFVX3lxTFBEbmxRcjRmeFJ0RG9mRVNLdWdMQWRVUEY3Qi1EMnUtbmN4TGtiLTh5cGpCLVpMYjBYdzVSM25xZ1NCWlNramFCa2l2V3kzZDFUWVFBY1NHeUlRSmhHS04ySHZzMHlNYTJyNEVucm53?oc=5)**  
+   _ZDNET_ · 08 May 2026  
+   > Google Maps vs. Apple Maps: I compared two of the best navigation apps - here's my pick    ZDNET
 
 ### ✍️ Medium Articles
 
-1. **[Foxi APK- Download the Foxi APK, the Latest versions, and old versions for free](https://medium.com/@apklake7/foxi-apk-download-the-foxi-apk-the-latest-versions-and-old-versions-for-free-3d68d2ec9a8d?source=rss------apple-5)**  
+1. **[**Unravel the Mysteries of Ancient Mesoamerica: Why You Should Watch 'Apocalypto'**](https://cinesparks.medium.com/unravel-the-mysteries-of-ancient-mesoamerica-why-you-should-watch-apocalypto-bbc870d65b6a?source=rss------apple-5)**  
+   by CineSparks21 · 08 May 2026  
+   > Continue reading on Medium »
+
+2. **[Foxi APK- Download the Foxi APK, the Latest versions, and old versions for free](https://medium.com/@apklake7/foxi-apk-download-the-foxi-apk-the-latest-versions-and-old-versions-for-free-3d68d2ec9a8d?source=rss------apple-5)**  
    by Apklake · 07 May 2026  
    > Foxi APK is a popular entertainment application that allows Android users to stream movies, TV shows, live channels, and web series for… Continue reading on Medium »
 
-2. **[Beyond the Binary: Why My Mac Mini M4 + Raspberry Pi Hybrid Setup Actually Makes Sense](https://medium.com/@BenjaminWegener/beyond-the-binary-why-my-mac-mini-m4-raspberry-pi-hybrid-setup-actually-makes-sense-5b16898330a0?source=rss------apple-5)**  
+3. **[Beyond the Binary: Why My Mac Mini M4 + Raspberry Pi Hybrid Setup Actually Makes Sense](https://medium.com/@BenjaminWegener/beyond-the-binary-why-my-mac-mini-m4-raspberry-pi-hybrid-setup-actually-makes-sense-5b16898330a0?source=rss------apple-5)**  
    by Benjamin Wegener · 07 May 2026  
    > A response to Nikhil’s “Is it worth buying physical mac mini for Personal agent or use cloud hosting?” Continue reading on Medium »
-
-3. **[Six Months With The iPhone Air And Airpods Pro 3](https://medium.com/@impure/six-months-with-the-iphone-air-and-airpods-pro-3-da79aad0c02c?source=rss------apple-5)**  
-   by Andrew Zuo · 07 May 2026  
-   > When I first got the iPhone Air 6 months ago I really liked it. It was crazy thin and I thought people were exaggerating the compromises… Continue reading on Medium »
 
 ---
 
@@ -115,21 +115,21 @@ related:
    _blog.google_ · 07 May 2026  
    > Introducing the all-new Fitbit Air    blog.google Google’s Newest Entry-Level Fitness Tracker Is the Screenless Fitbit Air    WIRED Google Launches $100 Fitbit Air Without a Screen to Rival Whoop    B…
 
-2. **[Google Chrome Is Downloading a 4GB AI Model Onto Your Device Without Consent, Researcher Warns - Gizmodo](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYUVxTTJ1NWVEUXRzeXdQZW90SVVzN21GTFpwZ0lUVGFVRWNxUTc5WEYxWUNPc3VlTDMtT3lteElrbGJ1dlo1cU9UempzWXFyaEJZcXc1UEEzTTIyV1ZuVE9VVEJxdnRDVXIzOWROVlpzSU1ZVjc4ZHFzY3plUlVCN2dhWVNsSE5Gdl9pV3NNamlqcE56T1E0eUF0M1F6TDBDZ1Mxd3N3NkQtYmRrOEFIUTdONFFqcVdkb1M4YXpVLTNQZw?oc=5)**  
-   _Gizmodo_ · 06 May 2026  
-   > Google Chrome Is Downloading a 4GB AI Model Onto Your Device Without Consent, Researcher Warns    Gizmodo
+2. **[Google Maps vs. Apple Maps: I compared two of the best navigation apps - here's my pick - ZDNET](https://news.google.com/rss/articles/CBMibkFVX3lxTFBEbmxRcjRmeFJ0RG9mRVNLdWdMQWRVUEY3Qi1EMnUtbmN4TGtiLTh5cGpCLVpMYjBYdzVSM25xZ1NCWlNramFCa2l2V3kzZDFUWVFBY1NHeUlRSmhHS04ySHZzMHlNYTJyNEVucm53?oc=5)**  
+   _ZDNET_ · 08 May 2026  
+   > Google Maps vs. Apple Maps: I compared two of the best navigation apps - here's my pick    ZDNET
 
-3. **[Google Chrome Just Silently Installed A 4GB AI Model On Your Device - Here's How To Remove It - bgr.com](https://news.google.com/rss/articles/CBMic0FVX3lxTE5SUE9PR2YzdzhIMHZ0cHpNOVZMZG1XQTFrTDJ5YUtleEVHNW1fSW01ajBxX1kwUjRKOFFUc2lUaTNJTEYzb1A0dVNnY2dpZjd4SlhxQkxZeG5Gc1BJbTFtTU1yaFRaa1V3QldBZ250TERiOTA?oc=5)**  
-   _bgr.com_ · 07 May 2026  
-   > Google Chrome Just Silently Installed A 4GB AI Model On Your Device - Here's How To Remove It    bgr.com
-
-4. **[You Can Disable Gemini in Chrome if It’s Freaking You Out - WIRED](https://news.google.com/rss/articles/CBMijgFBVV95cUxOSzN6aDdseVFkMDBaTDhVczVqSS15QjVFZlUyNW50c1ZiYlgyUTAxV0p3ZzdlbVJjMXFkOFVLS3FXMzJEb1ZDcURlMmRDNld2UENDZUdSYlY3YjlOcFhlOUlpVzBlbjJwYWQ3a0Q1MUs4MV8wRXpTYzl4SU9JZEowcDJmS3lWT1lXM1ZsM1d3?oc=5)**  
-   _WIRED_ · 07 May 2026  
-   > You Can Disable Gemini in Chrome if It’s Freaking You Out    WIRED
-
-5. **[Five Ways A.I. Search Beats an Old-School Google Search - nytimes.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxNUlEybDNXMjNEeG9NY1N5NGQxMTc5aEI3WkxFdUdHSHhidXZkLXhSblVfOVZtd0ZJMlhRX081LUZKZzY2blZMRWwtU1EzcFVaUDlmNEtsRWJIcVdlM3l3WXB2X1NFeC1aaTNFZWZEandWUUFwck13WklRc284T2g1bDJRYVgtRldxckl3QzBn?oc=5)**  
+3. **[Five Ways A.I. Search Beats an Old-School Google Search - nytimes.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxNUlEybDNXMjNEeG9NY1N5NGQxMTc5aEI3WkxFdUdHSHhidXZkLXhSblVfOVZtd0ZJMlhRX081LUZKZzY2blZMRWwtU1EzcFVaUDlmNEtsRWJIcVdlM3l3WXB2X1NFeC1aaTNFZWZEandWUUFwck13WklRc284T2g1bDJRYVgtRldxckl3QzBn?oc=5)**  
    _nytimes.com_ · 07 May 2026  
    > Five Ways A.I. Search Beats an Old-School Google Search    nytimes.com
+
+4. **[Google AI mode labels some Reddit and social media posts as ‘Expert Advice’ - Mashable](https://news.google.com/rss/articles/CBMilAFBVV95cUxQOWVWNXhOVXg0Y2hmUFdKd3dUOUVDUXp4cjRyYWhwc2ZnYVpiQWczYVNvUGp3N1UzbnpFTl9yWXlpQVpkaUM1YzNrOXVmbGxmUVlDMElRNnROUUpJamZ4YVVOZGh0LTl3QTlhaDRVV0lxZG9CWFotRUxQYlBPYk1fTUs1X3ZJTHBLYVMtQkRWMThVbjhr?oc=5)**  
+   _Mashable_ · 07 May 2026  
+   > Google AI mode labels some Reddit and social media posts as ‘Expert Advice’    Mashable
+
+5. **[5 new ways to explore the web with generative AI in Search - blog.google](https://news.google.com/rss/articles/CBMilwFBVV95cUxOVUlTeTlxa1MyaGNxemNQYzZaLUNjOUltUFAxYjMxU3B4eGxZY0M0R1d4NUFnNVBqdDBEWE5xYnl5bnFDQk9aSWRrb2pKRUs2Q1BKbFVyOWNuRnR5Z01kQkdxd3BoUzV1QzVoQkdjMERZVFBQLXhGWHl6Z2pTejZGOHVsX0x2a0dMTG1Zc2lGVE9iNk1ENmVV?oc=5)**  
+   _blog.google_ · 06 May 2026  
+   > 5 new ways to explore the web with generative AI in Search    blog.google
 
 ### ✍️ Medium Articles
 
@@ -153,37 +153,37 @@ related:
 
 1. **[OpenAI trial: Mother of Musk's children says he offered Altman a Tesla board seat - CNBC](https://news.google.com/rss/articles/CBMikAFBVV95cUxNVWpzNllkRkJqMHI0WUNCTmVES1FrZUlZMVhjbXRuM0Njd0lxVUIwRDNZakc5cThDUUJMZTJ4Ykx3MjU2VFF1YUxNTnd4YlIzY0xtbEs0V04yX3B4YjNEMS1ieExuTzJuaUMwZUwtQU9FOURfQzN5ZTZVX1hmYlRjRzM2Rm5tc1NJUTduX044RGbSAZYBQVVfeXFMT19MeG8xU1RNcl9NTVJqZlh6TUJSMnVQOURXV2JUa1ByaXVKSlBJSUVDYkhGT2JGTjVtWlBDak9YSmNzNUVyQXVWYnJKTktLVnRKSmFtQzhzM1dJYjhaTm1HSVVnOWh4ajZKT3k0YzRTeTZCS2NSc28tMzNXa1RMREg1UThGRXc1Qk9xazNwYXNpRVphWEdn?oc=5)**  
    _CNBC_ · 07 May 2026  
-   > OpenAI trial: Mother of Musk's children says he offered Altman a Tesla board seat    CNBC Elon Musk’s Confidante Shivon Zilis Is Cast as His Inside Source at OpenAI    nytimes.com Musk’s Legal Expert…
+   > OpenAI trial: Mother of Musk's children says he offered Altman a Tesla board seat    CNBC Sam Altman had a bad day in court    Business Insider What Microsoft Executives Really Thought About OpenAI in…
 
-2. **[OpenAI’s AI Chip Deal With Broadcom Hits $18 Billion Financing Snag - The Information](https://news.google.com/rss/articles/CBMiogFBVV95cUxOS3l1cnBBd2lrdFhSQkpGVVlKeTNfeXNHWXZOU1hkMmR5SXhvZE1MNEc4eF9jZUFSOXpHdmw3QUpEVVJSQVl1NUh2c3ZCUV9NUVlOZFh4VW1uRHRzYXNGWG5aMmc1WmZPS1NROXJuUnRUNktJeThmNlFyTUFrTVVHbTY0WnhQUHl6RUVLMmdsM0xaTE1QZVpwQVB2WFFjR0RwVkE?oc=5)**  
-   _The Information_ · 07 May 2026  
-   > OpenAI’s AI Chip Deal With Broadcom Hits $18 Billion Financing Snag    The Information
+2. **[How ChatGPT and Sam Altman’s OpenAI have changed Silicon Valley’s housing market forever - The Times of India](https://news.google.com/rss/articles/CBMi_gFBVV95cUxNWHA1bExuMDVHbTRpQU41S2ZBaGJIZ3V5Q2lwRkJ3M3B2RDU5cXFfX1RoYnYzVlhJdnpDdjFhMHcxZWpUbEJXYlgwTVQ0bmVzR1h4Mk5DbFQwYVU4c0VLQU91Q2NSWjRQSzI1Qk82R3Q2N2RMeWZKMDVTNnZFWkRydWxXelpnN1VqeHhsU0x4c1RJcFpacWZVUUp5SXJWLVZ4aG9HMUhNS2hxc1NjeFlOVUpJb19pMnRPem9OVGM4OHV1UXRyeU5nTVZkeWg1MHRsaHdCQjF2WDFVNUUwYXlodldGMlMwdVYxa1p0UHhLQ0JpSFlFWktjUVVrWjhVQdIBgwJBVV95cUxPdVpBUWtiakdLdGRWeV9KbEJxcjdZZThaU0MyamJicG50WWhRTE5iLVl1LXB2TDB4aEZvV2JxY3doTU9SVmFaSVBRV2NBZlpvQ0NHaWRRUzRWV3lCNXN4TC1oRnpJRHM3Qk1lNmtSU1NCRnpIQzFMRDlrS3pDeWtMOVc2aE9pS3hDWTI3N2t5UDdraks5a2YzSzV0YS1waWxYa3FBMHFuWHJsempDSjhLd05rVmpwN3BpVkk3dVgwV3NFLVQyQnBJcG9DTnhaRU9wZ0VIdVFuZkRwUXpnWnRhUXRVS3dlY2xFa0J4N3VIRnJjZ3hLUjI0d0pORnRTT21MRE1Z?oc=5)**  
+   _The Times of India_ · 08 May 2026  
+   > How ChatGPT and Sam Altman’s OpenAI have changed Silicon Valley’s housing market forever    The Times of India
 
-3. **[OpenAI makes its Mythos rival more widely available to cyber defenders - Axios](https://news.google.com/rss/articles/CBMidEFVX3lxTE1Ua3RUS3Jja2lpRVZFQW4tekIzTVQyeUhLd3hkMEU0aFE5dDBfUUFFZ1VERFZyZUtWZE5iVVRrSWo5bm9jVVVRRWphNFpQbUtsY3dpY3NNQU1CMncwN2dLQ2JUcnBBOGZuYVA3LTZIdHFWZTlQ?oc=5)**  
-   _Axios_ · 07 May 2026  
-   > OpenAI makes its Mythos rival more widely available to cyber defenders    Axios
+3. **[A Michigan farm town voted down plans for a giant OpenAI-Oracle data center. Weeks later, construction began - Fortune](https://news.google.com/rss/articles/CBMihwFBVV95cUxON01oMG80N3haamk5cmRWcVVLX0E0ZzE0emFxX2xDWTdQaHp2R0g4Si14YWo5YWI3UjFENHVIaFpXb1BpVlBQSTlVUzQzbEROQkFfU090Q1VUbFlENGkyZG8yNXEwd3lrN2gzdW1UbkRfZU81bjRnVWtYUUpVaE90cFIweXItREk?oc=5)**  
+   _Fortune_ · 06 May 2026  
+   > A Michigan farm town voted down plans for a giant OpenAI-Oracle data center. Weeks later, construction began    Fortune
 
 4. **[OpenAI rolls out advanced AI cyber model to challenge Anthropic’s Mythos - Politico](https://news.google.com/rss/articles/CBMihgFBVV95cUxQZXBIT1haWmxDVC1OVXduTTgyU0QxVzRtbWJPbTV3Z19QNDhKM01QbHRacHlybnpNWEFrMnJEb2N3aWNxcXNnc2dCV1pCbXJ5eXd1Zm91d0dHRV9xclhFVTdPck0wV2U3eUNZN2tzSTdLQnpQcDBoSEpUOXUwMUNMZmU3WmY2Zw?oc=5)**  
    _Politico_ · 07 May 2026  
    > OpenAI rolls out advanced AI cyber model to challenge Anthropic’s Mythos    Politico
 
-5. **[OpenAI rolls out new model for cybersecurity teams a month after Anthropic's Mythos debut - CNBC](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVERza2ZhM29taVNpd21wdk94RTlleS1MWFV2VFZhZ1JGdzFMUkwxdzBZRXE4SlJLdkdXSGZYWTgxT1N1b1FwT3QxcDBPY0Z6YXlCZ0hlUUcxam5TUHRvZXRoWFY2ODUyZnFBTldISUlVb1lWQzdfM2hnblRxb1pLSnpxMEptLUtEaWhEZFFRRXRxVzAwNzl1N2RIQXJ5bW9jcTVnR3lKNVDSAa4BQVVfeXFMTzVHak5tV2xlaG5OcUk2M3BNTURmSFE3akdpMkQ1NmZZNW1FVFNaVGRjUlVGVnNxSDI5VmlHUFRYc1NydzZJR3N0VVcxMi1odWpaX0Y1OG5YQXBXWVVkOGRUQ3luMFZZRHdMN0ZDUlE4S3hNVjdYX05lZWloU291eHpzSEFRNG1MNlBTb2wtMnl5X2pUQTdpc1NvdVBFZUhOVFh6NXVkTEh4cll6bzNB?oc=5)**  
-   _CNBC_ · 07 May 2026  
-   > OpenAI rolls out new model for cybersecurity teams a month after Anthropic's Mythos debut    CNBC
+5. **[OpenAI makes its Mythos rival more widely available to cyber defenders - Axios](https://news.google.com/rss/articles/CBMidEFVX3lxTE1Ua3RUS3Jja2lpRVZFQW4tekIzTVQyeUhLd3hkMEU0aFE5dDBfUUFFZ1VERFZyZUtWZE5iVVRrSWo5bm9jVVVRRWphNFpQbUtsY3dpY3NNQU1CMncwN2dLQ2JUcnBBOGZuYVA3LTZIdHFWZTlQ?oc=5)**  
+   _Axios_ · 07 May 2026  
+   > OpenAI makes its Mythos rival more widely available to cyber defenders    Axios
 
 ### ✍️ Medium Articles
 
-1. **[I Tried to Make GPT Justify Adultery. The Real Test Was Whether It Could Notice Who Was Missing.](https://medium.com/@office.dosanko/i-tried-to-make-gpt-justify-adultery-the-real-test-was-whether-it-could-notice-who-was-missing-f0e66565b08e?source=rss------openai-5)**  
+1. **[GPT-Realtime-2: OpenAI Reshapes Voice AI Architecture with GPT-5 Level Reasoning](https://ai-engineering-trend.medium.com/gpt-realtime-2-openai-reshapes-voice-ai-architecture-with-gpt-5-level-reasoning-5740c9aedd8d?source=rss------openai-5)**  
+   by AI Engineering · 08 May 2026  
+   > Continue reading on Medium »
+
+2. **[I Tried to Make GPT Justify Adultery. The Real Test Was Whether It Could Notice Who Was Missing.](https://medium.com/@office.dosanko/i-tried-to-make-gpt-justify-adultery-the-real-test-was-whether-it-could-notice-who-was-missing-f0e66565b08e?source=rss------openai-5)**  
    by Dosanko Tousan | Akimitsu Takeuchi　竹内明充 · 08 May 2026  
    > A field report on high-resolution sycophancy, grey-zone reasoning, and what happens when one ethical skill defeats another inside a model. Continue reading on Medium »
 
-2. **[Stop your Ai to Hallucinate!](https://medium.com/@interblockchain/stop-you-ai-to-hallucinate-1e20c64b9c02?source=rss------openai-5)**  
+3. **[Stop your Ai to Hallucinate!](https://medium.com/@interblockchain/stop-you-ai-to-hallucinate-1e20c64b9c02?source=rss------openai-5)**  
    by Didier PH Martin · 07 May 2026  
    > Two Sanctioned Lawyers, One Hallucinating Chatbot: How to Stop LLMs From Making Things Up Continue reading on Medium »
-
-3. **[A Technical Collaboration Between NVIDIA and OpenAI — Centered on a New Networking Protocol Called…](https://medium.com/@tarifabeach/a-technical-collaboration-between-nvidia-and-openai-centered-on-a-new-networking-protocol-called-dc23fcab8a27?source=rss------openai-5)**  
-   by martino.agostini · 07 May 2026  
-   > As model capabilities converge, the organizations that master system-wide coordination — not raw compute — will define the next era of AI… Continue reading on Medium »
 
 ---
 
