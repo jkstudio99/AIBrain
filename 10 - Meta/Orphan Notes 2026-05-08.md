@@ -8,9 +8,10 @@ tags:
 
 # 🏝️ Orphan Notes — 2026-05-08
 
-> โน้ตที่ไม่มีโน้ตอื่นลิงก์ถึง · 2 ไฟล์
+> โน้ตที่ไม่มีโน้ตอื่นลิงก์ถึง · 3 ไฟล์
 
 ---
 
-- [[01 - Projects/Market Research/Monthly Market Opportunity Radar]]
-- [[01 - Projects/Market Research/Weekly Sleep Competitor Watch]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-08]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-08]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-08]]
