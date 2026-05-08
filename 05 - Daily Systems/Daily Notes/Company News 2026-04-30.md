@@ -9,7 +9,7 @@ related:
   - "[[05 - Daily Systems/Daily Notes/2026-04-30]]"
   - "[[MOCs/Knowledge MOC]]"
 ---
-
+กแด อ
 # 🗞️ Company News — 30 เมษายน 2026
 
 > สรุปข่าวบริษัทเทคโนโลยีชั้นนำ | อัปเดต 09:06 น.
