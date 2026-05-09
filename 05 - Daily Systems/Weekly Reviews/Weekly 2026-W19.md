@@ -1,6 +1,6 @@
 ---
 type: weekly
-created: "2026-05-08"
+created: "2026-05-09"
 tags:
   - type/weekly
   - topic/review
@@ -10,28 +10,18 @@ related:
 
 # 📅 Weekly Digest — 2026-W19
 
-> 02 May → 08 May 2026 · generated 07:58 น.
+> 03 May → 09 May 2026 · generated 13:02 น.
 
 ---
 
 ## 📊 Stats
 
-- Daily notes scanned: **30**
-- Period: 2026-05-02 → 2026-05-08
+- Daily notes scanned: **25**
+- Period: 2026-05-03 → 2026-05-09
 
 ---
 
 ## 📰 Top Headlines ของสัปดาห์
-
-### [[Company News 2026-05-02]] — Sat 02 May
-- Is Figma (FIG) stock fairly valued \| Figma delivers 20.8 percent EPS beat topping analyst expectations - Weakness Phase - Newser
-- FIG (Figma Inc.) posts 20.8 percent Q4 2025 EPS beat, stock dips 0.10 percent in muted post-earnings trading. - Financial Summary - Newser
-- Anthropic launches Claude Design, a Figma and Canva rival built on Claude - The New Stack
-
-### [[Extended News 2026-05-02]] — Sat 02 May
-- Designing Stable Interfaces For Streaming Content
-- A Fresh View In May (2026 Wallpapers Edition)
-- The “Bug-Free” Workforce: How AI Efficiency Is Subtly Disrupting The Interactions That Build Strong Teams
 
 ### [[Company News 2026-05-03]] — Sun 03 May
 - Claude Design quietly replaced Canva, Adobe Express, Figma, and NotebookLM for me - XDA
