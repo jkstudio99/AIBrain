@@ -1,6 +1,6 @@
 ---
 type: weekly
-created: "2026-05-09"
+created: "2026-05-10"
 tags:
   - type/weekly
   - topic/review
@@ -10,28 +10,18 @@ related:
 
 # 📅 Weekly Digest — 2026-W19
 
-> 03 May → 09 May 2026 · generated 13:02 น.
+> 04 May → 10 May 2026 · generated 07:41 น.
 
 ---
 
 ## 📊 Stats
 
 - Daily notes scanned: **25**
-- Period: 2026-05-03 → 2026-05-09
+- Period: 2026-05-04 → 2026-05-10
 
 ---
 
 ## 📰 Top Headlines ของสัปดาห์
-
-### [[Company News 2026-05-03]] — Sun 03 May
-- Claude Design quietly replaced Canva, Adobe Express, Figma, and NotebookLM for me - XDA
-- Figma Stock Jumps Over 8% This Week. Here’s What the Path to $32 Looks Like - TIKR.com
-- Anthropic launches Claude Design, a Figma and Canva rival built on Claude - The New Stack
-
-### [[Extended News 2026-05-03]] — Sun 03 May
-- Designing Stable Interfaces For Streaming Content
-- A Fresh View In May (2026 Wallpapers Edition)
-- The “Bug-Free” Workforce: How AI Efficiency Is Subtly Disrupting The Interactions That Build Strong Teams
 
 ### [[Company News 2026-05-04]] — Mon 04 May
 - Claude Design quietly replaced Canva, Adobe Express, Figma, and NotebookLM for me - XDA
