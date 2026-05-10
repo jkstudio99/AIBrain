@@ -1,6 +1,6 @@
 ---
 type: moc
-created: "2026-05-09"
+created: "2026-05-10"
 tags:
   - type/moc
   - auto-generated
@@ -8,11 +8,11 @@ tags:
 
 # 🗺️ Auto Tag MOC
 
-> Generated 2026-05-09 · แสดง tag ที่มีโน้ต ≥ 5 ชิ้น
+> Generated 2026-05-10 · แสดง tag ที่มีโน้ต ≥ 5 ชิ้น
 
 ---
 
-## #related: (198)
+## #related: (201)
 
 - [[01 - Projects/AI Multi-Agent Workflow/00 - Blueprint]]
 - [[01 - Projects/AI Multi-Agent Workflow/01 - Role Playbook Template]]
@@ -140,6 +140,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-07]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-08]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-09]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-10]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
@@ -157,6 +158,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-04]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-07]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-08]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-09]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-20]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-24]]
@@ -168,6 +170,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-07]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-08]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-09]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-10]]
 - [[05 - Daily Systems/Daily Systems]]
 - [[05 - Daily Systems/Habit Tracking/Habit Tracking]]
 - [[05 - Daily Systems/Journaling/Journaling with Claude]]
@@ -213,7 +216,7 @@ tags:
 - [[10 - Meta/Vault Memory]]
 - [[MOCs/Obsidian Claude Ecosystem MOC]]
 
-## #type/daily (96)
+## #type/daily (100)
 
 - [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
 - [[05 - Daily Systems/Daily Notes/2026-04-16]]
@@ -247,6 +250,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-07]]
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-08]]
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-09]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-10]]
 - [[05 - Daily Systems/Daily Notes/Extended News 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Extended News 2026-04-18]]
 - [[05 - Daily Systems/Daily Notes/Extended News 2026-04-19]]
@@ -281,6 +285,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-07]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-08]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-09]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-10]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
@@ -298,6 +303,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-04]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-07]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-08]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-09]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-20]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-24]]
@@ -309,6 +315,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-07]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-08]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-09]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-10]]
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
 - [[MOCs/Auto Tag MOC]]
 
@@ -556,6 +563,29 @@ tags:
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-01]]
 - [[MOCs/Auto Tag MOC]]
 
+## #area/dev (20)
+
+- [[03 - Resources/Core Plugins/Dataview & Queries]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-25]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-26]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-29]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-02]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-03]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-04]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-07]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-08]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-09]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[10 - Meta/Claude Context Optimization]]
+- [[10 - Meta/Vault Health/Vault Health Checks]]
+- [[AGENTS]]
+- [[CLAUDE]]
+- [[MOCs/Auto Tag MOC]]
+
 ## #topic/ai-workflow (20)
 
 - [[01 - Projects/AI Multi-Agent Workflow/00 - Blueprint]]
@@ -579,29 +609,7 @@ tags:
 - [[02 - Areas/Team/README]]
 - [[MOCs/Auto Tag MOC]]
 
-## #area/dev (19)
-
-- [[03 - Resources/Core Plugins/Dataview & Queries]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-25]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-26]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-29]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-02]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-03]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-04]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-07]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-08]]
-- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
-- [[10 - Meta/Claude Context Optimization]]
-- [[10 - Meta/Vault Health/Vault Health Checks]]
-- [[AGENTS]]
-- [[CLAUDE]]
-- [[MOCs/Auto Tag MOC]]
-
-## #topic/finance (19)
+## #topic/finance (20)
 
 - [[02 - Areas/Finance/Monthly/Finance 2026-04]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]]
@@ -621,9 +629,10 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-07]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-08]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-09]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-10]]
 - [[MOCs/Auto Tag MOC]]
 
-## #topic/crypto (18)
+## #area/investment (19)
 
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-18]]
@@ -642,9 +651,10 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-07]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-08]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-09]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-10]]
 - [[MOCs/Auto Tag MOC]]
 
-## #topic/stocks (18)
+## #topic/stocks (19)
 
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-18]]
@@ -663,6 +673,29 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-07]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-08]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-09]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-10]]
+- [[MOCs/Auto Tag MOC]]
+
+## #topic/crypto (19)
+
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-19]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-20]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-24]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-25]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-26]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-27]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-29]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-04-30]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-01]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-02]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-03]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-04]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-07]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-08]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-09]]
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-10]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #topic/company-news (18)
@@ -684,27 +717,6 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Company News 2026-05-04]]
 - [[05 - Daily Systems/Daily Notes/Company News 2026-05-07]]
 - [[05 - Daily Systems/Daily Notes/Company News 2026-05-08]]
-- [[MOCs/Auto Tag MOC]]
-
-## #area/investment (18)
-
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-18]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-19]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-20]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-24]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-25]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-26]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-27]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-29]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-04-30]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-01]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-02]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-03]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-04]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-07]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-08]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-09]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #status/seedling (17)
@@ -747,7 +759,7 @@ tags:
 - [[MOCs/Auto Tag MOC]]
 - [[MOCs/Obsidian Claude Ecosystem MOC]]
 
-## #type/meta (16)
+## #type/meta (17)
 
 - [[10 - Meta/Orphan Notes 2026-04-17]]
 - [[10 - Meta/Orphan Notes 2026-04-19]]
@@ -764,6 +776,7 @@ tags:
 - [[10 - Meta/Orphan Notes 2026-05-07]]
 - [[10 - Meta/Orphan Notes 2026-05-08]]
 - [[10 - Meta/Orphan Notes 2026-05-09]]
+- [[10 - Meta/Orphan Notes 2026-05-10]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #"[[MOCs/Automation MOC]]" (15)
@@ -784,6 +797,24 @@ tags:
 - [[08 - Automation/Summary Generation/Summary Generation]]
 - [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
 
+## #topic/economy (15)
+
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-20]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-24]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-25]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-26]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-27]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-29]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-01]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-02]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-04]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-07]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-08]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-09]]
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-10]]
+- [[MOCs/Auto Tag MOC]]
+
 ## #type/prompt (15)
 
 - [[07 - Prompt Library/Idea Generation/Brainstorm]]
@@ -800,6 +831,40 @@ tags:
 - [[07 - Prompt Library/Thinking Tools/Reframe]]
 - [[07 - Prompt Library/Thinking Tools/Synthesize]]
 - [[07 - Prompt Library/Thinking Tools/Trace]]
+- [[MOCs/Auto Tag MOC]]
+
+## #area/finance (14)
+
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-20]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-24]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-25]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-27]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-29]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-01]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-04]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-07]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-08]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-09]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-10]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[MOCs/Auto Tag MOC]]
+
+## #topic/it-news (14)
+
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-25]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-26]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-29]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-02]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-03]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-04]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-07]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-08]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-09]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #type/playbook (14)
@@ -819,21 +884,38 @@ tags:
 - [[02 - Areas/Team/Playbook - UX-UI]]
 - [[MOCs/Auto Tag MOC]]
 
-## #topic/economy (14)
+## #area/cybersecurity (14)
 
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-20]]
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-24]]
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-25]]
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-26]]
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-27]]
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-04-29]]
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-01]]
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-02]]
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-04]]
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-07]]
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-08]]
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-09]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-25]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-26]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-29]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-02]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-03]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-04]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-07]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-08]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-09]]
+- [[MOCs/Auto Tag MOC]]
+
+## #area/ai (14)
+
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-25]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-26]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-29]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-02]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-03]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-04]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-07]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-08]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-09]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #"[[01 - Projects/AI Multi-Agent Workflow/00 - Blueprint]]" (14)
@@ -853,7 +935,7 @@ tags:
 - [[02 - Areas/Team/Playbook - UX-UI]]
 - [[02 - Areas/Team/README]]
 
-## #area/finance (13)
+## #topic/portfolio (13)
 
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-20]]
@@ -866,55 +948,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-07]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-08]]
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-09]]
-- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
-- [[MOCs/Auto Tag MOC]]
-
-## #topic/it-news (13)
-
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-25]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-26]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-29]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-02]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-03]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-04]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-07]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-08]]
-- [[MOCs/Auto Tag MOC]]
-
-## #area/ai (13)
-
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-25]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-26]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-29]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-02]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-03]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-04]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-07]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-08]]
-- [[MOCs/Auto Tag MOC]]
-
-## #area/cybersecurity (13)
-
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-25]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-26]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-29]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-02]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-03]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-04]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-07]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-08]]
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-10]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #area/automation (12)
@@ -930,21 +964,6 @@ tags:
 - [[08 - Automation/Daily Review/Daily Review Automation]]
 - [[08 - Automation/Summary Generation/Summary Generation]]
 - [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
-- [[MOCs/Auto Tag MOC]]
-
-## #topic/portfolio (12)
-
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-20]]
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-24]]
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-25]]
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-27]]
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-04-29]]
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-01]]
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-04]]
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-07]]
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-08]]
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-09]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #"[[MOCs/Prompt Library MOC]]" (12)
@@ -1042,17 +1061,6 @@ tags:
 - [[03 - Resources/Claude Integration/Session Memory System]]
 - [[MOCs/Auto Tag MOC]]
 
-## #type/fleeting (8)
-
-- [[00 - Inbox/2026-04-30 0033 So1o Freelancer — โปรแกรมช่วยคำนวณราคาแล]]
-- [[00 - Inbox/2026-04-30 1513 DevPortal_folder_summary_premium - Googl]]
-- [[00 - Inbox/2026-05-01 2254 GitHub - zubair-trabzada-ai-sales-team-c]]
-- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
-- [[07 - Prompt Library/Idea Generation/What If]]
-- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
-- [[10 - Meta/Inbox Report 2026-04-25]]
-- [[MOCs/Auto Tag MOC]]
-
 ## #type/project (8)
 
 - [[01 - Projects/AI Multi-Agent Workflow/00 - Blueprint]]
@@ -1062,6 +1070,17 @@ tags:
 - [[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]]
 - [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[MOCs/Auto Tag MOC]]
+
+## #type/fleeting (8)
+
+- [[00 - Inbox/2026-04-30 0033 So1o Freelancer — โปรแกรมช่วยคำนวณราคาแล]]
+- [[00 - Inbox/2026-04-30 1513 DevPortal_folder_summary_premium - Googl]]
+- [[00 - Inbox/2026-05-01 2254 GitHub - zubair-trabzada-ai-sales-team-c]]
+- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
+- [[07 - Prompt Library/Idea Generation/What If]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[10 - Meta/Inbox Report 2026-04-25]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #area/knowledge (8)
@@ -1163,21 +1182,21 @@ tags:
 - [[08 - Automation/Daily Review/Daily Review Automation]]
 - [[MOCs/Auto Tag MOC]]
 
-## #type/weekly (6)
-
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W16]]
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W17]]
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W18]]
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W19]]
-- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
-- [[MOCs/Auto Tag MOC]]
-
 ## #prompt/reflection (6)
 
 - [[07 - Prompt Library/Custom Commands/Custom Slash Commands]]
 - [[07 - Prompt Library/Reflection/Knowledge Audit]]
 - [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
 - [[07 - Prompt Library/Reflection/Weekly Synthesis]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[MOCs/Auto Tag MOC]]
+
+## #type/weekly (6)
+
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W16]]
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W17]]
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W18]]
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W19]]
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
 - [[MOCs/Auto Tag MOC]]
 
