@@ -1,6 +1,6 @@
 ---
 type: weekly
-created: "2026-05-14"
+created: "2026-05-15"
 tags:
   - type/weekly
   - topic/review
@@ -10,28 +10,18 @@ related:
 
 # 📅 Weekly Digest — 2026-W20
 
-> 08 May → 14 May 2026 · generated 10:26 น.
+> 09 May → 15 May 2026 · generated 08:36 น.
 
 ---
 
 ## 📊 Stats
 
-- Daily notes scanned: **17**
-- Period: 2026-05-08 → 2026-05-14
+- Daily notes scanned: **15**
+- Period: 2026-05-09 → 2026-05-15
 
 ---
 
 ## 📰 Top Headlines ของสัปดาห์
-
-### [[Company News 2026-05-08]] — Fri 08 May
-- Claude Design Puts Figma’s AI Growth Story Under Closer Scrutiny - Yahoo Finance
-- Figma Builds In-House Redis Proxy to Hit Six Nines Uptime - infoq.com
-- Figma (FIG) Targets 38% Revenue Jump in Q1, Up 6.5% - Yahoo Finance
-
-### [[Extended News 2026-05-08]] — Fri 08 May
-- The Architecture Of Local-First Web Development
-- Rethinking The Experience Of System Tools
-- Designing Stable Interfaces For Streaming Content
 
 ---
 
