@@ -98,26 +98,26 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-05-15
+> 🕒 Auto-updated 2026-05-16
 
 ### 📊 Vault Stats
-- Total notes: **280**
-- Daily: 115 · Weekly: 5 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
+- Total notes: **285**
+- Daily: 119 · Weekly: 5 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _15 May 08:36_
+- [[MOCs/Auto Tag MOC]] — _16 May 09:19_
+- [[10 - Meta/Orphan Notes 2026-05-16]] — _16 May 09:19_
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W20]] — _16 May 09:19_
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-16]] — _16 May 09:19_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-16]] — _16 May 09:19_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-16]] — _16 May 09:19_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-15]] — _15 May 10:18_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-15]] — _15 May 08:38_
+- [[🏠 Home]] — _15 May 08:37_
 - [[10 - Meta/Orphan Notes 2026-05-15]] — _15 May 08:36_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W20]] — _15 May 08:36_
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-15]] — _15 May 08:36_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-15]] — _15 May 08:36_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-15]] — _15 May 08:36_
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-14]] — _14 May 10:28_
-- [[🏠 Home]] — _14 May 10:27_
 - [[10 - Meta/Orphan Notes 2026-05-14]] — _14 May 10:27_
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-14]] — _14 May 10:26_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-14]] — _14 May 10:26_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-14]] — _14 May 10:26_
-- [[10 - Meta/Orphan Notes 2026-05-13]] — _13 May 19:58_
-- [[01 - Projects/Market Research/Monthly Market Opportunity Radar]] — _13 May 12:13_
-- [[01 - Projects/Market Research/Weekly Sleep Competitor Watch]] — _13 May 12:12_
 <!-- AUTO-DASHBOARD:END -->
