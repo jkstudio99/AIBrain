@@ -1,0 +1,51 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Vault Health Trends</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+ body{font-family:-apple-system,Inter,sans-serif;background:#0f172a;color:#e2e8f0;margin:0;padding:24px}
+ h1{margin:0 0 4px;font-weight:600}
+ .sub{color:#94a3b8;margin-bottom:20px;font-size:13px}
+ .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:24px}
+ .stat{background:#1e293b;border:1px solid #334155;border-radius:10px;padding:14px}
+ .stat .v{font-size:24px;font-weight:600;color:#60a5fa}
+ .stat .l{font-size:11px;color:#94a3b8;text-transform:uppercase;letter-spacing:.5px;margin-top:4px}
+ .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+ .card{background:#1e293b;border:1px solid #334155;border-radius:12px;padding:16px}
+ .card h3{margin:0 0 12px;font-size:14px;font-weight:600}
+ canvas{max-height:240px}
+ .nav{margin-bottom:20px}
+ .nav a{color:#60a5fa;margin-right:14px;text-decoration:none;font-size:13px}
+ .nav a:hover{text-decoration:underline}
+ .alert{background:#7f1d1d;border:1px solid #b91c1c;color:#fee2e2;padding:12px;border-radius:8px;margin-bottom:16px}
+</style></head><body>
+<h1>📈 Vault Health Trends</h1>
+<div class="sub">90 days · 1 snapshots · last: 2026-05-02</div><div class="nav">
+  <a href="?days=30">30 days</a>
+  <a href="?days=90">90 days</a>
+  <a href="Vault Health.html">📊 Current snapshot</a>
+</div><div class="stats">
+  <div class="stat"><div class="v">236</div><div class="l">Total notes (+0)</div></div>
+  <div class="stat"><div class="v">0</div><div class="l">Orphans (0.0%)</div></div>
+  <div class="stat"><div class="v">6.30</div><div class="l">Links per note</div></div>
+  <div class="stat"><div class="v">14.8%</div><div class="l">Evergreen</div></div>
+  <div class="stat"><div class="v">67</div><div class="l">7-day activity</div></div>
+</div><div class="grid">
+  <div class="card"><h3>📚 Total notes over time</h3><canvas id="c1"></canvas></div>
+  <div class="card"><h3>🏝️ Orphan ratio (%)</h3><canvas id="c2"></canvas></div>
+  <div class="card"><h3>🔗 Link density</h3><canvas id="c3"></canvas></div>
+  <div class="card"><h3>🌱 Evergreen ratio (%)</h3><canvas id="c4"></canvas></div>
+</div>
+<script>
+const labels = ["2026-05-02"];
+const palette = (color)=>({borderColor:color,backgroundColor:color+'33',tension:0.35,fill:true,pointRadius:2});
+const opts = {responsive:true,maintainAspectRatio:false,
+  plugins:{legend:{display:false}},
+  scales:{
+    x:{grid:{color:'#334155'},ticks:{color:'#94a3b8',maxRotation:0,autoSkipPadding:20}},
+    y:{grid:{color:'#334155'},ticks:{color:'#94a3b8'}},
+  }};
+new Chart(document.getElementById('c1'),{type:'line',data:{labels,datasets:[{data:[236],...palette('#60a5fa'),label:'Notes'}]},options:opts});
+new Chart(document.getElementById('c2'),{type:'line',data:{labels,datasets:[{data:[0.0],...palette('#f87171'),label:'Orphan %'}]},options:opts});
+new Chart(document.getElementById('c3'),{type:'line',data:{labels,datasets:[{data:[6.305],...palette('#34d399'),label:'Density'}]},options:opts});
+new Chart(document.getElementById('c4'),{type:'line',data:{labels,datasets:[{data:[14.8],...palette('#fbbf24'),label:'Evergreen %'}]},options:opts});
+</script></body></html>
