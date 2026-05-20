@@ -98,26 +98,26 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-05-19
+> 🕒 Auto-updated 2026-05-20
 
 ### 📊 Vault Stats
-- Total notes: **301**
-- Daily: 131 · Weekly: 6 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
+- Total notes: **306**
+- Daily: 135 · Weekly: 6 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _19 May 08:47_
+- [[MOCs/Auto Tag MOC]] — _20 May 08:21_
+- [[10 - Meta/Orphan Notes 2026-05-20]] — _20 May 08:20_
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W21]] — _20 May 08:20_
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-20]] — _20 May 08:20_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-20]] — _20 May 08:20_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-20]] — _20 May 08:20_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-19]] — _19 May 09:16_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-19]] — _19 May 08:49_
+- [[🏠 Home]] — _19 May 08:47_
 - [[10 - Meta/Orphan Notes 2026-05-19]] — _19 May 08:47_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W21]] — _19 May 08:47_
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-19]] — _19 May 08:47_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-19]] — _19 May 08:47_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-19]] — _19 May 08:47_
 - [[01 - Projects/Market Research/Weekly Sleep Competitor Watch]] — _18 May 10:27_
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-18]] — _18 May 10:15_
-- [[🏠 Home]] — _18 May 10:13_
 - [[10 - Meta/Orphan Notes 2026-05-18]] — _18 May 10:13_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-18]] — _18 May 10:13_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-18]] — _18 May 10:13_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-18]] — _18 May 10:12_
-- [[10 - Meta/Orphan Notes 2026-05-17]] — _17 May 22:08_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W20]] — _17 May 20:01_
 <!-- AUTO-DASHBOARD:END -->
