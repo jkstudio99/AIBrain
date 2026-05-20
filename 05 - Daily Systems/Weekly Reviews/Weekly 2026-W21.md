@@ -1,6 +1,6 @@
 ---
 type: weekly
-created: "2026-05-19"
+created: "2026-05-20"
 tags:
   - type/weekly
   - topic/review
@@ -10,14 +10,14 @@ related:
 
 # 📅 Weekly Digest — 2026-W21
 
-> 13 May → 19 May 2026 · generated 08:47 น.
+> 14 May → 20 May 2026 · generated 08:20 น.
 
 ---
 
 ## 📊 Stats
 
-- Daily notes scanned: **23**
-- Period: 2026-05-13 → 2026-05-19
+- Daily notes scanned: **27**
+- Period: 2026-05-14 → 2026-05-20
 
 ---
 
