@@ -633,7 +633,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-21]]
 - [[MOCs/Auto Tag MOC]]
 
-## #topic/crypto (27)
+## #area/investment (27)
 
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-18]]
@@ -663,7 +663,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-21]]
 - [[MOCs/Auto Tag MOC]]
 
-## #area/investment (27)
+## #topic/crypto (27)
 
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-18]]
@@ -779,33 +779,7 @@ tags:
 - [[CLAUDE]]
 - [[MOCs/Auto Tag MOC]]
 
-## #topic/it-news (23)
-
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-25]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-26]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-29]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-02]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-03]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-04]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-07]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-08]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-09]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-10]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-14]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-15]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-16]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-17]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-18]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-19]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-20]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-21]]
-- [[MOCs/Auto Tag MOC]]
-
-## #area/cybersecurity (23)
+## #area/ai (23)
 
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
@@ -883,7 +857,33 @@ tags:
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-01]]
 - [[MOCs/Auto Tag MOC]]
 
-## #area/ai (23)
+## #topic/it-news (23)
+
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-18]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-19]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-25]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-26]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-29]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-02]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-03]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-04]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-07]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-08]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-09]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-10]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-14]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-15]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-16]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-17]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-18]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-19]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-20]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-21]]
+- [[MOCs/Auto Tag MOC]]
+
+## #area/cybersecurity (23)
 
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
@@ -1233,17 +1233,6 @@ tags:
 - [[08 - Automation/Daily Review/Daily Review Automation]]
 - [[MOCs/Auto Tag MOC]]
 
-## #type/fleeting (8)
-
-- [[00 - Inbox/2026-04-30 0033 So1o Freelancer — โปรแกรมช่วยคำนวณราคาแล]]
-- [[00 - Inbox/2026-04-30 1513 DevPortal_folder_summary_premium - Googl]]
-- [[00 - Inbox/2026-05-01 2254 GitHub - zubair-trabzada-ai-sales-team-c]]
-- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
-- [[07 - Prompt Library/Idea Generation/What If]]
-- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
-- [[10 - Meta/Inbox Report 2026-04-25]]
-- [[MOCs/Auto Tag MOC]]
-
 ## #type/project (8)
 
 - [[01 - Projects/AI Multi-Agent Workflow/00 - Blueprint]]
@@ -1264,6 +1253,17 @@ tags:
 - [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W20]]
 - [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W21]]
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[MOCs/Auto Tag MOC]]
+
+## #type/fleeting (8)
+
+- [[00 - Inbox/2026-04-30 0033 So1o Freelancer — โปรแกรมช่วยคำนวณราคาแล]]
+- [[00 - Inbox/2026-04-30 1513 DevPortal_folder_summary_premium - Googl]]
+- [[00 - Inbox/2026-05-01 2254 GitHub - zubair-trabzada-ai-sales-team-c]]
+- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
+- [[07 - Prompt Library/Idea Generation/What If]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[10 - Meta/Inbox Report 2026-04-25]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #area/knowledge (8)
