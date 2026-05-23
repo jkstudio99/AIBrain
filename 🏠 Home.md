@@ -98,26 +98,26 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-05-22
+> 🕒 Auto-updated 2026-05-23
 
 ### 📊 Vault Stats
-- Total notes: **316**
-- Daily: 143 · Weekly: 6 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
+- Total notes: **322**
+- Daily: 148 · Weekly: 6 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _22 May 09:59_
+- [[MOCs/Auto Tag MOC]] — _23 May 10:30_
+- [[10 - Meta/Orphan Notes 2026-05-23]] — _23 May 10:30_
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W21]] — _23 May 10:30_
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-23]] — _23 May 10:30_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-23]] — _23 May 10:30_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-23]] — _23 May 10:29_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-23]] — _23 May 10:22_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-22]] — _22 May 10:00_
+- [[🏠 Home]] — _22 May 09:59_
 - [[10 - Meta/Orphan Notes 2026-05-22]] — _22 May 09:59_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W21]] — _22 May 09:58_
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-22]] — _22 May 09:58_
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-22]] — _22 May 09:58_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-22]] — _22 May 09:58_
-- [[🏠 Home]] — _21 May 22:09_
 - [[10 - Meta/Orphan Notes 2026-05-21]] — _21 May 22:09_
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-21]] — _21 May 09:20_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-21]] — _21 May 09:17_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-21]] — _21 May 09:17_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-21]] — _21 May 09:16_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-20]] — _20 May 10:51_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-20]] — _20 May 08:35_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-20]] — _20 May 08:22_
 <!-- AUTO-DASHBOARD:END -->
