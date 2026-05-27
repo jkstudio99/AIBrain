@@ -98,26 +98,26 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-05-26
+> 🕒 Auto-updated 2026-05-27
 
 ### 📊 Vault Stats
-- Total notes: **337**
-- Daily: 159 · Weekly: 7 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
+- Total notes: **342**
+- Daily: 163 · Weekly: 7 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _26 May 07:29_
+- [[MOCs/Auto Tag MOC]] — _27 May 08:07_
+- [[10 - Meta/Orphan Notes 2026-05-27]] — _27 May 08:07_
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W22]] — _27 May 08:07_
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-27]] — _27 May 08:07_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-27]] — _27 May 08:07_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-27]] — _27 May 08:07_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-26]] — _26 May 10:14_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-26]] — _26 May 10:14_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-26]] — _26 May 07:31_
+- [[🏠 Home]] — _26 May 07:29_
 - [[10 - Meta/Orphan Notes 2026-05-26]] — _26 May 07:29_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W22]] — _26 May 07:29_
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-26]] — _26 May 07:28_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-26]] — _26 May 07:28_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-26]] — _26 May 07:28_
-- [[🏠 Home]] — _26 May 02:06_
 - [[01 - Projects/Market Research/Weekly Sleep Competitor Watch]] — _25 May 09:30_
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-25]] — _25 May 09:15_
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-25]] — _25 May 09:03_
-- [[10 - Meta/Orphan Notes 2026-05-25]] — _25 May 09:00_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-25]] — _25 May 09:00_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-25]] — _25 May 09:00_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-24]] — _24 May 17:42_
-- [[10 - Meta/Orphan Notes 2026-05-24]] — _24 May 17:40_
 <!-- AUTO-DASHBOARD:END -->
