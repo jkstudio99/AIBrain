@@ -10,7 +10,7 @@ tags:
 
 # 💰 Monthly Finance — 2026-05 (01/05 — 28/05)
 
-> 📊 [[09 - Visualization/Dashboards/Finance 2026-05.html|เปิด Dashboard เต็ม (HTML)]]
+> 📊 [[09 - Visualization/Dashboards/Finance/2026/Finance 2026-05.html|เปิด Dashboard เต็ม (HTML)]]
 
 ## สรุป
 - **รายรับรวม**: ฿ 45,068.49
