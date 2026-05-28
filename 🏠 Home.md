@@ -98,26 +98,26 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-05-27
+> 🕒 Auto-updated 2026-05-28
 
 ### 📊 Vault Stats
-- Total notes: **342**
-- Daily: 163 · Weekly: 7 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
+- Total notes: **347**
+- Daily: 167 · Weekly: 7 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _27 May 08:07_
+- [[MOCs/Auto Tag MOC]] — _28 May 08:32_
+- [[10 - Meta/Orphan Notes 2026-05-28]] — _28 May 08:32_
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W22]] — _28 May 08:32_
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-28]] — _28 May 08:32_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-28]] — _28 May 08:31_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-28]] — _28 May 08:31_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-27]] — _27 May 09:15_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-05-27]] — _27 May 08:35_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-27]] — _27 May 08:09_
+- [[🏠 Home]] — _27 May 08:07_
 - [[10 - Meta/Orphan Notes 2026-05-27]] — _27 May 08:07_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W22]] — _27 May 08:07_
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-27]] — _27 May 08:07_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-27]] — _27 May 08:07_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-27]] — _27 May 08:07_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-05-26]] — _26 May 10:14_
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-26]] — _26 May 10:14_
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-26]] — _26 May 07:31_
-- [[🏠 Home]] — _26 May 07:29_
-- [[10 - Meta/Orphan Notes 2026-05-26]] — _26 May 07:29_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-26]] — _26 May 07:28_
-- [[01 - Projects/Market Research/Weekly Sleep Competitor Watch]] — _25 May 09:30_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-25]] — _25 May 09:15_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-25]] — _25 May 09:03_
 <!-- AUTO-DASHBOARD:END -->
