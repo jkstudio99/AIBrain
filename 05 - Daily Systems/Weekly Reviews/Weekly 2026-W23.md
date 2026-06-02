@@ -1,6 +1,6 @@
 ---
 type: weekly
-created: "2026-06-01"
+created: "2026-06-02"
 tags:
   - type/weekly
   - topic/review
@@ -10,14 +10,14 @@ related:
 
 # 📅 Weekly Digest — 2026-W23
 
-> 26 May → 01 Jun 2026 · generated 07:08 น.
+> 27 May → 02 Jun 2026 · generated 08:20 น.
 
 ---
 
 ## 📊 Stats
 
 - Daily notes scanned: **20**
-- Period: 2026-05-26 → 2026-06-01
+- Period: 2026-05-27 → 2026-06-02
 
 ---
 
@@ -37,6 +37,11 @@ related:
 - NVIDIA เตรียมเปิดตัวชิปสำหรับพีซี Windows ในงาน Computex 2026
 - เกม Fable เลื่อนวันขายเป็นเดือนกุมภาพันธ์ 2027 หลบตารางเกมแน่นปลายปี 2026
 - Samsung เริ่มส่งมอบชิปหน่วยความจำ HBM4E 12 เลเยอร์ ให้ลูกค้าทดสอบแล้ว เป็นรายแรกในอุตสาหกรรม
+
+### [[IT News 2026-06-01]] — Mon 01 Jun
+- [ลือ
+- เปิดตัว Acer Swift Spin 14 AI โน้ตบุ๊กพับจอได้ มีทั้ง Snapdragon X2 และ Core Ultra 3
+- เปิดตัว Acer Aspire Go 15 โน้ตบุ๊ก Arm ราคาประหยัด ใช้ชิป Snapdragon C
 
 ---
 
