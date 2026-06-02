@@ -98,26 +98,26 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-06-02
+> 🕒 Auto-updated 2026-06-03
 
 ### 📊 Vault Stats
-- Total notes: **366**
-- Daily: 180 · Weekly: 8 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
+- Total notes: **370**
+- Daily: 183 · Weekly: 8 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[🏠 Home]] — _02 Jun 08:21_
-- [[MOCs/Auto Tag MOC]] — _02 Jun 08:21_
-- [[10 - Meta/Orphan Notes 2026-06-02]] — _02 Jun 08:20_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W23]] — _02 Jun 08:20_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-06-02]] — _02 Jun 08:20_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-02]] — _02 Jun 08:20_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-06-02]] — _02 Jun 08:20_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-06-01]] — _01 Jun 08:12_
-- [[10 - Meta/Orphan Notes 2026-06-01]] — _01 Jun 08:08_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-31]] — _31 May 09:28_
-- [[10 - Meta/Orphan Notes 2026-05-31]] — _31 May 09:22_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W22]] — _31 May 09:22_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-05-31]] — _31 May 09:21_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-05-31]] — _31 May 09:21_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-05-31]] — _31 May 09:21_
+- [[MOCs/Auto Tag MOC]] — _03 Jun 06:11_
+- [[10 - Meta/Orphan Notes 2026-06-03]] — _03 Jun 06:11_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-06-03]] — _03 Jun 06:10_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-03]] — _03 Jun 06:10_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-06-02]] — _02 Jun 07:24_
+- [[🏠 Home]] — _02 Jun 07:21_
+- [[10 - Meta/Orphan Notes 2026-06-02]] — _02 Jun 07:20_
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W23]] — _02 Jun 07:20_
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-06-02]] — _02 Jun 07:20_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-02]] — _02 Jun 07:20_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-06-02]] — _02 Jun 07:20_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-06-01]] — _01 Jun 07:12_
+- [[10 - Meta/Orphan Notes 2026-06-01]] — _01 Jun 07:08_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-31]] — _31 May 08:28_
+- [[10 - Meta/Orphan Notes 2026-05-31]] — _31 May 08:22_
 <!-- AUTO-DASHBOARD:END -->
