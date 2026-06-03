@@ -539,7 +539,7 @@ tags:
 - [[10 - Meta/Vault Health/Vault Health Checks]]
 - [[MOCs/Auto Tag MOC]]
 
-## #area/tech (44)
+## #area/tech (45)
 
 - [[05 - Daily Systems/Daily Notes/Company News 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Company News 2026-04-18]]
@@ -584,6 +584,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-30]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-31]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-06-01]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-06-03]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #topic/finance (41)
@@ -797,7 +798,7 @@ tags:
 - [[10 - Meta/Orphan Notes 2026-06-03]]
 - [[MOCs/Auto Tag MOC]]
 
-## #area/dev (37)
+## #area/dev (36)
 
 - [[03 - Resources/Core Plugins/Dataview & Queries]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
@@ -829,7 +830,6 @@ tags:
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-26]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-27]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-06-02]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-06-03]]
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
 - [[10 - Meta/Claude Context Optimization]]
 - [[10 - Meta/Vault Health/Vault Health Checks]]
@@ -982,7 +982,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-03]]
 - [[MOCs/Auto Tag MOC]]
 
-## #topic/it-news (31)
+## #topic/it-news (30)
 
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
@@ -1013,10 +1013,9 @@ tags:
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-26]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-27]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-06-02]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-06-03]]
 - [[MOCs/Auto Tag MOC]]
 
-## #area/ai (31)
+## #area/ai (30)
 
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
@@ -1047,10 +1046,9 @@ tags:
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-26]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-27]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-06-02]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-06-03]]
 - [[MOCs/Auto Tag MOC]]
 
-## #area/cybersecurity (31)
+## #area/cybersecurity (30)
 
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-16]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-04-17]]
@@ -1081,7 +1079,6 @@ tags:
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-26]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-27]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-06-02]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-06-03]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #aliases: (29)
@@ -1116,7 +1113,7 @@ tags:
 - [[08 - Automation/Vault Maintenance/Vault Maintenance Scripts]]
 - [[10 - Meta/Vault Health Report 2026-04-19]]
 
-## #topic/news (27)
+## #topic/news (28)
 
 - [[05 - Daily Systems/Daily Notes/Extended News 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Extended News 2026-04-18]]
@@ -1144,6 +1141,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-30]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-05-31]]
 - [[05 - Daily Systems/Daily Notes/IT News 2026-06-01]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-06-03]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #status/growing (24)
@@ -1399,17 +1397,18 @@ tags:
 - [[10 - Meta/Vault Memory]]
 - [[MOCs/Auto Tag MOC]]
 
-## #topic/review (10)
+## #area/it (11)
 
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W16]]
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W17]]
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W18]]
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W19]]
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W20]]
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W21]]
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W22]]
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W23]]
-- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-20]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-24]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-27]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-04-28]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-01]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-29]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-30]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-05-31]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-06-01]]
+- [[05 - Daily Systems/Daily Notes/IT News 2026-06-03]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #"[[MOCs/Daily Systems MOC]]" (10)
@@ -1424,6 +1423,19 @@ tags:
 - [[07 - Prompt Library/Reflection/Reflection & Synthesis]]
 - [[07 - Prompt Library/Reflection/Weekly Synthesis]]
 - [[08 - Automation/Daily Review/Daily Review Automation]]
+
+## #topic/review (10)
+
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W16]]
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W17]]
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W18]]
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W19]]
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W20]]
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W21]]
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W22]]
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W23]]
+- [[08 - Automation/Daily Review/Daily Review Automation]]
+- [[MOCs/Auto Tag MOC]]
 
 ## #type/moc (10)
 
@@ -1449,19 +1461,6 @@ tags:
 - [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W22]]
 - [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W23]]
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
-- [[MOCs/Auto Tag MOC]]
-
-## #area/it (10)
-
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-20]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-24]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-27]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-04-28]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-01]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-29]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-30]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-05-31]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-06-01]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #area/claude (9)
