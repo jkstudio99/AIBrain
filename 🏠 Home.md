@@ -98,26 +98,26 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-06-06
+> 🕒 Auto-updated 2026-06-08
 
 ### 📊 Vault Stats
-- Total notes: **379**
-- Daily: 190 · Weekly: 8 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
+- Total notes: **385**
+- Daily: 194 · Weekly: 9 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _06 Jun 22:13_
+- [[MOCs/Auto Tag MOC]] — _08 Jun 10:11_
+- [[10 - Meta/Orphan Notes 2026-06-08]] — _08 Jun 10:11_
+- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W24]] — _08 Jun 10:10_
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-06-08]] — _08 Jun 10:10_
+- [[02 - Areas/Finance/Monthly/2026/05/Finance 2026-05]] — _08 Jun 10:09_
+- [[02 - Areas/Finance/Monthly/2026/04/Finance 2026-04]] — _08 Jun 10:09_
+- [[01 - Projects/Market Research/Weekly Sleep Competitor Watch]] — _08 Jun 10:09_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-06-08]] — _08 Jun 10:09_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-08]] — _08 Jun 10:09_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-06-07]] — _07 Jun 08:39_
+- [[🏠 Home]] — _06 Jun 22:13_
 - [[10 - Meta/Orphan Notes 2026-06-06]] — _06 Jun 22:13_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-06-06]] — _06 Jun 08:37_
-- [[🏠 Home]] — _05 Jun 22:11_
 - [[10 - Meta/Orphan Notes 2026-06-05]] — _05 Jun 22:11_
 - [[05 - Daily Systems/Daily Notes/IT News 2026-06-05]] — _05 Jun 09:46_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-06-05]] — _05 Jun 08:44_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-04]] — _04 Jun 09:16_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-06-04]] — _04 Jun 08:36_
-- [[10 - Meta/Orphan Notes 2026-06-03]] — _03 Jun 22:09_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-06-03]] — _03 Jun 13:43_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-06-03]] — _03 Jun 13:42_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W23]] — _03 Jun 13:42_
-- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-06-03]] — _03 Jun 13:42_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-03]] — _03 Jun 13:42_
 <!-- AUTO-DASHBOARD:END -->
