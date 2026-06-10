@@ -8,12 +8,6 @@ tags:
 
 # 🏝️ Orphan Notes — 2026-06-10
 
-> โน้ตที่ไม่มีโน้ตอื่นลิงก์ถึง · 5 ไฟล์
+> โน้ตที่ไม่มีโน้ตอื่นลิงก์ถึง · 0 ไฟล์
 
 ---
-
-- [[05 - Daily Systems/Daily Notes/Finance 2026-06-09]]
-- [[05 - Daily Systems/Daily Notes/Finance 2026-06-10]]
-- [[05 - Daily Systems/Daily Notes/IT News 2026-06-09]]
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-09]]
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-10]]
