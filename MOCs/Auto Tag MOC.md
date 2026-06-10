@@ -668,7 +668,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/IT News 2026-06-04]]
 - [[MOCs/Auto Tag MOC]]
 
-## #topic/stocks (45)
+## #topic/crypto (45)
 
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-18]]
@@ -764,7 +764,7 @@ tags:
 - [[05 - Daily Systems/Daily Notes/Finance 2026-06-10]]
 - [[MOCs/Auto Tag MOC]]
 
-## #topic/crypto (45)
+## #topic/stocks (45)
 
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-17]]
 - [[05 - Daily Systems/Daily Notes/Finance 2026-04-18]]
@@ -1559,17 +1559,6 @@ tags:
 - [[03 - Resources/Claude Integration/Session Memory System]]
 - [[MOCs/Auto Tag MOC]]
 
-## #type/fleeting (8)
-
-- [[00 - Inbox/2026-04-30 0033 So1o Freelancer — โปรแกรมช่วยคำนวณราคาแล]]
-- [[00 - Inbox/2026-04-30 1513 DevPortal_folder_summary_premium - Googl]]
-- [[00 - Inbox/2026-05-01 2254 GitHub - zubair-trabzada-ai-sales-team-c]]
-- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
-- [[07 - Prompt Library/Idea Generation/What If]]
-- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
-- [[10 - Meta/Inbox Report 2026-04-25]]
-- [[MOCs/Auto Tag MOC]]
-
 ## #type/project (8)
 
 - [[01 - Projects/AI Multi-Agent Workflow/00 - Blueprint]]
@@ -1579,6 +1568,17 @@ tags:
 - [[01 - Projects/คู่มือการใช้งาน Obsidian Claude Ecosystem (TH)]]
 - [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
 - [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[MOCs/Auto Tag MOC]]
+
+## #type/fleeting (8)
+
+- [[00 - Inbox/2026-04-30 0033 So1o Freelancer — โปรแกรมช่วยคำนวณราคาแล]]
+- [[00 - Inbox/2026-04-30 1513 DevPortal_folder_summary_premium - Googl]]
+- [[00 - Inbox/2026-05-01 2254 GitHub - zubair-trabzada-ai-sales-team-c]]
+- [[01 - Projects/คู่มือเริ่มต้นใช้งาน (Quick Start)]]
+- [[07 - Prompt Library/Idea Generation/What If]]
+- [[08 - Automation/Auto-Tagging/Auto-Tagging & Linking]]
+- [[10 - Meta/Inbox Report 2026-04-25]]
 - [[MOCs/Auto Tag MOC]]
 
 ## #area/knowledge (8)
