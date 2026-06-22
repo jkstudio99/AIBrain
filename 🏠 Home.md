@@ -105,16 +105,16 @@ Use these in Claude Code with `/`:
 - Daily: 231 · Weekly: 10 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _22 Jun 10:01_
+- [[MOCs/Auto Tag MOC]] — _22 Jun 22:09_
+- [[10 - Meta/Orphan Notes 2026-06-22]] — _22 Jun 22:09_
+- [[🏠 Home]] — _22 Jun 10:01_
 - [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W26]] — _22 Jun 10:01_
-- [[10 - Meta/Orphan Notes 2026-06-22]] — _22 Jun 10:01_
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-06-22]] — _22 Jun 10:01_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-06-22]] — _22 Jun 09:55_
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-22]] — _22 Jun 09:55_
 - [[05 - Daily Systems/Daily Notes/IT News 2026-06-22]] — _22 Jun 09:55_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-06-21]] — _21 Jun 08:32_
 - [[05 - Daily Systems/Daily Notes/IT News 2026-06-21]] — _21 Jun 08:15_
-- [[🏠 Home]] — _20 Jun 22:06_
 - [[10 - Meta/Orphan Notes 2026-06-20]] — _20 Jun 22:06_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-06-20]] — _20 Jun 08:35_
 - [[05 - Daily Systems/Daily Notes/IT News 2026-06-20]] — _20 Jun 08:07_
