@@ -98,16 +98,20 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-06-22
+> 🕒 Auto-updated 2026-06-24
 
 ### 📊 Vault Stats
-- Total notes: **432**
-- Daily: 231 · Weekly: 10 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
+- Total notes: **436**
+- Daily: 234 · Weekly: 10 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _22 Jun 22:09_
+- [[MOCs/Auto Tag MOC]] — _24 Jun 06:54_
+- [[10 - Meta/Orphan Notes 2026-06-24]] — _24 Jun 06:54_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-23]] — _23 Jun 09:16_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-06-23]] — _23 Jun 08:36_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-06-23]] — _23 Jun 08:10_
+- [[🏠 Home]] — _22 Jun 22:09_
 - [[10 - Meta/Orphan Notes 2026-06-22]] — _22 Jun 22:09_
-- [[🏠 Home]] — _22 Jun 10:01_
 - [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W26]] — _22 Jun 10:01_
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-06-22]] — _22 Jun 10:01_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-06-22]] — _22 Jun 09:55_
@@ -116,8 +120,4 @@ Use these in Claude Code with `/`:
 - [[05 - Daily Systems/Daily Notes/Finance 2026-06-21]] — _21 Jun 08:32_
 - [[05 - Daily Systems/Daily Notes/IT News 2026-06-21]] — _21 Jun 08:15_
 - [[10 - Meta/Orphan Notes 2026-06-20]] — _20 Jun 22:06_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-06-20]] — _20 Jun 08:35_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-06-20]] — _20 Jun 08:07_
-- [[10 - Meta/Orphan Notes 2026-06-19]] — _19 Jun 22:01_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-19]] — _19 Jun 09:23_
 <!-- AUTO-DASHBOARD:END -->
