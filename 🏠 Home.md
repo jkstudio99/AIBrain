@@ -98,26 +98,26 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-06-29
+> 🕒 Auto-updated 2026-07-03
 
 ### 📊 Vault Stats
-- Total notes: **450**
-- Daily: 246 · Weekly: 10 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
+- Total notes: **459**
+- Daily: 254 · Weekly: 10 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _29 Jun 08:26_
+- [[MOCs/Auto Tag MOC]] — _03 Jul 09:44_
+- [[10 - Meta/Orphan Notes 2026-07-03]] — _03 Jul 09:44_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-07-03]] — _03 Jul 09:42_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-07-03]] — _03 Jul 09:42_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-07-03]] — _03 Jul 09:42_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-07-02]] — _02 Jul 10:13_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-07-02]] — _02 Jul 10:13_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-07-02]] — _02 Jul 10:13_
+- [[01 - Projects/Market Research/Monthly Market Opportunity Radar]] — _01 Jul 10:13_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-29]] — _29 Jun 10:03_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-06-29]] — _29 Jun 08:36_
+- [[🏠 Home]] — _29 Jun 08:27_
 - [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-06-29]] — _29 Jun 08:26_
 - [[05 - Daily Systems/Daily Notes/IT News 2026-06-29]] — _29 Jun 08:26_
 - [[10 - Meta/Orphan Notes 2026-06-29]] — _29 Jun 08:26_
-- [[05 - Daily Systems/Weekly Reviews/Weekly 2026-W26]] — _28 Jun 20:40_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-06-28]] — _28 Jun 13:24_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-06-28]] — _28 Jun 13:24_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-06-27]] — _27 Jun 19:33_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-06-27]] — _27 Jun 19:33_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-26]] — _26 Jun 09:16_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-06-26]] — _26 Jun 08:44_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-06-26]] — _26 Jun 08:44_
-- [[🏠 Home]] — _25 Jun 22:16_
-- [[10 - Meta/Orphan Notes 2026-06-25]] — _25 Jun 22:16_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-06-25]] — _25 Jun 09:16_
 <!-- AUTO-DASHBOARD:END -->
