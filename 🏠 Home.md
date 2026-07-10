@@ -105,12 +105,12 @@ Use these in Claude Code with `/`:
 - Daily: 271 · Weekly: 11 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _10 Jul 09:19_
-- [[10 - Meta/Orphan Notes 2026-07-10]] — _10 Jul 09:19_
+- [[MOCs/Auto Tag MOC]] — _10 Jul 22:03_
+- [[10 - Meta/Orphan Notes 2026-07-10]] — _10 Jul 22:03_
+- [[🏠 Home]] — _10 Jul 09:19_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-07-10]] — _10 Jul 09:18_
 - [[05 - Daily Systems/Daily Notes/IT News 2026-07-10]] — _10 Jul 09:16_
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-07-10]] — _10 Jul 09:16_
-- [[🏠 Home]] — _09 Jul 18:19_
 - [[10 - Meta/Orphan Notes 2026-07-09]] — _09 Jul 18:19_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-07-09]] — _09 Jul 18:18_
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-07-09]] — _09 Jul 18:18_
