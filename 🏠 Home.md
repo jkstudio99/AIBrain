@@ -98,26 +98,26 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-07-12
+> 🕒 Auto-updated 2026-07-17
 
 ### 📊 Vault Stats
-- Total notes: **486**
-- Daily: 274 · Weekly: 11 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
+- Total notes: **494**
+- Daily: 281 · Weekly: 11 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _12 Jul 22:09_
+- [[MOCs/Auto Tag MOC]] — _17 Jul 08:12_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-07-17]] — _17 Jul 08:12_
+- [[10 - Meta/Orphan Notes 2026-07-17]] — _17 Jul 08:12_
+- [[05 - Daily Systems/Daily Notes/Portfolio 2026-07-16]] — _16 Jul 09:16_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-07-16]] — _16 Jul 09:15_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-07-16]] — _16 Jul 09:15_
+- [[05 - Daily Systems/Daily Notes/IT News 2026-07-15]] — _15 Jul 09:58_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-07-14]] — _14 Jul 09:57_
+- [[05 - Daily Systems/Daily Notes/Economic Calendar 2026-07-13]] — _13 Jul 10:06_
+- [[🏠 Home]] — _12 Jul 22:09_
 - [[10 - Meta/Orphan Notes 2026-07-12]] — _12 Jul 22:09_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-07-12]] — _12 Jul 16:56_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-07-11]] — _11 Jul 12:42_
 - [[05 - Daily Systems/Daily Notes/IT News 2026-07-11]] — _11 Jul 12:42_
-- [[🏠 Home]] — _10 Jul 22:03_
 - [[10 - Meta/Orphan Notes 2026-07-10]] — _10 Jul 22:03_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-07-10]] — _10 Jul 09:18_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-07-10]] — _10 Jul 09:16_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-07-10]] — _10 Jul 09:16_
-- [[10 - Meta/Orphan Notes 2026-07-09]] — _09 Jul 18:19_
-- [[05 - Daily Systems/Daily Notes/Finance 2026-07-09]] — _09 Jul 18:18_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-07-09]] — _09 Jul 18:18_
-- [[05 - Daily Systems/Daily Notes/IT News 2026-07-09]] — _09 Jul 18:18_
-- [[05 - Daily Systems/Daily Notes/Portfolio 2026-07-08]] — _08 Jul 09:15_
 <!-- AUTO-DASHBOARD:END -->
