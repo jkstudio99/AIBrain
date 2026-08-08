@@ -98,17 +98,19 @@ Use these in Claude Code with `/`:
 ## 📡 Auto Dashboard
 
 <!-- AUTO-DASHBOARD:START -->
-> 🕒 Auto-updated 2026-08-07
+> 🕒 Auto-updated 2026-08-08
 
 ### 📊 Vault Stats
-- Total notes: **513**
-- Daily: 294 · Weekly: 11 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
+- Total notes: **515**
+- Daily: 295 · Weekly: 11 · Literature: 6 · Evergreen: 2 · Project: 8 · MOC: 12
 
 ### 🆕 โน้ตล่าสุด (7 วัน)
-- [[MOCs/Auto Tag MOC]] — _07 Aug 18:34_
+- [[MOCs/Auto Tag MOC]] — _08 Aug 10:22_
+- [[10 - Meta/Orphan Notes 2026-08-08]] — _08 Aug 10:21_
+- [[05 - Daily Systems/Daily Notes/Finance 2026-08-08]] — _08 Aug 10:21_
+- [[🏠 Home]] — _07 Aug 18:34_
 - [[10 - Meta/Orphan Notes 2026-08-07]] — _07 Aug 18:34_
 - [[05 - Daily Systems/Daily Notes/Portfolio 2026-08-06]] — _06 Aug 09:16_
-- [[🏠 Home]] — _06 Aug 08:54_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-08-06]] — _06 Aug 08:54_
 - [[10 - Meta/Orphan Notes 2026-08-06]] — _06 Aug 08:54_
 - [[10 - Meta/Orphan Notes 2026-08-03]] — _03 Aug 09:41_
@@ -116,5 +118,4 @@ Use these in Claude Code with `/`:
 - [[05 - Daily Systems/Daily Notes/IT News 2026-08-02]] — _02 Aug 08:10_
 - [[10 - Meta/Orphan Notes 2026-08-01]] — _01 Aug 22:09_
 - [[05 - Daily Systems/Daily Notes/Finance 2026-08-01]] — _01 Aug 18:26_
-- [[10 - Meta/Orphan Notes 2026-07-31]] — _31 Jul 22:06_
 <!-- AUTO-DASHBOARD:END -->
